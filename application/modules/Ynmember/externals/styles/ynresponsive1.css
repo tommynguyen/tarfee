@@ -1,0 +1,124 @@
+body[id^=global_page_ynmember] .datepicker_dashboard {
+	width: 200px;
+	height: 160px;
+	z-index: 9;
+}
+
+body[id^=global_page_ynmember] #global_content_simple .global_form div.form-label {
+	width: 100%;
+}
+
+#confirm_form {
+	margin-top: 0.5em;
+}
+
+#confirm_form > div {
+	width: 100%;
+}
+
+.ynmember-member-item {
+	max-width: 100%;
+}
+
+.template-ynresponsive-metro .layout_main .layout_middle > div {
+	padding: 1em;
+}
+
+.ynmember-birthday-input i.fa {
+	right: 20px;
+	top: 10px;
+}
+
+.ynmember-member-item .ynmember-member-item-option .ynmember-member-item-option-hover #profile_options li {
+	padding: 0.3em 0.8em;
+	font-size: 1em;
+}
+
+.ynmember-member-items {
+	padding-bottom: 1em;
+}
+
+@media screen and (max-width: 1024px) {
+	.ynmember-member-items > li {
+		width: 33.33%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.ynmember-member-items > li,
+	#ynmember-browse-listings.ynmember-browse-viewmode-grid > ul > li {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.ynmember-profile-place-item {
+		.ynmember-profile-place-item-item {
+			& > i {
+				width: 30px;
+				margin-top: 3px;
+				margin-right: 0;
+				font-size: 18px;
+			}
+
+			& > div {
+				float: none;
+			}
+
+			& > .ynmember-profile-place-info {
+				overflow: visible;
+			}		
+		}
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+	.ynmember-member-items > li,
+	#ynmember-browse-listings.ynmember-browse-viewmode-grid > ul > li {
+		width: 100%;
+	}	
+
+	.ynmember-profile-cover-main .ynmember-profile-cover {
+		display: none;
+	}
+
+	#ynmember-browse-listings.ynmember-browse-viewmode-list .ynmember-browse-item .ynmember-item-avatar {
+		float: none;
+		margin-bottom: 0.3em;
+	}
+
+	#ynmember-browse-listings.ynmember-browse-viewmode-list .ynmember-browse-item > .ynmember-item-information > div.ynmember-item-action {
+		padding-left: 0;
+	}
+
+	.ynmember-profile-cover-main {
+		height: auto;
+	}
+
+	.layout_page_ynmember_review_index .ynmember-review-item .ynmember-review-item-left {
+		float: none;
+		width: auto;
+		border-right: 0;
+	}
+
+	.layout_page_ynmember_review_index .ynmember-review-item .ynmember-review-item-main {
+		min-height: 0;
+	}
+
+
+	.ynmember-profile-cover-main .ynmember-profile-info {
+		width: auto;
+		float: none;
+	}
+
+	.ynmember-profile-cover-main .ynmember-profile-info .ynmember-profile-information {
+		padding-right: 0;
+	}
+
+	.ynmember-profile-cover-main .ynmember-profile-info .ynmember-profile-avatar {
+		position: static;
+		margin: 0.5em auto;
+		text-align: center;
+	}
+}

@@ -1,0 +1,981 @@
+{
+  "type": "module",
+  "name": "minify",
+  "version": "4.03p3",
+  "revision": null,
+  "path": "application\/modules\/Minify",
+  "repository": null,
+  "date": "Mon, 11 Mar 2013 08:58:02 +0000",
+  "title": "Minify",
+  "description": "It combines multiple CSS or Javascript files, removes unnecessary whitespace and comments, and serves them with gzip encoding and optimal client-side cache headers. Make your application run faster.",
+  "thumb": null,
+  "developer": null,
+  "authors": [
+    "Younet Company"
+  ],
+  "changeLog": null,
+  "meta": {
+    "date": "Mon, 11 Mar 2013 08:58:02 +0000",
+    "title": "Minify",
+    "description": "It combines multiple CSS or Javascript files, removes unnecessary whitespace and comments, and serves them with gzip encoding and optimal client-side cache headers. Make your application run faster.",
+    "developer": null,
+    "authors": [
+      "Younet Company"
+    ],
+    "changeLog": null
+  },
+  "actions": [
+    "install",
+    "upgrade",
+    "refresh",
+    "enable",
+    "disable"
+  ],
+  "callback": {
+    "path": null,
+    "class": "Engine_Package_Installer_Module",
+    "priority": 100
+  },
+  "dependencies": {
+    "module-younet-core": {
+      "type": "module",
+      "name": "younet-core",
+      "guid": "module-younet-core",
+      "minVersion": "4.01",
+      "maxVersion": null,
+      "excludeExcept": null
+    }
+  },
+  "tests": [
+    
+  ],
+  "permissions": [
+    
+  ],
+  "structure": {
+    "application\/modules\/Minify": {
+      "type": "directory",
+      "path": "application\/modules\/Minify",
+      "structure": [
+        {
+          "path": "Api",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Api\/Core.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 606,
+          "sha1": "19c20f8ae195e6d923999574a37588012f30c72d"
+        },
+        {
+          "path": "Bootstrap.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2725,
+          "sha1": "24e13d570478c22f40e58172d0f5fe6a4d7dfce5"
+        },
+        {
+          "path": "caculate.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3032,
+          "sha1": "e18d01d9a91819e9377df306ae5dfa9a3cc1f596"
+        },
+        {
+          "path": "controllers",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "controllers\/AdminSettingsController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3535,
+          "sha1": "31e8bbe8a13fa812becef65ab0a5e8d691083680"
+        },
+        {
+          "path": "controllers\/IndexController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 158,
+          "sha1": "af85233d43eb5f25c73536b9ee475f2ec8f16c6a"
+        },
+        {
+          "path": "externals",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/.htaccess",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 144,
+          "sha1": "47bb36a5f03278d4b6ea5804e494c00ccb02e8e1"
+        },
+        {
+          "path": "externals\/images",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/images\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "externals\/images\/loading.gif",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2248,
+          "sha1": "0a76d065f62bf9ba51ba666efa3ce7b30344d053"
+        },
+        {
+          "path": "externals\/scripts",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/scripts\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "externals\/styles",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles\/main.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "Form",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Form\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "Form\/Admin",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Admin\/Global.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3187,
+          "sha1": "613f02287e5d0d212eb9e5f19680c72c06fa1e5f"
+        },
+        {
+          "path": "Form\/Admin\/Groups.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1814,
+          "sha1": "78a5e4c0eefe592f4d44767d6f34609555048ffe"
+        },
+        {
+          "path": "Model",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Model\/DbTable",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Model\/DbTable\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "Model\/DbTable\/Minifies.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 229,
+          "sha1": "8488341d62f4629e7864510e970fadede87af77f"
+        },
+        {
+          "path": "Model\/Minify.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 181,
+          "sha1": "8dec2704be89a6f247eeec7d7b422b1dd2992b70"
+        },
+        {
+          "path": "readhome.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 79,
+          "sha1": "b181cb8c824f0faf965239ff357372f740393116"
+        },
+        {
+          "path": "settings",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "settings\/manifest.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1293,
+          "sha1": "13a5c74e2e9f4493681dfd1af26322f72a5a22fe"
+        },
+        {
+          "path": "settings\/my-upgrade-4.01-4.02.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 972,
+          "sha1": "ce6e1b18b811571f46e4d63ab88ff20e2117b7ea"
+        },
+        {
+          "path": "settings\/my-upgrade-4.01p1-4.02.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 991,
+          "sha1": "1922089f737a42259e431be43bb1dbd6f1b308a6"
+        },
+        {
+          "path": "settings\/my-upgrade-4.02-4.03.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 331,
+          "sha1": "d9972236e2507856a82e083f13ed41b6bdeb2927"
+        },
+        {
+          "path": "settings\/my-upgrade-4.03-4.03p1.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "settings\/my-upgrade-4.03p1-4.03p2.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "settings\/my-upgrade-4.03p2-4.03p3.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "settings\/my.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1141,
+          "sha1": "015f3d6c21e3605706d1658fd68241a8b738ea03"
+        },
+        {
+          "path": "views",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-settings",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-settings\/groups.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2760,
+          "sha1": "d831a0f86630773b283f941b175d1fc35e19aa2c"
+        },
+        {
+          "path": "views\/scripts\/admin-settings\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 681,
+          "sha1": "7a0d9ae583eb5f6b21b27c96f793633f93a9dc97"
+        },
+        {
+          "path": "views\/scripts\/index",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/index\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 74,
+          "sha1": "bf3ffcbffd1b435a6c84e5e9c7bac5a27c531671"
+        }
+      ]
+    },
+    "externals\/minify": {
+      "type": "directory",
+      "path": "externals\/minify",
+      "structure": [
+        {
+          "path": ".htaccess",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 139,
+          "sha1": "3be194fbad3101ff51eac0f102916dc25af05dfd"
+        },
+        {
+          "path": "builder",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "builder\/bm.js",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1449,
+          "sha1": "1399788ad2e8ad7e8bf6734802f3d5e8195f17b4"
+        },
+        {
+          "path": "builder\/bm2.js",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 574,
+          "sha1": "397893f0242867055182d70d1b0b9d813ea0dec2"
+        },
+        {
+          "path": "builder\/index.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 9904,
+          "sha1": "0d5e4f383cf7ee3c4b85df9544b49f983ebe285f"
+        },
+        {
+          "path": "builder\/jquery-1.6.3.min.js",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 91625,
+          "sha1": "aff4f8a4d7f165b43970a5e0f891297cbf7ff6dd"
+        },
+        {
+          "path": "builder\/ocCheck.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 802,
+          "sha1": "85af085acce9b4598b5ba53512ad2b04b77a0d0f"
+        },
+        {
+          "path": "builder\/rewriteTest.js",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1,
+          "sha1": "356a192b7913b04c54574d18c28d46e6395428ab"
+        },
+        {
+          "path": "builder\/test.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1484,
+          "sha1": "e04568b8bb5525c685b212fa24364495fd48d2bd"
+        },
+        {
+          "path": "builder\/_index.js",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 9113,
+          "sha1": "289c1c73b7ce87cb51c79df02d3bd865a7774a86"
+        },
+        {
+          "path": "config.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 6461,
+          "sha1": "de8e799badf40e114fa51da21ad472c932fe4340"
+        },
+        {
+          "path": "error_log",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "groupsConfig.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3248,
+          "sha1": "ac744a1ecb8c7ce608dbbe3029905a70e7fb0845"
+        },
+        {
+          "path": "index.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2270,
+          "sha1": "0b38ee0b55ee8e70b9b82923cffa3076e799d096"
+        },
+        {
+          "path": "lib",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "lib\/FirePHP.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 43622,
+          "sha1": "54d9631ca26586b64f66df1de90f0cabf54c6eea"
+        },
+        {
+          "path": "lib\/HTTP",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "lib\/HTTP\/ConditionalGet.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 11781,
+          "sha1": "b0175a680832972dc969384a9ef5276b56030446"
+        },
+        {
+          "path": "lib\/HTTP\/Encoder.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 10673,
+          "sha1": "5d07d9bcbcb5bf070e57540f82d51906c2e79024"
+        },
+        {
+          "path": "lib\/JSMin.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 13811,
+          "sha1": "d85195e84921f354e3d7bdb186d323ee2a8dfda1"
+        },
+        {
+          "path": "lib\/JSMinPlus.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 52368,
+          "sha1": "aba70d9b475bd79693617db682f1c2ed5a7adb09"
+        },
+        {
+          "path": "lib\/Minify",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "lib\/Minify\/Build.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2763,
+          "sha1": "364cc4bd3e64536c4b64acf8da20042ecb9eefe1"
+        },
+        {
+          "path": "lib\/Minify\/Cache",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "lib\/Minify\/Cache\/APC.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2746,
+          "sha1": "a15bdfc79ffad85f617d7d960c9fa14682b0e501"
+        },
+        {
+          "path": "lib\/Minify\/Cache\/File.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4903,
+          "sha1": "70b744bafa0636509d95e5ba2f28178fecf7f2f1"
+        },
+        {
+          "path": "lib\/Minify\/Cache\/Memcache.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3110,
+          "sha1": "670aaf70baed10b1607e1941ecb23b81e683acae"
+        },
+        {
+          "path": "lib\/Minify\/Cache\/ZendPlatform.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2765,
+          "sha1": "a6a2512519bd406b10bd3ae91d3c713dd95fa7f8"
+        },
+        {
+          "path": "lib\/Minify\/CommentPreserver.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2663,
+          "sha1": "697c1b18bc57a455fa547be9caeb943cbbec6d77"
+        },
+        {
+          "path": "lib\/Minify\/Controller",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "lib\/Minify\/Controller\/Base.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 8142,
+          "sha1": "ea35c4a6958f6d2053cf53c9feff79fecd86f30c"
+        },
+        {
+          "path": "lib\/Minify\/Controller\/Files.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2139,
+          "sha1": "5726c8a3115dc19f5c6747c6f8ce534aac1d818d"
+        },
+        {
+          "path": "lib\/Minify\/Controller\/Groups.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2848,
+          "sha1": "ca4beab561bfe28d91fb770b23bbc57dc18aba56"
+        },
+        {
+          "path": "lib\/Minify\/Controller\/MinApp.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 8722,
+          "sha1": "38c84a4be55a81034ea2c65e477110688ab24972"
+        },
+        {
+          "path": "lib\/Minify\/Controller\/Page.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2790,
+          "sha1": "f39ebced6721493e568ab8b1f5d1ca05d1f7336f"
+        },
+        {
+          "path": "lib\/Minify\/Controller\/Version1.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3739,
+          "sha1": "9d4534f819835e6a4ab2b54f35d97b8f92da0c1c"
+        },
+        {
+          "path": "lib\/Minify\/CSS",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "lib\/Minify\/CSS\/Compressor.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 8257,
+          "sha1": "20a56a0da6ab4553a4a98eeb72105cdd717bdf2a"
+        },
+        {
+          "path": "lib\/Minify\/CSS\/UriRewriter.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 9809,
+          "sha1": "83abd596d8f21b7d79c899458ce37169dc86a35c"
+        },
+        {
+          "path": "lib\/Minify\/CSS.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3364,
+          "sha1": "7f10c76e6d2e7ca83270b05e17efe2a15f17c0a7"
+        },
+        {
+          "path": "lib\/Minify\/DebugDetector.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 753,
+          "sha1": "a6fbe0117555c4c2d839ccb3cf43f5c55439b0e3"
+        },
+        {
+          "path": "lib\/Minify\/HTML",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "lib\/Minify\/HTML\/Helper.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 6341,
+          "sha1": "26d864ca86eea94e88e0aeb9870a7e3ace42ded5"
+        },
+        {
+          "path": "lib\/Minify\/HTML.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 7963,
+          "sha1": "e4574f93bc19c505e5755bb004e04a0412551fe7"
+        },
+        {
+          "path": "lib\/Minify\/ImportProcessor.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 7488,
+          "sha1": "cd16b8638c0e3e2c12b09319f9003a9f0af79ece"
+        },
+        {
+          "path": "lib\/Minify\/JS",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "lib\/Minify\/JS\/ClosureCompiler.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4446,
+          "sha1": "aa719c01e4027a344d6f87eb8dc0d47a52308060"
+        },
+        {
+          "path": "lib\/Minify\/Lines.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4592,
+          "sha1": "3356cc4b69220b35b046d7eb474b87239a222b89"
+        },
+        {
+          "path": "lib\/Minify\/Logger.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1083,
+          "sha1": "8ebdec5453baa31ee53e93dc775cb75584a0d820"
+        },
+        {
+          "path": "lib\/Minify\/Packer.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1081,
+          "sha1": "f18a6a0c17c7595c3e9e34de6adee98288a09665"
+        },
+        {
+          "path": "lib\/Minify\/Source.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 5384,
+          "sha1": "6945a5aa3e1ac16b8c9a121d23c03dba591e14d1"
+        },
+        {
+          "path": "lib\/Minify\/YUI",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "lib\/Minify\/YUI\/CssCompressor.java",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 14870,
+          "sha1": "a65940df4031602208a9175f2ce97b409516263c"
+        },
+        {
+          "path": "lib\/Minify\/YUI\/CssCompressor.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 6304,
+          "sha1": "d5da01e51020d26e8c5a4c18f1b96dfaffe2cbee"
+        },
+        {
+          "path": "lib\/Minify\/YUICompressor.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4444,
+          "sha1": "ee55ef6e6185919055f013caf20a4fdd8a5496b1"
+        },
+        {
+          "path": "lib\/Minify.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 23949,
+          "sha1": "6679c0a2fd5ed8ad1c8ac54a7e0bfa8958c0d9db"
+        },
+        {
+          "path": "lib\/MrClay",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "lib\/MrClay\/Cli",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "lib\/MrClay\/Cli\/Arg.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 5066,
+          "sha1": "a5cc1298b61bc16ca60fc3c6a2b3aebe8784c202"
+        },
+        {
+          "path": "lib\/MrClay\/Cli.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 11548,
+          "sha1": "12136f7edae20d86723549b4ad64113f795ef898"
+        },
+        {
+          "path": "lib\/Solar",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "lib\/Solar\/Dir.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 5373,
+          "sha1": "af4457359ab213aa3f2ce64bc730ee943d2eaf4d"
+        },
+        {
+          "path": "minify.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2254,
+          "sha1": "521c26af76035fba9fe73575ecd1e9f8d38cacf3"
+        },
+        {
+          "path": "README.txt",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4613,
+          "sha1": "56c8d81e27c48b68d925037479290acab1abc1d8"
+        },
+        {
+          "path": "utils.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2393,
+          "sha1": "ce3e75bb7c71ae937b41fad3364c76709603e107"
+        }
+      ]
+    },
+    "application\/languages\/en\/minify.csv": {
+      "type": "file",
+      "path": "application\/languages\/en\/minify.csv",
+      "structure": {
+        "path": "minify.csv",
+        "dir": false,
+        "file": true,
+        "perms": "0666",
+        "size": 237,
+        "sha1": "64fb96c09ff768a00e496d076e59d5997cad7725"
+      }
+    },
+    "application\/modules\/Core\/View\/Helper\/HeadScript.php": {
+      "type": "file",
+      "path": "application\/modules\/Core\/View\/Helper\/HeadScript.php",
+      "structure": {
+        "path": "HeadScript.php",
+        "dir": false,
+        "file": true,
+        "perms": "0666",
+        "size": 26638,
+        "sha1": "1465b3fed6d7d97435428b1c6ea10da46b0a0aef"
+      }
+    },
+    "application\/modules\/Core\/View\/Helper\/HeadLink.php": {
+      "type": "file",
+      "path": "application\/modules\/Core\/View\/Helper\/HeadLink.php",
+      "structure": {
+        "path": "HeadLink.php",
+        "dir": false,
+        "file": true,
+        "perms": "0666",
+        "size": 15330,
+        "sha1": "4b798ad4094e3c03a826b92d2a2c9fb8e30a65a1"
+      }
+    },
+    "application\/settings\/minify.php": {
+      "type": "file",
+      "path": "application\/settings\/minify.php",
+      "structure": {
+        "path": "minify.php",
+        "dir": false,
+        "file": true,
+        "perms": "0666",
+        "size": 89,
+        "sha1": "db831395ea8df73da711a037730e75077b65884b"
+      }
+    }
+  }
+}

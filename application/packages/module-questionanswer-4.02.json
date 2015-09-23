@@ -1,0 +1,970 @@
+{
+  "type": "module",
+  "name": "questionanswer",
+  "version": "4.02",
+  "revision": null,
+  "path": "application\/modules\/Questionanswer",
+  "repository": null,
+  "date": "Thu, 30 Jun 2011 08:31:50 +0000",
+  "title": "Question & Answer",
+  "description": "Question & Answer",
+  "thumb": null,
+  "developer": null,
+  "authors": [
+    "YouNet Developments"
+  ],
+  "changeLog": null,
+  "meta": {
+    "date": "Thu, 30 Jun 2011 08:31:50 +0000",
+    "title": "Question & Answer",
+    "description": "Question & Answer",
+    "developer": null,
+    "authors": [
+      "YouNet Developments"
+    ],
+    "changeLog": null
+  },
+  "actions": [
+    "install",
+    "upgrade",
+    "refresh",
+    "enable",
+    "disable"
+  ],
+  "callback": {
+    "path": null,
+    "class": "Engine_Package_Installer_Module",
+    "priority": 4000
+  },
+  "dependencies": null,
+  "tests": [
+    
+  ],
+  "permissions": [
+    
+  ],
+  "structure": {
+    "application\/modules\/Questionanswer": {
+      "type": "directory",
+      "path": "application\/modules\/Questionanswer",
+      "structure": [
+        {
+          "path": "Api",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Api\/Core.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 545,
+          "sha1": "fbf134a97aefe3b829b0508d696744b3fe450e90"
+        },
+        {
+          "path": "Bootstrap.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 90,
+          "sha1": "3133c9f39bde43ee7496511a142de7c30467a65a"
+        },
+        {
+          "path": "controllers",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "controllers\/AdminManageController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 7787,
+          "sha1": "a76ed15886d523ea53ea07eaf82db5c2c4c7bc3f"
+        },
+        {
+          "path": "controllers\/IndexController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 11251,
+          "sha1": "3cce68f6fa87160228662bb03640ae715bfe4b56"
+        },
+        {
+          "path": "externals",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/.htaccess",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 147,
+          "sha1": "9f1638a8edbe1c5d28789e017fb35b2f2465f01e"
+        },
+        {
+          "path": "externals\/images",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 8192,
+          "sha1": null
+        },
+        {
+          "path": "externals\/images\/delete.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 636,
+          "sha1": "9907bed17735a3962fb9d037390597ecb01cf800"
+        },
+        {
+          "path": "externals\/images\/edit.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 450,
+          "sha1": "62a1b41ac5eefbf3d0ad578a19572d4096d88146"
+        },
+        {
+          "path": "externals\/images\/loading.gif",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 878,
+          "sha1": "54fc32753d51a95f7c61b10f0b8a0bfa1b2a2e57"
+        },
+        {
+          "path": "externals\/images\/new.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 626,
+          "sha1": "54db8115fc526932b9a766fdf455609e99924b5f"
+        },
+        {
+          "path": "externals\/images\/Q&A-box_03.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2334,
+          "sha1": "04ccdf2d2f66804a6deca41b2bf9298f050b871e"
+        },
+        {
+          "path": "externals\/images\/Q&A-box_07.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1842,
+          "sha1": "9a0db3d84fc78decf2edab0324c122b9db587f24"
+        },
+        {
+          "path": "externals\/images\/Q&A-box_08.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 182,
+          "sha1": "6f415255d39a3125d0dea08192478e30a7bf0a13"
+        },
+        {
+          "path": "externals\/images\/Q&A-box_12.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 47500,
+          "sha1": "3681a4132ac6cb339167ac0f7b4c596fe1cefc5a"
+        },
+        {
+          "path": "externals\/images\/Q&A-box_17.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 294,
+          "sha1": "ba98dc0553aac4d1d5a16415c0a97c7c060557af"
+        },
+        {
+          "path": "externals\/images\/Q&A-box_19.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 273,
+          "sha1": "8521cca39d585d532fefd248d5da0aff9ccb5eda"
+        },
+        {
+          "path": "externals\/images\/Q&A-box_19b.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 272,
+          "sha1": "bc8c40ba7d9ca006b0a61611879e054cfb9bd1da"
+        },
+        {
+          "path": "externals\/images\/qa_icon.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 949,
+          "sha1": "8e5dccc9e46fb3dc05e7f9876a6e62ba75acecef"
+        },
+        {
+          "path": "externals\/images\/qa_left_page.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 375,
+          "sha1": "79aec044b146a76c679ecf002b92ae996a6cb530"
+        },
+        {
+          "path": "externals\/images\/qa_left_page_disabled.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 404,
+          "sha1": "ff44a84e83046a66ed3ae7d72d1c12c29892a93f"
+        },
+        {
+          "path": "externals\/images\/qa_post_btn1.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 158,
+          "sha1": "0b202c05a0c344fbd778872ad984b4065210dfd5"
+        },
+        {
+          "path": "externals\/images\/qa_post_btn2.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 137,
+          "sha1": "5e3496db4f590592450d83ef2698cf4ad3297e0f"
+        },
+        {
+          "path": "externals\/images\/qa_right_page.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 365,
+          "sha1": "1a457629d45c94fe35b884a5a668f985f2f18293"
+        },
+        {
+          "path": "externals\/images\/qa_right_page_disabled.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 402,
+          "sha1": "2f9b6c7b28b4a1837e6d0f0d05be38f909debb4a"
+        },
+        {
+          "path": "externals\/images\/Thumbs.db",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 24576,
+          "sha1": "c02743e491ce742b5569e618ca322c7f044926fa"
+        },
+        {
+          "path": "externals\/images\/trans.gif",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 43,
+          "sha1": "2daeaa8b5f19f0bc209d976c02bd6acb51b00b0a"
+        },
+        {
+          "path": "externals\/images\/vote.jpg",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 525,
+          "sha1": "ab4fbc85cff84925a1ebd567c4a34f7d13bf79ef"
+        },
+        {
+          "path": "externals\/images\/whiteline.gif",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 43,
+          "sha1": "279315d507855c6a4351e1e2c2f39dd9cd2fccd8"
+        },
+        {
+          "path": "externals\/scripts",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/scripts\/core.js",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 20970,
+          "sha1": "b7281f7bee18dabf389a8a21a2875847dabaff31"
+        },
+        {
+          "path": "externals\/styles",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles\/main-widgets.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1299,
+          "sha1": "f42c3ea4885f316668b7f7c6b92658020cf058f2"
+        },
+        {
+          "path": "externals\/styles\/main.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 9862,
+          "sha1": "f58a9c5fa0a9f4ec56d81402bdb5cb8e4826929f"
+        },
+        {
+          "path": "externals\/styles\/question-answer.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 5043,
+          "sha1": "32f58ee93db2b136c40e4598e0c97e52c87f0b8a"
+        },
+        {
+          "path": "Form",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Admin",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Admin\/Manage",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Admin\/Manage\/DeleteAnswer.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 970,
+          "sha1": "23fb25d74fe3571aeab12eb043a22314a127825b"
+        },
+        {
+          "path": "Form\/Admin\/Manage\/DeleteQuestion.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 978,
+          "sha1": "bad498bd9acc608cf4df73c6361de5195e105fa9"
+        },
+        {
+          "path": "Form\/Admin\/Manage\/DeleteReport.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 970,
+          "sha1": "c06d7883bb769b75e970c747b22c945365908461"
+        },
+        {
+          "path": "Form\/Admin\/Manage\/EditAnswer.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1337,
+          "sha1": "c6195b147d7b0e73175d4237422b338d36c6a9c0"
+        },
+        {
+          "path": "Form\/Admin\/Manage\/EditQuestion.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1347,
+          "sha1": "afa4d990bd5a3c477d5aad6056aa31c19fab659b"
+        },
+        {
+          "path": "Form\/Index",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Index\/AddReport.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1991,
+          "sha1": "72673d209c9f0e4bb4e9c09bd44118da677024ee"
+        },
+        {
+          "path": "Form\/Index\/Answer.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 9,
+          "sha1": "9c8a8626c44946691f545b212909180320bbb17a"
+        },
+        {
+          "path": "Form\/Index\/Question.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1151,
+          "sha1": "338ccf4dfdb76a1b5f66e00b52be9711b86e6247"
+        },
+        {
+          "path": "Model",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Model\/Answer.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 7815,
+          "sha1": "800d04119c9285d49c027e66c5b5e2d6483baaa9"
+        },
+        {
+          "path": "Model\/DbTable",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Model\/DbTable\/Answers.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 136,
+          "sha1": "277ee6905a7f0c362c1e10c41ddc7ee40107fc9d"
+        },
+        {
+          "path": "Model\/DbTable\/Questionanswers.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 154,
+          "sha1": "880cc3bbcdfe2ae159f42e948203bb8472d5ffbb"
+        },
+        {
+          "path": "Model\/DbTable\/Questions.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 142,
+          "sha1": "4fd03a6709b6759bd64629d8953cbfa2f32ddba3"
+        },
+        {
+          "path": "Model\/DbTable\/Questionvotes.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 149,
+          "sha1": "b4a48a3f917f569a3b905fb549fb48facf1f5ebb"
+        },
+        {
+          "path": "Model\/DbTable\/Reports.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 136,
+          "sha1": "48a792d4fed35410747d1f0f191ed49dc24b4717"
+        },
+        {
+          "path": "Model\/Question.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 16499,
+          "sha1": "81b133b2222c8cfb1d4362805aec91a40124aa83"
+        },
+        {
+          "path": "Model\/Questionvotes.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1162,
+          "sha1": "5c0b9bae18146f8f98787b26fa16c658d89d7540"
+        },
+        {
+          "path": "Model\/Report.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1545,
+          "sha1": "7f473a6d1306f85d9fe089a37b57b7b9bfcb06f0"
+        },
+        {
+          "path": "Plugin",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Plugin\/Core.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 461,
+          "sha1": "3541fa4036b1bc44138a48a0b6b1af7c9affb360"
+        },
+        {
+          "path": "settings",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "settings\/content.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 7018,
+          "sha1": "1d2022396f32d7c29b6d28b5ce47280b297cf6f9"
+        },
+        {
+          "path": "settings\/manifest.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3744,
+          "sha1": "b2ca5f06df1b20ad585af63b8d174a341c1b7a4b"
+        },
+        {
+          "path": "settings\/my.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 6366,
+          "sha1": "2f7dce9fe3a69e8167d36e601d94e77778e32fd1"
+        },
+        {
+          "path": "views",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-manage",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-manage\/deleteanswer.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 96,
+          "sha1": "33c6c4ceb97691e1715c805dff9eef72b08f8fbf"
+        },
+        {
+          "path": "views\/scripts\/admin-manage\/deletequestion.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 96,
+          "sha1": "33c6c4ceb97691e1715c805dff9eef72b08f8fbf"
+        },
+        {
+          "path": "views\/scripts\/admin-manage\/deletereport.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 96,
+          "sha1": "33c6c4ceb97691e1715c805dff9eef72b08f8fbf"
+        },
+        {
+          "path": "views\/scripts\/admin-manage\/edit.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "views\/scripts\/admin-manage\/editanswer.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 124,
+          "sha1": "2f888d4700b8cde990c7b3d03e7bfb49f026a650"
+        },
+        {
+          "path": "views\/scripts\/admin-manage\/editquestion.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 124,
+          "sha1": "2f888d4700b8cde990c7b3d03e7bfb49f026a650"
+        },
+        {
+          "path": "views\/scripts\/admin-manage\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 7135,
+          "sha1": "4039bf99300aab0d135e2960b65b0bcc47da8689"
+        },
+        {
+          "path": "views\/scripts\/admin-manage\/viewreport.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 5459,
+          "sha1": "89aac2a14843fa4580cd72bf525206c9afef9f67"
+        },
+        {
+          "path": "views\/scripts\/index",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/index\/addreport.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 315,
+          "sha1": "2f22b3754475c62cb01a5a6123df725e6b524446"
+        },
+        {
+          "path": "views\/scripts\/index\/home.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "views\/scripts\/index\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "views\/scripts\/index\/list.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "widgets",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/full-question-answer",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/full-question-answer\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 696,
+          "sha1": "60a9543fe445de3d792be9c55a2c998e6681638a"
+        },
+        {
+          "path": "widgets\/full-question-answer\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 5306,
+          "sha1": "d783cf264e7cc4ba8a77fb8268023bbfa84e6fb2"
+        },
+        {
+          "path": "widgets\/new-friend-answer",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/new-friend-answer\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1527,
+          "sha1": "df4dbaaea4cc7638966ffadb13e959a6448538bd"
+        },
+        {
+          "path": "widgets\/new-friend-answer\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 777,
+          "sha1": "75f6f965d0e4e473dc18e78f88c48bca27a46d71"
+        },
+        {
+          "path": "widgets\/new-friend-question",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/new-friend-question\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1607,
+          "sha1": "d87234afd9a33fd8cd1095d80650e436d736cd80"
+        },
+        {
+          "path": "widgets\/new-friend-question\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 894,
+          "sha1": "cd462b2569dbe08a45db00e089d86b7d91bdb585"
+        },
+        {
+          "path": "widgets\/new-question",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/new-question\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1399,
+          "sha1": "1ff8e2e75b8682ed886c7f874516e44bad33e61c"
+        },
+        {
+          "path": "widgets\/new-question\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1513,
+          "sha1": "87460553609c2612f9ce5cb9d2f79f16cbd858d7"
+        },
+        {
+          "path": "widgets\/top-answer",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/top-answer\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1392,
+          "sha1": "2b46bd59604fa19f967c7dc4605ea62829c64b28"
+        },
+        {
+          "path": "widgets\/top-answer\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 771,
+          "sha1": "43a801abe3efd6ba3da397c4055524064d8f6d5d"
+        },
+        {
+          "path": "widgets\/top-friend-answer",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/top-friend-answer\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1528,
+          "sha1": "b748ce505c6cfe0acc5476b6d160f7838938557b"
+        },
+        {
+          "path": "widgets\/top-friend-answer\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 778,
+          "sha1": "1d7cd882fdff13c996387b60c8d97b9ecc93cfa6"
+        },
+        {
+          "path": "widgets\/top-friend-question",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/top-friend-question\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1571,
+          "sha1": "1ad42acb25ebf4bfb329dc3e1974d0c4893490f3"
+        },
+        {
+          "path": "widgets\/top-friend-question\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 894,
+          "sha1": "c355c04953b522e3b673872ea31045f8196c9f0e"
+        },
+        {
+          "path": "widgets\/top-friend-user",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/top-friend-user\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1350,
+          "sha1": "a3986bbae457d25421ee40c31af1a57e5fb27d36"
+        },
+        {
+          "path": "widgets\/top-friend-user\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1522,
+          "sha1": "d0ce72552d7d7441e594b9122eecafbaaf646822"
+        },
+        {
+          "path": "widgets\/top-question",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/top-question\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1473,
+          "sha1": "478aaa356423c3a849c3cd2d8fec8cbb44da9214"
+        },
+        {
+          "path": "widgets\/top-question\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 874,
+          "sha1": "362d73d7596c782c8034b77b820f23333997d5c6"
+        },
+        {
+          "path": "widgets\/top-user",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/top-user\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1412,
+          "sha1": "697c8f9ca913d558c685693894155f57553a7f99"
+        },
+        {
+          "path": "widgets\/top-user\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1056,
+          "sha1": "5645d2665f5f63ae11c8e5f70134bfd5e1dc33c0"
+        }
+      ]
+    },
+    "application\/languages\/en\/questionanswer.csv": {
+      "type": "file",
+      "path": "application\/languages\/en\/questionanswer.csv",
+      "structure": {
+        "path": "questionanswer.csv",
+        "dir": false,
+        "file": true,
+        "perms": "0666",
+        "size": 960,
+        "sha1": "cd8301c6c5ea6da349c511a61c6ce36ddf8c8282"
+      }
+    }
+  }
+}

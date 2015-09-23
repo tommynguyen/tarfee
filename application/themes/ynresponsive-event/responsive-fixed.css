@@ -1,0 +1,114 @@
+.logo-popup{
+    padding: 5px 0px 0px 10px;
+    overflow: hidden;
+    display: block;
+}
+.popup-video-box{
+    width: 100%;   
+}
+#global_content_simple{
+    display: inherit;
+}
+#TB_ajaxContent,
+iframe#TB_iframeContent {
+    max-height: 100% !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    height: 100% !important;
+    -webkit-overflow-scrolling: touch !important;
+    overflow-y: auto !important;
+}
+
+body.ynsmoothbox_open {
+    position: fixed;
+    width: 100% !important;
+    height: 100% !important;
+    overflow: hidden;
+}
+
+/*** add smoothbox ***/
+body.ynsmoothbox_content {
+    -webkit-overflow-scrolling: touch !important;
+    overflow-y: auto !important;
+}
+/*** fix over screen smoothbox ***/
+#TB_window {
+    position: fixed;
+    top: 5% !important;
+    max-height: 90% !important;
+    max-width: 100% !important;
+    overflow:auto;
+    -webkit-overflow-scrolling:touch;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/* ACTIVITY FEED */
+.swiff-uploader-box{
+    display: none!important;
+}
+
+/* VIDEO */
+div.video_view .video_embed object, 
+div.video_view .video_embed object embed{
+    height: auto!important;
+    max-height: 340px;
+}
+@media (max-width: 1024px) {
+    #global_page_ynvideo-index-popup-view .ynvideo_popup_left{
+        width: 60%;
+    }
+    #global_page_ynvideo-index-popup-view .ynvideo_popup_right{
+        width: 40%;
+    }
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 736px) {
+    #global_page_ynvideo-index-popup-view .ynvideo_popup_left{
+        width: 60%;
+    }
+    #global_page_ynvideo-index-popup-view .ynvideo_popup_right{
+        width: 40%;
+    }
+    ul.generic_list_widget a.thumb{
+        width: 100% !important;
+    }
+}
+@media (max-width: 668px) {
+
+}
+@media (max-width: 640px) {
+
+}
+@media (max-width: 568px) {
+    #global_page_ynvideo-index-popup-view .ynvideo_popup_left{
+        width: 100%;
+    }
+    #global_page_ynvideo-index-popup-view .ynvideo_popup_left div.video_embed{
+        margin-left: 5px;
+        height: 300px;
+    }
+    #global_page_ynvideo-index-popup-view .ynvideo_popup_right{
+        display: none;
+    }
+}
+@media (max-width: 480px) {
+
+}
+@media (max-width: 414px) {
+
+}
+@media (max-width: 375px) { 
+
+}
+@media (max-width: 360px) {
+
+}
+
+@media (max-width: 320px) {
+
+}
+
+

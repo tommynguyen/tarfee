@@ -1,0 +1,335 @@
+/* It is recommended to place all your extra/additional CSS rules here */
+.title-box{
+    margin-bottom: 10px;
+}
+.title-box span{
+    overflow: hidden;
+    display: block;
+    clear: both;
+}
+.title-box .title{
+    font-size: 20px;
+    overflow: hidden;
+}
+.button-switch-box{
+    position: absolute;
+    right: 11px;
+    top: 15px;
+    max-width: 80px;
+}
+
+.button-switch-box button{
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #fdfdfd;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fafafa));
+    background: -webkit-linear-gradient(#fff, #fafafa);
+    background: linear-gradient(#fff, #fafafa);
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 2px rgba(0,0,0,0.48),0 1px 3px rgba(0,0,0,0.18);
+    box-shadow: 0 0 2px rgba(0,0,0,0.48),0 1px 3px rgba(0,0,0,0.18);
+    color: #5f5f5f;
+    font-size: 13px;
+    padding: 6px 10px;
+    border: none;
+    width: 100%;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.login-popup-box{
+    width: 64%;
+    min-height: 450px;
+    margin: 0 auto;
+    margin-top: 10%;
+    vertical-align: top;
+    display: block;
+    padding: 6px;
+    margin-bottom: 1em;
+    /*box-shadow: 0 2px 0 rgba(255, 255, 255, 0.3), inset 0 0px 4px rgba(0, 0, 0, 0.3);*/
+    background-color: #353639;
+    background-color: rgba(0,0,0,0.4);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;  
+    position: relative;
+}
+.line-bg{
+    background:url(../img/1-px.png) repeat-x center;
+    overflow: hidden;
+    width: 90%;
+    margin: auto;
+}
+.line-bg span{
+    background-clip: padding-box;
+    padding: 0px 15px;
+    overflow: hidden;
+}
+.login-popup-box .active{
+    left: 0;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+}
+.login-popup-box input[type="checkbox"]{
+    height: 0;
+    width: 0;
+
+}
+form#user_form_login {
+
+}
+form#user_form_login  h4
+{
+    font-size: 12px!important;
+    letter-spacing: 0;
+    text-transform: none;
+    font-weight: normal;
+    line-height: 20px;
+}
+form#user_form_login div
+{
+    text-align: center;
+}
+form#user_form_login #remember-element input[type=checkbox]{
+    margin: 11px 0 0;
+}
+#user_form_login .form-elements input 
+{
+    font-size: 14px !important;
+    background-color: #fff !important;
+    display: inline-block;
+    border: none;
+    outline: 0;
+    vertical-align: middle;
+    vertical-align: top;
+    display: inline-block;
+    /* background-color: #353639;
+     background-color: rgba(0,0,0,0.4) !important;*/
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding-box;
+    background-clip: padding-box;
+    padding: 8px 10px !important;
+    color: #aaa!important;    
+}
+.global_form_box label{
+    text-align:center;
+    color: #fff;
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: normal;
+}
+.global_form_box #remember-wrapper label {
+    text-align: left !important;
+}
+#user_form_login #fieldset-buttons {
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+}
+#user_form_login .form-label{
+    height: 10px;
+}
+#fieldset-buttons button#submit {
+    webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; 
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 2px rgba(0,0,0,0.48),0 1px 3px rgba(0,0,0,0.18);
+    box-shadow: 0 0 2px rgba(0,0,0,0.48),0 1px 3px rgba(0,0,0,0.18);
+    color: #5f5f5f;
+    font-size: 13px;
+    padding: 9px 15px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#e3262e), to(#ab171e));
+    background-image: -webkit-linear-gradient(#e3262e, #ab171e);
+    background-image: linear-gradient(#e3262e, #ab171e);
+    background-color: #ab171e;
+    border-bottom-color: #820a0f;
+    border-left-color: #9a1015;
+    border-right-color: #9a1015;
+    border-top-color: #af151b;
+    border-style: solid;
+    border-width: 1px;
+    -webkit-box-shadow: 0 1px 0 0 rgba(255,255,255,0.34);
+    box-shadow: 0 1px 0 0 rgba(255,255,255,0.34);
+    color: #fff;
+    text-shadow: 0 -1px rgba(0,0,0,0.11);
+    width: 100%;
+    outline: none;
+    font-weight: bold;
+}
+button#submit:focus,button#submit:visited,button#submit:active{
+    color: #ffffff;
+    background-color: #0F3969;
+}
+#user_form_login #submit-wrapper {
+    float: none!important;
+}
+#user_form_login .form-elements input.text, 
+#user_form_login .form-elements input#password {
+    width: 90%;
+}
+.form-elements h4 {
+    color: #fff;
+}
+#user_form_login #forgot-element {
+    margin-top: 0px!important;
+}
+#user_form_login #forgot-element a:link, 
+#user_form_login #forgot-element a:visited,
+#user_form_login #register_guest-element a:link, 
+#user_form_login #register_guest-element a:visited
+{
+    font-size: 14px;
+    color: #ff6633
+}
+#user_form_login #forgot-element a:hover,
+#user_form_login #register_guest-element div a:hover 
+{
+    color: #b1c957;
+}
+.forgot-element, #forgot-label {
+    display: none;
+}
+#forgot-wrapper {
+    float: right;
+}
+#register_guest-element {
+    margin-top: 6px;
+}
+#register_guest-label {
+    display: none;
+}
+.register_guest a span {
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.register_guest>span {
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+}
+#user_form_login #submit-element {
+    margin-top: 10px;
+}
+#TB_window
+{
+    border-width: 2px!important;
+}
+#TB_iframeContent
+{
+    width: 100%!important;
+}
+.ynresponsive_languges
+{
+    margin-left: 5px;
+}
+
+/*Style Language on Header*/
+
+.ynresponsive_languges{
+    display: inline-block;
+    position: relative;
+    bottom: -14px;
+}
+.ynresponsive_languages-popup{
+    position: absolute;
+    z-index: 9999999;
+    top: 15px;
+    left: 15px;
+}
+.language-dropdown
+{
+    display: block;
+    color: #000;
+    background: #fff;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-size: 11px;
+    cursor: default;
+    padding: 2px 5px;
+    border: 1px solid transparent;
+}
+.language-dropdown ul
+{
+    display: none;
+    list-style: none;
+    color: #555!important;
+    border-radius: 0px 0px 4px 4px;
+    margin: 0;
+    overflow: hidden;
+    background: inherit;
+    position: absolute;
+    top: 24px;
+    z-index: 3;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-top: 0;
+    left: 0px;
+    padding-left: 0;
+}
+.language-dropdown ul li a
+{  
+    color: inherit!important;
+    font-weight: normal!important;
+    display: block;
+    padding: 5px 0 5px 28px!important;
+    cursor: pointer;
+    font-size: 11px!important;
+    border: 0!important;
+    text-decoration: none;
+}
+.language-dropdown ul li a:hover
+{
+    background: #ff6633!important;
+    color: #fff!important;
+}
+
+.language-dropdown:hover
+{
+    border: 1px solid rgba(255,255,255,0.2)!important;
+    border-bottom: 1px solid transparent!important;
+}
+.language-dropdown:hover ul
+{
+    display: block;
+}
+
+.language-dropdown i.fa
+{
+    font-size: 17px;
+    margin-right: 5px;
+}
+
+.language-dropdown > span
+{
+    position: relative;
+    bottom: 2px;
+}
+
+.language-dropdown > span:after
+{
+    content: "\f0d7";
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    font-size: 14px!important;
+    margin-left: 7px;
+    position: relative;
+    top: 1px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+}

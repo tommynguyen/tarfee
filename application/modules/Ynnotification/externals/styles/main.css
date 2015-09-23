@@ -1,0 +1,85 @@
+.ynnotification_message {
+    bottom: 30px;
+    display: block;
+    left: 15px;
+    position: fixed;
+    width: 230px;
+    z-index: 99;
+}
+.ynnotification_message .ynnotification_item {
+    background-color: #E1E6EE;
+    border: 1px solid #99A8C7;
+    border-radius: 3px 3px 3px 3px;
+    margin: 0 0 10px;
+    padding: 3px;
+}
+.ynnotification_message .ynnotification_icon {
+    float: left;
+    margin-right: 8px;
+}
+.ynnotification_message .ynnotification_title {
+    font-size: 11px;
+   /* margin: 0 20px 0 30px;*/
+   margin:left;
+    padding: 2px 0 5px 7px;
+}
+.ynnotification_message .ynnotification_bottom {
+    padding-bottom: 0;
+    border-bottom: medium none;
+}
+.ynnotification_message .ynnotification_top {
+    padding-top: 0;
+}
+.ynnotification_message .ynnotification_selected {
+    /*background: none repeat scroll 0 0 #FFFFFF !important;*/
+}
+.ynnotification_message .ynnotification_title .ynnotification_data_user {
+    color: #3B5998;
+    font-weight: bold;
+    position: relative;
+}
+.ynnotification_message .ynnotification .ynnotification_link
+{
+	text-decoration: none;
+}
+.ynnotification_message .ynnotification .ynnotification_x {
+    background: url("~/application/modules/Ynnotification/externals/images/close.gif") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    float: right;
+    height: 16px;
+   
+
+    width: 16px;
+}
+.ynnotification .ynnotification_content
+{
+	font-size: 11px;
+}
+.ynnotification .ynnotification_content:hover
+{
+	text-decoration: none;
+}
+.ynnotification_message .ynnotification {
+    padding: 3px 5px 0;
+	opacity: 1;
+	overflow: hidden;
+	cursor: pointer;
+}
+.ynnotification_icon .thumb_icon
+{
+	border:none;
+	width: 30px;
+	height: 30px;
+}
+#ynnotification_user_sound_setting-element .form-options-wrapper
+{
+	margin-top: 0px;
+}
+
+
+/*.ynnotification_sound_header
+{
+	background-color: #555555;
+}*/
+
+

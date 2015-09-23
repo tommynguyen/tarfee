@@ -1,0 +1,85 @@
+.layout_questionanswer_top_user > ul, .layout_questionanswer_top_answer > ul, .layout_questionanswer_new_friend_answer > ul,
+
+.layout_questionanswer_top_friend_answer > ul,.layout_questionanswer_top_question >ul,.layout_questionanswer_top_user >ul
+
+,.layout_questionanswer_new_question >ul, .layout_questionanswer_top_friend_user > ul,
+
+{
+
+    -moz-border-radius: 3px 3px 3px 3px;
+    background-color: #E9F4FA;
+    background-image: url("/application/modules/Core/externals/images/foreground_bg.png?c=190");
+    background-repeat: repeat-x;
+    border: 1px solid #D0E2EC;
+    margin-bottom: 15px;
+    padding: 5px;
+
+}
+
+.layout_news_top_news > ul > li {
+
+	clear:both;
+
+	overflow:hidden;
+
+	padding:3px 5px;
+
+	border-bottom:1px solid #EAEAEA;
+
+}
+
+.layout_news_lasted_news > ul > li {
+
+	border-bottom:1px solid #EAEAEA;
+
+	clear:both;
+
+	overflow:hidden;
+
+	padding:3px 5px;
+
+}
+
+.layout_news_lasted_news > ul > li >a{
+
+	border:none;
+
+	clear:both;
+
+	overflow:hidden;
+
+	padding:3px 5px;
+
+}
+
+.games_widget_item_info_title
+
+{
+
+    font-weight: bold;
+
+}
+
+
+
+div.widget_innerholder_news
+
+{
+
+	padding-right: 3px;
+
+	float: left; 
+
+	margin-left: 5px; 
+
+	margin-bottom: 10px
+
+}
+
+div.widget_innerholder_news >h4 
+
+{
+
+	border:none;
+
+}

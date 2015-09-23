@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<?php
+		require_once '../../key.php';
+		require_once '../server.php';
+
+		$redirectUri =  'https://eyfun.com/openid/contact/live/';
+
+		?>
+	  <meta http-equiv="Pragma" content="no-cache" />
+		<meta http-equiv="Expires" content="-1" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<script src="//js.live.net/v5.0/wl.js" type="text/javascript"></script>
+		<script>
+			var all_contacts = new Array();
+			var contact_data = '';
+						
+			WL.init({ client_id: '<?php echo LIVE_APP_ID?>', redirect_uri: '<?php echo $redirectUri; ?>' });
+			
+			function log(message){
+				// alert(message);
+			}
+			
+			WL.login({ scope: "wl.signin,wl.basic,wl.contacts_emails" }).then(
+				function(response) {
+					getContacts();
+				},
+				function(response) {
+					log("Could not connect, status = " + JSON.stringify(response.error));
+				}
+			);	
+			function getContacts() {
+				WL.api({ path: "/me/contacts", method: "GET" }).then(
+					function(response)
+					{
+						var items = response.data;
+						for (var i = 0; i < items.length; i++) 
+						{
+							var item = items[i];
+							if(item.hasOwnProperty('name') && item.hasOwnProperty('emails'))
+							{
+								all_contacts.push({'name': item.name, 'email': item.emails.preferred});
+							}
+						}
+						contact_data = encodeURIComponent(JSON.stringify(all_contacts));
+						document.getElementById("id_contact_value").value=contact_data;
+						document.getElementById("submitform").submit();				
+					},
+					function(response) {
+						log("Cannot get contacts: " + JSON.stringify(response.error).replace(/,/g, ",\n"));
+					}
+				);
+			}
+			
+			
+		</script>
+	</head>
+	<body>
+		<p>Loading ...</p>
+		<form action="<?php echo AUTH_CALLBACK_URL; ?>" method="POST" id="submitform" style="display:none">
+			<input name="contact" type="text" value="" id="id_contact_value"/>
+			<input type="hidden" name="<?php echo AUTH_TOKEN_NAME;?>" value="<?php echo AUTH_SECURITY_TOKEN;?>"/>
+			<input name="get_success" type="hidden" value="1" />
+	   </form>
+	   </html>
+	</body>
+</html>
+
+
+

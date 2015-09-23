@@ -1,0 +1,610 @@
+{
+  "type": "module",
+  "name": "tfcampaign",
+  "version": "4.01",
+  "revision": null,
+  "path": "application\/modules\/Tfcampaign",
+  "repository": null,
+  "date": "Tue, 09 Jun 2015 19:58:14 +0000",
+  "title": "Tarfee Campaign",
+  "description": "",
+  "thumb": null,
+  "developer": null,
+  "authors": [
+    ""
+  ],
+  "changeLog": null,
+  "meta": {
+    "date": "Tue, 09 Jun 2015 19:58:14 +0000",
+    "title": "Tarfee Campaign",
+    "description": "",
+    "developer": null,
+    "authors": [
+      ""
+    ],
+    "changeLog": null
+  },
+  "actions": [
+    "install",
+    "upgrade",
+    "refresh",
+    "enable",
+    "disable"
+  ],
+  "callback": {
+    "path": "application\/modules\/Tfcampaign\/settings\/install.php",
+    "class": "Tfcampaign_Installer",
+    "priority": 100
+  },
+  "dependencies": null,
+  "tests": [
+    
+  ],
+  "permissions": [
+    
+  ],
+  "structure": {
+    "application\/modules\/Tfcampaign": {
+      "type": "directory",
+      "path": "application\/modules\/Tfcampaign",
+      "structure": [
+        {
+          "path": "Bootstrap.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 84,
+          "sha1": "f0503731463f39889a3f3a3ba1ed6cf784f2c4f3"
+        },
+        {
+          "path": "Model",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Model\/DbTable",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Model\/DbTable\/Campaigns.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 2533,
+          "sha1": "47a364dc0884846964023a96e89add9ba583247e"
+        },
+        {
+          "path": "Model\/DbTable\/Reasons.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 407,
+          "sha1": "f496a006a061ab8df7a85acd88991c0ed25ac188"
+        },
+        {
+          "path": "Model\/DbTable\/Submissions.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 415,
+          "sha1": "88bd912b046d0eaa585d45c9f7f9e821eb5081e5"
+        },
+        {
+          "path": "Model\/DbTable\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "Model\/Submission.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 1477,
+          "sha1": "6d0fab5ddc3f07f3421c9cd62997145fb7d71e04"
+        },
+        {
+          "path": "Model\/Exception.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 509,
+          "sha1": "453c2254fb8fa55cd8e9a3976d8ef8e4760d1e63"
+        },
+        {
+          "path": "Model\/Campaign.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 3445,
+          "sha1": "8544459b27bd9f8e34f8326645bff1390551e594"
+        },
+        {
+          "path": "widgets",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/user-profile-campaign",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/user-profile-campaign\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 831,
+          "sha1": "bcaeb63891ee08d2743d0a58d04a5259944bb6e7"
+        },
+        {
+          "path": "widgets\/user-profile-campaign\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 902,
+          "sha1": "d16318cb851f1827268cb13e9a1bb32584ef052f"
+        },
+        {
+          "path": "Api",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Api\/Core.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 64,
+          "sha1": "6523d9084d480e82b87f4ea9cbacd1b3b634ddad"
+        },
+        {
+          "path": "views",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/profile",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/profile\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 3180,
+          "sha1": "2d1e1d55dae058d33928c27bbb7a6fba4de20a13"
+        },
+        {
+          "path": "views\/scripts\/admin-reasons",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-reasons\/form.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 195,
+          "sha1": "3df29c159baa6b9bc9fc387940b8268c71a53582"
+        },
+        {
+          "path": "views\/scripts\/admin-reasons\/delete.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 833,
+          "sha1": "3d5747331095c9db074d6f2aa0f521efef570757"
+        },
+        {
+          "path": "views\/scripts\/admin-reasons\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 2340,
+          "sha1": "658245f2fd37badb6a636a5a94727141b3dc24ee"
+        },
+        {
+          "path": "views\/scripts\/admin-settings",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-settings\/global.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 408,
+          "sha1": "faacbc5fe3461111443072132c408c04cd8a629f"
+        },
+        {
+          "path": "views\/scripts\/admin-settings\/level.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 610,
+          "sha1": "fc78d2d9ce5cbd7937184afac647b6787733cc32"
+        },
+        {
+          "path": "views\/scripts\/index",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/index\/create.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 11149,
+          "sha1": "d7019e7bfc24934a0183441887fe625009c98252"
+        },
+        {
+          "path": "views\/scripts\/index\/browse.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 2957,
+          "sha1": "5582381d2d8f4dacfcf9520d3cd8dbeded3f88fb"
+        },
+        {
+          "path": "views\/scripts\/index\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 83,
+          "sha1": "42a1f1fe59f574b3bc3a3026243d4d782148208c"
+        },
+        {
+          "path": "views\/scripts\/campaign",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/campaign\/edit.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 8868,
+          "sha1": "0659ee6fafba24179b64e7a14c6d699a429c25f5"
+        },
+        {
+          "path": "views\/scripts\/campaign\/submit.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 42,
+          "sha1": "812ae57182c054dcb5797add592e06f064ca9bf3"
+        },
+        {
+          "path": "views\/scripts\/campaign\/delete.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 170,
+          "sha1": "1ed3c73582190c45b6337afde4278a509cde8cb2"
+        },
+        {
+          "path": "Form",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Edit.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 199,
+          "sha1": "aa215bcb0baf7333ce35f2d4e9c5ecde2b64e714"
+        },
+        {
+          "path": "Form\/Create.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 6820,
+          "sha1": "57c5f3cdaf20566ccbd950cde8b1a4a1ae2d65be"
+        },
+        {
+          "path": "Form\/Admin",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Admin\/Settings",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Admin\/Settings\/Global.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 1518,
+          "sha1": "b28ce2d52013d27ab256509e37d04a003d894ff3"
+        },
+        {
+          "path": "Form\/Admin\/Settings\/Level.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 3955,
+          "sha1": "6ff8b6f2b1b39e6e87c01108168ee3b22188063a"
+        },
+        {
+          "path": "Form\/Admin\/Reason",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Admin\/Reason\/Add.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 1221,
+          "sha1": "9bd7852061f483df243dad2a9a842bd291b39c09"
+        },
+        {
+          "path": "Form\/Submit.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 4787,
+          "sha1": "a8c3c73696df32ab23e924e3e6829d372e73e8b2"
+        },
+        {
+          "path": "Form\/Delete.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 1142,
+          "sha1": "f0dc02342266f3bb6933bf89e10bdc4dd37d9211"
+        },
+        {
+          "path": "Form\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "externals",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles\/main.css",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "externals\/scripts",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/scripts\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "externals\/.htaccess",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 144,
+          "sha1": "47bb36a5f03278d4b6ea5804e494c00ccb02e8e1"
+        },
+        {
+          "path": "externals\/images",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/images\/nophoto_campaign_thumb_profile.png",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 166268,
+          "sha1": "728eb3769ca2637c5e66b19f2775dbd7cdd79fc4"
+        },
+        {
+          "path": "externals\/images\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "controllers",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "controllers\/CampaignController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 11833,
+          "sha1": "d9de586744a4699617cd5539f76b221609e52794"
+        },
+        {
+          "path": "controllers\/AdminSettingsController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 3503,
+          "sha1": "6359ee5b0bf37dfacbffa8a324166c709b23c754"
+        },
+        {
+          "path": "controllers\/AdminReasonsController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 3657,
+          "sha1": "7dd5934f174fcc8361b487e9b934dda4c72df710"
+        },
+        {
+          "path": "controllers\/IndexController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 5753,
+          "sha1": "8e8693fa78f145d8067734185f5e22776f42a5d3"
+        },
+        {
+          "path": "controllers\/ProfileController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 1072,
+          "sha1": "d4e94dbc3a1a2d69a826d76fae8e151af83aa21c"
+        },
+        {
+          "path": "settings",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "settings\/install.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 7195,
+          "sha1": "d6576cf8905187975d5ef187f2b0f75c71322a94"
+        },
+        {
+          "path": "settings\/manifest.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 2190,
+          "sha1": "ccf0a9d110dacf8b131aec4ad9ef806cb1a87f32"
+        },
+        {
+          "path": "settings\/my.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 7010,
+          "sha1": "f7e3990167fed4821df53832ee094026fda26a56"
+        },
+        {
+          "path": "settings\/content.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 525,
+          "sha1": "53db701265168953ef37494d9287a142c853a4b2"
+        },
+        {
+          "path": "settings\/my-install.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 172,
+          "sha1": "c8e5490e681500b0ae7c6b614de3bf529531863b"
+        }
+      ]
+    },
+    "application\/languages\/en\/tfcampaign.csv": {
+      "type": "file",
+      "path": "application\/languages\/en\/tfcampaign.csv",
+      "structure": {
+        "path": "tfcampaign.csv",
+        "dir": false,
+        "file": true,
+        "perms": "0644",
+        "size": 0,
+        "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+      }
+    }
+  }
+}

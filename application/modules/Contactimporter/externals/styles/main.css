@@ -1,0 +1,353 @@
+.logo {
+    -moz-background-clip:border !important;
+    -moz-background-inline-policy:continuous !important;
+    -moz-background-origin:padding !important;
+    background:transparent;
+    cursor:pointer !important;
+    float:left !important;
+    height:auto !important;
+    padding: 0 !important;
+    width:auto !important;
+}
+#global_page_contactimporter-index-import .logo {
+    padding: 0px 15px 5px 0 !important;
+}
+.thTableOddRow
+{
+    background-color:#F4F9FB;
+    border-bottom:1px solid #C0C0C0 !important;
+    padding-bottom:2px;
+}
+.thTableEvenRow
+{
+    background-color:#ffffff;
+    border-bottom:1px solid #C0C0C0!important;
+    padding-bottom:2px;
+}
+.thTableSelectRow
+{
+    background-color: #79B4D4;
+    border-bottom:1px solid #C0C0C0!important;
+    padding-bottom:2px;
+}
+.logo img{
+    height:35px;
+}
+#global_page_contactimporter-index-import .logo img{
+    height:32px;
+}
+.thTable{
+    border-collapse:collapse;
+
+}
+.thTable td
+{
+    border-bottom:1px solid #C0C0C0!important;
+    padding: 8px 8px 8px 0px;
+}
+
+
+.layout_contactimporter_homepage_inviter .global_form > div 
+{
+    overflow: visible !important;
+}
+
+#global_page_contactimporter-index-import #loading{
+    display:none; 
+    margin-left:300px; 
+    text-align:center; 
+    background:url(~/application/modules/Contactimporter/externals/images/loading.gif) no-repeat;
+    width:320px;
+    height:320px; 
+    padding-top:180px;
+}
+#global_page_contactimporter-index-import #loading div
+{
+    text-align:center;
+}
+
+
+#global_page_contactimporter-index-import .global_form div.form-label {
+    clear: left;
+    color: #777777;
+    float: left;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    overflow: hidden;
+    padding: 4px 15px 0 2px;
+    text-align: right;
+    width: 90px;
+}
+#global_page_contactimporter-index-import .global_form div.form-label1 {
+    clear: left;
+    color: #777777;
+    float: left;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    overflow: hidden;
+    padding: 4px 15px 0 2px;
+    text-align: right;
+    width: 90px;
+}
+
+#global_page_contactimporter-index-import .global_form div.form-element {
+    clear: none;
+    float: left;
+    margin-bottom: 10px;
+    max-width: 600px;
+    min-width: 150px;
+    overflow: hidden;
+    text-align: left;
+}
+
+#global_page_contactimporter-index-import #email_provider_form .email_providers 
+{
+    width:428px;
+    margin-left:105px;
+}
+
+#global_page_contactimporter-index-import #social_network_form .social_networks
+{
+    width:428px;
+    margin-left:105px;
+}
+
+#global_page_contactimporter-index-import #email_provider_form #email_box 
+{
+    width: 200px;
+}
+
+#global_page_contactimporter-index-import .global_form #import-element{
+    margin-bottom: 5px;
+}
+
+#global_page_contactimporter-index-import .global_form > div > div > h3 + div, .global_form > div > div > h3 + p + div {
+    margin-top: 0px;
+}
+
+.layout_page_user_signup_index #import_form .global_form div.form-label{
+	width: 73px;
+}
+
+.layout_page_user_signup_index #import_form .logo img{
+	padding: 5px 15px 5px 0 !important;
+}
+
+/* MinhNC - Improve */
+div.provider_list
+{
+	display: block;
+	position: relative;
+	width: 100%;
+	min-height: 200px;
+	overflow: hidden;
+	padding-top: 10px;
+}
+div.provider_list a.usingapi
+{
+	border: 1px solid #CCCCCC;
+	cursor: pointer;
+	display: block;
+	padding: 10px;
+	width: 92%;
+	text-decoration: none;
+	margin-bottom: 15px;
+	box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
+}
+div.provider_list a.usingapi span.title
+{
+	color: #333333;
+	display: inline-block;
+	float: none;
+	font-size: 12px;
+	font-weight: normal;
+	padding: 0 0 0 14px;
+	position: relative;
+	top: -20px;
+	width: 60%;
+}
+div.provider_list a.usingapi:hover 
+{
+	background-color: #EDEFF4;
+}
+div.provider_list a img 
+{
+	border: 0 solid #EAEAEA;
+	height: 50px;
+	margin: 0;
+	padding: 0;
+	width: 50px;
+}
+.popup_buttons
+{
+	text-align: center;
+	margin-top: 10px;
+}
+#login_contactimporter_form div > div
+{
+	background: none;
+	border: none;
+	width: auto;
+}
+#login_contactimporter_form div > div #email-label,
+#login_contactimporter_form div > div #password-label
+{
+	width: 51px;
+	text-align: left;
+}
+#import_form_homepage .logoContact img
+{
+	display: block;
+	height: 30px;
+	width: 30px;
+}
+#import_form_homepage .logoContact 
+{
+	float: left;
+	height: 30px;
+	width: 30px;
+	padding: 0px 8px 4px 0px;
+}
+#import_form_homepage .heading
+{
+	border-bottom: 1px solid #eaeaea;
+	margin-bottom: 10px;
+	margin-top: 0px;
+}
+#login_contactimporter_form div > div #buttons-label
+{
+	display: none;
+}
+div.contactimporter_contactlist
+{
+	float: left;
+	width: 100%;
+}
+.contactimporter_contact_image
+{
+	text-align: right;
+	padding-right: 2px;
+	padding-top: 2px;
+}
+.contactimporter_contactlist .label
+{
+	border-bottom: 2px solid #bbbbbf!important;
+	color: #000000;
+	font-weight: bold;
+	line-height: 20px;
+}
+.provider_list div 
+{
+	width: 30%;
+	float: left;
+	padding-right: 17px;
+}
+#global_page_contactimporter-index-add .global_form textarea
+{
+	margin-bottom: 10px;
+}
+#contactimporter_page_list  > li + li > a
+{
+	border-left-width: 1px;
+}
+.contactimporter_contactlist .label {
+    display: table-cell;
+    padding-left: 0;
+}
+/*Queue Messages*/
+.contactimporter_queue_item {
+	background-position: center; 
+	background-repeat:no-repeat;
+	max-width:550px; 
+	margin-bottom:5px; 
+	padding: 0px 0px 5px 30px; 
+	min-height: 16px;
+}
+.contactimporter_queue_message {
+	background-repeat:no-repeat;
+	max-width:550px; 
+	margin-bottom:5px; 
+	padding: 0px 0px 5px 30px; 
+	min-height: 16px;
+	border-bottom: 1px solid #DEDEDE;
+}
+.contactimporter_queue_email
+{
+	background-image:url(~/application/modules/Contactimporter/externals/images/mail.jpg);
+	background-repeat: no-repeat; 
+}
+.contactimporter_queue_facebook
+{
+	background-image:url(~/application/modules/Contactimporter/externals/images/facebook_small.png); 
+}
+.contactimporter_queue_twitter
+{
+	background-image:url(~/application/modules/Contactimporter/externals/images/twitter_small.png); 
+}
+.contactimporter_inviter_statistic
+{
+	width: 100%;
+	margin-bottom: 25px;
+}
+ul.contactimporter_top_inviters > li
+{
+	min-height: 58px;
+	margin-bottom: 5px;
+}
+ul.contactimporter_top_inviters .inviter_photo
+{
+	float: left;
+}
+ul.contactimporter_top_inviters .inviter_info
+{
+	padding-left: 10px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-weight: bold;
+}
+ul.contactimporter_top_inviters .inviter_info > div
+{
+	margin-top: 7px;
+	color: #999;
+}
+table.contactimporter_inviter_statistic  tr
+{
+	border-bottom: 1px solid #CCC;
+	height: 25px;
+}
+
+.contactimporter_list_pending_invitations
+{
+	border: solid 1px #CCC;
+	width: 100%;
+}
+
+.contactimporter_list_pending_invitations tr
+{
+	border: solid 1px #CCC;
+	height: 30px;
+}
+
+.contactimporter_list_pending_invitations .cb_select
+{
+	width: 35px;
+	text-align: center;
+}
+
+.contactimporter_list_pending_invitations .cb_select > input
+{
+	display: inline-block;
+	float: none;
+}
+
+.contactimporter_list_pending_invitations .pending_invitation_options
+{
+	text-align: center;
+}
+#global_page_contactimporter-index-fb-canvas {
+    margin-top: 100px;
+    text-align: center;
+}

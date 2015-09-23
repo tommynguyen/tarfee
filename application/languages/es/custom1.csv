@@ -1,0 +1,316 @@
+"_EMAIL_USER_EMAIL_TO_FRIEND_SUBJECT";"Mensaje de [sender_title] en [host]"
+"_EMAIL_NOTIFY_YNVIDEO_PROCESSED_SUBJECT";"Tu vídeo ""[object_title]"" esta listo"
+"_EMAIL_NOTIFY_YNVIDEO_PROCESSED_BODYHTML";"[header]<br> <br> tu vídeo ""<strong>[object_title]</strong>""ha sido subido satisfactoriamente y esta listo para ser visto. Para verlo o compartirlo puedes dar click en el siguiente link :<br> <br> http://[host][object_link]<br> <br> [footer]"
+"_EMAIL_INVITE_SUBJECT";"Ha recibido una invitación para unirse a nuestra Red Social"
+"_EMAIL_INVITE_CODE_SUBJECT";"¡Ha recibido una invitación para unirse a nuestra Red Social!"
+"View More";"Ver más"
+"Post";"Publicar"
+"post";"anotación";"anotaciones"
+"Like";"Me gusta"
+"like";"me gusta"
+"Unlike";"No me gusta"
+"unlike";"ya no me gusta"
+"Comment";"Comentar"
+"Delete";"Borrar"
+"%s person likes this";"A %s usuario le gusta esto";"A %s usuarios les gusta esto"
+"%s likes this.";"A %s le gusta esto.";"A %s les gusta esto."
+"This activity item has been removed.";"Esta actividad ha sido eliminada."
+"Comment has been deleted";"El comentario ha sido borrado"
+"You do not have the privilege to delete this comment";"No tiene autorización para borrar este comentario"
+"... &nbsp;";"... &nbsp;"
+"more";"más"
+"less";"menos"
+"You have no notifications.";"No tiene notificaciones."
+"You have no requests.";"No tiene solicitudes pendientes."
+"Publish this on Facebook";"Publicar en FaceBook"
+"Share this by re-posting it with your own message.";"Comparta esto publicándolo con su propio mensaje."
+"Delete Activity Item?";"¿Borrar actualización?"
+"Are you sure that you want to delete this activity item and all of its comments? This action cannot be undone.";"¿Desea borrar esta actualización con todos sus comentarios asociados? Esta acción, una vez confirmada, no puede deshacerse."
+"ADMIN_ACTIVITY_TYPE_TAGGED";"Cuando sea identificado en fotos y otros archivos en la Red Social."
+"ADMIN_ACTIVITY_TYPE_FRIENDS";"Cuando dos Usuarios establezcan contacto."
+"ADMIN_ACTIVITY_TYPE_FRIENDS_FOLLOW";"Cuando alguien comience a seguirme."
+"ADMIN_ACTIVITY_TYPE_LOGIN";"Cuando un usuario se identifique en la Red Social."
+"ADMIN_ACTIVITY_TYPE_LOGOUT";"Cuando un Usuario cierre sesión."
+"ADMIN_ACTIVITY_TYPE_POST";"Cuando publique una nota en el perfil de alguien."
+"ADMIN_ACTIVITY_TYPE_POST_SELF";"Cuando adjunte un Archivo."
+"ADMIN_ACTIVITY_TYPE_PROFILE_PHOTO_UPDATE";"Cuando se actualice una foto del perfil."
+"ADMIN_ACTIVITY_TYPE_SIGNUP";"Cuando ingrese un nuevo Usuario a la Red Social."
+"ADMIN_ACTIVITY_TYPE_STATUS";"Cuando se publique una actualización de estado de un usuario."
+"ADMIN_ACTIVITY_TYPE_NETWORK_JOIN";"Cuando me una a una Red"
+"ACTIVITY_FORM_ADMIN_SETTINGS_GENERAL_DESCRIPTION";"Los Titulares es una lista de acciones que se autopublican y que contienen lo último que ha sucedido en su Red Social. Esta información se muestra (por defecto) en la página de inicio de sus usuarios. También, los titulares correspondientes a cada usuario se muestran en su propia página de perfil en caso de estar marcada la opción más abajo. Advertencia: algunos de los ajustes que efectúe aquí no tendrán efecto retroactivo, esto es, lo que cambien ahora no afectará a titulares antiguos.."
+"Allowed Feed Items";"Titulares permitidos"
+"ACTIVITY_FORM_ADMIN_SETTINGS_GENERAL_ALLOWED_DESCRIPTION";"¿Qué titulares desea que sean mostrados en los informes de actualizaciones recientes?"
+"Overall Feed Length";"Longitud total de los titulares"
+"ACTIVITY_FORM_ADMIN_SETTINGS_GENERAL_LENGTH_DESCRIPTION";"¿Cuántos titulares desea que se muestren en todo momento?"
+"ACTIVITY_FORUM_ADMIN_SETTINGS_GENERAL_LENGTH_OPTION1";"5"
+"_EMAIL_INVITE_SUBJECT";"Has recibido una invitación para unirte a [host]"
+"_EMAIL_INVITE_BODYHTML";"[header]<br> <br> Has sido invitado por <strong>[sender_title]</strong> para unirte <strong>[host]</strong>. Para registrarte usa el siguiente link:<br> <br> http://[host][object_link]<br> <br><br><strong>Special Note:</strong><br>[message]<br><br> <br> [footer]"
+"_EMAIL_INVITE_BODYHTML";"[header]<br> <br> Has sido invitado por <strong>[sender_title]</strong> para unirte a <strong>[host]</strong>. Para registrarte usa el siguiente link:<br> <br> http://[host][object_link]<br> <br><br><strong>Special Note:</strong><br>[message]<br><br> <br> [footer]"
+"post";"anotación";"post"
+"unlike";"No me gusta"
+"_EMAIL_INVITE_CODE_BODYHTML";"[header]<br> <br> Has sido invitado por [sender_title]  para unirte a [host] . Para registrarte usa el siguiente link:<br> <br> http://[host][object_link]<br> <br><br> Tu código es:&nbsp;[code]<br><br> ----------------------------------------<br> [message]<br> ----------------------------------------<br> <br> [footer]"
+"Male / Female";"Hombre / Mujer"
+"Keep Eye on this player card";"Sigue a este jugador"
+"Carleton grad student Osama Abushaban stood before a panel of four judges, all of them experienced entrepreneurs. Dressed in smart casual, he didn’t realize how nervous he was and that he had been holding his breath for quite a while.";"Carleton grad student Osama Abushaban stood before a panel of four judges, all of them experienced entrepreneurs. Dressed in smart casual, he didn’t realize how nervous he was and that he had been holding his breath for quite a while."
+"How it works?";"¿Cómo funciona?"
+"
+					<p>
+					Tarfee is a social network that connects football talents with football clubs, universities and scouts worldwide. We believe that every football talent deserves a chance to be noticed and recognized.
+					</p>
+					<p>
+					Therefore, we help football talents, as well as football schools and non-profit organizations to promote their students and their organizations.
+					</p>
+					<p>
+					For many young talents around the world, football is not just a sport, it is an opportunity to improve their lives through scholarships or contracts with football clubs. Our goal is to make this happen, by offering football talents, clubs, universities and scouts a platform that will connect them worldwide.
+					</p>";"<p>
+					Tarfee es una plataforma social que conecta talentosos jugadores de futbol con escuelas de futbol, universidades, reclutadores y clubes alrededor del mundo. Nosotros creemos que cada jugador merece tener una oportunidad de ser descubierto, por esa razón ayudamos a los jóvenes talentos, asociaciones sin fines de lucro y escuelas de futbol a promover a sus jugadores.
+					</p>
+					<p>
+					Para muchos jóvenes alrededor del mundo el futbol no es solo un deporte, es la oportunidad que tienen para una mejorar su  calidad de vida mediante becas universitarias  o contratos con clubes de futbol. Nuestro objetivo es facilitar las conexiones entre  los jóvenes talentos, clubes y escuelas de futbol, y universidades en todo el mundo.
+					</p>"
+"The email is exists.";"El email ya existe."
+"Learn more";"Conoce mas"
+"Home";"Inicio"
+"How it Works?";"¿Cómo funciona?"
+"Team";"Equipo"
+#######"Football";"Football"
+#######"Talents";"Talents"
+"<span>Football </span>Talents";"Talentos <span>Del Fútbol</span>"
+"
+												<li>- Upload your best videos to be noticed easily by football scouts, clubs, and universities all over the world</li>
+												<li>- Get the best contract or scholarship</li>
+												<li>- Apply for tryouts and events organized by football scouts, clubs, and universities</li>
+												<li>- Avoid fraud and false offers by checking the ratings and reviews of scouts</li>
+												<li>- Connect with other players and professionals to share your experience, learn, and to get advice</li>";"<li>- Sube tus mejores videos y verás lo fácil que es ser descubierto por escuelas de futbol, universidades, clubes y reclutadores a rededor del mundo</li>
+												<li>- Obtén los mejores contratos y becas</li>
+												<li>- Regístrate para los tryouts y eventos que organizan las escuelas de futbol, clubes, universidades y reclutadores</li>
+												<li>- Evita fraude y falsas ofertas revisando los ratings y comentarios de los reclutadores</li>
+												<li>- Conéctate con otros jugadores y profesionales: comparte experiencias, aprende y recibe consejos</li>"
+#########"Schools, NGOs";"Schools, NGOs"
+"<span>Football </span>Schools, NGOs";"Escuelas <span>De Fútbol</span> y ONG"
+"
+												<li>- Promote your organization and students, and show the world what you stand for!</li>
+												<li>- Create player profile for each student and upload his/her videos and information</li>
+												<li>- Be engaged with your community, kids, and their parents</li>
+												<li>- Create events and tryouts and invite people to join</li>
+												<li>- Directly send message your followers</li>
+												<li>- Avoid fraud by checking the ratings and reviews of scouts</li>";"<li>- Promueve tu organización, tus estudiantes y muestra al mundo tu trabajo</li>
+												<li>- Crea un perfil para cada uno de tus jugadores y sube sus mejores videos e información</li>
+												<li>- Participa activamente con tu comunidad, niños y sus padres.</li>
+												<li>- Crea eventos,  troyouts e invita a  los jóvenes talentos a que asistan.</li>
+												<li>- Envía mensajes directamente  a tus seguidores</li>
+												<li>- Evita fraude y falsas ofertas revisando los ratings y comentarios de los miembros</li>"
+"<span>Football </span>Scouts, Agents";"Agentes y Reclutadores <span>De Fútbol</span>"
+"
+												<li>- Access the best football talents all over the world!</li>
+												<li>- Find exactly what you are looking for quickly and easily: You can customize your search by filtering by age, country, position, rating, etc.</li>
+												<li>- Keep eye on the players you like to follow their improvements</li>
+												<li>- Create events & tryouts and invite players to join and submit their profiles</li>
+												<li>- Be connected and engage with other professionals around the world</li>";"<li>- Acceso a los mejores talentos del futbol en el mundo</li>
+												<li>- Encuentra fácilmente exactamente lo que estás buscando! Puedes usar filtros por edades, país, posición, rating, etc.</li>
+												<li>- Has seguimiento de los mejores jugadores!</li>
+												<li>- Crea eventos y tryouts! Invita a los jugadores a que participen o envíen su perfil</li>
+												<li>- Participa y conéctate con otros profesionales alrededor del mundo</li>"
+
+##########"Clubs, Universities";"Clubs, Universities"
+"<span>Football </span>Clubs, Universities";"Universidades y Clubes <span>De Fútbol</span>"
+"<li>- Promote your club, university, or agency in a football dedicated environment, where all football lovers gather</li>
+												<li>- Directly access and message your fans and followers</li>
+												<li>- Access the best football talents all over the world</li>
+												<li>- Create events & tryouts and invite players to join and submit their profiles</li>
+												<li>- Conduct business with football professionals world wide</li>";"<li>- Promueve tu club, Universidad o agencia en una red especializada en el futbol, donde los fanáticos del futbol se reúnen</li>
+												<li>- Envía mensajes directamente  a tus seguidores</li>
+												<li>- Acceso a los mejores talentos del futbol en el mundo</li>
+												<li>- Crea eventos y tryouts! Invita a los jugadores a que participen o envíen su perfil</li>
+												<li>- Has negocios con profesionales en el fútbol alrededor del mundo</li>"
+"Our team";"Nuestro equipo"
+"Entrepreneurship Carleton-Style: TIM Program Leads the Way";"Entrepreneurship Carleton-Style: TIM Program Leads the Way"
+"Read more...";"Read more..."
+"“Go Global, Hire Local” Matches Technology Venture Teams with Talented Professionals";"“Go Global, Hire Local” Matches Technology Venture Teams with Talented Professionals"
+"Go Global, Hire Local matches young technology entrepreneurs who wish to define and exploit global opportunities with international professionals who possess appropriate skills.";"Go Global, Hire Local matches young technology entrepreneurs who wish to define and exploit global opportunities with international professionals who possess appropriate skills."
+"Carleton Students Present their Startups to Mr. Wes Nicol";"Carleton Students Present their Startups to Mr. Wes Nicol"
+"For student entrepreneurs at Carleton University, there are few people who serve as a greater inspiration than successful businessman and generous philanthropist Wes Nicol.";"For student entrepreneurs at Carleton University, there are few people who serve as a greater inspiration than successful businessman and generous philanthropist Wes Nicol."
+"Carleton Technology Entrepreneurs Show Off Their Startups for Senior Policy Advisers";"Carleton Technology Entrepreneurs Show Off Their Startups for Senior Policy Advisers"
+"Student entrepreneurs in Carleton’s Technology Innovation Management program had a chance to show off their startups during an event attended by senior policy advisers with the Ministry of Research and Innovation.";"Student entrepreneurs in Carleton’s Technology Innovation Management program had a chance to show off their startups during an event attended by senior policy advisers with the Ministry of Research and Innovation."
+"Contact us";"Contáctenos"
+"Address :";"Dirección :"
+"102 St. Patricks Building, 1125 Colonel By Dr, Ottawa, ON K1S 5B6";"102 St. Patricks Building, 1125 Colonel By Dr, Ottawa, ON K1S 5B6"
+"Phone :";"Teléfono :"
+"Press";"Prensa"
+"_EMAIL_CORE_LOSTPASSWORD_BODY";"[displayname],
+
+Se ha recibido solicitud de recuperación de la contraseña asociada al correo electrónico [email] para poder acceder a la Red Social  . Dado que el método de encriptación empleado no permite conocer cuál era la contraseña, se ofrece como alternativa el asignarse usted mismo una nueva siguiendo las instrucciones que encontrará siguiendo este enlace:
+
+http://[host][object_link]
+
+Un Cordial Saludo,
+ 
+Administración Red Social"
+"<span><a href='%s'>Forgot Password?</a></span>";"<span><a href='%s'>¿Olvidó su contraseña?</a></span>"
+"USER_FORM_AUTH_FORGOT_DESCRIPTION";"Si no puede entrar en la Red Social porque ha olvidado o extraviado su contraseña, introduzca el correo electrónico asociado a su cuenta en el siguiente campo e inmediatamente recibirá un mensaje en su correo con instrucciones para recuperar la contraseña."
+"USER_VIEWS_SCRIPTS_AUTH_FORGOT_DESCRIPTION";"Se le ha remitido un correo electrónico con instrucciones para resetear su contraseña. Si el correo no llega en pocos minutos, asegúrese de comprobar en su carpeta de spam o correo basura por si su gestor de correo lo hubiera desviado por error.."
+"Forgot Password?";"Olvidó su contraseña?"
+"_CORE_TERMS_OF_SERVICE";"La nueva Red Social  ..."
+"_CORE_PRIVACY_STATEMENT";"Todos los datos son estrictamente confidenciales..."
+"Registered Members";"Usuarios registrados"
+"All Registered Members";"Todos los usuarios registrados"
+"Someone has already registered this email address, please use another one.";"Alguien ha registrado ya un usuario con este correo electrónico, por favor use una nueva dirección para crear la ficha."
+"Register";"Registrarse"
+"Forgot Password?";"¿Olvidó su contraseña?"
+"request invite";"request invite"
+"Request Invite";"Solicitar invitación"
+"Or Sign In Using";"o registrase con:"
+"Or Sign In Using";"o registrarse con:"
+"Players of the Week";"Jugador de la semana"
+"<p>
+					Tarfee is a social network that connects football talents with football clubs, universities and scouts worldwide. We believe that every football talent deserves a chance to be noticed and recognized.
+					</p>
+					<p>
+					Therefore, we help football talents, as well as football schools and non-profit organizations to promote their students and their organizations.
+					</p>
+					<p>
+					For many young talents around the world, football is not just a sport, it is an opportunity to improve their lives through scholarships or contracts with football clubs. Our goal is to make this happen, by offering football talents, clubs, universities and scouts a platform that will connect them worldwide.
+					</p>";"<p>
+					Tarfee es una plataforma social que conecta talentosos jugadores de fútbol con escuelas de fútbol, universidades, reclutadores y clubes alrededor del mundo. Nosotros creemos que cada jugador merece tener una oportunidad de ser descubierto, por esa razón ayudamos a los jóvenes talentos, asociaciones sin fines de lucro y escuelas de fútbol a promover a sus jugadores.
+					</p>
+					<p>
+					Para muchos jóvenes alrededor del mundo el fútbol no es solo un deporte, es la oportunidad que tienen para una mejorar su  calidad de vida mediante becas universitarias  o contratos con clubes de fútbol. Nuestro objetivo es facilitar las conexiones entre  los jóvenes talentos, clubes y escuelas de fútbol, y universidades en todo el mundo.
+					</p>"
+"<li>- Upload your best videos to be noticed easily by football scouts, clubs, and universities all over the world</li>
+												<li>- Get the best contract or scholarship</li>
+												<li>- Apply for tryouts and events organized by football scouts, clubs, and universities</li>
+												<li>- Avoid fraud and false offers by checking the ratings and reviews of scouts</li>
+												<li>- Connect with other players and professionals to share your experience, learn, and to get advice</li>";"<li>- Sube tus mejores videos y verás lo fácil que es ser descubierto por escuelas de fútbol, universidades, clubes y reclutadores a rededor del mundo</li>
+												<li>- Obtén los mejores contratos y becas</li>
+												<li>- Regístrate para los tryouts y eventos que organizan las escuelas de fútbol, clubes, universidades y reclutadores</li>
+												<li>- Evita fraude y falsas ofertas revisando los ratings y comentarios de los reclutadores</li>
+												<li>- Conéctate con otros jugadores y profesionales: comparte experiencias, aprende y recibe consejos</li>"
+"<li>- Access the best football talents all over the world!</li>
+												<li>- Find exactly what you are looking for quickly and easily: You can customize your search by filtering by age, country, position, rating, etc.</li>
+												<li>- Keep eye on the players you like to follow their improvements</li>
+												<li>- Create events & tryouts and invite players to join and submit their profiles</li>
+												<li>- Be connected and engage with other professionals around the world</li>";"<li>- Acceso a los mejores talentos del fútbol en el mundo</li>
+												<li>- Encuentra fácilmente exactamente lo que estás buscando! Puedes usar filtros por edades, país, posición, rating, etc.</li>
+												<li>- Has seguimiento de los mejores jugadores!</li>
+												<li>- Crea eventos y tryouts! Invita a los jugadores a que participen o envíen su perfil</li>
+												<li>- Participa y conéctate con otros profesionales alrededor del mundo</li>"
+"<li>- Promote your club, university, or agency in a football dedicated environment, where all football lovers gather</li>
+												<li>- Directly access and message your fans and followers</li>
+												<li>- Access the best football talents all over the world</li>
+												<li>- Create events & tryouts and invite players to join and submit their profiles</li>
+												<li>- Conduct business with football professionals world wide</li>";"<li>- Promueve tu club, Universidad o agencia en una red especializada en el fútbol, donde los fanáticos del fútbol se reúnen</li>
+												<li>- Envía mensajes directamente  a tus seguidores</li>
+												<li>- Acceso a los mejores talentos del fútbol en el mundo</li>
+												<li>- Crea eventos y tryouts! Invita a los jugadores a que participen o envíen su perfil</li>
+												<li>- Has negocios con profesionales en el fútbol alrededor del mundo</li>"
+"
+					<p>
+					Tarfee is a social network that connects football talents with football clubs, universities and scouts worldwide. We believe that every football talent deserves a chance to be noticed and recognized.
+					</p>
+					<p>
+					Therefore, we help football talents, as well as football schools and non-profit organizations to promote their students and their organizations.
+					</p>
+					<p>
+					For many young talents around the world, football is not just a sport, it is an opportunity to improve their lives through scholarships or contracts with football clubs. Our goal is to make this happen, by offering football talents, clubs, universities and scouts a platform that will connect them worldwide.
+					</p>";"<p>
+					Tarfee es una plataforma social que conecta talentosos jugadores de fútbol con escuelas de fútbol, universidades, reclutadores y clubes alrededor del mundo. Nosotros creemos que cada jugador merece tener una oportunidad de ser descubierto, por esa razón ayudamos a los jóvenes talentos, asociaciones sin fines de lucro y escuelas de fútbol a promover a sus jugadores.
+					</p>
+					<p>
+					Para muchos jóvenes alrededor del mundo el fútbol no es solo un deporte, es la oportunidad que tienen para una mejorar su  calidad de vida mediante becas universitarias  o contratos con clubes de fútbol. Nuestro objetivo es facilitar las conexiones entre  los jóvenes talentos, clubes y escuelas de fútbol, y universidades en todo el mundo.
+					</p>"
+"
+												<li>- Upload your best videos to be noticed easily by football scouts, clubs, and universities all over the world</li>
+												<li>- Get the best contract or scholarship</li>
+												<li>- Apply for tryouts and events organized by football scouts, clubs, and universities</li>
+												<li>- Avoid fraud and false offers by checking the ratings and reviews of scouts</li>
+												<li>- Connect with other players and professionals to share your experience, learn, and to get advice</li>";"<li>- Sube tus mejores videos y verás lo fácil que es ser descubierto por escuelas de fútbol, universidades, clubes y reclutadores a rededor del mundo</li>
+												<li>- Obtén los mejores contratos y becas</li>
+												<li>- Regístrate para los tryouts y eventos que organizan las escuelas de fútbol, clubes, universidades y reclutadores</li>
+												<li>- Evita fraude y falsas ofertas revisando los ratings y comentarios de los reclutadores</li>
+												<li>- Conéctate con otros jugadores y profesionales: comparte experiencias, aprende y recibe consejos</li>"
+"
+												<li>- Access the best football talents all over the world!</li>
+												<li>- Find exactly what you are looking for quickly and easily: You can customize your search by filtering by age, country, position, rating, etc.</li>
+												<li>- Keep eye on the players you like to follow their improvements</li>
+												<li>- Create events & tryouts and invite players to join and submit their profiles</li>
+												<li>- Be connected and engage with other professionals around the world</li>";"<li>- Acceso a los mejores talentos del fútbol en el mundo</li>
+												<li>- Encuentra fácilmente exactamente lo que estás buscando! Puedes usar filtros por edades, país, posición, rating, etc.</li>
+												<li>- Has seguimiento de los mejores jugadores!</li>
+												<li>- Crea eventos y tryouts! Invita a los jugadores a que participen o envíen su perfil</li>
+												<li>- Participa y conéctate con otros profesionales alrededor del mundo</li>"
+"<li>- Promote your club, university, or agency in a football dedicated environment, where all football lovers gather</li>
+												<li>- Directly access and message your fans and followers</li>
+												<li>- Access the best football talents all over the world</li>
+												<li>- Create events & tryouts and invite players to join and submit their profiles</li>
+												<li>- Conduct business with football professionals world wide</li>";"<li>- Promueve tu club, Universidad o agencia en una red especializada en el futbol, donde los fanáticos del futbol se reúnen</li>
+												<li>- Envía mensajes directamente  a tus seguidores</li>
+												<li>- Acceso a los mejores talentos del fútbol en el mundo</li>
+												<li>- Crea eventos y tryouts! Invita a los jugadores a que participen o envíen su perfil</li>
+												<li>- Has negocios con profesionales en el fútbol alrededor del mundo</li>"
+"<p>
+					Tarfee is a social network that connects football talents with football clubs, universities and scouts worldwide. We believe that every football talent deserves a chance to be noticed and recognized.
+					</p>
+					<p>
+					Therefore, we help football talents, as well as football schools and non-profit organizations to promote their students and their organizations.
+					</p>
+					<p>
+					For many young talents around the world, football is not just a sport, it is an opportunity to improve their lives through scholarships or contracts with football clubs. Our goal is to make this happen, by offering football talents, clubs, universities and scouts a platform that will connect them worldwide.
+					</p>";"<p>
+					Tarfee es una plataforma social que conecta talentosos jugadores de fútbol con escuelas de futbol, universidades, reclutadores y clubes alrededor del mundo. Nosotros creemos que cada jugador merece tener una oportunidad de ser descubierto, por esa razón ayudamos a los jóvenes talentos, asociaciones sin fines de lucro y escuelas de futbol a promover a sus jugadores.
+					</p>
+					<p>
+					Para muchos jóvenes alrededor del mundo el futbol no es solo un deporte, es la oportunidad que tienen para una mejorar su  calidad de vida mediante becas universitarias  o contratos con clubes de futbol. Nuestro objetivo es facilitar las conexiones entre  los jóvenes talentos, clubes y escuelas de futbol, y universidades en todo el mundo.
+					</p>"
+"<li>- Upload your best videos to be noticed easily by football scouts, clubs, and universities all over the world</li>
+												<li>- Get the best contract or scholarship</li>
+												<li>- Apply for tryouts and events organized by football scouts, clubs, and universities</li>
+												<li>- Avoid fraud and false offers by checking the ratings and reviews of scouts</li>
+												<li>- Connect with other players and professionals to share your experience, learn, and to get advice</li>";"<li>- Sube tus mejores videos y verás lo fácil que es ser descubierto por escuelas de futbol, universidades, clubes y reclutadores a rededor del mundo</li>
+												<li>- Obtén los mejores contratos y becas</li>
+												<li>- Regístrate para los tryouts y eventos que organizan las escuelas de futbol, clubes, universidades y reclutadores</li>
+												<li>- Evita fraude y falsas ofertas revisando los ratings y comentarios de los reclutadores</li>
+												<li>- Conéctate con otros jugadores y profesionales: comparte experiencias, aprende y recibe consejos</li>"
+"<li>- Access the best football talents all over the world!</li>
+												<li>- Find exactly what you are looking for quickly and easily: You can customize your search by filtering by age, country, position, rating, etc.</li>
+												<li>- Keep eye on the players you like to follow their improvements</li>
+												<li>- Create events & tryouts and invite players to join and submit their profiles</li>
+												<li>- Be connected and engage with other professionals around the world</li>";"<li>- Acceso a los mejores talentos del futbol en el mundo</li>
+												<li>- Encuentra fácilmente exactamente lo que estás buscando! Puedes usar filtros por edades, país, posición, rating, etc.</li>
+												<li>- Has seguimiento de los mejores jugadores!</li>
+												<li>- Crea eventos y tryouts! Invita a los jugadores a que participen o envíen su perfil</li>
+												<li>- Participa y conéctate con otros profesionales alrededor del mundo</li>"
+"
+					<p>
+					Tarfee is a social network that connects football talents with football clubs, universities and scouts worldwide. We believe that every football talent deserves a chance to be noticed and recognized.
+					</p>
+					<p>
+					Therefore, we help football talents, as well as football schools and non-profit organizations to promote their students and their organizations.
+					</p>
+					<p>
+					For many young talents around the world, football is not just a sport, it is an opportunity to improve their lives through scholarships or contracts with football clubs. Our goal is to make this happen, by offering football talents, clubs, universities and scouts a platform that will connect them worldwide.
+					</p>";"<p>
+					Tarfee es una plataforma social que conecta talentosos jugadores de futbol con escuelas de futbol, universidades, reclutadores y clubes alrededor del mundo. Nosotros creemos que cada jugador merece tener una oportunidad de ser descubierto, por esa razón ayudamos a los jóvenes talentos, asociaciones sin fines de lucro y escuelas de futbol a promover a sus jugadores.
+					</p>
+					<p>
+					Para muchos jóvenes alrededor del mundo el futbol no es solo un deporte, es la oportunidad que tienen para una mejorar su  calidad de vida mediante becas universitarias  o contratos con clubes de futbol. Nuestro objetivo es facilitar las conexiones entre  los jóvenes talentos, clubes y escuelas de futbol, y universidades en todo el mundo.
+					</p>"
+"
+												<li>- Upload your best videos to be noticed easily by football scouts, clubs, and universities all over the world</li>
+												<li>- Get the best contract or scholarship</li>
+												<li>- Apply for tryouts and events organized by football scouts, clubs, and universities</li>
+												<li>- Avoid fraud and false offers by checking the ratings and reviews of scouts</li>
+												<li>- Connect with other players and professionals to share your experience, learn, and to get advice</li>";"<li>- Sube tus mejores videos y verás lo fácil que es ser descubierto por escuelas de futbol, universidades, clubes y reclutadores a rededor del mundo</li>
+												<li>- Obtén los mejores contratos y becas</li>
+												<li>- Regístrate para los tryouts y eventos que organizan las escuelas de futbol, clubes, universidades y reclutadores</li>
+												<li>- Evita fraude y falsas ofertas revisando los ratings y comentarios de los reclutadores</li>
+												<li>- Conéctate con otros jugadores y profesionales: comparte experiencias, aprende y recibe consejos</li>"
+"
+												<li>- Access the best football talents all over the world!</li>
+												<li>- Find exactly what you are looking for quickly and easily: You can customize your search by filtering by age, country, position, rating, etc.</li>
+												<li>- Keep eye on the players you like to follow their improvements</li>
+												<li>- Create events & tryouts and invite players to join and submit their profiles</li>
+												<li>- Be connected and engage with other professionals around the world</li>";"<li>- Acceso a los mejores talentos del futbol en el mundo</li>
+												<li>- Encuentra fácilmente exactamente lo que estás buscando! Puedes usar filtros por edades, país, posición, rating, etc.</li>
+												<li>- Has seguimiento de los mejores jugadores!</li>
+												<li>- Crea eventos y tryouts! Invita a los jugadores a que participen o envíen su perfil</li>
+												<li>- Participa y conéctate con otros profesionales alrededor del mundo</li>"

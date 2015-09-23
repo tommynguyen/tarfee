@@ -1,0 +1,269 @@
+.m2b_qa_content 
+{
+	padding: 10px; 
+	border: 1px solid #D0E2EC; 
+	border-top: none; 
+	padding: 10px; 
+	width:508px;
+	min-height:120px;
+}
+.m2b_qa_content form
+{
+	text-align:right;
+}
+	
+td.qa_tab_inactive a 
+{ 
+	background-color: #EEEEEE;
+	background-image: url(/application/modules/Questionanswer/externals/images/whiteline.gif);
+	background-repeat: repeat-x;
+	background-position: top left;
+	padding: 7px 10px 7px 10px;
+	border: 1px solid #D0E2EC; 
+	border-left: none;
+	font-weight: bold; 
+	display: block; 
+	width:62px;
+}
+td.qa_tab_inactive a:hover 
+{
+	background-color: #F4F4F4;	
+	background-image: url(/application/modules/Questionanswer/externals/images/whiteline.gif);	
+	background-repeat: repeat-x; 
+	background-position: top left; 
+	padding: 7px 10px 7px 10px; 
+	border: 1px solid #D0E2EC; 
+	border-left: none; 
+	font-weight: bold; 	
+	display: block;
+}
+td.qa_tab_active a 
+{
+	background-color: #FFFFFF;	
+	background-image: url(/application/modules/Questionanswer/externals/images/whiteline.gif);	
+	background-repeat: repeat-x;	
+	background-position: top left;
+	padding: 7px 10px 8px 10px;	
+	border: 1px solid #D0E2EC; 	
+	border-left: none;	
+	border-bottom: none;
+	font-weight: bold; 	
+	display: block;	
+	width:62px;
+}
+td.qa_tab_active a:hover 
+{
+	background-color: #FFFFFF;
+	background-image: url(/application/modules/Questionanswer/externals/images/whiteline.gif);
+	background-repeat: repeat-x;
+	background-position: top left;
+	padding: 7px 10px 8px 10px;	
+	border: 1px solid #D0E2EC; 
+	border-left: none;
+	border-bottom: none;
+	font-weight: bold; 
+	display: block;
+}
+#qa_tab 
+{
+	border-left: 1px solid #D0E2EC;
+}
+td.qa_tab_end 
+{	
+	border-bottom: 1px solid #D0E2EC;
+}
+	
+.qa_post_btn
+{
+	border:1px solid #92928f; 
+	background:url(~/application/modules/Questionanswer/externals/images/qa_post_btn2.png) repeat-x; 
+	height:21px; 
+	c
+	cursor:pointer; 
+	color:#000000; 
+	margin-bottom:7px;
+}
+.qa_post_btn:hover
+{
+	background:url(~/application/modules/Questionanswer/externals/images/qa_post_btn1.png) repeat-x;
+	background-color: #999999;
+	color:#ffffff;
+	qa_post_btn1;
+}
+.qa_photo
+{
+	border:1px solid #c1c2c2;
+	margin-right:3px;
+}
+.answer_box
+{
+	background-color:#E9F4FA; 
+	border:1px solid #666666; 
+	position:absolute; 
+	width:200px; 
+	z-index:10;
+}
+textarea.text_qa{
+	width:500px; 
+	margin-bottom:7px; 
+	height:61px; 
+	border:1px solid #E5E5E5 bold;
+}
+.fl
+{
+	float:left;
+}
+.fr
+{
+	float:right;
+}
+.space-line
+{
+	clear:both;
+}
+.qa_line
+{
+	padding:4px 0; 
+	word-wrap: break-word; 
+	text-align:justify;
+}
+.qa_line .qa_au_in
+{
+	/*background:#e9ebed; margin-left:2px; padding:3px; width:455px; *width:405px; height:18px;*/
+	background:none repeat scroll 0 0 #F1F1F1;
+	border-top:1px solid #D0E2EC;
+	padding:5px 7px; 
+	float:left; 
+	width:440px;
+}
+.qa_line .qa_au_in a:link, .qa_line .qa_au_in a:visited
+{
+	color:#336699; 
+	font-weight:bold; 
+	text-decoration:none;
+}
+.qa_line .qa_au_in img
+{
+	margin:0 2px;
+}
+.qa_content
+{
+	width:430px;
+	white-space: pre-wrap; /* css-3 */
+	white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+	white-space: -pre-wrap; /* Opera 4-6 */
+	white-space: -o-pre-wrap; /* Opera 7 */
+	word-wrap: break-word; /* Internet Explorer 5.5+ */	
+	float:left;	
+}
+.answer_content
+{
+	width:430px;
+	white-space: pre-wrap; /* css-3 */
+	white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+	white-space: -pre-wrap; /* Opera 4-6 */
+	white-space: -o-pre-wrap; /* Opera 7 */
+	word-wrap: break-word; /* Internet Explorer 5.5+ */	
+	float:left;	
+}
+.qa_label
+{	
+	color:#FF0000; 
+	font-weight:bold; 
+	float:left;	
+}
+.qa_label_r
+{
+	color:#336699; 
+	font-weight:bold;	
+	float:left;	
+}
+.qa_reply
+{
+	color:#B40205; 
+	font-size:14px; 
+	font-weight:bold;
+}
+.qa_total_reply
+{
+	text-align:right; 
+	color:#999898;
+}
+.qa_total_reply a 
+{
+	color:#336699; 
+	text-decoration:none;
+}
+.qa_paging
+{
+	text-align:right; 
+	padding-top:10px; 
+	padding-top:15px; 
+	color:#336699;
+}
+.qa_paging img{
+	cursor:pointer;
+}
+.qa_paging a:link, .qa_paging a:visited
+{
+	text-decoration:none; 
+	color:#336699; 
+	font-size:12px; 
+	padding:0 2px; 
+	font-weight:bold;
+}
+
+
+/*
+SHARE POPUP (SMOOTHBOX)
+Used to style the attachment preview inside the
+share popup.
+*/
+.sharebox
+{
+  +foreground;
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+}
+.sharebox_photo
+{
+  float: left;
+  overflow: hidden;
+  margin-right: 8px;
+}
+.sharebox_photo img
+{
+  border: 1px solid $theme_photo_border_color;
+  max-width: 120px;
+  max-height: 120px;
+}
+.sharebox_title
+{
+  font-weight: bold;
+}
+.sharebox_description
+{
+  font-size: .8em;
+  margin-top: 3px;
+}
+
+button[disabled]:active, button[disabled]
+{
+  color: GrayText;
+  cursor: inherit;
+
+}
+form#add_report .form-elements
+{
+	padding-top:20px;	
+}
+form#add_report li
+{
+	clear:both;		
+}
+form#add_report .form-options-wrapper li label
+{
+	float:left !important;
+	color:while;
+}

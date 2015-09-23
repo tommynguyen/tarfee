@@ -1,0 +1,151 @@
+.slideview {
+	margin-left:0px;
+	width:564px;
+	height:655px;
+	overflow:hidden!important;
+	background-color: #FFFFFF;
+}
+
+.carousel-box {
+	width:564px;
+	height:655px;
+	position:relative;
+	overflow:hidden!important;
+	border: 0;
+}
+.carousel-box .carousel ul{
+	padding:0;
+	margin:0;
+}
+.carousel-box .carousel ul li{
+	text-align:center;
+	margin-right:10px;
+	cursor:pointer;
+}
+
+.carousel-box .prev{
+	height:66px;
+	width:66px;
+	background:url(../images/btns.png) no-repeat left top;
+	display:block;
+	cursor:pointer;
+	position:absolute;
+	top:189px;
+	left:1px;
+	z-index:10;
+}
+.carousel-box .prev:hover{
+	background:url(../images/btns.png) no-repeat left bottom;
+}
+.carousel-box .next{
+	height:66px;
+	width:66px;
+	background:url(../images/btns.png) no-repeat right top;
+	display:block;
+	cursor:pointer;
+	position:absolute;
+	top:189px;
+	right:1px;
+	z-index:10;
+}
+.carousel-box .next:hover{
+	background:url(../images/btns.png) no-repeat right bottom;
+}
+
+.viewframe {
+	width:564px;
+	height:645px;
+	overflow:hidden;
+}
+.vf_iframe {
+	width:564px;
+	height:640px;
+	overflow:hidden;
+}
+
+.viewframe_loading {
+	text-align: center;
+	padding: 200px 0px 500px 0px;
+}
+
+.pf_main {
+	margin: 0;
+	width: 562px;
+	height: 625px; 
+	overflow: hidden;
+}
+
+.pf_title {
+	padding-left: 2px;
+	width: 560px;
+	height: 20px;
+	font-size: 13px;
+	line-height: 20px;
+	overflow: hidden;
+}
+.pf_desc {
+	padding-left: 2px;
+	width: 560px;
+	height: 15px;
+	font-size: 11px;
+	overflow: hidden;
+}
+.pf_photo_main {
+	width: 560px;
+	min-height: 436px;
+	overflow: hidden;
+}
+.pf_photo {
+	width: 560px;
+	height: 420px;
+	overflow: hidden;
+}
+.pf_tag {
+	width: 550px;
+	height: 16px;
+	line-height: 16px;
+	padding: 0px 5px 0px 5px;
+	font-size: 10px;
+}
+.pf_share {
+	font-size: 10px;
+}
+#media_photo {
+	text-align: center;
+}
+.pf_comment {
+	padding-left: 2px;
+	width: 558px;
+	height: 160px;
+	overflow: auto;
+	margin-top: 5px;
+	font-size: 11px;
+}
+.pf_comment div, .pf_comment input {
+	font-size: 11px;
+}
+.pf_comment_text {
+	margin-top: 8px;
+	font-size: 12px;
+}
+
+.pf_comment_text .comments .comments_options {
+	font-size: 12px;
+}
+
+.pf_comment_text .comments .comments_info, .pf_comment_text .comments .comments_info .comments_author {
+	font-size: 11px;
+}
+
+.pf_comment_text .comments .comments_info .comments_date {
+	font-size: 10px;
+}
+
+.sl_slideshow_view {
+	height: 24px;
+	line-height: 24px;
+	float: right;
+	background: url(../images/slideshow.png) no-repeat;
+	padding-left: 28px;
+	font-size: 14px;
+}

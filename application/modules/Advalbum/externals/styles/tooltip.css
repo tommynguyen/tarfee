@@ -1,0 +1,51 @@
+/*---------- bubble tooltip -----------*/
+a.thumbs_photo{
+    position:relative;
+    z-index:24;
+    color:#3CA3FF;
+	font-weight:bold;
+    text-decoration:none;
+}
+a.thumbs_photo span{ display: none; }
+
+/*background:; ie hack, something must be changed in a for ie to execute it*/
+a.thumbs_photo:hover{ z-index:25; color: #aaaaff;}
+a.thumbs_photo:hover span.tooltip{
+    display:block;
+    position:absolute;
+    top:0px; left:-30px;
+    top:80px\0/;
+    *left:0px;
+    *top:90px;
+	padding: 2px 0 0 0;
+	width:200px;
+	color: #000;
+    text-align: center;
+	filter: alpha(opacity:90);
+	KHTMLOpacity: 0.90;
+	MozOpacity: 0.90;
+	opacity: 0.90;
+  z-index: 99999;
+}
+a.thumbs_photo:hover span.top{
+	display: block;
+	padding: 30px 8px 0;
+    background: url(~/application/modules/Advalbum/externals/images/bubble.gif) no-repeat top;
+}
+a.thumbs_photo:hover span.middle{ /* different middle bg for stretch */
+	display: block;
+	padding: 0 8px; 
+	background: url(~/application/modules/Advalbum/externals/images/bubble_filler.gif) repeat bottom;
+}
+a.thumbs_photo:hover span.bottom{
+	display: block;
+	padding:3px 8px 10px;
+	color: #548912;
+    background: url(~/application/modules/Advalbum/externals/images/bubble.gif) no-repeat bottom;
+}
+.layout_page_album_index_listing .layout_main .layout_middle , .layout_page_album_index_browse .layout_main .layout_middle{
+margin-right:205px;
+overflow:visible ;
+padding:0;
+vertical-align:top;
+}

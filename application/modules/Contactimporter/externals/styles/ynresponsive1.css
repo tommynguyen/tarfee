@@ -1,0 +1,163 @@
+#global_page_contactimporter-index-upload input[type="file"]
+{
+	display:inline;
+}
+#global_page_contactimporter-index-upload #uploadcsvform3
+{
+	margin-top: 10px;
+}
+
+
+div.provider_list a.usingapi span.title
+{
+	top:0px;
+}
+#global_page_contactimporter-index-import #openinviter,
+#global_page_contactimporter-index-import #message-element
+{
+	width: 100%!important;	
+}
+.global_form>div>div
+{
+	border: 1px solid #DDECF3;
+}
+#import_form_homepage .logoContact
+{
+	margin-right: 2%;
+}
+#import_form_homepage span
+{
+	margin-bottom:0px!important;
+	margin-top:10px!important;
+}
+#global_page_contactimporter-index-import #loading
+{
+	width:100%!important;
+	height:auto!important;
+	background-position:center!important;
+	padding-top:60px!important;
+	margin:20px 0px;
+	margin-left:0px!important;
+}
+
+body[id^=global_page_contactimporter] .contactimporter_contactlist .label {
+    display: table-cell;
+    padding-left: 0;
+}
+
+.contactimporter_contact_image {
+    padding-right: 10px;
+}
+
+@media (max-width: 992px) 
+{
+	
+	.provider_list div
+	{
+		width: 50%;
+	}
+}
+@media (max-width: 767px)
+{
+	#pagination .pages
+	{
+		float:none!important;
+	}
+	
+}
+
+@media (max-width: 480px)
+{		
+	.provider_list div
+	{
+		width: 100%;
+	}	
+}
+@media (max-width: 320px)
+{	
+}
+
+/***** update by Hanux *****/
+#global_page_contactimporter-index-pending table.pending_invite_table {
+    width: 100%;    
+}
+
+#global_page_contactimporter-index-import div.provider_list a img {
+    vertical-align: top;
+}
+
+@media (max-width: 767px) {
+    
+    #contactimporter_page_list > li:not(:first-child):not(:last-child) { 
+        display: none !important;
+    }
+    
+    #global_page_contactimporter-index-import ul.paginationControl>li+li>a,
+    #contactimporter_page_list > li:last-child a {
+        border: 1px solid #ddd;
+    }
+    .layout_contactimporter_menu .headline h2 {
+		margin-right: 0;
+		width: 72%;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		display: block;
+		float: left;
+	}
+}
+
+@media (max-width: 640px) {
+    
+    .profile_action_date .pending_invite_resend,
+    .profile_action_date .pending_invite_delete {
+        font-size: 0;
+        position: relative;
+        top: 1px;
+        display: inline-block;
+        font-family: 'Glyphicons Halflings';
+        -webkit-font-smoothing: antialiased;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 1;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    
+    .profile_action_date .pending_invite_delete:before {
+        content: "\\e020";
+        font-size: 13px;
+    }
+    
+    .profile_action_date .pending_invite_resend:before {
+        content: "\\e178";
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 480px) {   
+    
+    .profile_action_date table tr > td + td {
+        display: none;
+    }  
+    #global_page_user-index-home #TB_window  
+    {
+    	width: 100% !important;
+    	left: 0px !important;
+    }
+    
+}
+@media (max-width: 991px) 
+{  
+	#global_page_contactimporter-index-pending-invitation.ynresponsive-metro #global_content 
+	{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+#global_page_contactimporter-index-queue-message.ynresponsive-metro .layout_main .layout_middle, 
+#global_page_contactimporter-index-pending-invitation.ynresponsive-metro .layout_main .layout_middle 
+{
+	padding: 0px;
+}
+
+

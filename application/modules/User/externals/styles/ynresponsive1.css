@@ -1,0 +1,699 @@
+=tarfee_border_radius($radius){
+    border-radius: $radius;
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+}
+
+=tarfee_text_overflow{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+/*Profile Cover Photo Start Here*/
+.layout_user_profile_cover{
+    border: none !important;
+    padding: 0 !important;
+    clear: both;
+    padding: 0 !important;
+
+    .status_parent{
+        z-index: 11;
+        height: 100%;
+        display: block !important;
+        
+        ul#main_tabs{
+            li{
+                margin-bottom: 15px;
+                font-weight: bold;
+                display: inline-block;
+                margin-right: 45px;
+                a{                        
+                    span{
+                        color: #fff;
+                        font-size: 25px;
+                    }
+                    
+                    div{
+                        color: #fff;
+                        font-weight: bold;
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+	.tarfee_profile_cover_wrapper{
+	    margin: 0;
+		
+
+		.tarfee_profile_cover_photo_wrapper{
+			height: 310px;
+			min-height:200px;
+			position: relative;
+			clear: both;
+			padding: 0px;
+
+			.draggable{
+				opacity: 0.5;
+				cursor: move;
+			}
+
+		    .cover-reposition{
+			    z-index: 10;
+			    position: absolute;
+			    width: 100%;
+			    span > a 
+			    {
+				    display: block;
+				    border-top: 1px solid #fff;
+				    background-color: rgba(0, 0, 0, 0.6);
+				    padding: 5px 10px;
+					float: left;
+					margin-right: 2px;		
+					text-transform: lowercase;		    
+				}
+			}
+	        
+
+
+			.tarfee_profile_cover_photo{
+			    overflow: hidden;
+			    position: relative;
+			    height: 100%;
+			    width: 100%;
+
+			    .tarfee_profile_cover_bg_gradient{
+			    	background: url(~/application/modules/User/externals/images/bg-gradient-cover-bottom.png) repeat-x bottom;
+					display: block;
+					width: 100%;
+					position: absolute;
+					height: 141px;
+					bottom: 0;
+					left: 0;
+					z-index: 11;
+			    }
+
+
+			    img{
+				    width: 100%;
+				    min-height: 100%;
+				    border: none;
+				    position: relative;
+			    }
+			}
+		}
+	}/*profile cover wrapper*/
+
+
+	/*Style avatar and infomation*/
+	.tarfee_profile_avatar_infomation{
+		background: $theme_body_background_color;
+		width: 100%;
+		border-bottom: 1px solid $theme_border_color;
+		height: 70px;
+
+		.tarfee_profile_cover_has_tabs{
+			position: relative;
+			width: 1170px;
+			padding: 0 15px;
+			margin: auto;
+			overflow: hidden;
+			top: -190px;
+			padding-top: 30px;
+			z-index: 11;
+
+			.item_photo{
+				width: 213px;
+				height: 213px;
+				float: left;
+				display: block;
+	            background-size: cover;
+	            background-repeat: no-repeat;
+	            background-position: center;
+	            border-radius: 5px;
+	            -webkit-border-radius: 5px;
+	            -moz-border-radius: 5px;
+	            -ms-border-radius: 5px;
+	            overflow: hidden;
+	            position: relative;
+	            z-index: 100;
+
+	            &:hover{
+            	  	span#edit-photo-btn{
+            	  		opacity: 1;
+            	  	}
+	            }
+	         
+	            span#edit-photo-btn{
+	            	text-transform: lowercase;
+	            	text-align: center;
+	            	display: block;
+	            	padding: 5px;
+	            	width: 100%;
+	            	background: rgba(0,0,0,0.5);
+	            	opacity: 0;
+
+	            	transition: all 300ms;
+	            	-webkit-transition: all 300ms;
+	            	-moz-transition: all 300ms;
+	            	-ms-transition: all 300ms;
+	            }
+
+	            .tarfee_profile_cover_tarfee_button{
+        	        position: absolute;
+			        bottom: 0;
+			        width: 100%;
+			        ul{
+			            text-align: center;
+	                    background: rgba(255,255,255, 0.9);
+			            overflow: hidden;
+			            display: flex;
+			            display: -webkit-flex;
+			            display: -moz-flex;
+						display: -ms-flex;
+			            li{
+			                display: inline-block;
+			                width: 100%;
+			                a{
+			                    padding: 3px 20px;
+			                    margin-left: 2px;
+			                    font-size: 24px;
+			                    border-radius: 5px;
+			                    -webkit-border-radius: 5px;
+			                    -moz-border-radius: 5px;
+			                    color: $theme_font_color;
+			                    display: block;
+
+			                    span.profile_follow_button,
+			                    span.profile_inbox_button,
+			                    span.profile_info_button{
+			                    	width: 25px;
+			                    	height: 34px;
+			                    	display: block;
+			                    	text-indent: -9999px;
+
+			                    }
+
+								span.profile_follow_button{
+			                    	width: 30px;
+			                    	background: url(~/application/themes/ynresponsive-event/images/avatar-3.png) no-repeat left center;
+								}
+			                    span.profile_inbox_button{
+			                    	background: url(~/application/themes/ynresponsive-event/images/avatar-2.png) no-repeat left center;
+			                    }			                    						
+			                    span.profile_info_button{
+			                    	background: url(~/application/themes/ynresponsive-event/images/avatar-1.png) no-repeat left center;
+			                    }
+			                    
+		                    	&:hover{
+									span.profile_follow_button{
+				                    	background: url(~/application/themes/ynresponsive-event/images/avatar-3.png) no-repeat right center;
+									}
+									 span.profile_inbox_button{
+				                    	background: url(~/application/themes/ynresponsive-event/images/avatar-2.png) no-repeat right center;
+				                    }			                    						
+				                    span.profile_info_button{
+				                    	background: url(~/application/themes/ynresponsive-event/images/avatar-1.png) no-repeat right center;
+				                    }
+		                    	}
+			                }
+			            }
+			        }
+	            }/* .tarfee_profile_cover_tarfee_button*/
+
+			}
+
+			.tarfee_profile_coverinfo_status{
+				float: left;
+				padding-left: 20px;
+				color: #fff;
+				position: relative;
+
+				& > div{
+					display: inline-block;
+				}
+			
+				h2{
+					font-weight: bold;
+					margin-top: 5px;
+					display: table;
+					position: relative;
+					a{
+						color: #fff;
+					}
+				}
+
+				.verified_account{
+					color: #fff;
+					margin-bottom: 5px;
+					padding-left: 5px;
+					i.fa{
+						font-size: 20px;
+					}
+				}
+				
+				.account_type{
+					color: #fff;
+					margin-bottom: 5px;
+					/*padding-left: 5px;*/
+					margin-left: -5px;
+
+					i.fa{
+						font-size: 20px;
+					}
+				}
+
+				.founder_member{
+					img{
+						margin-right: 10px;
+						margin-left: 5px;
+						display: none;
+					}
+
+					text-indent: -9999px;
+					width: 84px;
+					height: 84px;
+					background: url(~/application/themes/ynresponsive-event/images/icon-founder.png) no-repeat center;
+					position: absolute;
+					top: -30px;
+					right: -115px;
+
+/*					margin-bottom: 5px;
+					background: #ff6633;
+					color: #fff;
+					padding: 6px;
+					border-radius: 5px;
+					-webkit-border-radius: 5px;
+					-moz-border-radius: 5px;
+					-ms-border-radius: 5px;
+					padding-right: 60px;
+					position: relative;*/
+
+					&:after{
+/*						content: "";
+						display: none;
+						position: absolute;
+						/*display: block;
+						width: 19px;
+						height: 38px;
+						top: 0;
+						right: -15px;
+						background-size: cover;
+						background: url(~/application/modules/User/externals/images/founder_member_tag.png);
+					  	background-position: center;*/
+					}
+				}
+			}
+
+			.tarfee_profile_club_item{
+				position: absolute;
+				left: 240px;
+				bottom: -3px;
+
+				ul{
+					padding-left: 10px;
+					li{
+						display: inline-block;
+						margin-right: 60px;
+
+						a{
+							color: $theme_font_color;
+							
+							img{
+								height: 32px;
+								width: 32px;
+								display: block;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+/*End style avatar and information*/
+
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+	.tarfee_cover_rsvp_button select
+	{
+	    bottom: 0;
+	    left: 0;
+	    opacity: 0;
+	    position: absolute;
+	    right: 0;
+	    top: 0;
+	}
+	.tarfee_profile_options_pulldown.siteuser_cover_settings li a
+	{
+	    padding: 5px 7px;
+	}
+	/*Cover Photo Add Edit Options Ends Here*/
+	/*Cover Position Tip Start Here*/
+	.cover_photo_wap .cover_tip_wrap
+	{
+	    line-height: 26px;
+	    position: absolute;
+	    text-align: center;
+	    top: 50%;
+	    margin-top: -13px;
+	    width: 100%;
+	}
+	.cover_photo_wap .cover_tip
+	{
+	    background-color: rgba(0, 0, 0, .4);
+	    -webkit-border-radius: 5px;
+	    -moz-border-radius: 5px;
+	    border-radius: 5px;
+	    color: #fff;
+	    display: inline;
+	    font-size: 13px;
+	    font-weight: bold;
+	    padding: 4px 9px 6px 29px;
+	}
+	[dir="rtl"] .cover_photo_wap .cover_tip
+	{
+	    background-position: 223px center;
+	    padding: 4px 29px 6px 9px;
+	}
+	/*Cover Position Tip End Here*/
+	/*Cover Photo Upload Photo Popup Starts Here*/
+	.tarfee_upload_photo_popup
+	{
+	    margin: 15px 0 0 15px;
+	    width: 400px;
+	}
+	[dir="rtl"] .tarfee_upload_photo_popup
+	{
+	    margin: 15px 15px 0 0;
+	}
+	.tarfee_upload_photo_popup .form-label
+	{
+	    margin: 10px 0 5px;
+	    font-weight: bold;
+	}
+	.tarfee_upload_photo_popup .form-element input[type="file"]
+	{
+	    margin: 5px 0;
+	}
+	.tarfee_upload_photo_popup button
+	{
+	    clear: both;
+	    margin-top: 15px;
+	}
+	
+	/*Cover Photo Upload Photo Popup Ends Here*/
+	/*Cover Photo Choose Photo Popup Starts Here*/
+	.tarfee_choose_photos_content ul.thumbs
+	{
+	    margin: 10px 0;
+	}
+	.tarfee_choose_photos_content ul.thumbs li
+	{
+	    clear: none;
+	    display: inline-block;
+	    float: none;
+	    height: auto;
+	    margin-bottom: 10px;
+	    vertical-align: top;
+	}
+	/*Cover Photo Choose Photo Popup Endss Here*/
+	/*Profile Info Widget*/
+	.tarfee_profile_info h4
+	{
+	    border: none;
+	    margin-bottom: 2px;
+	    padding: 0px;
+	}
+	.tarfee_profile_info h4 span
+	{
+	    position: static;
+	    background: none;
+	    padding: 0;
+	}
+	.tarfee_profile_info ul li span
+	{
+	    font-size: 11px;
+	}
+	.tarfee_coverphoto_profile_label
+	{
+	    clear: both;
+	    color: #FFFFFF;
+	    font-size: 17px;
+	    letter-spacing: 3px;
+	    padding: 5px 0;
+	    text-align: center;
+	    width: 100%;
+	}
+	[dir="rtl"] .tarfee_coverphoto_profile_label
+	{
+	    text-align: center;
+	}
+
+
+	
+	.tarfee_profile_cover_tarfee_button .fb_iframe_widget span
+	{
+	    overflow: inherit !important;
+	}
+	.tarfee_profile_cover_tarfee_button .fb_iframe_widget
+	{
+	    z-index: 12;
+	}
+	
+	.generic_layout_container.layout_tarfee_social_button ul li
+	{
+	    float: left;
+	    margin-right: 8px;
+	}
+	.generic_layout_container.layout_tarfee_social_button ul li a
+	{
+	    line-height: 30px;
+	    text-align: center;
+	}
+	.generic_layout_container.layout_tarfee_social_button ul li span
+	{
+	    cursor: pointer;
+	    width: 120px;
+	    background-color: #fff;
+	    display: block;
+	    border-radius: 4px;
+	    box-shadow: 0 0 10px;
+	}
+	/*=================================================Tab
+	 * Container=============================================*/
+	
+	/*Profile Tabs*/
+.
+.tarfee_profile_cover_head_section div.status_alt
+{
+    background: none !important;
+    box-shadow: none !Important;
+    border: none !important;
+    border-radius: 0;
+    padding: 0;
+    margin: -56px 0 0 210px;
+    position: absolute;
+    overflow: inherit;
+    z-index: 9;
+}
+[dir="rtl"] .
+.tarfee_profile_cover_head_section div.status_alt
+{
+    margin: -58px 210px 0 0;
+}
+.tarfee_profile_cover_head_section div.status_alt > ul
+{
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+.tarfee_profile_cover_head_section div.status_alt > ul > li
+{
+    border-width: 0 0px;
+    float: left;
+    margin: -3px 5px 0px 2px;
+    padding: 0;
+    width: auto;
+}
+[dir="rtl"] .tarfee_profile_cover_head_section div.status_alt > ul > li
+{
+    float: right;
+}
+.tarfee_profile_cover_head_section div.status_alt > ul > li + li
+{
+    border-left-width: 0px;
+}
+[dir="rtl"].tarfee_profile_cover_head_section div.status_alt > ul > li + li
+{
+    border-left-width: 1px;
+    border-right-width: 0px;
+}
+.tarfee_profile_cover_head_section div.status_alt > ul > li.active
+{
+}
+.tarfee_profile_cover_head_section div.status_alt > ul > li a, .tarfee_profile_cover_head_sectiondiv.status_alt > ul > li a:hover, .tarfee_profile_cover_head_sectiondiv.status_alt > ul > li.active > a, .tarfee_profile_cover_head_section div.status_alt > ul > li.tab_open > a
+{
+    border: none !important;
+    border-radius: 0;
+    float: left;
+    font-size: 13px;
+    margin: 0;
+    padding: 12px 12px 2px 12px;
+    top: 0;
+}
+[dir="rtl"].tarfee_profile_cover_head_section div.status_alt > ul > li a, [dir="rtl"].tarfee_profile_cover_head_section div.status_alt > ul > li a:hover, [dir="rtl"].tarfee_profile_cover_head_section div.status_alt > ul > li.active > a, [dir="rtl"].tarfee_profile_cover_head_section div.status_alt > ul > li.tab_open > a
+{
+    float: right;
+}
+.tarfee_profile_cover_head_section div.status_alt > ul > li a:hover
+{
+    background-color: rgba(204, 204, 204, 0.1);
+}
+.tarfee_profile_cover_head_section div.status_alt > ul > li.active > a, .tarfee_profile_cover_head_section div.status_alt > ul > li.active > a:hover, .tarfee_profile_cover_head_section div.status_alt > ul > li.tab_open > a
+{
+    background-color: rgba(204, 204, 204, 0.1);
+    top: 0;
+    position: static;
+}
+.tarfee_profile_cover_head_section div.status_alt > ul > li.active > a, .tarfee_profile_cover_head_section div.status_alt > ul > li.active > a:hover
+{
+    background-color: transparent;
+}
+.tab_pulldown_contents_wrapper
+{
+    margin-top: 40px;
+}
+
+/*If there is no profile*/
+.tarfee_profile_cover_no_profile_photo div.status_alt
+{
+    margin: -56px 0 0 0px;
+    z-index: 11;
+}
+/*More Pulldown*/
+.tab_pulldown_contents_wrapper
+{
+    border-radius: 0;
+    padding: 0;
+}
+.tab_pulldown_contents, .tab_pulldown_contents ul
+{
+    background: none;
+    padding: 0;
+    margin: 0;
+}
+.status_alt.tab_identify_account
+{
+    background-color: #A0B74F;
+    float: right;
+    min-height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    word-wrap: break-word;
+    max-width: 220px;
+}
+.status_alt.tab_identify_account > div
+{
+    color: #FFF;
+    padding-top: 10px;
+}
+.status_alt.tab_identify_account div.user_icon
+{
+    float: left;
+    font-size: 30px;
+    line-height: 40px;
+}
+.status_alt.tab_identify_account div.user_type_verify
+{
+    margin-left: 40px;
+}
+
+}
+
+
+#global_page_user-profile-index{
+    .layout_right{
+        width: 430px;
+		margin-left: 15px;
+		margin-top: 15px;
+
+        .generic_layout_container{
+        	position: relative;
+        	background: #fff;
+			+tarfee_border_radius(4px);
+			overflow: hidden;
+        }
+        .layout_profile_completeness_profile_completeness{
+        	background: transparent;
+        	margin-top: 0;
+        }
+    }
+}
+
+.tarfee_total_items{
+	color: #fff;
+	font-weight: bold;
+	background-color: $theme_link_color;
+	width: 20px;
+	height: 20px;
+	display: block;
+	text-align: center;
+	border-radius: 50%;
+	position: absolute;
+	right: 10px;
+	top: 11px;
+}
+
+div.btn-add-more,
+.tarfee_create_item{
+	margin: 15px;
+	a{
+		text-align: center;
+		display: block;
+		color: #fff !important;
+		font-weight: bold;
+		background-color: $theme_link_color;
+		padding: 7px;
+		+tarfee_border_radius(4px);
+	}
+}
+
+.icon_event_viewall{
+	text-transform: lowercase;
+}
+
+.icon_event_viewall{
+	text-align: center;
+	display: inline-block;
+	float: right;
+	color: #fff !important;
+	font-weight: bold;
+	background-color: $theme_link_color;
+	padding: 7px;
+	+tarfee_border_radius(4px);
+	margin: 15px;
+}
+
+
+.ynevents_profile_tab{
+	padding: 15px;
+
+	.ynevents_profile_tab_title{
+		
+		a{
+			+tarfee_text_overflow;
+			display: inherit;
+		}
+	}
+}

@@ -1,0 +1,327 @@
+ul.feed div.feed_item_date > ul > li.feed_item_option_share{
+	display: inline-block !important;
+}
+
+div#compose-yncomment-photo-loading{
+	padding: 10px;
+}
+/*Nested comment in Ynfeed*/
+	.yncomment_feed{
+/*		margin-bottom: 100px;*/
+	}
+	.yncomment_feed div.comments{
+		width: 100% !important;
+		background: #f2f2f2;
+	}
+	.yncomment_feed .yncomment_nestcomment  div.comments{
+		background: transparent !important;
+		margin-top: -12px;
+	}
+	.yncomment_feed .yncomment_nestcomment .comments_info{
+		padding-top: 0px;
+	}
+	.ynfeed_advcomment a.yncomment_hidden{
+		padding: 5px;
+		margin-top: 0px;
+	}
+	.ynfeed_advcomment .comment_item_hide{
+		padding: 0px;
+		margin-top: 0px;
+	}
+	.ynfeed_advcomment .comments_viewall a {
+		font-size: 13px;
+		font-weight: normal;
+	}
+
+	.ynfeed_advcomment .comments_date li{
+		font-size: 11px;
+	}
+	.yncomment_feed_item_date ul li{
+		font-size: 12px;
+/*		vertical-align: bottom !important;*/
+	}
+	ul.feed .comments
+	{
+		width: 100%;
+	}
+	.yncomment_yncomment a.buttonlink {
+	}
+	.ynfeed_advcomment .yncomment_nestcomment:hover > .yncomment_replies_info_op, 
+	.yncomment_reply li:hover > .yncomment_replies_info_op{
+		display:block;
+	}
+	#compose-yncomment-comment-photo-body + div.compose-menu {
+		position: absolute;
+		right:0;
+		top:10px;
+	}
+	#compose-yncomment-comment-photo-body + div.compose-menu .buttonlink {
+		height:16px;
+	}
+	#compose-yncomment-comment-photo-body {
+		overflow: visible;
+		padding: 0;
+	}
+	.yncomment_nestcomment .comments_author_photo{
+		padding-top: 3px;
+	}
+	.yncomment_nestcomment .comments_author_photo img{
+		border: none;
+		margin-right: 5px;
+	}
+	.yncomment_nestcomment .comments_author a{
+		font-size: 13px;
+	}
+	.yncomment_nestcomment .comments_info{
+/*		width: 85%;
+		overflow: visible;
+		float: left;*/
+		width: 100%;
+		float: none;
+		padding-left: 40px;
+		padding-right: 25px;
+		overflow: visible;
+	}
+	.activity-comment-form button{
+		margin-top:5px;
+	}
+	ul.ynfeed_advcomment{
+		display: flex;
+		flex-flow: row wrap;
+		overflow: visible;
+	}
+	ul.ynfeed_advcomment > li.yncomment_nestcomment{
+		clear: both;
+		overflow: visible;
+		display: inline-block;
+		width: 100%;
+		border-top: 1px solid #fff;
+		margin-bottom: 0px;
+		padding-bottom: 15px;
+	}
+	ul.ynfeed_advcomment > li{
+		padding: 10px;
+		width: 100%;
+	}
+	.ynfeed_advcomment .yncomment_reply > li {
+		background: #fff;
+	}
+	.ynfeed_advcomment .yncomment_reply .comments_info .comments_body{
+
+	}
+	.ynfeed_advcomment ul.feed .yncomment_nestcomment .comments{
+		width: 100% !important;
+	}
+	.ynfeed_advcomment ul.yncomment_reply {
+		margin-left: 40px;	
+/*		width: 101%;*/
+		overflow: visible;
+	}
+	.ynfeed_advcomment ul.yncomment_reply > li{
+		overflow: visible;
+		width: 100%;
+		padding: 5px 10px;
+	}
+	.ynfeed_advcomment .activity-reply-form {
+		display: inline-block;
+		width: 100%;
+	}
+	.ynfeed_advcomment .yncomment_nestcomment .comments_info form.activity-comment-form{
+		margin: 0px;
+		margin-top: 18px;
+	}
+	.ynfeed_advcomment .activity-reply-form, form.activity-comment-form{
+		/*margin: 10px;*/
+	}
+	.ynfeed_advcomment .yncomment_comment_box{
+		padding:10px 5px;
+		border-width: 2px;
+	}
+	.ynfeed_advcomment + form{
+
+		padding: 0px;
+		margin: 0px 10px 20px 10px;
+	}
+/*	.yncomment_feed .comments{
+		background: #f2f2f2;
+	}*/
+/*Like and dislikes in Advanced Feed*/
+	.ynfeed_advcomment span.comments_likes{
+		display: block;
+		background: #f2f2f2;
+		padding: 7px 10px;
+		width: 100%;
+		border-top: 1px solid #fff;
+		font-size: 13px;
+	}
+	.comment-likes-activity-item .nstcomment_unlike, .comment-likes-activity-item .nstcomment_like {
+		vertical-align:middle;
+		display: inline-table;
+	}
+	.nstcomment_wrap img , .ynfeed_advcomment .nstcomment_unlike img, .ynfeed_advcomment .nstcomment_like img, 
+	.comment-likes-activity-item .nstcomment_unlike img, .comment-likes-activity-item .nstcomment_like img,
+	.yncomment_nestcomment .comments_like img, .yncomment_nestcomment .comments_unlike img{
+		height: 12px;
+	}
+	.ynfeed_advcomment .comments_date{
+		margin-top: 10px;
+		margin-bottom: 6px;
+	}
+	.comments .comments_date > li {
+		margin-bottom:3px;
+	}
+	.yncomment_nestcomment .comments_like img, .yncomment_nestcomment .comments_unlike img{
+		vertical-align: bottom;
+	}
+
+	.yncomment_replies_wrapper .compose-container .overTxtLabel,
+	.yncomment_feed .compose-container .overTxtLabel{
+		padding: 10px 0 0 10px;
+		font-weight: normal;
+		opacity: 1 !important;
+	}
+	.yncomment_nestcomment .comment_edit a.buttonlink,
+	.yncomment_nestcomment .reply_edit a.buttonlink{
+		/*background-size: auto*/;
+	}
+	.comments_date .comments_like, .comments_date .comments_unlike {
+		text-transform: capitalize;
+		vertical-align: bottom;
+	}
+	
+/*textarea in feed*/
+	.ynfeed_advcomment .activity-reply-form textarea,
+	html ul.feed .comments > form > textarea{
+		width:100%;
+	}
+
+/*Smilies in Feed*/
+	.adv_composer_tip {
+		background:#333333;
+		color: #FFFFFF;
+		display: none;
+		font-size: 11px !important;
+		font-weight: normal;
+		left: auto;
+		opacity: 0.8;
+		padding: 5px;
+		position: absolute;
+		right: 0;
+		white-space: nowrap;
+	}
+	html[dir="rtl"] .adv_composer_tip{
+		right:auto;
+		left:0px;
+	}
+	.adv_composer_tip img {
+		clear:both;
+		bottom: 0;
+		position: absolute;
+		right:5px;
+		margin:0 auto -7px;
+	}
+	html[dir="rtl"] .adv_composer_tip img{
+		left:5px;
+		right:auto;
+	}
+	.yncomment_emoticons .adv_post_smile {
+		position: absolute;
+		bottom: 5px;
+		font-size: 20px;
+		margin-right: 10px;
+		float: right;
+		cursor: pointer;
+		right: 0px;
+	}
+	.layout_yncomment_comments .yncomment_emoticons .adv_post_smile{
+/*		background-position: center -1px;*/
+	  	font-size: 20px;
+		position: absolute;
+		margin-left: 5px;
+		right: 10px;
+	}
+	.yncomment_emoticons .adv_post_smile:hover {
+		background-position: center bottom;
+	}
+	.yncomment_emoticons {
+		position: relative;
+	}
+/*Add photo link inside the comment box*/
+	.ynfeed_advcomment + form .compose-tray,
+	.ynfeed_advcomment .compose-tray{
+		position: relative;
+	  	padding: 10px 2px !important;
+	}
+/*	.ynfeed_advcomment + form .compose-body #compose-photo-form-fancy-file,
+	.ynfeed_advcomment .compose-body #compose-photo-form-fancy-file{
+		background-image: none;
+		padding-left: 0px;
+		font-size: 20px;
+		position: absolute;
+		float: right;
+		margin-right: 12px;
+	}*/
+
+/*Add link >> Photo Attachment*/
+.yncomment_comments_attachment {
+	overflow: hidden;
+}
+.yncomment_comments_attachment .yncomment_comments_attachment_photo {
+	float:left;
+}
+.yncomment_comments_attachment .yncomment_comments_attachment_photo img{
+	height: 100%;
+}
+/*Author photo Tooltip*/
+.tip_main_photo .item_photo_user{
+	width: 33px;
+	height: 33px;
+	margin-right: 10px;
+	border: none;
+	border-radius: 5px;
+}
+.yncomment_replies_author .yncomment_replies_author_photo_tooltip {
+	display:none;
+}
+.yncomment_replies_author .yncomment_comment_tips_wrap:hover .yncomment_replies_author_photo_tooltip {
+	display: block;
+}
+.yncomment_comment_tips_wrap {
+	position: relative;
+	display: inline-block;
+}
+.yncomment_comment_tips > img {
+	vertical-align: top;
+}
+.yncomment_replies_author_photo_tooltip {
+	position: absolute;
+	min-width: 325px;
+	max-width: 365px;
+	z-index: 200;
+	background-color: #fff;
+	padding: 15px;
+	border-radius: 7px;
+	border: 3px solid #ccc;
+	top: -10px;
+	left: 125%;
+}
+.yncomment_replies_author_photo_tooltip:before{
+	content: "";
+	width: 29px;
+	height: 24px;
+	position: absolute;
+	left: -29px;
+	top: 5px;
+	background: url(../images/arrow-popup.png);
+}
+
+.yncomment_replies_author_photo_tooltip .tip_main_body {
+    max-width: 100%;
+    display: block;
+    width: 100%;
+}
+
+/*Hide infotooltip from lightbox*/
+.photo_lightbox_right_content .yncomment_comment_tips_wrap{
+    display:none;
+}

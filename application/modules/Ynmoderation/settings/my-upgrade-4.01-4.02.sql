@@ -1,0 +1,5 @@
+INSERT IGNORE INTO `engine4_ynmoderation_modules` 
+(`name`, `object_type`, `enabled`, `moderation_query`, `code_name`, `report_query`, `report_object_type`, `report_field`)  
+VALUES 
+('Albums', 'album', '1', 'SELECT `album_id` AS `id`, `title` AS `title`, `owner_id` AS `creator`, `creation_date` AS `creation_date`, \'Albums\' AS `module_name` , \'album\' AS `type` FROM engine4_album_albums', 'album', 'SELECT report_id, user_id, category, description, subject_type, subject_id, creation_date, \'core_report\' AS `report_type` FROM engine4_core_reports WHERE (subject_type=\'album\' OR subject_type=\'advalbum_album\')', 'core_report', 'subject_id'),
+('Photos', 'album', '1', 'SELECT `photo_id` AS `id`, `title` AS `title`, `owner_id` AS `creator`, `creation_date` AS `creation_date`, \'Photos\' AS `module_name` , \'album_photo\' AS `type` FROM engine4_album_photos', 'photo', 'SELECT report_id, user_id, category, description, subject_type, subject_id, creation_date, \'core_report\' AS `report_type` FROM engine4_core_reports WHERE (subject_type=\'album_photo\' OR subject_type=\'advalbum_photo\')', 'core_report', 'subject_id');

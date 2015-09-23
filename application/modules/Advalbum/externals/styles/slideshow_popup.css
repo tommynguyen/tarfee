@@ -1,0 +1,42 @@
+.smoothbox_nav {
+	clear: none;
+	height: 30px;
+	position: relative;
+}
+
+.smoothbox_popup_details {
+	float: left;
+	margin: 10px 0 2px;
+}
+
+.smoothbox_currentTextHolder {
+	color: #999;
+	font-family: Georgia;
+	font-size: 11px;
+	font-style: italic;
+	left: 75px;
+	line-height: 25px;
+	margin: 0;
+	padding: 0 0 0 10px;
+	position: absolute;
+	top: 2px;
+}
+
+.smoothbox_arrow_next {
+	background: url('imgs/sprite.png') no-repeat -82px -4px;
+	width: 20px;
+	height: 20px;
+	background: url(../images/lightbox/prettyPhoto/default/sprite.png) -82px
+	-4px no-repeat;
+	display: block;
+	cursor: pointer;
+}
+
+.smoothbox_arrow_previous {
+	background: url(../images/lightbox/prettyPhoto/default/sprite.png)
+		no-repeat -30px -4px;
+	height: 20px;
+	width: 20px;
+	display: block;
+cursor: pointer;
+}

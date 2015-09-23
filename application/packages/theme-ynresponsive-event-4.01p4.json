@@ -1,0 +1,458 @@
+{
+  "type": "theme",
+  "name": "ynresponsive-event",
+  "version": "4.01p4",
+  "revision": null,
+  "path": "application\/themes\/ynresponsive-event",
+  "repository": null,
+  "date": "Fri, 08 May 2015 06:54:37 +0000",
+  "title": "YN - Responsive Event Template",
+  "description": "YouNet Responsive Event Template",
+  "thumb": "theme.jpg",
+  "developer": null,
+  "authors": [
+    "YouNet Company"
+  ],
+  "changeLog": null,
+  "meta": {
+    "date": "Fri, 08 May 2015 06:54:37 +0000",
+    "title": "YN - Responsive Event Template",
+    "description": "YouNet Responsive Event Template",
+    "developer": null,
+    "authors": [
+      "YouNet Company"
+    ],
+    "changeLog": null
+  },
+  "actions": [
+    "install",
+    "upgrade",
+    "refresh",
+    "remove"
+  ],
+  "callback": {
+    "path": null,
+    "class": "Engine_Package_Installer_Theme",
+    "priority": 100
+  },
+  "dependencies": {
+    "module-ynresponsive1": {
+      "type": "module",
+      "name": "ynresponsive1",
+      "guid": "module-ynresponsive1",
+      "minVersion": "4.04",
+      "maxVersion": null,
+      "excludeExcept": null
+    },
+    "module-ynresponsiveevent": {
+      "type": "module",
+      "name": "ynresponsiveevent",
+      "guid": "module-ynresponsiveevent",
+      "minVersion": "4.01p4",
+      "maxVersion": null,
+      "excludeExcept": null
+    }
+  },
+  "tests": [
+    
+  ],
+  "permissions": [
+    
+  ],
+  "structure": {
+    "application\/themes\/ynresponsive-event": {
+      "type": "directory",
+      "path": "application\/themes\/ynresponsive-event",
+      "structure": [
+        {
+          "path": "constants.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 8647,
+          "sha1": "0c29479d4a4cf8fb935bc4fbb160d966cf4b6a34"
+        },
+        {
+          "path": "theme.jpg",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 15464,
+          "sha1": "7122fc33e65eecd1838d5c58ed0e109251540b70"
+        },
+        {
+          "path": "manifest.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1227,
+          "sha1": "9a521c9a75b19b1660b9e832cd17cafe338d9c88"
+        },
+        {
+          "path": "yncustom-homepage.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 9914,
+          "sha1": "e24166b7b678d8f083bf28e81737cb641a21baf7"
+        },
+        {
+          "path": "theme.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 112785,
+          "sha1": "5f1c1d456c9580ff1bab29fd3353ce1c20823094"
+        },
+        {
+          "path": "mobile.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 20061,
+          "sha1": "0bea8efa002993da797873e0c6b3a63cf381420f"
+        },
+        {
+          "path": "editor.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1313,
+          "sha1": "9699de10bce01e2866ad03854d29ae357b816568"
+        },
+        {
+          "path": "grid.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3031,
+          "sha1": "93977255f03f11274ba85a423f5f382aea0602c3"
+        },
+        {
+          "path": "logo.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3344,
+          "sha1": "08dd2d60a59ecf13d7d894e99fb4d612054970d5"
+        },
+        {
+          "path": "default_theme.jpg",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 6119,
+          "sha1": "0564de905c7e3d9857af255480cc4ec295729b09"
+        },
+        {
+          "path": "yncustom.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 21917,
+          "sha1": "3d5039b416e8ae55e3d8581866fb8019953fc912"
+        },
+        {
+          "path": "yncustom-tablet.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4797,
+          "sha1": "337951a336746af76ace51b65db8ef2dd101ec89"
+        },
+        {
+          "path": "yncustom-mobile.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 14616,
+          "sha1": "8efcd3bbdec4fd2e0641c83acf4198c3e5c112f9"
+        },
+        {
+          "path": "ynresponsive1.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 107,
+          "sha1": "fbfae2880e2c492a34916c5a738b5f8c517917c0"
+        },
+        {
+          "path": "style.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 36603,
+          "sha1": "44f6b188310da5b2b222be42fe59fee2eff47aed"
+        },
+        {
+          "path": "images",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "images\/bg-heading.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 952,
+          "sha1": "a2839e66cccbf7e8ee4a03d7446913d6a1a3c609"
+        },
+        {
+          "path": "images\/ynicon-message.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1192,
+          "sha1": "f20c3c16333e5f54c6938ff72f0524e75e7571e1"
+        },
+        {
+          "path": "images\/rss.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3358,
+          "sha1": "afd6e298514fccd109ee61e9ab5a3c0e754605d6"
+        },
+        {
+          "path": "images\/linkedin.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3004,
+          "sha1": "84362c2106a279eee6ee6171d5537d323a094115"
+        },
+        {
+          "path": "images\/icon-twitter.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1343,
+          "sha1": "4381e13ae3104055858d0bdb35c6413431cf7b88"
+        },
+        {
+          "path": "images\/facebook.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2973,
+          "sha1": "2f6279e40f80e5ef276123299a7f2a3670a27ca2"
+        },
+        {
+          "path": "images\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "images\/googleplus.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3261,
+          "sha1": "035294209e6d4e2498b5ee83fa6e010bb0014b6a"
+        },
+        {
+          "path": "images\/wysihtml5_toolbar_icons.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2119,
+          "sha1": "77ec603413696bfac1016acb824ee32b59f4e811"
+        },
+        {
+          "path": "images\/icon-facebook.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1315,
+          "sha1": "95950f79ef21b6324202812c8b128b5bc63c914d"
+        },
+        {
+          "path": "images\/twitter.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3055,
+          "sha1": "5711936f57867efd6f9af39b886b44c7b8afca1f"
+        },
+        {
+          "path": "images\/bullet_active.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 234,
+          "sha1": "07c391fc4acffd04842d52ad8ab91a8446d727e7"
+        },
+        {
+          "path": "images\/logo.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3793,
+          "sha1": "6f79caacaa382b8b89edc6041a1ececbffe5b4b1"
+        },
+        {
+          "path": "images\/calendar.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 655,
+          "sha1": "68c287ab6a3982a6c3f90933b174aca16a892609"
+        },
+        {
+          "path": "images\/slideshow_bg.jpg",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 212325,
+          "sha1": "2e763dd26ca721f590ca9d0028b1bb85bee5d362"
+        },
+        {
+          "path": "images\/icon-search.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1356,
+          "sha1": "fbecf28165beb82f50e14a6edfc93eaab7537353"
+        },
+        {
+          "path": "images\/bullet_hover.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 232,
+          "sha1": "20edf2f73f92f3d0575645d8b2e2d80cc25ff5ad"
+        },
+        {
+          "path": "images\/pintrest.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3116,
+          "sha1": "d02a66fa69e3626c4ca8e77f7aae05a1a40b9b1c"
+        },
+        {
+          "path": "images\/icon-event-sprite.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 10829,
+          "sha1": "0b4b61dc990d1b6c946066578f1e679ceeb45ab4"
+        },
+        {
+          "path": "images\/ynicon-notification.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1325,
+          "sha1": "dc664c0b94fdf16e6318e487e18313b6392a2837"
+        },
+        {
+          "path": "images\/vimeo.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3216,
+          "sha1": "78c676724eca044dd8914a609da25eb96ffe873a"
+        },
+        {
+          "path": "images\/ynicon-friend.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1228,
+          "sha1": "ce5e2a62a88978be542f401e2895063352750c3b"
+        },
+        {
+          "path": "images\/icon-listing-event-mode.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1276,
+          "sha1": "412a3ebc1a5fa7dabb9172c68776fb6f9668f7ea"
+        },
+        {
+          "path": "images\/breadcrumbs.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 23104,
+          "sha1": "2742831732ec4f76bcc77e43f8830e3cfe7bce37"
+        },
+        {
+          "path": "images\/bullet.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 229,
+          "sha1": "84d0fad8b57c0bb22f4a854e46782504ee3f898d"
+        },
+        {
+          "path": "images\/buttonbg.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 110,
+          "sha1": "3b9fdebc28732665c1837230250b8027e17b470d"
+        },
+        {
+          "path": "images\/icon-category-collapse.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1073,
+          "sha1": "3905aeded28bd19a0d0371eac4e5d534c8829480"
+        },
+        {
+          "path": "images\/bg-text.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 950,
+          "sha1": "d0daa102fb1bb0d8332bb20ac60fc6f9b78ea463"
+        },
+        {
+          "path": "images\/icon-marker.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1100,
+          "sha1": "8beeed6d05771b62f4271cc785a51656828a9f7a"
+        }
+      ]
+    },
+    "application\/themes\/configure\/default": {
+      "type": "directory",
+      "path": "application\/themes\/configure\/default",
+      "structure": [
+        {
+          "path": "reset.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 7895,
+          "sha1": "4c03a1ad87c0f25ad34efb4562715eb43102ed71"
+        }
+      ]
+    },
+    "application\/themes\/configure\/ynresponsive-event": {
+      "type": "directory",
+      "path": "application\/themes\/configure\/ynresponsive-event",
+      "structure": [
+        {
+          "path": "reset.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 18491,
+          "sha1": "1e11be6a30850699f3f365277fa102bd6c63bdb6"
+        }
+      ]
+    }
+  }
+}

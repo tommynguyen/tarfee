@@ -1,0 +1,84 @@
+#layout_ynfeedback_highlight_feedback .flexslider .flex-prev,
+#layout_ynfeedback_highlight_feedback .flexslider .flex-next {
+	top: -25px;
+}
+
+.ynfeedback-right-categories .ynfeedback-right-categories-item i.fa {
+	vertical-align: middle;
+}
+
+.ynfeedback-right-categories .ynfeedback-right-categories-item span.counter {
+	height: 20px;
+}
+
+.template-ynresponsive-metro .layout_page_ynfeedback_idea_view .layout_core_content .ynfeedback-detail-option-action {
+  position: absolute;
+  top: 48px;
+  right: 13px;
+}
+
+@media screen and (max-width: 991px) {
+	.layout_ynfeedback_feedback_button {
+		display: none;
+	}
+
+	.ynfeedback-middle-categories li {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#global_page_ynfeedback-idea-manage-screenshots,
+	#global_page_ynfeedback-idea-manage-files {
+		#TB_window {
+			max-width: 300px;
+			width: 300px !important;
+			left: 50% !important;
+			margin-left: -150px;
+		}
+	}
+
+	.layout_page_ynfeedback_idea_view .layout_core_content .ynfeedback-detail-main-content .ynfeedback-detail-decision .ynfeedback-detail-decision-author .feedback-detail-decision-image,
+	.ynfeedback-listing-item .ynfeedback-listing-decision .ynfeedback-listing-decision-author .feedback-listing-image {
+		display: none;
+	}
+
+	.ynfeedback-middle-categories li {
+		width: 100%;
+	}
+
+	.ynfeedback-listing-item .ynfeedback-listing-option {
+		text-align: right;
+		float: none;
+		padding-left: 0;
+		border-left: 0;
+		margin-left: 0;
+
+		.option-item {
+			display: inline-block;
+			margin-left: 5px;
+		}
+	}
+
+	.layout_page_ynfeedback_idea_manage-screenshots .ynfeedback-vote-action, 
+	.layout_page_ynfeedback_idea_manage-files .ynfeedback-vote-action,
+	.layout_page_ynfeedback_idea_view .layout_core_content .ynfeedback-vote-action {
+		float: none;
+		margin-bottom: 10px;
+	}
+
+	.layout_page_ynfeedback_idea_view .layout_core_content ~ .generic_layout_container {
+		margin-left: 0;
+	}
+
+	.layout_page_ynfeedback_idea_view .ynfeedback-detail-screenshots-list > li {
+		width: 50%;
+		padding-bottom: 10px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.layout_page_ynfeedback_index_create #toValues-wrapper #toValues-label {
+		display: none;
+	}
+}

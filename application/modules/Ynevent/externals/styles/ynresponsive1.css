@@ -1,0 +1,372 @@
+.layout_ynevent_browse_search {
+    padding: 0;
+    border: 0;
+}
+
+.layout_ynevent_feature_events #ynevent_slideshow_left {
+    margin: 0;    
+}
+
+body[id^=global_page_ynevent] {
+    .datepicker_jqui {
+        width: 195px;
+    }
+    
+    .datepicker_jqui .days .day {
+        width: 24px;
+        height: 16px;
+    }
+    
+    .datepicker_jqui .days .titles .title {
+        width: 24px;
+    }
+}
+
+#global_page_ynevent-index-manage .layout_right .filters {
+    padding: 0 20px !important;
+}
+
+#global_page_ynevent-event-direction .ynevent_widget_location_direction #pac-input { width: 280px; }
+#global_page_ynevent-video-manage .poll_search_form button[type="submit"] {
+    margin-top: 1em;
+}
+
+#global_page_ynevent-photo-view {
+    
+    div.ynevent_photo_view #media_photo {
+        max-width: 100%;
+    }
+    
+    div.ynevent_photo_view {
+        min-width: 0;
+    }
+}
+
+body[id^=global_page_ynevent] .global_form input[type=radio] {
+    margin-top: 2px;
+    vertical-align: middle;
+}
+
+body[id^=global_page_ynevent] .layout_ynevent_profile_near_location ul.generic_list_widget > li,
+body[id^=global_page_ynevent] .layout_ynevent_profile_near_location ul.generic_list_widget > li + li,
+body[id^=global_page_ynevent] .layout_main .layout_ynevent_profile_related .generic_list_widget > li,
+body[id^=global_page_ynevent] .layout_main .layout_ynevent_profile_related .generic_list_widget > li + li {
+    padding: 10px 0;
+}
+
+body[id^=global_page_ynevent] {
+    /*** slideshow ***/
+    ul.ynevent_slideshow_pagination li a .ynevent_album_title {
+        padding-bottom: 0;
+    }
+    #ynevent_navigation {
+        border-radius: 0;
+        -moz-border-radius: 0;
+        -webkit-border-radius: 0;
+    }
+    
+    /*** layout list/grid view ***/
+    .layout_main .generic_list_widget > li + li {
+        padding: 0;
+    }
+    
+    .ynevent_grid-view .ynevent-tabs-content li .info .date {
+        height: 95px;
+    }
+    
+    .ynevent_grid-view .ynevent-tabs-content li .desc {
+        height: 32px;
+    }
+    
+    .ynevent_grid-view .ynevent-tabs-content li .info .date,
+    .ynevent_list-view .ynevent-tabs-content li .photo .date {
+        background-color: $theme_main_color_scheme;
+    }
+    
+    .layout_ynevent_list_most_time_past,
+    .layout_ynevent_list_most_items,
+    .layout_ynevent_list_most_time {
+        .tabs_alt.tabs_parent > ul {
+            border-bottom: 1px solid $theme_tabs_border_color;
+            padding: 0;
+            
+            li > a { top: -2px; }
+            li > a:hover { color: $theme_tabs_font_color_active; }
+            
+            li > a.selected,
+            li > a.selected:hover {
+                background-color: $theme_tabs_background_color_active;
+                color: $theme_tabs_font_color_active;
+                top: -2px;
+                border: 0;
+                border-radius: 0;
+                -moz-border-radius: 0;
+                -webkit-border-radius: 0;
+            }
+        }
+        
+        .tabs_alt.tabs_parent {
+            border: 0;       
+        }
+    }
+    
+    /*** calendar ***/
+    .mycalendar_controls select {
+        height: 30px;
+        line-height: 26px;
+        padding: 0 15px 0 0;
+    }
+    
+    .mycalendar_controls button {
+        padding: 3px 10px;
+        height: 30px;
+        line-height: 26px;
+        display: inline;
+    }
+    
+    .mycalendar_controls .control {
+        top: 0;
+    }
+    
+    /***** more option *****/
+    ul.ynevent_discussions .ynevent_discussions_replies {
+        width: auto;
+    }
+    
+    ul.ynevent_discussions .ynevent_discussions_lastreply {
+        float: none;
+        width: auto;
+    }
+} 
+
+.ynresponsive-metro .layout_ynevent_list_most_time .ynevent-action-view-method,
+.ynresponsive-metro .layout_ynevent_list_most_time_past .ynevent-action-view-method,
+.ynresponsive-metro .layout_ynevent_list_most_items .ynevent-action-view-method {
+    margin-top: -47px;
+}
+
+#global_page_ynevent-index-listing.ynresponsive-metro .ynevent-action-view-method {
+    top: 15px;
+}
+
+.ynresponsive1 .layout_ynevent_list_most_time .ynevent-action-view-method,
+.ynresponsive1 .layout_ynevent_list_most_time_past .ynevent-action-view-method,
+.ynresponsive1 .layout_ynevent_list_most_items .ynevent-action-view-method,
+.ynresponsive-event .layout_ynevent_list_most_time .ynevent-action-view-method,
+.ynresponsive-event .layout_ynevent_list_most_time_past .ynevent-action-view-method,
+.ynresponsive-event .layout_ynevent_list_most_items .ynevent-action-view-method {
+    margin-top: -46px;
+}
+
+.ynresponsive1 .layout_ynevent_my_manage .ynevent-action-view-method,
+.ynresponsive1 .ynevent-search-result-page .ynevent-action-view-method {
+    margin-top: -56px;
+}
+
+#global_page_ynevent-photo-upload .event_form_upload .form-elements {
+    #files,
+    .progress {
+        max-width: 100%;    
+    }
+}
+
+@media (max-width: 991px) {
+    #global_page_ynevent-index-manage { 
+        .layout_core_content {
+            position: inherit;
+        }
+        .generic_layout_container.layout_middle {
+            margin-top: 0;
+        }
+    }
+    
+    #global_page_ynevent-profile-index .layout_middle {
+        overflow: visible;
+    } 
+}
+
+@media (max-width: 767px) {
+    body[id^=global_page_ynevent] {
+        #ynevent_myCalendar .tooltip { display: none !important}
+        
+        .ynevent-action-view-method,
+    	.ynevent-search-result-page .ynevent-action-view-method, 
+        .tabs_alt.tabs_parent .ynevent-action-view-method {
+            position: relative;
+            margin-top: 0;
+            float: none;
+            
+            &:after {
+               content: " "; /* Older browser do not support empty content */
+               visibility: hidden;
+               display: block;
+               height: 0;
+               clear: both;   
+            } 
+        }
+        
+        .ynevent_grid-view .ynevent-tabs-content li {
+            width: 50%;
+        }
+        
+        .ynevent_grid-view .ynevent-tabs-content li:nth-child(3n+1) { clear: none; }
+        .ynevent_grid-view .ynevent-tabs-content li:nth-child(2n+1) { clear: left; }
+        
+        .layout_ynevent_list_most_time_past,
+        .layout_ynevent_list_most_items,
+        .layout_ynevent_list_most_time {
+            .tabs_alt.tabs_parent > ul > li {
+                display: block;
+                margin-bottom: 0;
+                width: 100%;
+            }
+        }
+        
+        .ynevent-widget-profile-cover .profile-cover-picture span {
+            height: 240px;
+        }
+        .ynevent-widget-profile-cover .profile-cover-avatar {
+            top: 100px;
+        }
+        
+        .ynevent-widget-profile-cover .ynevent-detail-info .info-top .ynevent-detail-main {
+            padding-left: 10px;
+        }
+        
+        .ynevent-widget-profile-cover .ynevent-detail-info {
+            padding: 0;
+        }
+        
+        .ynevent-widget-profile-cover .profile-cover-picture span,
+        .ynevent-widget-profile-cover .ynevent-detail-info .info-top {
+            border-radius: 0;
+            -webkit-border-radius: 0;
+            -moz-border-radius: 0;
+        }
+        
+        .ynevent-widget-profile-cover .ynevent-detail-info .info-bottom .ynevent-detail-contact {
+            width: 300px;
+        }
+     }
+}
+
+@media (max-width: 640px) {
+    body[id^=global_page_ynevent] {
+        .ynevent_list-view .ynevent-tabs-content li {
+           width: 100%;
+           float: none;
+        }
+        
+        .ynevent-widget-profile-cover .ynevent-detail-info .info-top .ynevent-detail-action {
+            float: none;
+            
+            & > div:first-child {
+                border-left: 0;
+            }
+        }
+        
+        .ynevent-widget-profile-cover .ynevent-detail-info .info-bottom .ynevent-detail-contact {
+            float: none;
+            width: 100%;
+        }
+        
+        div.ynevent_calendar_wrap_item div.ynevent_calendar_action {
+            position: relative;
+            text-align: right;
+        }
+        
+        table.calendar{
+    		width: 100%;
+    		border: 1px solid #dfdfdf;
+    		table-layout: fixed;
+    	}
+    	
+        table.calendar td{
+    		padding:3px;
+    		border:1px solid #dfdfdf;
+    	}
+    	
+        table.calendar .calendar-row td.calendar-day-head{
+    		text-align:center;
+    		text-overflow: ellipsis;
+    		overflow: hidden;
+    		white-space: nowrap;
+    		width:auto;
+    	}
+        
+        /*** slide show change style ***/
+        ul.ynevent_slideshow_pagination {
+            bottom: 0;
+            top: inherit;
+            width: 100%;
+            height: 112px;
+         
+            li {
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                border: 0;
+                
+                a { display: none; }
+                a.current {
+                    * { color: #a6a7ac; }
+                    background: transparent;
+                    display: block;
+                    
+                    &:after { display: none; }
+                    .ynicon-person-w { width: 14px; height: 13px; background-position: -65px 0; }
+                    .ynicon-location-w { width: 14px; height: 16px; background-position: -65px -25px; }
+                    .ynicon-time-w { width: 16px; height: 15px; background-position: -65px -40px; }
+                    
+                    .ynevent_album_title {
+                        color: #5f9ec1;
+                        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+                    } 
+                }
+            }
+        }
+         
+    }
+    
+    #global_page_ynevent-event-promote {
+        .ynevent_promote_wrapper { 
+            padding: 10px; 
+            max-width: 100%;
+            min-width: 0;
+        }
+        
+        .ynevent_review,
+        .ynevent_promote_code {
+            margin-right: 0;
+            float: none;
+        }
+        
+        .ynevent_description {
+            width: 100%;
+        }       
+        
+    }
+}
+
+@media (max-width: 480px) {
+    body[id^=global_page_ynevent] {        
+        .ynevent_grid-view .ynevent-tabs-content li {
+            width: 100%;
+            float: none;
+        }
+     }
+
+    #ynevent_create_form {
+        #search-label, #approval-label, #auth_invite-label, #group_invite-label {
+            display: none;
+        }
+    } 
+}
+
+@media (max-width: 400px) {
+    body[id^=global_page_ynevent] {
+        .mycalendar_controls .control {
+            display: none;            
+        }
+     }
+}

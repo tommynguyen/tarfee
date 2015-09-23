@@ -1,0 +1,55 @@
+
+
+#ynevent_navigation
+{
+	background-color: $theme_button_background_color;
+	overflow: hidden;
+	padding: 25px 10px 12px 10px;
+}
+#ynevent_slideshow_left
+{
+	overflow: hidden;
+	position: relative;
+	height: 163px;
+}
+
+.ynevent_album_photo
+{
+	float: left;
+	width: 65%;
+	margin-right: 12px;
+}
+.ynevent_album_photo img
+{
+	width: 100%;
+}
+.ynevent_albumfeatured_info
+{
+	float: left;
+	width: 32%;
+}
+
+ul.ynevent_slideshow_pagination
+{
+	float: right;
+	margin-top: 10px;
+}
+ul.ynevent_slideshow_pagination li
+{
+	display: inline;
+}
+ul.ynevent_slideshow_pagination li a
+{
+	width: 14px;
+	height: 14px;
+	background: url(~/application/modules/Ynevent/externals/images/slide_pager_off.png) no-repeat left top transparent;
+	float: left;
+}
+ul.ynevent_slideshow_pagination li a + a
+{
+	margin-left: 8px;
+}
+ul.ynevent_slideshow_pagination li a.current
+{
+	background-image: url(~/application/modules/Ynevent/externals/images/slide_pager_on.png);
+}

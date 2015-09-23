@@ -1,0 +1,54 @@
+
+/* $Id: main.css 8822 2011-04-09 00:30:46Z john $ */
+
+body table.admin_table tbody tr.admin_logins_error
+{
+  background-color: #f2e3e1;
+}
+body table.admin_table tbody tr.admin_logins_error > td
+{
+  border-bottom: none;
+}
+body table.admin_table tbody tr.admin_logins_okay
+{
+  background-color: #e3f2e1;
+}
+body table.admin_table tbody tr.admin_logins_okay > td
+{
+  border-bottom: none;
+}
+
+#global_page_user-admin-manage-index{
+	.search div input, div.search div select{
+		width: 120px;
+	}
+	
+}
+
+#global_page_user-admin-requests-view-detail,
+#global_page_user-admin-upgrade-requests-view-detail{
+	span#global_content_simple{
+		padding: 10px;
+
+		h3{
+			text-align: center;
+			font-size: 18px;
+			margin-bottom: 10px;
+		}
+
+		.request-info{
+
+			& > div{
+				margin-bottom: 10px;
+			}
+		}
+		.action{
+			display: flex;
+
+			li{
+				text-align: center;
+				width: 100%;
+			}
+		}
+	}
+}

@@ -1,0 +1,1 @@
+update `engine4_core_modules` set `version` = '4.02p2' where `name` = 'yntour';

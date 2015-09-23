@@ -1,0 +1,150 @@
+/* It is recommended to place all your extra/additional CSS rules here */
+form#user_form_login 
+{
+  margin: 0 auto;
+  vertical-align: top;
+  display: block;
+  padding: 6px;
+  margin-bottom: 1em;
+  box-shadow: 0 2px 0 rgba(255, 255, 255, 0.3), inset 0 4px 4px rgba(0, 0, 0, 0.3);
+  background-color: #353639;
+  background-color: rgba(0,0,0,0.6);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+form#user_form_login  h4
+{
+	font-size: 18px!important;
+}
+form#user_form_login div
+{
+	text-align: center;
+}
+form#user_form_login #remember-element input[type=checkbox]{
+	margin: 16px 0 0;
+}
+#user_form_login .form-elements input 
+{
+  font-size: 14px !important;
+  background-color: #fff !important;
+  display: inline-block;
+  border: none;
+  outline: 0;
+  vertical-align: middle;
+  vertical-align: top;
+  display: inline-block;
+  background-color: #353639;
+  background-color: rgba(0,0,0,0.6) !important;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  padding: 15px 15px 15px 15px!important;
+  color: #555!important;
+}
+.global_form_box label{
+	text-align:center;
+	color: #fff;
+	margin-top: 5px;
+	font-size: 14px;
+}
+.global_form_box #remember-wrapper label {
+  text-align: left !important;
+}
+#user_form_login #fieldset-buttons {
+  overflow: hidden;
+  width: 90%;
+  margin: 0 auto;
+}
+#fieldset-buttons button#submit {
+  width: 100%;
+  padding: 15px 25px;
+  color: #ffffff;
+  font-size: 15px;
+  outline: thin;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #094283;
+  background-image: -moz-linear-gradient(top, #ffa84c, #ff7b0d);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#257EE5), to(#183B64));
+  background-image: -webkit-linear-gradient(top, #257EE5, #183B64);
+  background-image: -o-linear-gradient(top, #257EE5, #183B64);
+  background-image: linear-gradient(to bottom, #257EE5, #183B64);
+  background-repeat: repeat-x;
+  border-color: #094283 #094283 #094283;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+button#submit:focus,button#submit:visited,button#submit:active{
+	color: #ffffff;
+	background-color: #0F3969;
+}
+#user_form_login #submit-wrapper {
+  float: none!important;
+}
+#user_form_login .form-elements input.text, 
+#user_form_login .form-elements input#password {
+  width: 90%;
+}
+.form-elements h4 {
+  color: #fff;
+}
+#user_form_login #forgot-element {
+  margin-top: 0px!important;
+}
+#user_form_login #forgot-element a:link, 
+#user_form_login #forgot-element a:visited,
+#user_form_login #register_guest-element a:link, 
+#user_form_login #register_guest-element a:visited
+{
+	font-size: 14px;
+	color: #ff6633
+}
+#user_form_login #forgot-element a:hover,
+#user_form_login #register_guest-element div a:hover 
+{
+  color: #b1c957;
+}
+.forgot-element, #forgot-label {
+  display: none;
+}
+#forgot-wrapper {
+  float: right;
+}
+#register_guest-element {
+  margin-top: 6px;
+}
+#register_guest-label {
+  display: none;
+}
+.register_guest a span {
+  font-weight: bold;
+  font-size: 14px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.register_guest>span {
+  color: #000;
+  font-weight: bold;
+  font-size: 18px;
+}
+#user_form_login #submit-element {
+  margin-top: 20px;
+}
+#TB_window
+{
+	border-width: 2px!important;
+}
+#TB_iframeContent
+{
+	width: 100%!important;
+}

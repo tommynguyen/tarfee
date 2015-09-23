@@ -1,0 +1,1 @@
+ALTER TABLE  `engine4_socialloft_myplugins` ADD  `license_key` TEXT NULL;

@@ -1,0 +1,350 @@
+#yn_collapse_btn{
+    position: absolute;
+    background: url(~/application/modules/Yntour/externals/images/collapse.png) no-repeat bottom;
+    cursor:pointer;
+    bottom:5px;
+    right:5px;
+    width:12px;
+    height:12px;    
+}
+#yntour_collapse{
+    position: fixed;
+    width:37px;
+    height: 126px;
+    top:90px;
+   
+    background: url(~/application/modules/Yntour/externals/images/tourguide_collapse.png) no-repeat bottom;   
+    cursor:pointer; 
+}
+
+#id_yntour_showbox table
+{
+    border-collapse: collapse;
+    z-index:40;
+}
+.hclear{
+    clear: both;
+}
+form#tour_create{
+    width:250px;
+}
+
+form#tour_create div.form-elements .form-wrapper .form-element,
+form#tour_create .form-elements .form-wrapper ul.form-options-wrapper > li
+{clear: both;}
+
+#yntour_control {
+	border: 1px solid rgba(255, 255, 255, 0.85);
+	border-radius: 4px;
+	background-color: #2B2B2B;
+	padding: 0.4em 0.7em;
+	position: fixed;
+	left: 5px;
+  	top: 155px;
+	box-shadow: 2px 2px 2px 0px rgba(128,128,128,0.5);
+    z-index: 1000;
+}
+#yntour_control a {
+}
+#activatetourtitle {
+	color: #FFF;
+	font-weight: bold;
+}
+
+#id_yntour_showbox {
+	color: #993300;
+	padding: 0 0 0;
+	text-align: center;
+	overflow:visible;
+}
+#id_yntour_showbox.lighten {
+	/*border: 1px solid #ccc;
+	 box-shadow: 1px 1px 1px 0px rgba(128,128,0,0.5);
+	 */
+}
+.yntour_box_top {
+	padding: 9px 8px 0;
+	background: url(~/application/modules/Yntour/externals/images/bubble_guide_bg.png) no-repeat top;
+	position: relative;
+}
+.yntour_box_middle {/* different middle bg for stretch */
+	background: url(~/application/modules/Yntour/externals/images/bubble_guide_bg_filler.png) repeat bottom;
+	padding: 0 11px 10px;
+	*padding: 0 11px 10px 0;
+}
+.yntour_box_bottom {
+	padding: 3px 11px 17px;
+	*padding: 3px 11px 13px;
+	color: #548912;
+	background: url(~/application/modules/Yntour/externals/images/bubble_guide_bg.png) no-repeat bottom;
+	min-height: 22px;
+}
+#id_yntour_pag {
+	font-size: small;
+	text-align: right;
+	background: #F0F0F0;
+	color: #fff;
+	*width: 300px;
+	*margin-left: -2px;
+	*padding: 8px 20px 0 !important;
+}
+#id_yntour_box_title {
+	font-weight: bold;
+	color: #FEFEFE;
+	font-size: 18px;
+}
+#id_yntour_box_content {
+	color: #CCC;
+    padding: 10px 0px;
+}
+
+#id_yntour_pag > div {
+	float: right;
+}
+#id_yntour_pag > div > span {
+	padding: 2px 12px 10px 10px;
+	display: block;
+	float: left;
+	min-height: 22px;
+}
+
+#id_yntour_pag_prev {
+	background: url("~/application/modules/Yntour/externals/images/icon_20/prev_active.png") no-repeat center;
+	cursor: pointer;
+}
+#id_yntour_pag_prev.disable {
+	background-image: url("~/application/modules/Yntour/externals/images/icon_20/prev.png");
+}
+#id_yntour_pag_next {
+	background: url("~/application/modules/Yntour/externals/images/icon_20/next.png") no-repeat center;
+	cursor: pointer;
+}
+
+#id_yntour_pag_next.disable {
+	background-image: url("~/application/modules/Yntour/externals/images/icon_20/next_noactive.png");
+}
+
+#id_yntour_pag_first {
+	background: url("~/application/modules/Yntour/externals/images/icon_20/reload.png") no-repeat center;
+	cursor: pointer;
+}
+
+#id_yntour_pag_last {
+	background: url("~/application/modules/Yntour/externals/images/icon_20/finish.png") no-repeat center;
+	cursor: pointer;
+}
+#id_yntour_pag_close {
+	background: url("~/application/modules/Yntour/externals/images/icon_20/finish.png") no-repeat center;
+	cursor: pointer;
+	height: 18px;
+	position: absolute;
+	right: -12px;
+	top: -6px;
+}
+#id_yntour_pag_index {
+	background-color: #FFFFFF;
+	border: 1px solid #C6C6C6;
+	border-radius: 8px 8px 8px 8px;
+	color: #000000;
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 3px 12px !important;
+}
+
+.core_mini_yntour {
+	color: #c00 !important;
+}
+.yntour_indexs {
+	padding: 2px 0 0 15px;
+	background: url(~/application/modules/Yntour/externals/images/icon_guide_noactive.png) no-repeat 0 0 transparent;
+	color: #FFF;
+	text-shadow: 1px 2px 2px 1px #DDDDDD;
+	opacity: 0.7;
+	font-weight: bold;
+	font-size: 38px;
+	height: 56px;
+	width: 56px;
+	z-index: 1;
+}
+html[dir="rtl"] .yntour_indexs {
+	padding: 2px 15px 0 0;
+	background: url(~/application/modules/Yntour/externals/images/icon_guide_noactive.png) no-repeat 0 0 transparent;
+	color: #FFF;
+	text-shadow: 1px 2px 2px 1px #DDDDDD;
+	opacity: 0.7;
+	font-weight: bold;
+	font-size: 38px;
+	height: 52px;
+	width: 40px;
+}
+html[dir="rtl"] .yntour_indexs.active, html[dir="rtl"] .yntour_indexs:hover {
+	background: url(~/application/modules/Yntour/externals/images/icon_guide_active.png) no-repeat 0 0 transparent;
+	color: #000000;
+	padding: 4px 17px 0 0;
+	cursor: default;
+}
+.yntour_indexs.active, .yntour_indexs:hover {
+	background: url(~/application/modules/Yntour/externals/images/icon_guide_active.png) no-repeat 0 0 transparent;
+	color: #000000;
+	padding: 4px 0 0 17px;
+	cursor: default;
+}
+#yntour_overlay {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.2;
+	filter: alpha(opacity = 20);
+	background: #444;
+	display: none;
+}
+.yntour_box_hightlight {
+	outline: 1px solid #00cc00;
+	*border: 1px solid #00CC00;
+	*margin: -1px;
+}
+
+.yntourbox_overlay {
+	position: absolute;
+	padding-bottom: 10px;
+	line-height: 1.28;
+	font-size: 11px;
+	color: #333;
+	direction: ltr;
+	text-align: left;
+    z-index: 1000;
+}
+
+.yntourbox_left .yntourbox_overlay{
+	right:0px;
+	left:auto;
+	/*border: 1px solid #ccc;*/
+}
+
+.yntourbox_right .yntourbox_overlay{
+	left:0px;
+	right:auto;
+/*	border: 1px solid #c00;*/
+}
+
+.yntourbox_top .yntourbox_overlay{
+	left:0px;
+	right:auto;
+	bottom:0px;
+	top:auto;
+}
+
+.yntourbox_bottom .yntourbox_overlay{
+	left:0px;
+	right:auto;
+	top:0px;
+	bottom:auto;
+}
+.yntourbox_inner{
+	position:relative;
+}
+.yntour_arrow{
+	position:absolute;
+	background-repeat: no-repeat;      
+}
+
+.yntourbox_left .yntour_arrow{    
+	background-image: url(~/application/modules/Yntour/externals/images/box/yn_tourguide_arrow_right.png);
+    width: 9px;
+    height:17px;
+}
+
+.yntourbox_right .yntour_arrow{
+    background-image: url(~/application/modules/Yntour/externals/images/box/yn_tourguide_arrow_left.png);
+    width: 9px;
+    height:17px;
+}
+
+.yntourbox_top .yntour_arrow{
+	background-image: url(~/application/modules/Yntour/externals/images/box/yn_tourguide_arrow_bottom.png);
+    width: 17px;
+    height:9px;
+}
+
+.yntourbox_bottom .yntour_arrow{
+	background-image: url(~/application/modules/Yntour/externals/images/box/yn_tourguide_arrow_top.png);
+    width: 17px;
+    height:9px;
+}
+.yntour_side{
+    
+}
+.yntour_side_1,
+.yntour_side_3,
+.yntour_side_7,
+.yntour_side_9{
+    width:10px;    
+}
+
+.yntour_side_1,
+.yntour_side_2,
+.yntour_side_3{
+    height: 11px;
+    line-height:11px;
+    overflow:hidden;
+}
+.yntour_side_7,
+.yntour_side_8,
+.yntour_side_9{
+    height:36px;
+}
+
+.yntour_side_2,
+.yntour_side_5,
+.yntour_side_8{
+    
+}
+
+.yntour_side_1{
+    background: url(~/application/modules/Yntour/externals/images/box/yn_tourguide_top_left.png) no-repeat 0 0 transparent;
+}
+html[dir="rtl"] .yntour_side_1{
+    background: url(~/application/modules/Yntour/externals/images/box/yn_tourguide_top_right.png) no-repeat 0 0 transparent;
+}
+.yntour_side_2{
+    background: url(~/application/modules/Yntour/externals/images/box/yn_tourguide_top_middle.png) repeat-x 0 0 transparent;    
+}
+.yntour_side_3{
+    background: url(~/application/modules/Yntour/externals/images/box/yn_tourguide_top_right.png) no-repeat 0 0 transparent;
+}
+html[dir="rtl"] .yntour_side_3{
+    background: url(~/application/modules/Yntour/externals/images/box/yn_tourguide_top_left.png) no-repeat 0 0 transparent;
+}
+.yntour_side_4{
+    background: url(~/application/modules/Yntour/externals/images/box/yn_tourguide_middle_left.png) repeat-y 0 0 transparent;
+}
+html[dir="rtl"] .yntour_side_4{
+    background: url(~/application/modules/Yntour/externals/images/box/yn_tourguide_middle_right.png) repeat-y 0 0 transparent;
+}
+.yntour_side_5{
+    background-color: #2c2c2c;
+}
+.yntour_side_6{
+    background: url(~/application/modules/Yntour/externals/images/box/yn_tourguide_middle_right.png) repeat-y 0 0 transparent;    
+}
+html[dir="rtl"] .yntour_side_6{
+    background: url(~/application/modules/Yntour/externals/images/box/yn_tourguide_middle_left.png) repeat-y 0 0 transparent;    
+}
+.yntour_side_7{
+    background: url(~/application/modules/Yntour/externals/images/box/yn_tourguide_bottom_left.png) no-repeat 0 0 transparent;    
+}
+html[dir="rtl"] .yntour_side_7{
+    background: url(~/application/modules/Yntour/externals/images/box/yn_tourguide_bottom_right.png) no-repeat 0 0 transparent;    
+}
+.yntour_side_8{
+    background: url(~/application/modules/Yntour/externals/images/box/yn_tourguide_bottom_middle.png) repeat-x 0 0 transparent;
+}
+.yntour_side_9{
+    background: url(~/application/modules/Yntour/externals/images/box/yn_tourguide_bottom_right.png) no-repeat 0 0 transparent;
+}
+html[dir="rtl"] .yntour_side_9{
+    background: url(~/application/modules/Yntour/externals/images/box/yn_tourguide_bottom_left.png) no-repeat 0 0 transparent;
+}

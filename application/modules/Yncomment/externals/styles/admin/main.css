@@ -1,0 +1,9 @@
+.yncomment_icon_add
+{
+  background-image: url(~/application/modules/Core/externals/images/admin/menus_additem.png);
+  padding-bottom: 2px;
+}
+.yncomment_icon_back
+{
+	background-image: url(~/application/modules/Core/externals/images/back.png);
+}

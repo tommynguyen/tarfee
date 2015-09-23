@@ -1,0 +1,1498 @@
+{
+  "type": "module",
+  "name": "socialloft",
+  "version": "1.1.0",
+  "revision": null,
+  "path": "application\/modules\/Socialloft",
+  "repository": null,
+  "date": "Mon, 08 Apr 2013 02:25:04 +0000",
+  "title": "SocialLOFT's Core",
+  "description": "SocialLOFT's Core",
+  "thumb": null,
+  "developer": null,
+  "authors": [
+    "SocialLOFT"
+  ],
+  "changeLog": null,
+  "meta": {
+    "date": "Mon, 08 Apr 2013 02:25:04 +0000",
+    "title": "SocialLOFT's Core",
+    "description": "SocialLOFT's Core",
+    "developer": null,
+    "authors": [
+      "SocialLOFT"
+    ],
+    "changeLog": null
+  },
+  "actions": [
+    "install",
+    "upgrade",
+    "refresh",
+    "enable",
+    "disable"
+  ],
+  "callback": {
+    "path": null,
+    "class": "Engine_Package_Installer_Module",
+    "priority": 100
+  },
+  "dependencies": null,
+  "tests": [
+    
+  ],
+  "permissions": [
+    
+  ],
+  "structure": {
+    "application\/modules\/Socialloft": {
+      "type": "directory",
+      "path": "application\/modules\/Socialloft",
+      "structure": [
+        {
+          "path": "Api",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Api\/Core.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 96560,
+          "sha1": "5e6718a9f4727ad183adeda04bff87e2dc0af109"
+        },
+        {
+          "path": "Bootstrap.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 89,
+          "sha1": "9b8dbcc31387819b2e1dad29644aa9debb33aa42"
+        },
+        {
+          "path": "controllers",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "controllers\/AdminAjaxController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4280,
+          "sha1": "5d7bad5be65f36639751f9463bad2355bd669283"
+        },
+        {
+          "path": "controllers\/IndexController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 364,
+          "sha1": "f7807a97d2814cb0c4acc347c2fa908795719f7e"
+        },
+        {
+          "path": "externals",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/.htaccess",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 147,
+          "sha1": "9f1638a8edbe1c5d28789e017fb35b2f2465f01e"
+        },
+        {
+          "path": "externals\/images",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/images\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "externals\/scripts",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/scripts\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "externals\/scripts\/core.init.js",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 9895,
+          "sha1": "795d1956870f57538bb1359d8b9ad7368d4c4af8"
+        },
+        {
+          "path": "externals\/scripts\/jquery-1.8.0.min.js",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 92556,
+          "sha1": "359c6c1ed98081b9a69eb3513b9deced59c957f9"
+        },
+        {
+          "path": "externals\/scripts\/jquery-ui-1.9.2.custom.min.js",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 237802,
+          "sha1": "b9c6a784c7dd65b9ada7493093e7facc5122db32"
+        },
+        {
+          "path": "externals\/scripts\/jtable",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/scripts\/jtable\/extensions",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/scripts\/jtable\/extensions\/jquery.jtable.aspnetpagemethods.js",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4373,
+          "sha1": "0758dd23595d90079fe268acc051c0c97eb7b840"
+        },
+        {
+          "path": "externals\/scripts\/jtable\/extensions\/jquery.jtable.aspnetpagemethods.min.js",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2385,
+          "sha1": "30ad4893eac964d192d06af5615c3f2e21a7dfad"
+        },
+        {
+          "path": "externals\/scripts\/jtable\/external",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/scripts\/jtable\/external\/json2.js",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 17489,
+          "sha1": "d16ca53c9347cd00d3a492e2936cc3a96df29145"
+        },
+        {
+          "path": "externals\/scripts\/jtable\/external\/json2.min.js",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2797,
+          "sha1": "11a718ad506d0b7598ee4fe6252cb58107338969"
+        },
+        {
+          "path": "externals\/scripts\/jtable\/jquery.jtable.js",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 158238,
+          "sha1": "beb2e6be25bb7685ecf3d9c491150ad9daf98041"
+        },
+        {
+          "path": "externals\/scripts\/jtable\/jquery.jtable.min.js",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 51012,
+          "sha1": "b81128007db1598ddfb964e0c25227d422b533ee"
+        },
+        {
+          "path": "externals\/scripts\/loft.ui.js",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1810,
+          "sha1": "56ec17c452a9e8c88b11915e1f8c869deb0b7e0a"
+        },
+        {
+          "path": "externals\/scripts\/myplugin.ui.js",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1699,
+          "sha1": "6d97ece19d89a1c7ff026c568ee4102813f0bcd8"
+        },
+        {
+          "path": "externals\/styles",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles\/base",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 8192,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles\/base\/images",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles\/base\/images\/ui-bg_flat_0_aaaaaa_40x100.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 180,
+          "sha1": "da1c9bf45bd3644c2ddffcd4f631108d80e6a6f2"
+        },
+        {
+          "path": "externals\/styles\/base\/images\/ui-bg_flat_75_ffffff_40x100.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 178,
+          "sha1": "a9bb131c4acff0d07fa7b7f21bef05179c28d13b"
+        },
+        {
+          "path": "externals\/styles\/base\/images\/ui-bg_glass_55_fbf9ee_1x400.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 120,
+          "sha1": "4966153f5260cc8b5b9ea3afd5bd6b0dee5bc7b1"
+        },
+        {
+          "path": "externals\/styles\/base\/images\/ui-bg_glass_65_ffffff_1x400.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 105,
+          "sha1": "7e5c99e9f0113ba6b63c2bb408b8347191316cda"
+        },
+        {
+          "path": "externals\/styles\/base\/images\/ui-bg_glass_75_dadada_1x400.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 111,
+          "sha1": "11e9ed5a7db83cf86034068e4f6de4c2f273f0c1"
+        },
+        {
+          "path": "externals\/styles\/base\/images\/ui-bg_glass_75_e6e6e6_1x400.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 110,
+          "sha1": "c81ea6fba4db897df599670c6bf3b3b5764d4e54"
+        },
+        {
+          "path": "externals\/styles\/base\/images\/ui-bg_glass_95_fef1ec_1x400.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 119,
+          "sha1": "6140799c338f9fa5ccce4fb29346512806462a60"
+        },
+        {
+          "path": "externals\/styles\/base\/images\/ui-bg_highlight-soft_75_cccccc_1x100.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 101,
+          "sha1": "53b50999c4c9838a2a2a190b54203ab9c6acbb21"
+        },
+        {
+          "path": "externals\/styles\/base\/images\/ui-icons_222222_256x240.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4369,
+          "sha1": "1f12bac718a6275823d9805cbe6bf6818838aa8c"
+        },
+        {
+          "path": "externals\/styles\/base\/images\/ui-icons_2e83ff_256x240.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4369,
+          "sha1": "af6008353d9a2305e5d259fa2bdb386af303989c"
+        },
+        {
+          "path": "externals\/styles\/base\/images\/ui-icons_454545_256x240.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4369,
+          "sha1": "00e4f026ff6a9e00f95f249d857d8cd5a584f266"
+        },
+        {
+          "path": "externals\/styles\/base\/images\/ui-icons_888888_256x240.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4369,
+          "sha1": "ffb3d9cfd842bf9e23f126a9dcf6546a7dfc5701"
+        },
+        {
+          "path": "externals\/styles\/base\/images\/ui-icons_cd0a0a_256x240.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4369,
+          "sha1": "81c93136c68e35251a00b02f696ad68bdcae580e"
+        },
+        {
+          "path": "externals\/styles\/base\/jquery-ui.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 32877,
+          "sha1": "99deafdfe748232fcf2d2eeb0e37ea48dcaccdac"
+        },
+        {
+          "path": "externals\/styles\/base\/jquery.ui.accordion.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 807,
+          "sha1": "90958e15238145114e61913e4c7e965b2b39a729"
+        },
+        {
+          "path": "externals\/styles\/base\/jquery.ui.all.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 291,
+          "sha1": "7c3e1dfe69a1db04476c2e0adb6408982d11a8ac"
+        },
+        {
+          "path": "externals\/styles\/base\/jquery.ui.autocomplete.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 431,
+          "sha1": "62a88fc0ff1bbbe97f12ed6c5704782c36730d3d"
+        },
+        {
+          "path": "externals\/styles\/base\/jquery.ui.base.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 770,
+          "sha1": "9034824af9e0c0e33afb8ee3eb06b2c5232f5729"
+        },
+        {
+          "path": "externals\/styles\/base\/jquery.ui.button.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2549,
+          "sha1": "9bade89063a4839506a52f7af61ce8df221c83d2"
+        },
+        {
+          "path": "externals\/styles\/base\/jquery.ui.core.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1349,
+          "sha1": "a8316aa82a40fa56abe49a4862890364e0fe09b8"
+        },
+        {
+          "path": "externals\/styles\/base\/jquery.ui.datepicker.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3982,
+          "sha1": "6d9a78869d5a02c662eba6c010cac9dcffb833f4"
+        },
+        {
+          "path": "externals\/styles\/base\/jquery.ui.dialog.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1374,
+          "sha1": "4adcd9166789df5aa1fe92c904d3539e4b5b055a"
+        },
+        {
+          "path": "externals\/styles\/base\/jquery.ui.menu.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1264,
+          "sha1": "8aa1a25767f7b874c442fed342dae7ff646376ad"
+        },
+        {
+          "path": "externals\/styles\/base\/jquery.ui.progressbar.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 375,
+          "sha1": "4ccb9d7312d2450de880f9a87fed12f662af10aa"
+        },
+        {
+          "path": "externals\/styles\/base\/jquery.ui.resizable.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1157,
+          "sha1": "8876ca6af1eeecae301de55787d605016e2060ab"
+        },
+        {
+          "path": "externals\/styles\/base\/jquery.ui.selectable.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 323,
+          "sha1": "0e8262118b8ab69b7e5369fc27e10c2ded4279be"
+        },
+        {
+          "path": "externals\/styles\/base\/jquery.ui.slider.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1140,
+          "sha1": "6ba249a9bc483b80adaa0d2ad408ab847ad5bd44"
+        },
+        {
+          "path": "externals\/styles\/base\/jquery.ui.spinner.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1130,
+          "sha1": "9590b9fca29f0e772adcd9bec0340665b571e6a7"
+        },
+        {
+          "path": "externals\/styles\/base\/jquery.ui.tabs.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1302,
+          "sha1": "f9e326cafae882702581d100fd1149cededd44dc"
+        },
+        {
+          "path": "externals\/styles\/base\/jquery.ui.theme.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 18217,
+          "sha1": "d2446d234c3e9fcd254fa202d70c3d607279ce8f"
+        },
+        {
+          "path": "externals\/styles\/base\/jquery.ui.tooltip.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 503,
+          "sha1": "b97a74d2606b72b53a08a071470f7ee3817762fe"
+        },
+        {
+          "path": "externals\/styles\/base\/minified",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 8192,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles\/base\/minified\/images",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles\/base\/minified\/images\/ui-bg_flat_0_aaaaaa_40x100.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 180,
+          "sha1": "da1c9bf45bd3644c2ddffcd4f631108d80e6a6f2"
+        },
+        {
+          "path": "externals\/styles\/base\/minified\/images\/ui-bg_flat_75_ffffff_40x100.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 178,
+          "sha1": "a9bb131c4acff0d07fa7b7f21bef05179c28d13b"
+        },
+        {
+          "path": "externals\/styles\/base\/minified\/images\/ui-bg_glass_55_fbf9ee_1x400.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 120,
+          "sha1": "4966153f5260cc8b5b9ea3afd5bd6b0dee5bc7b1"
+        },
+        {
+          "path": "externals\/styles\/base\/minified\/images\/ui-bg_glass_65_ffffff_1x400.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 105,
+          "sha1": "7e5c99e9f0113ba6b63c2bb408b8347191316cda"
+        },
+        {
+          "path": "externals\/styles\/base\/minified\/images\/ui-bg_glass_75_dadada_1x400.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 111,
+          "sha1": "11e9ed5a7db83cf86034068e4f6de4c2f273f0c1"
+        },
+        {
+          "path": "externals\/styles\/base\/minified\/images\/ui-bg_glass_75_e6e6e6_1x400.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 110,
+          "sha1": "c81ea6fba4db897df599670c6bf3b3b5764d4e54"
+        },
+        {
+          "path": "externals\/styles\/base\/minified\/images\/ui-bg_glass_95_fef1ec_1x400.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 119,
+          "sha1": "6140799c338f9fa5ccce4fb29346512806462a60"
+        },
+        {
+          "path": "externals\/styles\/base\/minified\/images\/ui-bg_highlight-soft_75_cccccc_1x100.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 101,
+          "sha1": "53b50999c4c9838a2a2a190b54203ab9c6acbb21"
+        },
+        {
+          "path": "externals\/styles\/base\/minified\/images\/ui-icons_222222_256x240.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4369,
+          "sha1": "1f12bac718a6275823d9805cbe6bf6818838aa8c"
+        },
+        {
+          "path": "externals\/styles\/base\/minified\/images\/ui-icons_2e83ff_256x240.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4369,
+          "sha1": "af6008353d9a2305e5d259fa2bdb386af303989c"
+        },
+        {
+          "path": "externals\/styles\/base\/minified\/images\/ui-icons_454545_256x240.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4369,
+          "sha1": "00e4f026ff6a9e00f95f249d857d8cd5a584f266"
+        },
+        {
+          "path": "externals\/styles\/base\/minified\/images\/ui-icons_888888_256x240.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4369,
+          "sha1": "ffb3d9cfd842bf9e23f126a9dcf6546a7dfc5701"
+        },
+        {
+          "path": "externals\/styles\/base\/minified\/images\/ui-icons_cd0a0a_256x240.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4369,
+          "sha1": "81c93136c68e35251a00b02f696ad68bdcae580e"
+        },
+        {
+          "path": "externals\/styles\/base\/minified\/jquery-ui.min.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 26088,
+          "sha1": "9d0a1695cb47c2aba5a1446f90eb4e1650b2923a"
+        },
+        {
+          "path": "externals\/styles\/base\/minified\/jquery.ui.accordion.min.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 682,
+          "sha1": "047052258b0bc06b5a48a5f18c84c0706f57aaaa"
+        },
+        {
+          "path": "externals\/styles\/base\/minified\/jquery.ui.autocomplete.min.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 269,
+          "sha1": "16a1e8b75fac368c28fbb2f1237318588a261fb9"
+        },
+        {
+          "path": "externals\/styles\/base\/minified\/jquery.ui.button.min.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1942,
+          "sha1": "8fcf046e3b11d911d70faea38506d7b392d5902a"
+        },
+        {
+          "path": "externals\/styles\/base\/minified\/jquery.ui.core.min.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 903,
+          "sha1": "08d04551e09b3781d7322f915ba038797a950b5d"
+        },
+        {
+          "path": "externals\/styles\/base\/minified\/jquery.ui.datepicker.min.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3368,
+          "sha1": "8697d4d3708d17ed808fb717ed885dc900bf2cc0"
+        },
+        {
+          "path": "externals\/styles\/base\/minified\/jquery.ui.dialog.min.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1182,
+          "sha1": "aa15addce15760793035d141656f336ab75d7b92"
+        },
+        {
+          "path": "externals\/styles\/base\/minified\/jquery.ui.menu.min.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1021,
+          "sha1": "37d4d72b0769e93b20c88b4ac421be8a16b6dfb9"
+        },
+        {
+          "path": "externals\/styles\/base\/minified\/jquery.ui.progressbar.min.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 292,
+          "sha1": "922f61bb946d378e37f46c9217a2f7751cb04afb"
+        },
+        {
+          "path": "externals\/styles\/base\/minified\/jquery.ui.resizable.min.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 959,
+          "sha1": "b93fde5a93d56e780eeeba2568bf75ab56cf54cf"
+        },
+        {
+          "path": "externals\/styles\/base\/minified\/jquery.ui.selectable.min.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 246,
+          "sha1": "5490d384d2199425b3e17aceb0e31ad851657230"
+        },
+        {
+          "path": "externals\/styles\/base\/minified\/jquery.ui.slider.min.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 965,
+          "sha1": "114cd2cd8398d652b96b031dff4f8f8a3d6f472a"
+        },
+        {
+          "path": "externals\/styles\/base\/minified\/jquery.ui.spinner.min.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 825,
+          "sha1": "569327053743b0a481afeb68c53c710b153b0588"
+        },
+        {
+          "path": "externals\/styles\/base\/minified\/jquery.ui.tabs.min.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 882,
+          "sha1": "0860319c0badf895269535211db0e108e6bc0247"
+        },
+        {
+          "path": "externals\/styles\/base\/minified\/jquery.ui.theme.min.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 14199,
+          "sha1": "ea61d2f357c9fc805204a0df0e8915b8ae7abe97"
+        },
+        {
+          "path": "externals\/styles\/base\/minified\/jquery.ui.tooltip.min.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 369,
+          "sha1": "1e01b0995e1572c058ed81fab675cdda31bb3628"
+        },
+        {
+          "path": "externals\/styles\/jtable",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/lightcolor",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/lightcolor\/bg-thead.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2811,
+          "sha1": "68866020675abbed3f4466ae59812e3282b083c4"
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/lightcolor\/blue",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/lightcolor\/blue\/jtable.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3104,
+          "sha1": "3ad06e6992cf1b467ce77ef0ecd1961af95607fd"
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/lightcolor\/blue\/loading.gif",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 723,
+          "sha1": "dcd107e3dfbb92fc3d494840684a95b272d71937"
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/lightcolor\/close.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1217,
+          "sha1": "f604e90579c39af3f910d6e8baf0285e9a4bc8d7"
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/lightcolor\/column-asc.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 362,
+          "sha1": "b37e6812956a3f443005ea5696c2f92a25907c24"
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/lightcolor\/column-desc.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 349,
+          "sha1": "274e183b59fbef2e2fdc16137435db2551f8ae3d"
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/lightcolor\/column-sortable.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 347,
+          "sha1": "c577b53d84c0e28d7a957d3d2eed196a8190bc7c"
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/lightcolor\/delete.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 150,
+          "sha1": "8921924fe8b04001532ec2318249fef48a244fad"
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/lightcolor\/edit.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 590,
+          "sha1": "a528c620880122f2cb1952516d145b6404409ce9"
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/lightcolor\/gray",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/lightcolor\/gray\/jtable.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3003,
+          "sha1": "8e9958576efc98c80a31affb126d5eab25ad78e9"
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/lightcolor\/gray\/loading.gif",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 723,
+          "sha1": "f8b7fa24417a732955d7c147632f4af701b76720"
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/lightcolor\/gray\/loading2.gif",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 723,
+          "sha1": "b17816f5e38b519632d909789eeae2bcac0933b3"
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/lightcolor\/green",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/lightcolor\/green\/jtable.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3087,
+          "sha1": "a3b735e5455f9bc62fcdb198cbb55ac866c8314f"
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/lightcolor\/green\/loading.gif",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 723,
+          "sha1": "8dce136596b565d3cfd6e7f12a258584b698cd2e"
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/lightcolor\/jtable_lightcolor_base.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 15502,
+          "sha1": "6304cd1f1e50dfbce1afcfa0b9fc3d8967eac925"
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/lightcolor\/orange",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/lightcolor\/orange\/jtable.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3093,
+          "sha1": "ea8a127c56858936282648f123aa523bc91d5a5d"
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/lightcolor\/orange\/loading.gif",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 723,
+          "sha1": "ce178a69fb3811a237e6a6557ec9d1e6e8af4844"
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/lightcolor\/red",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/lightcolor\/red\/jtable.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3083,
+          "sha1": "c8027e48952702aa113fa76adc7317899d009e3c"
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/lightcolor\/red\/loading.gif",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 723,
+          "sha1": "b17816f5e38b519632d909789eeae2bcac0933b3"
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/standard",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/standard\/blue",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/standard\/blue\/header-bg.gif",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 54,
+          "sha1": "ddf421994500ea0b95310fba155a14bda2873b89"
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/standard\/blue\/jtable_blue.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4113,
+          "sha1": "c9f5a54e9ec6eddf0781de63560d2f695c95bd77"
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/standard\/blue\/loading.gif",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 673,
+          "sha1": "0e98c20e12ca9b947fcf874a6db554e4eb31a32c"
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/standard\/blue\/title-bg.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 140,
+          "sha1": "762ae963c9fcd511cc873ba4697e2f9bab9fc81b"
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/standard\/close.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 831,
+          "sha1": "9082fb3deb2110a16bf81d793b14009eaa1214c8"
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/standard\/column-asc.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 320,
+          "sha1": "f629984edab68b47952733af19680e22ca0f4193"
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/standard\/column-desc.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 311,
+          "sha1": "b144b161cbe331d121d28a48a9108a55108d646a"
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/standard\/column-sortable.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 314,
+          "sha1": "d8e22a61798e72577a62cbf1f8191c5b72d8240f"
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/standard\/delete.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 150,
+          "sha1": "8921924fe8b04001532ec2318249fef48a244fad"
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/standard\/edit.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 618,
+          "sha1": "31ccb1b272ca4499219c8759be04535779967ff6"
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/standard\/green",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/standard\/green\/header-bg.gif",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 54,
+          "sha1": "4919e96fc9d9d8f73c998dcb2ee54b7de65b7a06"
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/standard\/green\/jtable_green.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4113,
+          "sha1": "f084e5563d2acb9489340f95277827993b4e52c2"
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/standard\/green\/loading.gif",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 673,
+          "sha1": "740abd3df69a4d763aff5545a165c159620ea5a9"
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/standard\/green\/title-bg.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 171,
+          "sha1": "7db8c4833c84b17634457922af3444c286e29831"
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/standard\/jtable_standard_base.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 12539,
+          "sha1": "e584c678b655496eca4f47fe8ddf0b17d090e9ba"
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/standard\/purple",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/standard\/purple\/jtable_purple.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4512,
+          "sha1": "5ec1038bba2fb6c31d778004583a0f095f2ffd34"
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/standard\/purple\/loading.gif",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 673,
+          "sha1": "03292ba80b9aed49b1f0e65ad237e59b8dea463b"
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/standard\/red",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/standard\/red\/header-bg.gif",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 54,
+          "sha1": "9d362c2df3a5655fbdbd7861e2019e49cd06802e"
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/standard\/red\/jtable_red.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4315,
+          "sha1": "90343d5940128e7eb42101d364367c4cc4c5c1b0"
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/standard\/red\/loading.gif",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 673,
+          "sha1": "aec7865390460fedc10a50be4d19f2cda3d226d8"
+        },
+        {
+          "path": "externals\/styles\/jtable\/themes\/standard\/red\/title-bg.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 193,
+          "sha1": "44a1461c87271aaaa62133e158680f08959f4c82"
+        },
+        {
+          "path": "externals\/styles\/main.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "externals\/styles\/ui-lightness",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles\/ui-lightness\/images",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles\/ui-lightness\/images\/ui-bg_diagonals-thick_18_b81900_40x40.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 260,
+          "sha1": "c375bbd91e5a554a968aec7897a5aca0271abb36"
+        },
+        {
+          "path": "externals\/styles\/ui-lightness\/images\/ui-bg_diagonals-thick_20_666666_40x40.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 251,
+          "sha1": "25ed36e9222f92dc1d4148eef3c37d581a09ee23"
+        },
+        {
+          "path": "externals\/styles\/ui-lightness\/images\/ui-bg_flat_10_000000_40x100.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 178,
+          "sha1": "161c06297c8f56fb2b08c5b93ad074487da80885"
+        },
+        {
+          "path": "externals\/styles\/ui-lightness\/images\/ui-bg_glass_100_f6f6f6_1x400.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 104,
+          "sha1": "6bff5377f5dc44e4315dc69c0c28864f2c23b5b0"
+        },
+        {
+          "path": "externals\/styles\/ui-lightness\/images\/ui-bg_glass_100_fdf5ce_1x400.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 125,
+          "sha1": "808f832a5c4441b81e09c093c43ff948235c976e"
+        },
+        {
+          "path": "externals\/styles\/ui-lightness\/images\/ui-bg_glass_65_ffffff_1x400.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 105,
+          "sha1": "7e5c99e9f0113ba6b63c2bb408b8347191316cda"
+        },
+        {
+          "path": "externals\/styles\/ui-lightness\/images\/ui-bg_gloss-wave_35_f6a828_500x100.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4427,
+          "sha1": "dcdeaf11932e53218b394ac67c354ba1823ee863"
+        },
+        {
+          "path": "externals\/styles\/ui-lightness\/images\/ui-bg_highlight-soft_100_eeeeee_1x100.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 90,
+          "sha1": "c12c01392b4c7016a1f63101f13f6296b1ac5493"
+        },
+        {
+          "path": "externals\/styles\/ui-lightness\/images\/ui-bg_highlight-soft_75_ffe45c_1x100.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 167,
+          "sha1": "09d279862155c2e3f0c95df8d31480f354fb6b1e"
+        },
+        {
+          "path": "externals\/styles\/ui-lightness\/images\/ui-icons_222222_256x240.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4369,
+          "sha1": "d6dee0eaf76929c4e06b2f2bc3058bdad1d0a1fc"
+        },
+        {
+          "path": "externals\/styles\/ui-lightness\/images\/ui-icons_228ef1_256x240.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4369,
+          "sha1": "a9a9be8398172677baa812011bab4eb47a875aaa"
+        },
+        {
+          "path": "externals\/styles\/ui-lightness\/images\/ui-icons_ef8c08_256x240.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4369,
+          "sha1": "5a3fd02264b7d5d6ed8b22ad7de42e0859997bff"
+        },
+        {
+          "path": "externals\/styles\/ui-lightness\/images\/ui-icons_ffd27a_256x240.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4369,
+          "sha1": "4b74e44b97b87b2ad397389fda8790b5d01b0fe4"
+        },
+        {
+          "path": "externals\/styles\/ui-lightness\/images\/ui-icons_ffffff_256x240.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4369,
+          "sha1": "fdef3e8ceeb36b14bf914b909bebd1919154acce"
+        },
+        {
+          "path": "externals\/styles\/ui-lightness\/jquery-ui-1.9.2.custom.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 32414,
+          "sha1": "26e77a23823e9f5e099b739bec40e5de153b3dd9"
+        },
+        {
+          "path": "externals\/styles\/ui-lightness\/jquery-ui-1.9.2.custom.min.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 27614,
+          "sha1": "88fd9e8319d28f22083ba8ffb153a00cb1654bbc"
+        },
+        {
+          "path": "Form",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Form\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "Model",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Model\/DbTable",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Model\/DbTable\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "Model\/DbTable\/Myplugins.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 262,
+          "sha1": "c6b39ba63e0d13654bc238e752792988812b63aa"
+        },
+        {
+          "path": "settings",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "settings\/manifest.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 704,
+          "sha1": "c79aefeaed5d7237f7ec2a5e691daa7dadb25cae"
+        },
+        {
+          "path": "settings\/my-upgrade-1.0.0-1.1.0.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 73,
+          "sha1": "f1b8e7b6f599b93fb8fc77028abebc1db1cabf86"
+        },
+        {
+          "path": "settings\/my.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1085,
+          "sha1": "33abcfc1bf28da24f888f2888a0cb17b8ec48cab"
+        },
+        {
+          "path": "views",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-ajax",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-ajax\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 6034,
+          "sha1": "c2e88a3581568ee57e0487e082fe394d1cf592ce"
+        },
+        {
+          "path": "views\/scripts\/index",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/index\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 83,
+          "sha1": "6de31707a5d4a98dab62a1c36464546904e7a58b"
+        }
+      ]
+    },
+    "application\/languages\/en\/socialloft.csv": {
+      "type": "file",
+      "path": "application\/languages\/en\/socialloft.csv",
+      "structure": {
+        "path": "socialloft.csv",
+        "dir": false,
+        "file": true,
+        "perms": "0666",
+        "size": 0,
+        "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+      }
+    }
+  }
+}

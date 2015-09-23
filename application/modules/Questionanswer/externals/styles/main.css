@@ -1,0 +1,531 @@
+
+/* $Id: main.css 7244 2010-09-01 01:49:53Z john $ */
+
+
+@include "~/application/modules/Core/externals/styles/constants.css";
+
+/*
+Q & A TOP USERS WIDGET
+Lists the most members post question.
+on the main home page.
+*/
+.layout_questionanswer_top_user
+{
+  clear: both;
+  overflow: auto;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.layout_questionanswer_top_user > ul
+{
+  +foreground;
+  +rounded;
+  padding: 5px;
+}
+.layout_questionanswer_top_user > ul > li
+{
+  clear: both;
+  overflow: hidden;
+  padding: 3px 5px 3px 5px;
+}
+.layout_questionanswer_top_user a.topusers_thumb
+{
+  float: left;
+  display: block;
+  width: 48px;
+  height: 48px;
+}
+.layout_questionanswer_top_user a.topusers_thumb > span
+{
+  display: block;
+}
+.layout_questionanswer_top_user .topusers_info
+{
+  padding: 0px 0px 0px 6px;
+  overflow: hidden;
+}
+.layout_questionanswer_top_user .topusers_name
+{
+  font-weight: bold;
+}
+.layout_questionanswer_top_user .topusers_questions
+{
+  font-size: .8em;
+  color: $theme_font_color_light;
+}
+
+/*
+Q & A TOP ANSWERS WIDGET
+Lists the most members post answer.
+on the main home page.
+*/
+.layout_questionanswer_top_answer
+{
+  clear: both;
+  overflow: auto;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.layout_questionanswer_top_answer > ul
+{
+  +foreground;
+  +rounded;
+  padding: 5px;
+}
+.layout_questionanswer_top_answer > ul > li
+{
+  clear: both;
+  overflow: hidden;
+  padding: 3px 5px 3px 5px;
+}
+.layout_questionanswer_top_answer a.topanswers_thumb
+{
+  float: left;
+  display: block;
+  width: 48px;
+  height: 48px;
+}
+.layout_questionanswer_top_answer a.topanswers_thumb > span
+{
+  display: block;
+}
+.layout_questionanswer_top_answer .topanswers_info
+{
+  padding: 0px 0px 0px 6px;
+  overflow: hidden;
+}
+.layout_questionanswer_top_answer .topanswers_name
+{
+  font-weight: bold;
+}
+.layout_questionanswer_top_answer .topanswers_answers
+{
+  font-size: .8em;
+  color: $theme_font_color_light;
+}
+
+
+
+/*
+Q & A TOP QUESTION WIDGET
+Lists the most members post question.
+on the main home page.
+*/
+.layout_questionanswer_top_question
+{
+  clear: both;
+  overflow: auto;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.layout_questionanswer_top_question > ul
+{
+  +foreground;
+  +rounded;
+  padding: 5px;
+}
+.layout_questionanswer_top_question > ul > li
+{
+  clear: both;
+  overflow: hidden;
+  padding: 3px 5px 3px 5px;
+}
+.layout_questionanswer_top_question a.topquestions_thumb
+{
+  float: left;
+  display: block;
+  width: 48px;
+  height: 48px; 
+  padding: 0px 6px 0px 0px;  
+}
+.layout_questionanswer_top_question a.topquestions_thumb > span
+{
+  display: block;
+  margin-right:20px;
+}
+.layout_questionanswer_top_question .topquestions_info
+{
+  padding: 0px 0px 2px 0px;
+  overflow: hidden;
+}
+.layout_questionanswer_top_question .topquestions_name
+{
+  font-weight: bold;
+}
+.layout_questionanswer_top_question .topquestions_content
+{  
+  font-size: .8em;
+  color: $theme_font_color_light;
+  text-algin: justify; 
+}
+
+.item_icon_questionanswer_question, .item_icon_questionanswer_answer{
+background-image:url(~/application/modules/Questionanswer/externals/images/qa_icon.png);
+}
+
+.form-element
+{
+	clear:both;
+}
+
+.form-options-wrapper
+{
+	clear:both;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+.form-label
+{
+	float:left;
+	width:100%;
+}
+
+.description{
+	font-size: 13px;	
+	font-weight:bold;
+}
+
+
+
+/*
+Q & A TOP FRIEND ANSWERS WIDGET
+Lists the most members post answer.
+on the main home page.
+*/
+.layout_questionanswer_top_friend_answer
+{
+  clear: both;
+  overflow: auto;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.layout_questionanswer_top_friend_answer > ul
+{
+  +foreground;
+  +rounded;
+  padding: 5px;
+}
+.layout_questionanswer_top_friend_answer > ul > li
+{
+  clear: both;
+  overflow: hidden;
+  padding: 3px 5px 3px 5px;
+}
+.layout_questionanswer_top_friend_answer a.topanswers_thumb
+{
+  float: left;
+  display: block;
+  width: 48px;
+  height: 48px;
+}
+.layout_questionanswer_top_friend_answer a.topanswers_thumb > span
+{
+  display: block;
+}
+.layout_questionanswer_top_friend_answer .topanswers_info
+{
+  padding: 0px 0px 0px 6px;
+  overflow: hidden;
+}
+.layout_questionanswer_top_friend_answer .topanswers_name
+{
+  font-weight: bold;
+}
+.layout_questionanswer_top_friend_answer .topanswers_answers
+{
+  font-size: .8em;
+  color: $theme_font_color_light;
+}
+
+
+
+/*
+Q & A TOP FRIEND QUESTION WIDGET
+Lists the most members post question.
+on the main home page.
+*/
+.layout_questionanswer_top_friend_question
+{
+  clear: both;
+  overflow: auto;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.layout_questionanswer_top_friend_question > ul
+{
+  +foreground;
+  +rounded;
+  padding: 5px;
+}
+.layout_questionanswer_top_friend_question > ul > li
+{
+  clear: both;
+  overflow: hidden;
+  padding: 3px 5px 3px 5px;
+}
+.layout_questionanswer_top_friend_question a.topquestions_thumb
+{
+  float: left;
+  display: block;
+  width: 48px;
+  height: 48px; 
+  padding: 0px 6px 0px 0px;  
+}
+.layout_questionanswer_top_friend_question a.topquestions_thumb > span
+{
+  display: block;
+  margin-right:20px;
+}
+.layout_questionanswer_top_friend_question .topquestions_info
+{
+  padding: 0px 0px 2px 0px;
+  overflow: hidden;
+}
+.layout_questionanswer_top_friend_question .topquestions_name
+{
+  font-weight: bold;
+}
+.layout_questionanswer_top_friend_question .topquestions_content
+{  
+  font-size: .8em;
+  color: $theme_font_color_light;
+  text-algin: justify; 
+}
+
+.item_icon_questionanswer_question, .item_icon_questionanswer_answer{
+background-image:url(~/application/modules/Questionanswer/externals/images/qa_icon.png);
+}
+
+.form-element
+{
+	clear:both;
+}
+
+.form-options-wrapper
+{
+	clear:both;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+.form-label
+{
+	float:left;
+	width:100%;
+}
+
+.description{
+	font-size: 13px;	
+	font-weight:bold;
+}
+
+
+/*
+Q & A NEW FRIEND ANSWERS WIDGET
+Lists the most members post answer.
+on the main home page.
+*/
+.layout_questionanswer_new_friend_answer
+{
+  clear: both;
+  overflow: auto;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.layout_questionanswer_new_friend_answer > ul
+{
+  +foreground;
+  +rounded;
+  padding: 5px;
+}
+.layout_questionanswer_new_friend_answer > ul > li
+{
+  clear: both;
+  overflow: hidden;
+  padding: 3px 5px 3px 5px;
+}
+.layout_questionanswer_new_friend_answer a.topanswers_thumb
+{
+  float: left;
+  display: block;
+  width: 48px;
+  height: 48px;
+}
+.layout_questionanswer_new_friend_answer a.topanswers_thumb > span
+{
+  display: block;
+}
+.layout_questionanswer_new_friend_answer .topanswers_info
+{
+  padding: 0px 0px 0px 6px;
+  overflow: hidden;
+}
+.layout_questionanswer_new_friend_answer .topanswers_name
+{
+  font-weight: bold;
+}
+.layout_questionanswer_new_friend_answer .topanswers_answers
+{
+  font-size: .8em;
+  color: $theme_font_color_light;
+}
+
+
+
+/*
+Q & A NEW FRIEND QUESTION WIDGET
+Lists the most members(friends + owners) post question.
+on the main home page.
+*/
+.layout_questionanswer_new_friend_question
+{
+  clear: both;
+  overflow: auto;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.layout_questionanswer_new_friend_question > ul
+{
+  +foreground;
+  +rounded;
+  padding: 5px;
+}
+.layout_questionanswer_new_friend_question > ul > li
+{
+  clear: both;
+  overflow: hidden;
+  padding: 3px 5px 3px 5px;
+}
+.layout_questionanswer_new_friend_question a.topquestions_thumb
+{
+  float: left;
+  display: block;
+  width: 48px;
+  height: 48px; 
+  padding: 0px 6px 0px 0px;  
+}
+.layout_questionanswer_new_friend_question a.topquestions_thumb > span
+{
+  display: block;
+  margin-right:20px;
+}
+.layout_questionanswer_new_friend_question .topquestions_info
+{
+  padding: 0px 0px 2px 0px;
+  overflow: hidden;
+}
+.layout_questionanswer_new_friend_question .topquestions_name
+{
+  font-weight: bold;
+}
+.layout_questionanswer_new_friend_question .topquestions_content
+{  
+  font-size: .8em;
+  color: $theme_font_color_light;
+  text-algin: justify; 
+}
+
+.item_icon_questionanswer_question, .item_icon_questionanswer_answer{
+background-image:url(~/application/modules/Questionanswer/externals/images/qa_icon.png);
+}
+
+.form-element
+{
+	clear:both;
+}
+
+.form-options-wrapper
+{
+	clear:both;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+.form-label
+{
+	float:left;
+	width:100%;
+}
+
+.description{
+	font-size: 13px;	
+	font-weight:bold;
+}
+
+/*
+ADMIN TABLE LIST 
+Styles most tabular data in the admin panel.
+*/
+table.admin_report_table thead tr th
+{
+  +foreground;
+  padding: 10px;
+  border-bottom: 1px solid #aaa;
+  font-weight: bold;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  white-space: nowrap;
+  background-color: #E9F4FA;
+}
+table.admin_report_table thead tr th a
+{
+  font-weight: bold;
+}
+table.admin_report_table tbody tr:nth-child(even)
+{
+  background-color: #f8f8f8;
+}
+table.admin_report_table tbody tr td
+{
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  font-size: .9em;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  white-space: wrap;
+  vertical-align: top;
+}
+th.admin_table_short
+{
+  width: 1%;
+}
+td.admin_table_options
+{
+  color: #ccc;
+}
+.admin_table_centered
+{
+  text-align: center;
+}
+.admin_table_centered a
+{
+  text-align: center;
+}
+.admin_table_bold,
+.admin_table_bold a
+{
+  font-weight: bold;
+}
+td.admin_table_options > span.sep
+{
+  display: none;
+}
+td.admin_table_options > a + span.sep
+{
+  display: inline;
+}
+.admin_table_email
+{
+  white-space: normal !important;
+  max-width: 200px;
+  word-wrap: break-word;
+}
+div.entry_line {
+    border-bottom: 1px dotted #CCCCCC;
+    clear: both;
+    height: 1px;
+    margin: 3px 0;
+    overflow: hidden;
+    width: 100%;
+}

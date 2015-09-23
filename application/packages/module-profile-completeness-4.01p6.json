@@ -1,0 +1,491 @@
+{
+  "type": "module",
+  "name": "profile-completeness",
+  "version": "4.01p6",
+  "revision": null,
+  "path": "application\/modules\/ProfileCompleteness",
+  "repository": null,
+  "date": "Mon, 18 Nov 2013 02:58:53 +0000",
+  "title": "Profile Completeness",
+  "description": "Display the percentage of your profile completeness.",
+  "thumb": null,
+  "developer": null,
+  "authors": [
+    "YouNet Company"
+  ],
+  "changeLog": null,
+  "meta": {
+    "date": "Mon, 18 Nov 2013 02:58:53 +0000",
+    "title": "Profile Completeness",
+    "description": "Display the percentage of your profile completeness.",
+    "developer": null,
+    "authors": [
+      "YouNet Company"
+    ],
+    "changeLog": null
+  },
+  "actions": [
+    "install",
+    "upgrade",
+    "refresh",
+    "enable",
+    "disable"
+  ],
+  "callback": {
+    "path": null,
+    "class": "Engine_Package_Installer_Module",
+    "priority": 100
+  },
+  "dependencies": {
+    "module-core": {
+      "type": "module",
+      "name": "core",
+      "guid": "module-core",
+      "minVersion": "4.1.0",
+      "maxVersion": null,
+      "excludeExcept": null
+    }
+  },
+  "tests": [
+    
+  ],
+  "permissions": [
+    
+  ],
+  "structure": {
+    "application\/modules\/ProfileCompleteness": {
+      "type": "directory",
+      "path": "application\/modules\/ProfileCompleteness",
+      "structure": [
+        {
+          "path": "Bootstrap.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 368,
+          "sha1": "9a28467f0fc64ff888c180b5a8933ac11c73e39e"
+        },
+        {
+          "path": "controllers",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "controllers\/AdminManageController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3961,
+          "sha1": "1ab21ef2a00d2a49a943c34a7296597d92d2e4d8"
+        },
+        {
+          "path": "controllers\/AdminSettingController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2559,
+          "sha1": "3be6b67337c846ca41304445e8afbc991153865d"
+        },
+        {
+          "path": "controllers\/IndexController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 145,
+          "sha1": "e86165a0b9c9913855305ca942286031f6f8fe37"
+        },
+        {
+          "path": "externals",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/.htaccess",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 147,
+          "sha1": "9f1638a8edbe1c5d28789e017fb35b2f2465f01e"
+        },
+        {
+          "path": "externals\/images",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/images\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "externals\/images\/profile_compleated.jpg",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 372,
+          "sha1": "550fa53c0e2f1a90614cac11facb18e40d7bea37"
+        },
+        {
+          "path": "externals\/scripts",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/scripts\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "externals\/styles",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles\/main.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 936,
+          "sha1": "9c8244aac64566dcb4a1ec109dcfef6d8b279493"
+        },
+        {
+          "path": "Form",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Form\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "Form\/Admin",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Admin\/Manage",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Admin\/Manage\/Setting.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1818,
+          "sha1": "6aebf85787ca055249b18fcfffec531bdd9398fe"
+        },
+        {
+          "path": "Model",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Model\/DbTable",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Model\/DbTable\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "Model\/DbTable\/Settings.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 193,
+          "sha1": "bc25441c02d76db12d070b4933fb091bb06b9a1c"
+        },
+        {
+          "path": "Model\/DbTable\/Weights.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 190,
+          "sha1": "e421077e137188fb2a7110441765ec613a055597"
+        },
+        {
+          "path": "Model\/Setting.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 193,
+          "sha1": "f17e6f62debc72626adb2fe416780cb17bc92294"
+        },
+        {
+          "path": "Model\/Weight.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 192,
+          "sha1": "7276917d91f6f92e2a9d2d870b39837f430d8a36"
+        },
+        {
+          "path": "settings",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "settings\/content.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 473,
+          "sha1": "9e540d5314b2ccdc80d1cc5b030da1b997ba5ffa"
+        },
+        {
+          "path": "settings\/manifest.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1185,
+          "sha1": "be55dd7d755966bba101fe67fc5c36363fa4fc19"
+        },
+        {
+          "path": "settings\/my-upgrade-4.01-4.01p1.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 93,
+          "sha1": "c89e8a44c545779b0b3c077149686c3bd98db68d"
+        },
+        {
+          "path": "settings\/my-upgrade-4.01p1-4.01p2.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 93,
+          "sha1": "7b6e2b38b07cbe319baf7366f42ea675ff91e142"
+        },
+        {
+          "path": "settings\/my-upgrade-4.01p2-4.01p3.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 93,
+          "sha1": "8f797ca3783d4db67df33e9f596613bb6a21a138"
+        },
+        {
+          "path": "settings\/my-upgrade-4.01p3-4.01p4.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "settings\/my-upgrade-4.01p4-4.01p5.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 93,
+          "sha1": "75d8327849812e74fdf9916abf935b59c81c0013"
+        },
+        {
+          "path": "settings\/my-upgrade-4.01p5-4.01p6.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 93,
+          "sha1": "d9b48b30fc2e88e3d374241c3e19d3b72ae77f89"
+        },
+        {
+          "path": "settings\/my.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2259,
+          "sha1": "270038abf7c9093aceeb37902b6046db9127ec2c"
+        },
+        {
+          "path": "views",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "views\/helpers",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "views\/helpers\/AdminProfileWeightInput.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2469,
+          "sha1": "8428a54bfd84ae92bf824b1b745edb746ce4e600"
+        },
+        {
+          "path": "views\/helpers\/AdminProfileWeightMeta.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2368,
+          "sha1": "4e09047a32bb9d98a0155cabaca6ed8089f5b518"
+        },
+        {
+          "path": "views\/scripts",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-manage",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-manage\/edit.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2766,
+          "sha1": "e8d76f8586bbd58c763a20d90a9ea8f2f8baf98a"
+        },
+        {
+          "path": "views\/scripts\/admin-manage\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 11744,
+          "sha1": "a708158a4e7b632febe0683c2256e796982a3214"
+        },
+        {
+          "path": "views\/scripts\/admin-setting",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-setting\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 376,
+          "sha1": "9fdb990701fe4093f4351e27d742ca48dd45759a"
+        },
+        {
+          "path": "views\/scripts\/index",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/index\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 90,
+          "sha1": "c42adfa7e93daa629a565fc48f1345e43977d8e7"
+        },
+        {
+          "path": "widgets",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/profile-completeness",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/profile-completeness\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 5338,
+          "sha1": "b813dcae1e9ca2f78ef11cffb9cc438199254e72"
+        },
+        {
+          "path": "widgets\/profile-completeness\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1532,
+          "sha1": "857d2ce31082161ae5e4c59265cd6351ea49495f"
+        }
+      ]
+    },
+    "application\/languages\/en\/profile-completeness.csv": {
+      "type": "file",
+      "path": "application\/languages\/en\/profile-completeness.csv",
+      "structure": {
+        "path": "profile-completeness.csv",
+        "dir": false,
+        "file": true,
+        "perms": "0666",
+        "size": 1940,
+        "sha1": "e71bd660fb3d1cc890933a809877541b130c665d"
+      }
+    }
+  }
+}

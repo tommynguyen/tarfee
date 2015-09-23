@@ -1,0 +1,193 @@
+
+/*
+	Slideshow
+*/
+
+.layout_ynvideo_list_featured_videos .ynvideo_thumb_img_wrap a img {
+    max-width: 100%;    
+}
+
+/* FEATURE VIDEO */
+#ynvideo_featured
+{
+    margin-bottom:15px;
+}
+#ynvideo_featured .video_thumb_wrapper 
+{
+    background: none;
+    margin-right: 10px;   
+}
+
+#ynvideo_featured .video_thumb_wrapper .ynvideo_feature_info a 
+{
+    display: inline;
+}
+
+#ynvideo_featured .video_thumb_wrapper .ynvideo_feature_info > div {
+    float: left;
+}
+
+#ynvideo_featured .video_thumb_wrapper .ynvideo_feature_info .ynvideo_views {
+    margin-top: 5px;
+}
+
+#ynvideo_featured .slides_container div.slide div.item + div.item > .video_thumb_wrapper 
+{
+    margin-left: 5px;    
+}
+
+#ynvideo_featured .video_thumb_wrapper .ynvideo_thumb_img_wrap
+{
+    position: relative;
+    width: 320px;
+}
+
+#ynvideo_featured .video_thumb_wrapper .ynvideo_thumb_img_wrap img 
+{
+    margin: 0px;
+    border: 0px;
+}
+
+#ynvideo_featured .video_thumb_wrapper .ynvideo_thumb_img_wrap span.video_button_add_to_area
+{
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+}
+
+#ynvideo_featured #slides .slide > .video_thumb_wrapper + .video_thumb_wrapper > .ynvideo_featured_frame {
+    margin-right: 0px;
+}
+
+#ynvideo_featured .ynvideo_featured_frame 
+{
+    padding: 5px 0px;
+    color: #F9F9F9;
+    background: #222;
+    height: 80px;
+}
+
+.ynvideo_featured_frame img.thumb_profile 
+{
+    width: 50px;
+}
+
+.ynvideo_featured_frame > .ynvideo_feature_user_thumb 
+{
+    float: left;
+    width: 25%;
+}
+
+.ynvideo_featured_frame .ynvideo_featured_info 
+{
+    float: left;
+    padding-left:5px;
+    width: 70%;
+}
+
+.ynvideo_featured_title 
+{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.ynvideo_featured_title a:link, .ynvideo_featured_title a:visited {
+    color: #F9F9F9;
+}
+
+#ynvideo_featured .ynvideo_feature_info 
+{
+    font-size: 0.8em;
+}
+
+#ynvideo_featured #slides {
+    z-index:100;
+    background-color: #333;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+#ynvideo_featured .slide > .video_thumb_wrapper + .video_thumb_wrapper{
+    margin-right: 0px;
+}
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash
+*/
+
+#ynvideo_featured .slides_container {
+    overflow:hidden;
+    position:relative;
+    display:none;
+}
+
+
+
+/*
+    Each slide
+    Important:
+    Set the width of your slides
+    If height not specified height will be set by the slide content
+    Set to display block
+*/
+
+#ynvideo_featured .slides_container div.slide {
+    display:block;
+    padding: 10px;
+}
+
+#ynvideo_featured .slides_container div.slide > .item {
+    overflow: hidden;
+}
+
+.slides_control {
+    min-height: 300px;
+}
+
+
+/*
+	Next/prev buttons
+*/
+
+#ynvideo_featured  #slides .next, #ynvideo_featured #slides .prev {
+    width:24px;
+    height:43px;
+    display:block;
+    z-index:101;
+}
+
+#ynvideo_featured  #slides .next {
+}
+
+/*
+	Pagination
+*/
+
+#ynvideo_featured .pagination {
+    margin:15px auto 0;
+    text-align: center;
+    display: inline-block;
+}
+
+#ynvideo_featured .pagination li {
+    float:left;
+    margin:0 1px;
+    list-style:none;
+}
+
+#ynvideo_featured .pagination li a {
+    display:block;
+    width:12px;
+    height:0;
+    padding-top:12px;
+    background-image: url(../images/pagination.png);
+    background-position:0 0;
+    float:left;
+    overflow:hidden;
+}
+
+#ynvideo_featured .pagination li.current a {
+    background-position:0 -12px;
+}

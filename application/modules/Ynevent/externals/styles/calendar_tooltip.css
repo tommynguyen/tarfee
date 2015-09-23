@@ -1,0 +1,64 @@
+.tooltip
+{
+	display:none;       
+	font-size:12px;
+	width:300px;
+}
+
+.ynevent-tooltip-container .jay{
+	border: 1px solid #CCC; 
+	border-radius: 3px
+}
+.ynevent-tooltip-container .photo{
+ float:left;
+ margin-right: 10px;
+ margin-left: 10px;
+ margin-bottom: 10px;
+
+ border: 1px solid #EAEAEA;
+ overflow: hidden;
+ text-align: center;
+ width: 48px;
+ height: 48px;
+}
+.ynevent-tooltip-container .info{
+	margin-left: 50px;
+	margin-top: 10px;
+	margin-right: 3px;
+	line-height: 15px;
+}
+
+.ynevent-tooltip-container .title a{
+	/*     font-size: 14pt;*/
+	font-weight: bold;
+	text-decoration: none;
+	word-wrap: break-word;
+}
+
+.ynevent-tooltip-container .stats{
+	font-size: 0.8em;
+}
+
+.tooltip .ynevent_jay{
+	clear: both;
+	border: 1px solid #DDDDDD;
+	background-color: #EAEAEA;
+	min-height: 25px;
+	margin-top: 10px;
+	text-decoration: none;
+	overflow: hidden;
+}
+
+.tooltip .ynevent_arrow{
+	clear:both; 
+	text-align: center; 
+	position: relative; 
+	font-size: 0pt; 
+	z-index: 100001; 
+	top: -3px;
+}
+
+.tooltip .ynevent_arrow img{
+	display: inline !important;
+}
+

@@ -1,0 +1,37 @@
+.ynvideo-category-collapsed {
+    background: url(~/application/modules/Ynvideo/externals/images/collapse_collapsed.png) no-repeat;
+}
+
+.ynvideo-category-no-collapsed {
+   background: url(~/application/modules/Ynvideo/externals/images/collapse.png) no-repeat;
+}
+
+tr.ynvideo-category-sub-category td.category-name {
+    padding-left:50px;
+}
+
+.ynvideo-category-collapse-control, .ynvideo-category-collapse-nocontrol {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.ynvideo_order_asc {
+    background: url(~/application/modules/Ynvideo/externals/images/show_more.png) no-repeat;
+    background-position: right;
+}
+
+.ynvideo_order_desc {
+    background: url(~/application/modules/Ynvideo/externals/images/show_less.png) no-repeat;
+    
+    background-position: right;
+}
+
+table.admin_table .ynvideo_order_asc, table.admin_table .ynvideo_order_desc {
+    padding-right: 16px;
+}
+
+td.ynvideo-cell-center {
+    text-align: center;
+}

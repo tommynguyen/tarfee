@@ -1,0 +1,399 @@
+.video_view_container .video_embed embed, 
+.video_view_container .video_embed iframe, 
+.video_view_container .video_embed object,
+.video_view_container .video_object embed, 
+.video_view_container .video_object iframe, 
+.video_view_container .video_object object
+{
+	width: 100% !important;
+	max-width: 100% !important;
+}
+
+body[id^=global_page_ynvideo] .comments
+{
+	width: auto;
+}
+.layout_ynvideo_list_featured_videos
+{
+	margin-bottom: 15px;
+}
+.ynvideo_featured_frame > .ynvideo_feature_user_thumb
+{
+	float: left;
+	margin-right: 20px;
+}
+body[id^=global_page_ynvideo] .ynvideo_feature_user_thumb > a > img.thumb_icon
+{
+	width: 48px;
+	height: 48px;
+}
+body[id^=global_page_ynvideo] .global_form > div > div
+{
+	background: none;
+	border: none;
+}
+body[id^=global_page_ynvideo] ul.ynvideo_list>li,
+body[id^=global_page_ynvideo] .ynvideo_thumb_wrapper {
+	width: 160px;
+	max-width: 160px;
+}
+
+body[id^=global_page_ynvideo] .ynvideo_thumb_wrapper  img,
+body[id^=global_page_ynvideo] .ynvideo_thumb_wrapper span.item_nophoto
+{
+	padding: 0!important;
+}
+body[id^=global_page_ynvideo] .feed_item_attachments .video_thumb_wrapper img
+{
+	margin:0px auto!important;
+	padding: 4px!important;
+}
+body[id^=global_page_ynvideo] .ynvideo_thumb_wrapper img.thumb_normal
+{
+	border: 0;
+}
+body[id^=global_page_ynvideo] .layout_main .ynvideo_list > li + li
+{
+	border-top-width: 0!important;
+	padding: 0!important;
+}
+.layout_ynvideo_show_same_categories .video_thumb_wrapper img,
+.layout_ynvideo_show_same_poster .video_thumb_wrapper img
+{
+	padding: 2px!important;
+}
+.layout_page_ynvideo_index_view .layout_core_content, .layout_video_show_same_poster 
+{
+	background-color: #fff;
+	border: 1px solid rgba(0,0,0,.12);
+	padding: 1.5em;
+}
+.layout_page_ynvideo_index_view .layout_core_content
+{
+	margin-bottom: 15px;
+}
+.layout_page_ynvideo_index_view .video_view_container
+{
+	width: auto;
+	max-width: 640px;
+}
+
+.ynvideo_video_view_description > .right > .video_button_add_to_area 
+{
+	position: static;
+	display: inline-block;
+}
+body[id^=global_page_ynvideo] div[class$="_index_view"] .layout_core_content * 
+{
+	text-align: left;
+}
+.ynvideo_playlist_headline h2,
+.layout_ynvideo_list_my_watch_later_videos h2,
+.layout_ynvideo_list_my_favorite_videos h2,
+.layout_ynvideo_list_manage_videos h2
+{
+	margin-top: 0px;
+}
+.ynvideo_video_view_description > .right 
+{
+	float: none;
+	position: relative;
+	clear: both;
+}
+body[id^=global_page_ynvideo] .ynvideo_show_less_more 
+{
+	padding-left: 10px;
+}
+
+body[id^=global_page_ynvideo] .ynvideo_addTo_frame .ynvideo_addTo_playlists
+{
+	height: auto;
+    max-height: 200px;
+}
+body[id^=global_page_ynvideo] ul.ynvideo_list > li
+{
+	margin-left: 15px;
+    margin-right: 15px !important;
+}
+#global_page_ynvideo-index-view .ynvideo_addTo_frame,
+#global_page_ynvideo-index-manage .ynvideo_addTo_frame,
+#global_page_ynvideo-favorite-index .ynvideo_addTo_frame,
+#global_page_ynvideo-playlist-view .ynvideo_addTo_frame,
+#global_page_ynvideo-watch-later-index .ynvideo_addTo_frame
+{
+	left: 0px!important;
+}
+ul.ynvideo_frame
+{
+	padding: 0px 0px 0px 10px;
+}
+.mobilesize_slideshow
+{
+	display:none;
+}
+.layout_ynvideo_list_featured_videos .ynvideo_thumb_img_wrap a img
+{
+	width: 100%;
+	height: 260px;
+}
+.ynvideo_feature_user_thumb
+{
+	width: 10%!important;
+}
+.ynvideo_feature_user_thumb img
+{
+	padding:0;
+	margin: 1px;
+}
+#ynvideo_featured .video_thumb_wrapper .ynvideo_thumb_img_wrap img
+{
+	padding:0;
+}
+#ynvideo_featured .pagination>li>a, 
+#ynvideo_featured .pagination>li>span
+{
+	padding:0;
+	background-color: transparent;
+	border: 0px;
+}
+#ynvideo_featured .ynvideo_featured_frame
+{
+	height: 95px!important;
+}
+#global_page_ynvideo-video-embed textarea
+{
+	max-width: 100%!important;
+}
+
+/*** fix slideshow temporary ***/
+body[id^=global_page_ynvideo] #ynvideo_featured {
+    background-color: #333;
+}
+
+body[id^=global_page_ynvideo] #ynvideo_featured #slides {
+    margin: 0 auto;    
+}
+
+body[id^=global_page_ynvideo] .mobilesize_slideshow .flexslider {
+    border: 0;
+}
+
+body[id^=global_page_ynvideo] .ynvideo_addTo_frame
+{
+	width: 200px!important;
+	max-height: 317px;
+    height: auto;
+    padding-bottom: 8px;
+}
+
+body[id^=global_page_ynvideo] ul.videos_manage .video_info
+{
+	clear: none!important;
+	padding-left: 10px!important;
+}
+
+body[id^=global_page_ynvideo] .ynvideo_feature_user_thumb {
+    width: 40px !important;
+    padding-left: 5px;
+}
+
+.layout_page_ynvideo_index_view .ynvideo_video_view_headline > .ynvideo_video_info {
+    width: auto;
+}
+.layout_ynvideo_list_featured_videos .mobilesize_slideshow .ynvideo_thumb_img_wrap .video_button_add_to_area
+{
+	top: 17%!important;
+	left: 75px !important;
+	z-index: 10;
+}
+
+body[id^=global_page_ynvideo] .mobilesize_slideshow  .ynvideo_featured_frame .ynvideo_featured_info {
+    padding-left: 40px;
+}
+.mobilesize_slideshow .ynvideo_featured_frame > .ynvideo_feature_user_thumb
+{
+	width: 7%;
+}
+.mobilesize_slideshow .ynvideo_block
+{
+	height: 20px;
+	margin-top: 0px;
+}
+.mobilesize_slideshow .layout_ynvideo_list_featured_videos .ynvideo_block
+{
+	float: left;
+}
+
+@media (max-width: 1200px)
+{
+	.video_thumb_wrapper button.ynvideo_uix_button
+	{
+		display: block!important;
+	}
+}
+@media (max-width: 991px)
+{
+	ul.feed .feed_item_attachments .video_object > div > div 
+	{
+		max-height: 100px!important;
+	}
+	body[id^=global_page_ynvideo] .flex-direction-nav a
+	{
+		z-index: 0!important;
+	}
+	body[id^=global_page_ynvideo] .fullsize_slideshow
+	{
+		display: none;
+	}
+	body[id^=global_page_ynvideo] .mobilesize_slideshow
+	{
+		display:block;
+	}
+ 	
+ 	body[id^=global_page_ynvideo] .video_embed > iframe, 
+	body[id^=global_page_ynvideo] .video_embed embed, 
+	body[id^=global_page_ynvideo] .video_embed > object,
+	body[id^=global_page_ynvideo] .video_object > object,
+	body[id^=global_page_ynvideo] .video_object embed
+	{
+		width: 100%;
+		height: 100%;
+		min-height: 240px;
+		max-height: 360px;
+	}
+
+	.ynvideo_addTo_frame .ynvideo_addTo_playlists
+	{
+		height: auto;
+	}
+	.ynvideo_addTo_frame input[type="radio"] + label 
+	{
+		float: none;
+	}
+	body[id^=global_page_ynvide] .layout_right #filter_form.open, 
+    body[id^=global_page_ynvide] .layout_right .filters.open
+	{
+		top: -8px!important;
+	}
+
+	.video_author a 
+	{
+		display: inline-block;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		white-space: nowrap;
+		max-width: 60px;
+		vertical-align: top;
+	}
+
+	.ynvideo_featured_frame .ynvideo_feature_info,
+	.ynvideo_featured_frame .ynvideo_feature_info
+	{
+		font-size: 0.8em!important;
+		color: #CCC!important;
+		font-weight: normal!important;
+	}
+	.ynvideo_featured_frame  .ynvideo_feature_description
+	{
+		color: #CCC!important;
+		font-weight: normal!important;
+	}
+	.ynvideo_featured_frame .ynvideo_featured_info
+	{
+		width: 85%!important;
+	}
+}
+
+@media (max-width: 767px) {
+    
+}
+
+@media (max-width: 640px)
+{
+	body[id^=global_page_ynvideo] .layout_main .generic_list_widget > li {
+    	padding: 10px 0;
+	}
+	ul.ynvideo_list > li
+	{
+		margin-left: 0;
+		float:none;
+	}
+	body[id^=global_page_ynvideo] .video_thumb_wrapper 
+	{
+		position: relative;
+		float: left;
+		margin-right: 10px;
+	}
+	body[id^=global_page_ynvideo] .video_author 
+	{
+		text-align: left!important;
+	}
+	body[id^=global_page_ynvide] ul.videos_browse > li 
+	{
+		text-align: left!important;
+		max-width: 100%!important;
+		margin-top: 5px!important;
+	}
+	div ul.videos_browse > li 
+	{
+		height: auto!important;
+	}
+	.ynvideo_addTo_frame
+	{
+		left: 0px;
+	}
+    
+    body[id^=global_page_ynvideo] ul.ynvideo_list > li {
+        margin-left: 0;
+    }
+}
+@media (max-width: 480px)
+{
+    body[id^=global_page_ynvideo] .ynvideo_featured_frame .ynvideo_featured_info {
+        padding-left: 0px;
+    }
+    
+	body[id^=global_page_ynvideo] ul.videos_manage .video_info
+	{
+		padding-left: 0px!important;
+	}
+	.ynvideo_playlist_headline .ynvideo_playlist_headline_control 
+	{
+		clear: both;
+	}
+	.ynvideo_playlist_headline .ynvideo_playlist_headline_control span 
+	{
+		display: block;
+	}
+	ul.ynvideo_frame
+	{
+		padding: 0px;
+	}
+	.layout_page_ynvideo_index_view .layout_core_content
+	{
+		padding: 0.5em;
+	}
+	#global_page_ynvideo-video-embed textarea
+	{
+		width: 100%;
+		height: 130px;
+	}
+	#global_content_simple form textarea
+	{
+		width: 95%;
+	}
+	.ynvideo_feature_user_thumb 
+	{
+		width: 13%!important;
+	}
+	.ynvideo_featured_info
+	{
+		font-size: 12px;
+	}
+	#global_page_ynvideo-favorite-remove
+	{
+		width: 270px!important;
+	}
+}
+
+

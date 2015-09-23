@@ -1,0 +1,268 @@
+<?php
+class Yncomment_LinkController extends Core_Controller_Action_Standard
+{
+  public function init()
+  {
+    $this->_helper->contextSwitch
+        ->addActionContext('preview', 'json')
+        ->initContext();
+  }
+  public function previewAction()
+  {
+    if( !$this->_helper->requireUser()->isValid() ) return;
+    if( !$this->_helper->requireAuth()->setAuthParams('core_link', null, 'create')->isValid() ) return;
+
+    // clean URL for html code
+    $uri = trim(strip_tags($this->_getParam('uri')));
+    //$uri = $this->_getParam('uri');
+    $info = parse_url($uri);
+    $this->view->url = $uri;
+    
+    try
+    {
+      $client = new Zend_Http_Client($uri, array(
+        'maxredirects' => 2,
+        'timeout'      => 30,
+      ));
+
+      // Try to mimic the requesting user's UA
+      $client->setHeaders(array(
+        'User-Agent' => $_SERVER['HTTP_USER_AGENT'],
+        'Accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+        'X-Powered-By' => 'Zend Framework'
+      ));
+
+      $response = $client->request();
+
+      // Get content-type
+      list($contentType) = explode(';', $response->getHeader('content-type'));
+      $this->view->contentType = $contentType;
+
+      // Prepare
+      $this->view->title = null;
+      $this->view->description = null;
+      $this->view->thumb = null;
+      $this->view->imageCount = 0;
+      $this->view->images = array();
+
+      // Handling based on content-type
+      switch( strtolower($contentType) ) {
+
+        // Images
+        case 'image/gif':
+        case 'image/jpeg':
+        case 'image/jpg':
+        case 'image/tif': // Might not work
+        case 'image/xbm':
+        case 'image/xpm':
+        case 'image/png':
+        case 'image/bmp': // Might not work
+          $this->_previewImage($uri, $response);
+          break;
+
+        // HTML
+        case '':
+        case 'text/html':
+          $this->_previewHtml($uri, $response);
+          break;
+
+        // Plain text
+        case 'text/plain':
+          $this->_previewText($uri, $response);
+          break;
+
+        // Unknown
+        default:
+          break;
+      }
+    }
+
+    catch( Exception $e )
+    {
+      throw $e;
+    }
+  }
+
+  protected function _previewImage($uri, Zend_Http_Response $response)
+  {
+    $this->view->imageCount = 1;
+    $this->view->images = array($uri);
+  }
+
+  protected function _previewText($uri, Zend_Http_Response $response)
+  {
+    $body = $response->getBody();
+    if( preg_match('/charset=([a-zA-Z0-9-_]+)/i', $response->getHeader('content-type'), $matches) ||
+        preg_match('/charset=([a-zA-Z0-9-_]+)/i', $response->getBody(), $matches) ) {
+      $charset = trim($matches[1]);
+    } else {
+      $charset = 'UTF-8';
+    }
+
+    // Reduce whitespace
+    $body = preg_replace('/[\n\r\t\v ]+/', ' ', $body);
+
+    $this->view->title = substr($body, 0, 63);
+    $this->view->description = substr($body, 0, 255);
+  }
+
+  protected function _previewHtml($uri, Zend_Http_Response $response)
+  {
+    $body = $response->getBody();
+    $body = trim($body);
+    if( preg_match('/charset=([a-zA-Z0-9-_]+)/i', $response->getHeader('content-type'), $matches) ||
+        preg_match('/charset=([a-zA-Z0-9-_]+)/i', $response->getBody(), $matches) ) {
+      $this->view->charset = $charset = trim($matches[1]);
+    } else {
+      $this->view->charset = $charset = 'UTF-8';
+    }
+    if( function_exists('mb_convert_encoding') ) {
+      $body = mb_convert_encoding($body, 'HTML-ENTITIES', $charset);
+    }
+
+    // Get DOM
+    if( class_exists('DOMDocument') ) {
+      $dom = new Zend_Dom_Query($body);
+    } else {
+      $dom = null; // Maybe add b/c later
+    }
+
+    $title = null;
+    if( $dom ) {
+      $titleList = $dom->query('title');
+      if( count($titleList) > 0 ) {
+        $title = trim($titleList->current()->textContent);
+        $title = substr($title, 0, 255);
+      }
+    }
+    $this->view->title = $title;
+
+    $description = null;
+    if( $dom ) {
+      $descriptionList = $dom->queryXpath("//meta[@name='description']");
+      // Why are they using caps? -_-
+      if( count($descriptionList) == 0 ) {
+        $descriptionList = $dom->queryXpath("//meta[@name='Description']");
+      }
+      if( count($descriptionList) > 0 ) {
+        $description = trim($descriptionList->current()->getAttribute('content'));
+        $description = substr($description, 0, 255);
+      }
+    }
+    $this->view->description = $description;
+
+    $thumb = null;
+    if( $dom ) 
+    {
+        $ogImgList = $dom -> queryXpath("//meta[@property='og:image']");
+        if (count($ogImgList) > 0) {
+            $thumb = $ogImgList -> current() -> getAttribute('content');
+        }
+        if(!$thumb)
+        {
+            $thumbList = $dom -> queryXpath("//link[@rel='image_src']");
+            if (count($thumbList) > 0) {
+                $thumb = $thumbList -> current() -> getAttribute('href');
+            }
+         }
+    }
+    $this->view->thumb = $thumb;
+
+    $medium = null;
+    if( $dom ) {
+      $mediumList = $dom->queryXpath("//meta[@name='medium']");
+      if( count($mediumList) > 0 ) {
+        $medium = $mediumList->current()->getAttribute('content');
+      }
+    }
+    $this->view->medium = $medium;
+
+    // Get baseUrl and baseHref to parse . paths
+    $baseUrlInfo = parse_url($uri);
+    $baseUrl = null;
+    $baseHostUrl = null;
+    $baseUrlScheme = $baseUrlInfo['scheme'];
+    $baseUrlHost = $baseUrlInfo['host'];
+    if( $dom ) {
+      $baseUrlList = $dom->query('base');
+      if( $baseUrlList && count($baseUrlList) > 0 && $baseUrlList->current()->getAttribute('href') ) {
+        $baseUrl = $baseUrlList->current()->getAttribute('href');
+        $baseUrlInfo = parse_url($baseUrl);
+        if (!isset($baseUrlInfo['scheme']) || empty($baseUrlInfo['scheme'])) {
+          $baseUrlInfo['scheme'] = $baseUrlScheme;
+        }
+        if (!isset($baseUrlInfo['host']) || empty($baseUrlInfo['host'])) {
+          $baseUrlInfo['host'] = $baseUrlHost;
+        }
+        $baseHostUrl = $baseUrlInfo['scheme'].'://'.$baseUrlInfo['host'].'/';
+      }
+    }
+    if( !$baseUrl ) {
+      $baseHostUrl = $baseUrlInfo['scheme'].'://'.$baseUrlInfo['host'].'/';
+      if( empty($baseUrlInfo['path']) ) {
+        $baseUrl = $baseHostUrl;
+      } else {
+        $baseUrl = explode('/', $baseUrlInfo['path']);
+        array_pop($baseUrl);
+        $baseUrl = join('/', $baseUrl);
+        $baseUrl = trim($baseUrl, '/');
+        $baseUrl = $baseUrlInfo['scheme'].'://'.$baseUrlInfo['host'].'/'.$baseUrl.'/';
+      }
+    }
+
+    $images = array();
+    if( $thumb ) {
+      $images[] = $thumb;
+    }
+    if( $dom ) {
+      $imageQuery = $dom->query('img');
+      foreach( $imageQuery as $image )
+      {
+        $src = $image->getAttribute('src');
+        // Ignore images that don't have a src
+        if( !$src || false === ($srcInfo = @parse_url($src)) ) {
+          continue;
+        }
+        $ext = ltrim(strrchr($src, '.'), '.');
+        // Detect absolute url
+        if( strpos($src, '/') === 0 ) {
+          // If relative to root, add host
+          $src = $baseHostUrl . ltrim($src, '/');
+        } else if( strpos($src, './') === 0 ) {
+          // If relative to current path, add baseUrl
+          $src = $baseUrl . substr($src, 2);
+        } else if( !empty($srcInfo['scheme']) && !empty($srcInfo['host']) ) {
+          // Contians host and scheme, do nothing
+        } else if( empty($srcInfo['scheme']) && empty($srcInfo['host']) ) {
+          // if not contains scheme or host, add base
+          $src = $baseUrl . ltrim($src, '/');
+        } else if( empty($srcInfo['scheme']) && !empty($srcInfo['host']) ) {
+          // if contains host, but not scheme, add scheme?
+          $src = $baseUrlInfo['scheme'] . ltrim($src, '/');
+        } else {
+          // Just add base
+          $src = $baseUrl . ltrim($src, '/');
+        }
+        // Ignore images that don't end in an image extension
+        if( !in_array($ext, array('jpg', 'jpeg', 'gif', 'png')) ) {
+          // @todo should we do this? disabled for now
+          //continue;
+        }
+        if( !in_array($src, $images) ) {
+          $images[] = $src;
+        }
+      }
+    }
+
+    // Unique
+    $images = array_values(array_unique($images));
+
+    // Truncate if greater than 20
+    if( count($images) > 30 ) {
+      array_splice($images, 30, count($images));
+    }
+
+    $this->view->imageCount = count($images);
+    $this->view->images = $images;
+  }
+}

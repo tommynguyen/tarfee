@@ -1,0 +1,253 @@
+.plan hr {
+	color: #fafafa;
+}
+.change-plan-text {
+	font-size: 18px;
+	font-weight: bold;
+}
+.plan-table {
+	width: 100%;
+	margin-top: 0px;
+}
+.plan-table table{
+	background-color: white;
+}
+.plan-table th {
+	line-height: 55px;
+	font-size: 18px;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+	position: relative;
+	padding-right: 15px;
+	height: 90px;
+	color: #fff !important;
+	text-transform: uppercase;
+	font-size: 14px !important;
+
+
+	&:nth-child(2){
+		border-radius: 5px 0 0 0;
+		background-color: $theme_link_color !important;
+		box-shadow: 4px 5px 8px -3px #333;
+	}
+	
+	&:nth-child(3){
+		box-shadow: 1px 5px 8px -3px #333;
+		background-color: #DD4E1F !important;
+	}
+
+	&:nth-child(4){
+		box-shadow: 1px 5px 8px -3px #333;
+		background-color: $theme_link_color !important;
+		border-radius: 0 5px 0 0;
+	}
+}
+.plan-table{
+	table{
+		.tf-settings-info{
+			position: absolute;
+			width: 278px;
+			background-color: #fff;
+			color: $theme_link_color;
+			border: 2px solid $theme_link_color;
+			padding: 10px;
+			line-height: 1.5em;
+			font-weight: normal;
+			z-index: 1;
+			right: 30px;
+			top: -3px;
+			margin-right: -278px;
+			display: none;
+			padding-left: 13px;
+			color: $theme_font_color;
+			box-shadow: 0px 3px 15px -1px #333;
+
+			&:before{
+				content:"";
+				display: block;
+				width: 20px;
+				height: 20px;
+				background: #fff;
+				position: absolute;
+				border-bottom: 2px solid $theme_link_color;
+				border-left: 2px solid $theme_link_color;
+				left: -11px;
+				top: 16px;
+				-ms-transform: rotate(45deg); /* IE 9 */
+				-webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+				transform: rotate(45deg);
+			}
+		}
+		
+		tr:last-child{
+			td:nth-child(1){
+				&:after{
+					display: none;
+				}
+			}
+		}
+
+		tr{
+			background: transparent !important;
+
+			td:nth-child(1){
+				font-weight: bold !important;		
+				color: $theme_font_color_light;
+				font-size: 13px;	
+				position: relative;	
+				cursor: pointer;
+
+				&:hover{
+					.tf-settings-info{display: block;}
+				}
+
+				&:after{
+					content:"\\f05a";
+					font-family: FontAwesome;
+					font-size: 16px;
+					position: relative;
+					top: 2px;
+					margin-left: 5px;
+				}
+			}
+			td{
+
+		
+				&:nth-child(2),
+				&:nth-child(4){
+					background: #acacac;						
+					color: #fff; 
+					text-transform: uppercase;
+					span{
+						font-weight: bold !important;
+					}
+				}
+
+				&:nth-child(3){
+					background: #a0a0a0;				
+					color: #fff; 
+					text-transform: uppercase;
+					
+					span{
+						font-weight: bold !important;
+					}
+				}
+			} 
+
+			&:last-child{
+
+				.price_title{
+
+					span{
+						font-weight: normal !important;
+						font-size: 14px !important;
+						color: #fff !important;
+
+						span{
+							font-weight: bold !important;	
+							font-size:  18px !important;
+						}
+					}
+				}
+
+				td{
+					
+					&:first-child{
+						border: none;
+					}
+
+					&:nth-child(2){
+						background: #ccc !important;
+						border: none;
+					}
+
+					&:nth-child(3){
+						border-radius: 0 0 0 5px;
+						border: none;
+						background: #DD4E1F !important;
+						padding-bottom: 7px;
+					}
+					&:nth-child(4){
+						padding-top: 20px;
+						border: none;
+						border-radius: 0 0 5px 0;
+						padding-bottom: 20px;
+						background: $theme_link_color !important;
+					}
+				}
+			}
+		}
+
+		button{
+			padding: 0px 15px;
+			border-radius: 30px;
+			border: none;
+			font-size: 14px;
+			background-color: #fff;
+			color: $theme_link_color !important;
+			font-weight: bold;
+			text-transform: uppercase;
+			box-shadow: 0px 3px 15px -1px #333;
+		}
+
+
+	}
+}
+
+
+
+.plan-table th.gold {
+	background: url("~/application/modules/Sladvsubscription/externals/images/gold-bg.png") repeat-x;
+}
+.plan-table th.silver {
+	background: url("~/application/modules/Sladvsubscription/externals/images/silver-bg.png") repeat-x;
+}
+.plan-table th.silver img {
+	position: relative;
+	top: 5px;
+	float: right;
+	right: 5px;
+}
+.plan-table th.bronze {
+	background: url("~/application/modules/Sladvsubscription/externals/images/bronze-bg.png") repeat-x;
+}
+.plan-table td {
+	line-height: 40px;
+	text-align: center;
+	padding: 5px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.plan-table td:first-child {
+	text-align: left;
+	border-left: 1px solid #ccc;
+}
+.plan-table td.no-border {
+	border-left: none !important;
+	border-right: 1px solid #ccc;
+	border-bottom: none !important;
+}
+.plan-table tr:last-child td {
+	background: #e9f4fa;
+	padding: 5px;
+}
+.plan-table tr:last-child td:first-child {
+	background: #fff;
+}
+.title-width {
+	width: 300px;
+}
+.detail-width {
+	width: 200px;
+}
+.even {
+	background-color: #ebebeb !important;
+}
+.plan-table .price {
+	color: #ff6c00;
+	font-size: 24px;
+	font-weight: bold;
+}
+.plan-table .popular_icon {
+	position: absolute;
+}

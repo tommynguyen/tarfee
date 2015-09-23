@@ -1,0 +1,140 @@
+@include "constants.css";
+
+/***** fix simple site *****/
+.generic_layout_container.layout_main:before,
+.generic_layout_container.layout_main:after {
+  display: table;
+  content: " ";
+}
+
+.generic_layout_container.layout_main:after {
+  clear: both;
+}
+
+/*****************************/
+/******** mobile view ********/
+/*****************************/
+.layout_page_ynresponsiveevent_index_event .layout_main,
+.layout_page_ynresponsiveevent_index_event .layout_top .layout_middle > div > div,
+.layout_page_core_index_index .layout_main .layout_middle > div > div,
+ .yntheme-event-container,
+#global_content,
+#core_menu_mini_menu > ul,
+.navbar.navbar-default {
+	margin: 0 15px;
+	max-width: auto;
+    
+    &.row { margin: 0; }
+}
+
+#global_content_simple .headline,
+#global_content .headline {
+	border-bottom: 1px solid #eee;
+}
+
+
+
+/*****************************/
+/******** tablet view ********/
+/*****************************/
+@media (min-width: 768px) and (max-width: 991px) {
+    
+	#global_content,
+	#core_menu_mini_menu > ul,
+	.navbar.navbar-default {
+		padding: 0 15px;
+		margin: 0 auto;
+		max-width: 750px;
+	}
+    
+    .yntheme-event-container,
+    .layout_page_ynresponsiveevent_index_event .layout_main,
+    .layout_page_ynresponsiveevent_index_event .layout_top .layout_middle > div > div,
+    .layout_page_core_index_index .layout_main .layout_middle > div > div {
+        margin: 0 auto;
+		max-width: 720px;
+        
+        &.row {
+            margin: 0 auto;
+            max-width: 750px;
+        }
+    }
+}
+
+
+
+/*****************************/
+/******* desktop view ********/
+/*****************************/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+	#global_content,
+	#core_menu_mini_menu > ul,
+	.navbar.navbar-default {
+		padding: 0 15px;
+		margin: 0 auto;
+		max-width: 970px;
+	}
+    
+     .yntheme-event-container,
+    .layout_page_ynresponsiveevent_index_event .layout_main,
+    .layout_page_ynresponsiveevent_index_event .layout_top .layout_middle > div > div,
+    .layout_page_core_index_index .layout_main .layout_middle > div > div {
+        margin: 0 auto;
+		max-width: 940px;
+        
+        &.row {
+            margin: 0 auto;
+            max-width: 970px;
+        }
+    }
+}
+
+
+
+/*****************************/
+/***** wide desktop view *****/
+/*****************************/
+@media (min-width: 1200px) {
+
+    body#global_page_user-profile-index{
+         #global_content{
+            max-width: 100%;
+        }
+    }
+
+    #global_content{
+        max-width: 1170px;
+        margin: 0 auto;
+    }
+	#core_menu_mini_menu > ul,
+	.navbar.navbar-default {
+		padding: 0 15px;
+		margin: 0 auto;
+		max-width: 1170px;
+	}
+    
+    /*Set width header full width 100%*/
+    .layout_ynresponsiveevent_event_mini_menu{
+        width: 100%;
+        padding: 0 15px;
+        margin: auto;
+
+        .yntheme-event-container{
+            max-width: 100%;
+        }
+    }
+    
+    .yntheme-event-container,
+    .layout_page_ynresponsiveevent_index_event .layout_main,
+    .layout_page_ynresponsiveevent_index_event .layout_top .layout_middle > div > div,
+    .layout_page_core_index_index .layout_main .layout_middle > div > div {
+        margin: 0 auto;
+		max-width: 1170px;
+        
+        &.row {
+            margin: 0 auto;
+            max-width: 1170px;
+        }
+    }
+}

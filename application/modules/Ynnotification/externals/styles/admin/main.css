@@ -1,0 +1,24 @@
+#ynnotification_browser-label
+{
+	display: none;
+}
+#ynnotification_browser-element .ynnotification_table
+{
+	border-width: 1px;
+} 
+#ynnotification_browser-element .ynnotification_table tr th, #ynnotification_browser-element .ynnotification_table tr td
+{
+	border-width: 1px;
+}
+
+#ynnotification_browser-element .ynnotification_table tr th
+{
+	background-color: #555555;
+	color:#ffffff;
+	font-size: 15px;
+	border: 1px solid #555555;
+}
+
+
+
+

@@ -1,0 +1,167 @@
+#file_id-element img, #file_step-element img
+{
+    margin: 5px;
+    height: 60px
+}
+
+
+#firstname-wrapper, #firstname-label, #firstname-element
+{
+    float: left;
+}
+
+#lastname-wrapper, #gender-wrapper, #birthdate-wrapper, #profile_picture-wrapper{
+    float: left;
+    clear: none;
+    margin-left: 5px
+}
+
+#lastname-label, #gender-label, #birthdate-label, #profile_picture-label{
+    width: 0px
+}
+
+#lastname-element, #gender-element, #birthdate-element, #profile_picture-element{
+    float: left
+}
+
+#enable_step-element{
+    
+}
+
+#global_content .settings form.set-custom{
+    width: 98%;
+}
+
+#global_content .default-custom{
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    padding: 30px;
+}
+
+#setting-custom-field, #setting-profile-verify {
+    padding-bottom: 0px !important
+}
+
+#setting-custom-field .default-custom{
+    border-bottom: 0px !important;
+    padding-bottom: 0px
+}
+
+#setting-custom-field .admin_fields_type{
+    margin-top: 10px;
+}
+
+#setting-custom-field .admin_fields_type h3{
+    margin-left: 0px;
+}
+
+#setting-profile-verify .set-custom, #setting-custom-field .set-custom{
+    margin-bottom: -5px;
+    padding-bottom: 0px;
+}
+
+#setting-profile-verify .default-custom{
+    border-bottom: 0px !important;
+    padding-bottom: 30px
+}
+
+#setting-profile-verify .description-step{
+    padding: 10px 0;
+}
+
+#setting-profile-verify .admin_fields_type h2{
+    margin-bottom: 5px;
+}
+
+#setting-profile-verify .description-select-required{
+    margin-bottom: 15px;
+}
+
+#setting-custom .set-custom{
+    margin-top: -5px
+}
+
+#setting-custom #setting_field, #setting-custom #verify_identity{
+    padding-top: 0px
+}
+
+#setting-custom #setting_field div, #setting-custom #verify_identity div{
+}
+
+#enable_img-element ul li{
+    padding: 15px 0;
+}
+
+#button_custom-label, #button_custom_field-label{
+    display: none
+}
+
+#manage_reason{
+    margin-bottom: 15px
+}
+
+#global_content #setting-custom-field{
+
+}
+
+/* Design for profile field */
+
+#setting-profile-verify  #wrapper-verify{
+    overflow: hidden;
+    margin-top: -27px
+}
+
+#setting-profile-verify .field-left{
+    border: 1px solid;
+    float: left;
+    width: 250px;
+    height: 330px;
+    margin-left: 200px
+}
+
+#setting-profile-verify .field-right{
+    border: 1px solid;
+    float: left;
+    width: 250px;
+    height: 330px;
+}
+
+#setting-profile-verify .convert{
+    float: left;
+    margin: 115px 5px 0px 5px;
+    width: 105px;
+    text-align: center;
+    padding: 10px 0px;  
+}
+
+#setting-profile-verify .field-left h3, #setting-profile-verify .field-right h3{
+    text-align: center;
+    border-bottom: 1px solid;
+    margin-bottom: 0px;
+    padding: 5px;
+}
+
+#setting-profile-verify .content{
+    height: 279px;
+    overflow: scroll;
+    padding: 5px 2px 10px 10px
+}
+
+#setting-profile-verify .convert-top{
+    margin-bottom: 5px;
+}
+
+#setting-profile-verify .content ul li{
+    padding: 5px 0px;
+}
+
+#count_member_verify > div{
+    margin-left: 10px;
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+#action_verify {
+    margin: 0 0 10px 10px;
+}
+

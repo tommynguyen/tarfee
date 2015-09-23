@@ -1,0 +1,1408 @@
+#global_page_ynvideo-index-create .files-contain {
+	background-color: #f5f7f8;
+    border: 2px dashed $theme_border_color;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    padding: 10px 20px 260px 20px;
+    margin-top: 25px;
+    background-image: url(~/application/modules/Ynvideo/externals/images/dragdrop.png);
+    background-repeat: no-repeat;
+    background-position: center 80px;
+}
+
+.ynvideo_rating_star_generic
+{
+    font-size: 25px;
+    display: inline;text-align: center;
+    color: $theme_link_color;
+}
+
+/*
+FEED COMPOSER
+Styles the insert video part of the feed composer.
+*/
+#compose-video-body .compose-preview-image
+{
+    float: left;
+    margin-right: 2px;
+    border: 1px solid $theme_photo_border_color;
+}
+html[dir="rtl"] #compose-video-body .compose-preview-image
+{
+    float: right;
+    margin-right: 0px;
+    margin-left: 2px;
+}
+#compose-video-body .compose-preview-info
+{
+    overflow: hidden;
+}
+#compose-video-body .compose-preview-info a
+{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 2px;
+}
+#compose-video-body .compose-preview-info > div
+{
+    font-size: .8em;
+}
+
+/*
+BROWSE VIDEOS & FEED ITEMS
+Styles the browse videos page as well as videos embedded
+in the feed.
+*/
+.feed_item_attachments .video_thumb_wrapper
+{
+    margin-right: 7px;
+}
+html[dir="rtl"] .feed_item_attachments .video_thumb_wrapper
+{
+    margin-right: 0px;
+    margin-left: 7px;
+}
+.feed_item_attachments .video_info
+{
+    overflow: hidden;
+}
+.feed_item_attachments .video_info > a
+{
+    font-size: .8em;
+    font-weight: bold;
+}
+.video_title
+{
+    font-size: .8em;
+    font-weight: bold;
+    display: inline-block;
+    clear: both;
+}
+.feed_item_attachments .video_desc
+{
+    margin-top: 2px;
+    font-size: .8em;
+}
+ul.videos_browse
+{
+    overflow: hidden;
+}
+ul.videos_browse > li
+{
+    float: left;
+    overflow: hidden;
+    margin-right: 20px;
+    height: 185px;
+    max-width: 140px;
+    *width: 140px; 
+}
+.ynvideo_frame ul.videos_browse > li {
+    margin-right: 30px;
+    text-align: left;
+    max-width: 160px;
+}
+
+html[dir="rtl"] ul.videos_browse > li
+{
+    float: right;
+    margin-right: 0px;
+    margin-left: 20px;
+}
+.video_length
+{
+    +opacity(.7);
+    +rounded(4px, true, true, false, true);
+    display: inline-block;
+    position: absolute;
+    margin: 6px;
+    padding: 3px 5px 3px 5px;
+    background: #000;
+    color: #fff;
+    font-size: .7em;
+}
+.video_thumb_wrapper
+{
+    +rounded(4px);
+    float: left;
+    margin-bottom: 2px;
+    background: #666;
+}
+html[dir="rtl"] .video_thumb_wrapper
+{
+    float: right;
+}
+.video_thumb_wrapper:hover
+{
+    background: none;
+}
+.video_thumb_wrapper a
+{
+    display: block;
+}
+.video_thumb_wrapper img,
+.video_thumb_wrapper span.item_nophoto
+{
+    display: block;
+    margin: 5px;
+    border: 1px solid #888;
+}
+.video_author
+{
+    font-size: .8em;
+    display: block;
+}
+.video_stats > span
+{
+    font-size: .8em;
+    color: $theme_font_color_light;
+}
+.layout_video_browse_search,
+.layout_video_browse_menu_quick
+{
+    margin-bottom: 15px;
+}
+
+/* COMMON */
+.ynvideo_clear
+{
+    clear: both;
+}
+.video_date {
+	margin-bottom: 10px;
+}
+
+div.rating {
+	margin-top: 0px !important;
+}
+
+.ynvideo_date, .ynvideo_view_count, .ynvideo_video_count
+{
+    font-size: .8em;
+    color: $theme_font_color_light;
+}
+
+.ynvideo_title, .ynvideo_text_header {
+    font-weight: bold;
+}
+
+.icon_ynvideo_new
+{
+    background-image: url(~/application/modules/Ynvideo/externals/images/new.png);
+}
+.icon_ynvideo_edit
+{
+    background-image: url(~/application/modules/Ynvideo/externals/images/edit.png);
+}
+.icon_ynvideo_delete
+{
+    background-image: url(~/application/modules/Ynvideo/externals/images/delete.png);
+}
+.icon_ynvideo_remove
+{
+    background-image: url(~/application/modules/Ynvideo/externals/images/delete.png);
+}
+.icon_ynvideo_add_to_group
+{
+    background-image: url(~/application/modules/Ynvideo/externals/images/to-group.png);
+}
+.icon_ynvideo_remove_from_group
+{
+    background-image: url(~/application/modules/Ynvideo/externals/images/leave-group.png);
+}
+.video_button_add_to_area
+{
+    position: absolute;
+    right: 6px;
+    bottom: 5px;
+}
+.ynvideo_plus
+{
+    background: url(~/application/modules/Ynvideo/externals/images/plus.png) no-repeat;
+    width: 10px !important;
+    height: 10px !important;
+}
+.ynvideo_uix_button
+{
+    color: #555;
+    font-weight: bold;
+    font-size: 11px;
+    padding: 6px 8px;
+    border: 1px solid #CCC;
+    border-bottom-color: #AAA;
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#ffffff,EndColorStr=#e0e0e0);
+    background-image: -moz-linear-gradient(top,#fff 0,#e0e0e0 100%);
+    background-image: -ms-linear-gradient(top,#fff 0,#e0e0e0 100%);
+    background-image: -o-linear-gradient(top,#fff 0,#e0e0e0 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,#fff),color-stop(100%,#e0e0e0));
+    background-image: -webkit-linear-gradient(top,#fff 0,#e0e0e0 100%);
+    background-image: linear-gradient(to bottom,#fff 0,#e0e0e0 100%);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background-color: transparent;
+}
+.video_thumb_wrapper
+{
+    +rounded(4px);
+    float: left;
+    margin-bottom: 2px;
+    background: #666;
+    position: relative;
+    margin-right: 5px;
+}
+.video_thumb_wrapper button.ynvideo_uix_button
+{
+    display: none;
+    border: none;
+}
+.video_thumb_wrapper:hover button.ynvideo_uix_button
+{
+    display: block;
+}
+.ynvideo_block {
+    margin-top: 5px;
+    overflow: hidden;
+}
+.ynvideo_view_more {
+    clear: both;
+    color: $theme_link_color;
+    font-weight: bold
+}
+
+ul.ynvideo_frame {
+    padding: 20px 0 20px 30px;
+    background: none !important;
+    border: 1px solid $theme_foreground_border_color;
+    border-radius: 3px 3px 3px 3px;
+    margin-bottom: 15px;
+
+}
+
+.ynvideo_center {
+    text-align: center;
+}
+.ynvideo_form_widget {
+    margin-bottom: 15px;
+}
+.ynvideo_watched {
+    padding: 1px 8px;
+    background-color:#e0e0e0;
+    font-weight: bold;
+    +rounded(3px);
+    border: 1px solid #555;
+    font-size: 0.8em;
+}
+
+
+/* ACTION TYPE ICONS */
+.activity_icon_comment_video
+{
+    background-image: url(~/application/modules/Core/externals/images/types/post.png);
+}
+
+/* ITEM TYPE ICONS */
+.item_icon_video
+{
+    background-image: url(~/application/modules/Ynvideo/externals/images/types/video.png);
+}
+
+.item_icon_ynvideo_playlist {
+    background-image: url(~/application/modules/Ynvideo/externals/images/types/playlist.png);
+}
+
+/* NOTIFICATION TYPE ICONS */
+.notification_type_ynvideo_processed,
+.notification_type_ynvideo_processed_failed
+{
+  background-image: url(~/application/modules/Ynvideo/externals/images/new.png);
+}
+
+/*
+ACTIVITY FEED COMPOSER VIDEO
+Used for the attachment composer above the main feed.
+*/
+#compose-video-activator,
+#compose-video-menu span
+{
+  background-image: url(~/application/modules/Ynvideo/externals/images/new.png);
+  background-repeat: no-repeat;
+}
+#compose-video-form-input
+{
+  width: 300px;
+  margin-top: 5px;
+}
+#compose-video-form-submit
+{
+  margin-top: 5px;
+  clear: both;
+}
+
+/* VIEW VIDEO */
+ul.ynvideo_videos_manage > li
+{
+    clear: both;
+    overflow: hidden;
+}
+ul.ynvideo_videos_manage > li + li
+{
+    margin-top: 15px;
+    border-top-width: 1px;
+    padding-top: 15px;
+}
+ul.ynvideo_videos_manage .video_thumb_wrapper
+{
+    +rounded(4px);
+    float: left;
+    margin-bottom: 2px;
+    background: #666;
+}
+html[dir="rtl"] ul.ynvideo_videos_manage .video_thumb_wrapper
+{
+    float: right;
+}
+ul.ynvideo_videos_manage .video_thumb_wrapper:hover
+{
+    background: none;
+}
+ul.ynvideo_videos_manage .video_thumb_wrapper a
+{
+    display: block;
+}
+ul.ynvideo_videos_manage .video_thumb_wrapper img
+{
+    display: block;
+}
+ul.ynvideo_videos_manage .video_info
+{
+    overflow: hidden;
+    padding-left: 10px;
+}
+html[dir="rtl"] ul.ynvideo_videos_manage .video_info
+{
+    padding-left: 0px;
+    padding-right: 10px;
+}
+ul.ynvideo_videos_manage .video_info h3
+{
+    margin-bottom: 0px;
+}
+ul.ynvideo_videos_manage .video_options
+{
+    float: right;
+    width: 120px;
+    padding-left: 15px;
+}
+html[dir="rtl"] ul.ynvideo_videos_manage .video_options
+{
+    float: left;
+    padding-left: 0px;
+    padding-right: 15px;
+}
+ul.ynvideo_videos_manage .video_options a
+{
+    clear: both;
+    margin: 3px 0px 0px 0px;
+    font-size: .8em;
+    padding-top: 1px;
+    height: 16px;
+}
+ul.ynvideo_videos_manage .video_title
+{
+    margin-bottom: 1px;
+    margin-left: -1px;
+}
+html[dir="rtl"] ul.ynvideo_videos_manage .video_title
+{
+    margin-left: 0px;
+    margin-right: -1px;
+}
+ul.ynvideo_videos_manage .video_author
+{
+    font-size: .8em;
+    display: block;
+}
+ul.ynvideo_videos_manage .video_stats
+{
+    margin-top: 2px;
+}
+ul.ynvideo_videos_manage .video_stats > span
+{
+    font-size: .8em;
+    color: $theme_font_color_light;
+}
+ul.ynvideo_videos_manage > li {
+    clear: both;
+    overflow: hidden;
+}
+ul.ynvideo_videos_manage > li + li {
+    margin-top: 15px;
+    border-top-width: 1px;
+    padding-top: 15px;
+}
+ul.ynvideo_videos_manage .video_thumb_wrapper {
+    +rounded(4px);
+    float: left;
+    margin-bottom: 2px;
+    background: #666;
+}
+html[dir="rtl"] ul.ynvideo_videos_manage .video_thumb_wrapper {
+    float: right;
+}
+ul.ynvideo_videos_manage .video_thumb_wrapper:hover
+{
+    background: none;
+}
+ul.ynvideo_videos_manage .video_thumb_wrapper a
+{
+    display: block;
+}
+ul.ynvideo_videos_manage .video_info
+{
+    overflow: hidden;
+    padding-left: 10px;
+}
+html[dir="rtl"] ul.ynvideo_videos_manage .video_info
+{
+    padding-left: 0px;
+    padding-right: 10px;
+}
+ul.ynvideo_videos_manage .video_info h3
+{
+    margin-bottom: 0px;
+}
+ul.ynvideo_videos_manage .video_options
+{
+    float: right;
+    width: 120px;
+    padding-left: 15px;
+}
+html[dir="rtl"] ul.ynvideo_videos_manage .video_options
+{
+    float: left;
+    padding-left: 0px;
+    padding-right: 15px;
+}
+ul.ynvideo_videos_manage .video_options a
+{
+    clear: both;
+    margin: 3px 0px 0px 0px;
+    font-size: .8em;
+    padding-top: 1px;
+    height: 16px;
+}
+ul.ynvideo_videos_manage .video_title
+{
+    margin-bottom: 1px;
+    margin-left: -1px;
+}
+html[dir="rtl"] ul.ynvideo_videos_manage .video_title
+{
+    margin-left: 0px;
+    margin-right: -1px;
+}
+ul.ynvideo_videos_manage .video_author
+{
+    font-size: .8em;
+    display: block;
+}
+ul.ynvideo_videos_manage .video_stats
+{
+    margin-top: 2px;
+}
+ul.ynvideo_videos_manage .video_stats > span
+{
+    font-size: .8em;
+    color: $theme_font_color_light;
+}
+.ynvideo_show_less_more {
+    text-align: center;
+}
+
+.ynvideo_video_show_less {
+    overflow: hidden;
+    height: 145px;
+}
+
+.ynvideo_link_more {
+    background: url(~/application/modules/Ynvideo/externals/images/show_more.png) no-repeat;
+    padding-right: 16px;
+    background-position: right;
+}
+
+.ynvideo_link_less {
+    background: url(~/application/modules/Ynvideo/externals/images/show_less.png) no-repeat;
+    padding-right: 16px;
+    background-position: right;
+}
+
+/* VIDEO CATEGORY */
+.ynvideo-category-collapsed
+{
+    background: url(~/application/modules/Ynvideo/externals/images/collapse_collapsed.png) no-repeat;
+}
+
+.ynvideo-category-no-collapsed
+{
+    background: url(~/application/modules/Ynvideo/externals/images/collapse.png) no-repeat;
+}
+
+tr.ynvideo-category-sub-category td.category-name
+{
+    padding-left:50px;
+}
+
+.ynvideo-category-collapse-control, .ynvideo-category-collapse-nocontrol
+{
+    width: 16px;
+    height: 16px;
+    display: block;
+    float: right;
+    cursor: pointer;
+}
+
+table.ynvideo-category {
+    width: 100%;
+}
+
+table.ynvideo-category tr
+{
+    line-height: 1.8em;
+}
+
+table.ynvideo-category tr > td > img
+{
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+}
+
+table.ynvideo-category .ynvideo-category-collapse-control
+{
+    float:right;
+    display: block;
+}
+
+table.ynvideo-category tr.ynvideo-category-sub-category > td
+{
+    padding-left: 20px;
+}
+
+.video-thumbnail .video-photo
+{
+    float: left;
+}
+
+.video-thumbnail .video-short-info
+{
+    float: left;
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+/* ADD TO MENU */
+.ynvideo_addTo_frame
+{
+    z-index: 997;
+    position: absolute;
+    border: 1px solid #CCC;
+    padding: 0;
+    width: 235px;
+    height: 297px;
+    overflow: hidden;
+    +rounded(3px);
+    float:left;
+    background-image: -moz-linear-gradient(top,#ffffff 0,#efefef 100%);
+    background-image: -ms-linear-gradient(top,#ffffff 0,#efefef 100%);
+    background-image: -o-linear-gradient(top,#ffffff 0,#efefef 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,#ffffff),color-stop(100%,#efefef));
+    background-image: -webkit-linear-gradient(top,#ffffff 0,#efefef 100%);
+    background-image: linear-gradient(to bottom,#ffffff 0,#efefef 100%);
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#ffffff,EndColorStr=#efefef);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    -ms-box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    border-image: initial;
+}
+
+.ynvideo_addTo_frame .ynvideo_add_to_menu_item
+{
+    margin: 0 8px;
+    padding: 6px;
+    line-height: 14px;
+    background: transparent;
+    color: #666;
+    font-weight: bold;
+    +rounded(3px);
+}
+
+.ynvideo_addTo_frame .ynvideo_add_to_menu_item:hover
+{
+    background-color: #666;
+    color: #f5f5f5;
+    cursor: pointer;
+    +rounded(2px);
+}
+
+.ynvideo_addTo_frame .ynvideo_addTo_playlists
+{
+    border-bottom: 1px solid $theme_border_color;
+    border-top: 1px solid $theme_border_color;
+    margin: 6px 0;
+    padding-bottom: 6px;
+    padding-right: 6px;
+    height: 180px;
+    overflow-y: auto;
+}
+
+.ynvideo_addTo_frame .ynvideo_addTo_text
+{
+    padding-left:14px;
+    padding-top:5px;
+    font-size: .8em;
+}
+
+.ynvideo_addTo_frame .ynvideo_addTo_watchlater {
+    margin-top: 5px;
+}
+
+.ynvideo_addTo_frame textarea.ynvideo_playlist_name {
+    width: 207px;
+    min-height:0px;
+}
+
+.ynvideo_addTo_frame .global_form div.form-label {
+    width: auto;
+}
+
+.ynvideo_addTo_frame > form.global_form .form-elements {
+    padding:0;
+    margin:0;
+}
+
+.ynvideo_addTo_frame > form.global_form div.form-element {
+    float: none;
+    margin-bottom: 0px;
+    clear: left;
+}
+
+.ynvideo_addTo_frame > form.global_form div.form-label {
+    margin-bottom: 0px;
+}
+
+.ynvideo_addTo_frame > form.global_form input[type="radio"] {
+    margin-top: 0px;
+}
+
+.ynvideo_addTo_frame > form.global_form .form-wrapper {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.ynvideo_addTo_frame > form.global_form .form-wrapper .form-element {
+    margin-bottom: 0px;
+}
+
+.ynvideo_addTo_frame > form.global_form ul.form-options-wrapper > li {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: -2px;
+}
+
+#ynvideo_addTo_new_playlist_successfully {
+    text-align: center;
+}
+
+.ynvideo_addTo_result_text
+{
+    margin-top:10px;
+    text-align: center;
+    margin: auto;
+    background-repeat: no-repeat;
+    padding: 8px 17px 8px 34px;
+    font-weight: bold;
+    display: inline-block;
+    height: 34px;
+}
+
+.ynvideo_addTo_successfully
+{
+    background-image: url(~/application/modules/Ynvideo/externals/images/check.png);
+}
+
+p.ynvideo_addTo_playlist_text
+{
+    font-weight: bold;
+}
+
+.ynvideo_addTo_result_block
+{
+    border-bottom: 1px solid #DDD;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+#ynvideo_addTo_menu_list {
+    position: absolute;
+}
+
+#ynvideo_addTo_loading {
+    background-image: url(~/application/modules/Ynvideo/externals/images/loading_icon.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top:35px;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+}
+
+/* PLAYLIST PAGE */
+ul.ynvideo_playlist_browse > li:first-child, ul.ynvideo_video_browse > li:first-child
+{
+    border-top: 0px;
+}
+
+ul.ynvideo_playlist_browse > li, ul.ynvideo_video_browse > li
+{
+    clear: both;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid $theme_border_color;
+}
+
+ul.ynvideo_playlist_browse li .ynvideo_thumb_wrapper, ul.ynvideo_video_browse li .ynvideo_thumb_wrapper
+{
+    float: left;
+    width: 140px;
+    text-align: center;
+}
+
+.item_photo_ynvideo_playlist.thumb_normal
+{
+    border: 0px;
+}
+
+ul.ynvideo_playlist_browse li .ynvideo_playlist_description
+{
+    float: left;
+    margin-left: 10px;
+}
+
+ul.ynvideo_video_browse li .ynvideo_video_description
+{
+    float: left;
+}
+
+ul.ynvideo_playlist_browse li .ynvideo_playlist_control, ul.ynvideo_video_browse li .ynvideo_video_control
+{
+    float: right;
+}
+
+.paginator_next > a.link_ynvideo_right {
+	 background-position: right;
+    background-repeat: no-repeat;
+    display: inline-block;
+    font-weight: bold;
+    padding-right: 19px;
+}
+
+a.buttonlink.ynvideo_playlist_edit
+{
+    background-image: url(~/application/modules/Ynvideo/externals/images/edit.png);
+}
+
+a.buttonlink.ynvideo_playlist_delete
+{
+    background-image: url(~/application/modules/Ynvideo/externals/images/delete.png);
+}
+
+a.buttonlink.ynvideo_playlist_add
+{
+    background-image: url(~/application/modules/Ynvideo/externals/images/new.png);
+}
+
+.ynvideo_playlist_headline .ynvideo_playlist_headline_control
+{
+    float: right;
+}
+
+.ynvideo_playlist_headline h2 {
+    float: left;
+}
+
+.ynvideo_playlist_headline h2 .ynvideo_link_share {
+    font-size: 12px;
+}
+
+.ynvideo_playlist_headline .clear {
+    clear:both;
+}
+
+.ynvideo_playlist_headline .ynvideo_playlist_headline_control span {
+    margin: 10px;
+}
+
+/* Page WatchLater */
+.ynvideo_video_watched
+{
+    padding: 5px 10px;
+    background-color: #79B4D4;
+    color: #FFF;
+    +rounded(3px);
+}
+
+/* VIDEO WIDGET */
+.layout_ynvideo_list_top_members .ynvideo_title {
+    margin: 5px 0px 5px 0px;
+}
+
+ul.ynvideo_widget > li > .photo {
+    float: none;
+    background: none;
+	width: 160px;
+	padding-left: 20px;
+}
+
+ul.ynvideo_widget > li > .photo img {
+	width: 160px;
+	max-width: 160px;
+    margin: 0px;
+    border: none;
+}
+ul.ynvideo_widget > li > .photo img.item_photo_user {
+	float: left;
+	width: auto;
+}
+ul.ynvideo_widget > li > .photo > .video_button_add_to_area
+{
+    right: 1px;
+    bottom: 1px;
+}
+
+ul.ynvideo_widget .ynvideo_title {
+    font-size: 0.9em;
+}
+ul.ynvideo_widget div.info{
+	margin: 8px 0px 8px 6px;
+}
+
+/* widget top members */
+.layout_ynvideo_list_top_members > ul.ynvideo_widget > li > .info {
+    margin-top: 7px;
+}
+
+.layout_ynvideo_list_top_members > ul.ynvideo_widget > li > .info > .ynvideo_video_count {
+    margin-top: 3px;
+}
+
+/* widget recent videos */
+ul.ynvideo_list {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+ul.ynvideo_list > li {
+    clear: none !important;
+    padding: 0px;
+    height: 190px;
+    margin-right: 0px !important;
+    margin-left: 30px;
+    max-width: 160px;
+}
+
+/* list videos page */
+.ynvideo_category_title {
+    color: $theme_headline_color;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+ul.ynvideo_frame .ynvideo_category_title {
+    margin-bottom: 10px;
+}
+
+ul.ynvideo_frame > li.ynvideo_videos_list + li.ynvideo_videos_list {
+    border-top: 1px solid $theme_border_color;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+ul.ynvideo_frame > li.ynvideo_pages {
+    text-align: center;
+}
+
+ul.ynvideo_frame > li.ynvideo_pages > .pages {
+    display: inline-block;
+}
+
+/* video view page */
+.layout_page_ynvideo_index_view .ynvideo_video_view_title {
+    font-size: 1.5em;
+    color: $theme_link_color;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.layout_page_ynvideo_index_view .ynvideo_video_view_headline {
+    margin-top: 10px;
+}
+
+.ynvideo_video_view_headline > .ynvideo_video_info {
+    float: left;
+    width: 450px;
+}
+
+.ynvideo_video_view_headline > .addthis_toolbox {
+    float: right;
+    margin-top: 10px;
+}
+
+.layout_page_ynvideo_index_view .video_view_container {
+    background-color: #EEE;
+    margin: 30px 0px 10px;
+    padding-bottom: 15px;
+    width: 620px;
+}
+
+.video_embed {
+    margin-top:0px;
+    padding-top: 0px;
+}
+
+.video_embed embed, .video_embed > iframe, .video_embed embed, .video_embed > object {
+    width: 620px;
+    height: 360px;
+}
+
+.video_view_container > div.ynvideo_video_view_description {
+    margin: 5px 10px;
+}
+
+.ynvideo_video_view_description > div {
+    margin: 10px 0px 5px;
+}
+
+.ynvideo_video_view_description .ynvideo_text_header {
+    margin-bottom: 5px;
+}
+
+.ynvideo_video_view_description > .left {
+    float: left;
+}
+
+.ynvideo_video_view_description > .right {
+    float: right;
+}
+
+.ynvideo_video_view_description > .video_desc {
+    clear: both;
+}
+
+.ynvideo_video_view_description .video_button_add_to_area {
+    position: relative;
+    margin-top: 10px;
+    background: none transparent!important;
+}
+
+div.video_view .video_embed {
+    margin: 0 0 3px;
+}
+
+/* rating */
+.ynvideo_rating_star_big_generic
+{
+    width: 24px;
+    height: 24px;
+    float: left;
+    display: inline-block;
+    background-repeat: no-repeat;
+    font-size: 1px;
+    cursor: pointer;
+}
+html[dir="rtl"] .ynvideo_rating_star_big_generic
+{
+    float: right;
+    background-position: right center;
+}
+.ynvideo_rating_star_big
+{
+    background-image: url(~/application/modules/Ynvideo/externals/images/star_big.png);
+}
+.ynvideo_rating_star_big_half
+{
+    background-image: url(~/application/modules/Ynvideo/externals/images/star_big_half.png);
+}
+.ynvideo_rating_star_big_disabled
+{
+    background-image: url(~/application/modules/Ynvideo/externals/images/star_big_disabled.png);
+}
+html[dir="rtl"] .ynvideo_rating_star_big_half
+{
+    background-image: url(~/application/modules/Ynvideo/externals/images/star_big_half_rtl.png);
+}
+
+.ynvideo_video_view_description .video_button_add_to_area > button.ynvideo_add_button {
+    filter: none;
+    background-color: transparent !important;
+    background-image: url(~/application/modules/Ynvideo/externals/images/addto_btn_r.png) !important;
+    background-position: right center !important;
+    background-repeat: no-repeat !important;
+    border: 0 none !important;
+    height: auto !important;
+    padding: 0 20px 0 0 !important;
+}
+
+.ynvideo_video_view_description .video_button_add_to_area > button.ynvideo_add_button > div {
+    background-image: url(~/application/modules/Ynvideo/externals/images/addto_btn_l.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding: 12px 5px 9px 30px;
+}
+.layout_page_ynvideo_index_view .video_options a {
+    font-weight: bold;
+}
+
+#ynvideo_div_send_friend {
+    display: none;
+}
+
+#ynvideo_send_result {
+    color: #546D50;
+    background-color: #E3F2E1;
+    border: 2px solid #D2E5CF;
+    padding: .5em .75em .5em .75em;
+    display: none;
+}
+
+#TB_window {
+    background-color: #FFF;
+}
+
+#TB_ajaxContent {
+    padding-bottom: 15px;
+}
+
+#TB_ajaxContent a.ynvideo_bold_link {
+    color: $theme_link_color;
+}
+
+.layout_page_ynvideo_index_view .video_options {
+    margin-bottom: 10px;
+}
+
+.video_info_in_list .ynvideo_title {
+    font-size: 1.1em;
+}
+
+.ynvideo_thumb_wrapper {
+    width: 160px;
+    height: 123px;
+    background: none;
+}
+.ynvideo_thumb_wrapper img {
+    width: 157px;
+    height: 120px;
+}
+.ynvideo_thumb_wrapper img.thumb_normal
+{
+	max-width: 160px;
+}
+body[id^=global_page_ynvideo] .ynvideo_thumb_wrapper img, body[id^=global_page_ynvideo] .ynvideo_thumb_wrapper span.item_nophoto {
+	margin: 1px auto!important;
+}
+
+.ynvideo_quick_create_playlist > div > div {
+    background: none !important;
+    border: 0px !important;
+    padding: 9px !important;
+}
+
+.ynvideo_rating_text {
+    padding-top:10px !important;
+}
+
+.ynvideo_thumb {
+    max-width: 120px;
+    max-width: 150px;
+}
+div.video_view .rating
+{
+	height: 25px!important;
+}
+.ynvideo_menu_item_playlist
+{
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.video_view_container #my_video,
+.video_view_container img.thumb_video,
+div.video_object.html5_player .video-js
+{
+	position: relative;
+	overflow: hidden;
+	margin: 0 -1px 5px;
+	z-index: 0;
+	width: 100%!important;
+	max-height: 360px;
+}
+.select_file
+{
+	padding-bottom:8px;
+}
+#demo-status-overall
+{
+	display: none;
+	padding-bottom: 8px;
+}
+.file_info
+{
+	padding-bottom: 8px;
+}
+#demo-status-overall .progress
+{
+	background-position: +50% 0;
+	margin-right: 0.5em;
+	vertical-align: middle;
+	background-image: url(~/externals/fancyupload/assets/progress-bar/progress.gif);
+	height: auto!important;
+	margin-bottom: 0px;
+}
+#file_info > div 
+{
+	color: #B4AAAA;
+	font-style: italic;
+}
+
+div.video_object.html5_player > img.thumb_video, 
+div.video_object.html5_player > video#my_video
+{
+	width: 100%;
+	max-height: 300px;
+}
+.video_view_container img.thumb_video,
+div.video_object.html5_player > img.thumb_video,
+div.video_object
+{
+	display: none;
+}
+.ynvideo_playlist_headline
+{
+	padding-top:15px;
+}
+.layout_page_ynvideo_index_create .global_form #url-wrapper textarea
+{
+	height: 60px;
+	min-height: 60px;
+}
+
+
+/*Style widget profile favorite videos*/
+#ynvideo_favorite_videos,
+.tf_library_videos
+{
+    overflow: hidden;
+    position: relative;
+    li{
+
+        .tf_btn_action{
+            display: block !important;
+            margin-right: 0 !important;
+            
+            a{
+                border-radius: 0 !important;
+            }
+        }
+
+        overflow: hidden;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        background: #fff;
+
+        span.tf_video_action{
+            a{
+                padding: 5px 10px;
+                text-decoration: none;
+                text-align: center;
+                display: block;
+                overflow: hidden;
+                background-color: $theme_link_color;      
+                border-radius: 0 0 5px 5px;
+                -webkit-border-radius:0 0 5px 5px;
+                -moz-border-radius:0 0 5px 5px;
+                color: #fff;
+                font-weight: bold;
+            }
+        }
+
+        .ynvideo_thumb_wrapper{
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            height: 135px;
+            position: relative;
+            overflow: hidden;
+
+            a:before{
+                content: "";
+                background-image: url(~/application/modules/Ynvideo/externals/images/icon_play_video.png);
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                display: block;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-color: rgba(0,0,0,0.4);
+            }
+
+            img{
+                width: 100%;
+                max-width: 100%;
+                height: 135px;
+            }
+        }
+
+        .video-title{
+            padding: 10px;
+            font-weight: bold;
+            line-height: 1.5em;
+            height: 57px;
+            overflow: hidden;
+
+            a{
+                color: $theme_font_color;
+                text-decoration: none;
+
+                &:hover{
+                    color: $theme_link_color;
+                }
+            }
+        }
+
+        .video-statistic-rating{
+            overflow: hidden;
+            padding: 10px;
+            border-top: 1px solid #e9e9e9;
+            border-bottom: 1px solid #e9e9e9;
+            height: 55px;
+        
+            .video-statistic{
+                float: left;
+                font-size: 12px;
+                color: #999;
+                overflow: hidden;
+            }
+            .tf_video_rating{
+                padding: 0;
+                margin: 0;
+                float: right;
+                padding-top: 5px;
+            }
+        }
+
+        .player-info{
+            border-bottom: 1px solid $theme_border_medium_color;
+        }
+        .nickname{
+            padding: 10px 15px;
+            overflow: hidden;
+            text-align: center;
+            font-size: 12px;
+            color: $theme_font_color_light;
+            a{  
+                margin-right: 10px;
+                overflow: hidden;
+                font-weight: bold;
+            }
+        }
+        .player-info{
+            padding: 10px 15px;
+            overflow: hidden;
+
+            a,.player-photo{
+                margin-right: 10px;
+                overflow: hidden;
+                float: left;
+                border-radius: 4px;
+                -webkit-border-radius: 4px;
+                -moz-border-radius: 4px;
+                font-weight: bold;
+                color: $theme_font_color;
+            }
+
+            .player_info_detail{
+                overflow: hidden;
+                padding-top: 5px;
+
+                .player-title{
+                   a{
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                        width: 100%;
+                   }
+                }
+            }
+
+            .members_info{
+                overflow: hidden;
+                padding-top: 5px;
+            }
+
+            .members_name{
+                a{
+                    margin-right: 10px;
+                    overflow: hidden;
+                    border-radius: 4px;
+                    -webkit-border-radius: 4px;
+                    -moz-border-radius: 4px;
+                    font-weight: bold;
+                    color: $theme_font_color;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: inline-block;
+                    width: 100%;
+                }
+            }
+
+            .members_date,.player-position{
+                text-align: left;
+                font-size: 13px;
+                color: #999;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                width: 100%;
+                float: left;
+            }
+        }
+    }
+}
+/*End style widget profile favorite videos*/
+#global_page_ynvideo-index-popup-view .yncomment_replies_options
+{
+	display: none;
+}
+.layout_ynadvsearch_search_results2 .ynadvsearch_searchresult li.video-item .ynvideo_thumb_wrapper
+{
+	height: 150px;
+	img
+	{
+		height: 150px;
+	}
+}
+.layout_ynvideo_main_page_videos ul.video-items li.video-item .video-title,
+.layout_ynvideo_profile_favorite_videos #ynvideo_favorite_videos li .video-title
+{
+	height: auto;
+}

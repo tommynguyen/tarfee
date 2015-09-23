@@ -1,0 +1,18 @@
+.ynfeed_popup {
+	width: auto;
+	padding: 8px;
+}
+.ynfeed_feed_popup_bottom
+{
+	float: none!important;
+}
+#global_page_ynfeed-custom-list-edit .ynfeed_feed_popup_bottom#buttons-element > button,
+#global_page_ynfeed-custom-list-edit .ynfeed_feed_popup_bottom#buttons-element > a
+{
+	width: 31%;
+	padding: 0 5px;
+}
+#global_page_ynfeed-custom-list-edit .ynfeed_feed_popup_bottom#buttons-element > a
+{
+	margin-left: -27px;
+}

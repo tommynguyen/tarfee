@@ -1,0 +1,1299 @@
+{
+  "type": "module",
+  "name": "ynresponsiveevent",
+  "version": "4.01p4",
+  "revision": null,
+  "path": "application\/modules\/Ynresponsiveevent",
+  "repository": null,
+  "date": "Fri, 08 May 2015 06:54:37 +0000",
+  "title": "YN - Responsive Event Template",
+  "description": "YN - Responsive Event Template",
+  "thumb": null,
+  "developer": null,
+  "authors": [
+    "<a href=\"http:\/\/socialengine.younetco.com\/\" title=\"YouNet Company\" target=\"_blank\">YouNet Company<\/a>"
+  ],
+  "changeLog": null,
+  "meta": {
+    "date": "Fri, 08 May 2015 06:54:37 +0000",
+    "title": "YN - Responsive Event Template",
+    "description": "YN - Responsive Event Template",
+    "developer": null,
+    "authors": [
+      "<a href=\"http:\/\/socialengine.younetco.com\/\" title=\"YouNet Company\" target=\"_blank\">YouNet Company<\/a>"
+    ],
+    "changeLog": null
+  },
+  "actions": [
+    "install",
+    "upgrade",
+    "refresh",
+    "enable",
+    "disable"
+  ],
+  "callback": {
+    "path": "application\/modules\/Ynresponsiveevent\/settings\/install.php",
+    "class": "Ynresponsiveevent_Installer",
+    "priority": 100
+  },
+  "dependencies": {
+    "module-younet-core": {
+      "type": "module",
+      "name": "younet-core",
+      "guid": "module-younet-core",
+      "minVersion": "4.02p7",
+      "maxVersion": null,
+      "excludeExcept": null
+    }
+  },
+  "tests": [
+    
+  ],
+  "permissions": [
+    
+  ],
+  "structure": {
+    "application\/modules\/Ynresponsiveevent": {
+      "type": "directory",
+      "path": "application\/modules\/Ynresponsiveevent",
+      "structure": [
+        {
+          "path": "Model",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Model\/Event.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2624,
+          "sha1": "5b7196e0588ff1e61c8ac02aa5616982eb35aba4"
+        },
+        {
+          "path": "Model\/DbTable",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Model\/DbTable\/Events.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3653,
+          "sha1": "950054b5da12e457ac3615422adb0a0a55fa9813"
+        },
+        {
+          "path": "Model\/DbTable\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "Model\/DbTable\/Sponsors.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 733,
+          "sha1": "9c8692c5bbfb1dd57ae623d11ea2bfdb2bb5615e"
+        },
+        {
+          "path": "Model\/Sponsor.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2355,
+          "sha1": "1b030cd013859e208724039844420bdfd19f669a"
+        },
+        {
+          "path": "widgets",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/event-categories",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/event-categories\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 660,
+          "sha1": "c3aaa28987ce2f69b15600fc25d156ff8f30e624"
+        },
+        {
+          "path": "widgets\/event-categories\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 694,
+          "sha1": "f9e882723664463e1473cf278b9050b63df0366a"
+        },
+        {
+          "path": "widgets\/event-personalize",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/event-personalize\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1157,
+          "sha1": "79d3d1405d151fe4d257a586f763693c47350089"
+        },
+        {
+          "path": "widgets\/event-personalize\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 671,
+          "sha1": "6a38d2e2ea408a8c25b522dd5909a59896a17553"
+        },
+        {
+          "path": "widgets\/event-footer-menu",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/event-footer-menu\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1660,
+          "sha1": "f6a4afb6e40986e630a5e2f0e1a5c10ea99fd8c1"
+        },
+        {
+          "path": "widgets\/event-footer-menu\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2495,
+          "sha1": "366ea870bf4adffc0aacacaffd509baf90adddb2"
+        },
+        {
+          "path": "widgets\/event-top-sponsors",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/event-top-sponsors\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3387,
+          "sha1": "ea49ab73991fa3d1e7187caf3c67c6e06c1f56dc"
+        },
+        {
+          "path": "widgets\/event-top-sponsors\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 548,
+          "sha1": "9484a27e71ac8bddb7e353f3da8f33c031ff35e6"
+        },
+        {
+          "path": "widgets\/event-search-events",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/event-search-events\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 5089,
+          "sha1": "f6e43a46238db201802123bf0e3e8423fbe075d1"
+        },
+        {
+          "path": "widgets\/event-search-events\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 818,
+          "sha1": "c62bcb69578025ce01c7f40b3af8a4d9c78febc9"
+        },
+        {
+          "path": "widgets\/event-popular-events",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/event-popular-events\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3503,
+          "sha1": "2769ebc393ff1a5964b8c63ebd1f9d505993da8b"
+        },
+        {
+          "path": "widgets\/event-popular-events\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 900,
+          "sha1": "886eb4144a32a99f994f4760bf3745d9b1e9c10e"
+        },
+        {
+          "path": "widgets\/event-search-listing",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/event-search-listing\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 14234,
+          "sha1": "f0135979b89b81b1dc1d960bdeb570f8d2f3bcb4"
+        },
+        {
+          "path": "widgets\/event-search-listing\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2345,
+          "sha1": "0ea210d7ac83faa37c87fe2facb4e979aa0c131a"
+        },
+        {
+          "path": "widgets\/event-main-menu",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/event-main-menu\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3403,
+          "sha1": "f00c9d04da6ce0df7b3ef6f5394c66e38097d0ef"
+        },
+        {
+          "path": "widgets\/event-main-menu\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 999,
+          "sha1": "fd3fdb27054c603ddcd2302671baaddce89421c7"
+        },
+        {
+          "path": "widgets\/event-hot-events",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/event-hot-events\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2300,
+          "sha1": "d6a391be7254a36f5debd3599377758f3e0156fa"
+        },
+        {
+          "path": "widgets\/event-hot-events\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 854,
+          "sha1": "3d545968a01beb2d8da088ed6be9ad77043e83c9"
+        },
+        {
+          "path": "widgets\/event-footer-about",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/event-footer-about\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 464,
+          "sha1": "b3ba6b03f62d5612f706686f143f3a7f9f5e9c07"
+        },
+        {
+          "path": "widgets\/event-footer-about\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1987,
+          "sha1": "b93c76692bb6243d19f37250fda62050b5ea06d1"
+        },
+        {
+          "path": "widgets\/event-footer-about\/Element",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/event-footer-about\/Element\/TinyMceYN.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1146,
+          "sha1": "c97dfb8c590809adec3ae3d28cf6c86e52c38658"
+        },
+        {
+          "path": "widgets\/event-footer-about\/View",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/event-footer-about\/View\/Helper",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/event-footer-about\/View\/Helper\/TinyMceYN1.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 7413,
+          "sha1": "fd87d3903bd87b27f93b093f8050af11a9284df2"
+        },
+        {
+          "path": "widgets\/event-footer-about\/View\/Helper\/FormTinyMceYN.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3213,
+          "sha1": "4bd438c9f02b104747c564be2e457d13de229aad"
+        },
+        {
+          "path": "widgets\/event-footer-about\/View\/Helper\/TinyMceYN.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 7444,
+          "sha1": "b9e9445c0ebeab168eb01f69e02cdd8ab25f7dd8"
+        },
+        {
+          "path": "widgets\/event-mini-menu",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/event-mini-menu\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 25386,
+          "sha1": "2c280d9dc8fbf57a5aaf81efb9feb907b56eb50d"
+        },
+        {
+          "path": "widgets\/event-mini-menu\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2922,
+          "sha1": "b1cb89566a6a87a816a585d5510aa383e532f8a9"
+        },
+        {
+          "path": "widgets\/event-slide-events",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/event-slide-events\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 17097,
+          "sha1": "3908cad38db6dfc41b4a5767e01334719bfe6b7e"
+        },
+        {
+          "path": "widgets\/event-slide-events\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 703,
+          "sha1": "8f1f987f76b97cdb8723cf1400ead68f77b28fdb"
+        },
+        {
+          "path": "controllers",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "controllers\/AdminManageEventsController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 5756,
+          "sha1": "667a2cfabba352201c84d99cec1f0be331206e57"
+        },
+        {
+          "path": "controllers\/AdminManageSponsorsController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 5176,
+          "sha1": "6732c7568030cd3fb6e1b130db17d324946d96a5"
+        },
+        {
+          "path": "controllers\/IndexController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1432,
+          "sha1": "9122efb498840681559a0850e47bf5cf4cd0d1b1"
+        },
+        {
+          "path": "Form",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Event",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Event\/Browse.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3188,
+          "sha1": "919b53cc7a919c9cb1d6c909362bc97d32290013"
+        },
+        {
+          "path": "Form\/Event\/Create.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2601,
+          "sha1": "e88163198a7dc17c2aa54d2ea98dc58f2baa4abe"
+        },
+        {
+          "path": "Form\/Event\/Edit.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 256,
+          "sha1": "e8bca80c4c074448f90d07bb1f556abd0feb536b"
+        },
+        {
+          "path": "Form\/Event\/YnCalendarSimple.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 8542,
+          "sha1": "06f41204358f9b08e472c02c06632aebe79f18d0"
+        },
+        {
+          "path": "Form\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "Form\/Sponsor",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Sponsor\/Create.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1814,
+          "sha1": "421ed86f014b8fd9f6ee481d94c2f5c07a1da15c"
+        },
+        {
+          "path": "Form\/Sponsor\/Edit.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 267,
+          "sha1": "442ec2774167422c58cc759634033469468b57e8"
+        },
+        {
+          "path": "Form\/Admin",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Admin\/SearchEvents.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1802,
+          "sha1": "b68297de26bb8b6239f7d804493bf75aee016d20"
+        },
+        {
+          "path": "externals",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/scripts",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/scripts\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "externals\/scripts\/jquery-ui-1.8.17.custom.min.js",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 41386,
+          "sha1": "e3ed8728ef11b646b34ced94eaec3b1ae59dfd14"
+        },
+        {
+          "path": "externals\/styles",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles\/main.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "externals\/styles\/ui-redmond",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles\/ui-redmond\/jquery-ui-1.8.18.custom.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 22944,
+          "sha1": "2aaddb4b64d69961fc4d667b9fa79b2bc878fc6b"
+        },
+        {
+          "path": "externals\/styles\/ui-redmond\/images",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles\/ui-redmond\/images\/ui-bg_flat_0_aaaaaa_40x100.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 180,
+          "sha1": "da1c9bf45bd3644c2ddffcd4f631108d80e6a6f2"
+        },
+        {
+          "path": "externals\/styles\/ui-redmond\/images\/ui-bg_gloss-wave_55_5c9ccc_500x100.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3457,
+          "sha1": "dc240dd7ea02190660b2204f19a599e19cfb6e98"
+        },
+        {
+          "path": "externals\/styles\/ui-redmond\/images\/ui-icons_469bdd_256x240.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4369,
+          "sha1": "0c6606462cb7cbd73867802d0a9b81460c1147b3"
+        },
+        {
+          "path": "externals\/styles\/ui-redmond\/images\/ui-bg_flat_55_fbec88_40x100.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 182,
+          "sha1": "a49702eff68ff85405512495d8d8846d502f5e0d"
+        },
+        {
+          "path": "externals\/styles\/ui-redmond\/images\/ui-bg_glass_95_fef1ec_1x400.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 119,
+          "sha1": "6140799c338f9fa5ccce4fb29346512806462a60"
+        },
+        {
+          "path": "externals\/styles\/ui-redmond\/images\/ui-icons_217bc0_256x240.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4369,
+          "sha1": "f2be9bf5d88672d292b1a23ae69daf986d6bf493"
+        },
+        {
+          "path": "externals\/styles\/ui-redmond\/images\/ui-bg_inset-hard_100_f5f8f9_1x100.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 104,
+          "sha1": "5fd0c08e3a62c54047101e7623388a07de72b57a"
+        },
+        {
+          "path": "externals\/styles\/ui-redmond\/images\/ui-bg_glass_75_d0e5f5_1x400.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 124,
+          "sha1": "48959444af5232af71da2be1861de22512bf8255"
+        },
+        {
+          "path": "externals\/styles\/ui-redmond\/images\/ui-icons_6da8d5_256x240.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4369,
+          "sha1": "a927aab06844c50647947d38dd0ae5e5ca53277e"
+        },
+        {
+          "path": "externals\/styles\/ui-redmond\/images\/ui-icons_f9bd01_256x240.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4369,
+          "sha1": "335e3274d27bef5d9fe5c53885d7ec7c508c826d"
+        },
+        {
+          "path": "externals\/styles\/ui-redmond\/images\/ui-bg_glass_85_dfeffc_1x400.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 155,
+          "sha1": "e14c53d09927b80efe7bebdc169c825ea03d022b"
+        },
+        {
+          "path": "externals\/styles\/ui-redmond\/images\/ui-bg_inset-hard_100_fcfdfd_1x100.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 88,
+          "sha1": "e795b3018420cead3cb1ff0f72a2d43866ddc2f2"
+        },
+        {
+          "path": "externals\/styles\/ui-redmond\/images\/ui-icons_cd0a0a_256x240.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4369,
+          "sha1": "cc0d1cda69297dd503da85738976ff8ae5e2c0f5"
+        },
+        {
+          "path": "externals\/styles\/ui-redmond\/images\/ui-icons_d8e7f3_256x240.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4369,
+          "sha1": "245b637e277d9858529711ae8a8a8eeab02e320a"
+        },
+        {
+          "path": "externals\/styles\/ui-redmond\/images\/ui-icons_2e83ff_256x240.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4369,
+          "sha1": "5c0800291a8dc41ae915d9fe6d42f96c67035a23"
+        },
+        {
+          "path": "externals\/revolution",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/revolution\/previewjs",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/revolution\/previewjs\/preview-fullwidth.js",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 7167,
+          "sha1": "4d595863dd9083bd552912508b2568e1d8b27c61"
+        },
+        {
+          "path": "externals\/revolution\/rs-plugin",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/revolution\/rs-plugin\/assets",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/revolution\/rs-plugin\/assets\/arrow_right.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 820,
+          "sha1": "a511f4396317872415f15c539775b746e9d73a58"
+        },
+        {
+          "path": "externals\/revolution\/rs-plugin\/assets\/bullets2.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 278,
+          "sha1": "7d439624c4fd88f5b0382e03d0755479cd232ef3"
+        },
+        {
+          "path": "externals\/revolution\/rs-plugin\/assets\/shadow2.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 5661,
+          "sha1": "87f10795b2f699469c2cce6ea246d90355fbf559"
+        },
+        {
+          "path": "externals\/revolution\/rs-plugin\/assets\/timer.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 125,
+          "sha1": "9620e53c9e0a5b5d55e15b23f556e2089e903fc1"
+        },
+        {
+          "path": "externals\/revolution\/rs-plugin\/assets\/arrowleft.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 43543,
+          "sha1": "cec8ccd99dc64aa84d5ed8272c24a8bf47bdb7f7"
+        },
+        {
+          "path": "externals\/revolution\/rs-plugin\/assets\/arrow_left2.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 348,
+          "sha1": "2d7427218baa3794acadf57282e9a22b71cc4b0b"
+        },
+        {
+          "path": "externals\/revolution\/rs-plugin\/assets\/loader.gif",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2545,
+          "sha1": "e043879d3ee94a3edf10260f21f44bfa4a6fc66e"
+        },
+        {
+          "path": "externals\/revolution\/rs-plugin\/assets\/arrow_large_left.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2686,
+          "sha1": "e6d25647c40bd3f0012f645532cb010774d4d26f"
+        },
+        {
+          "path": "externals\/revolution\/rs-plugin\/assets\/arrowright.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 43719,
+          "sha1": "7d5cd5965fde4b11211bb2178fde38e36e6c4476"
+        },
+        {
+          "path": "externals\/revolution\/rs-plugin\/assets\/shadow3.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 6428,
+          "sha1": "5a4ea0bcf5690764821486c6decb803f84f77d48"
+        },
+        {
+          "path": "externals\/revolution\/rs-plugin\/assets\/arrow_left.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 807,
+          "sha1": "e1de2bac9319a54d6e047414bada00699d0db5c4"
+        },
+        {
+          "path": "externals\/revolution\/rs-plugin\/assets\/arrow_right2.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 343,
+          "sha1": "463b85d993b75f696cb8f9d4f7d85d02672ed145"
+        },
+        {
+          "path": "externals\/revolution\/rs-plugin\/assets\/bullets.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 743,
+          "sha1": "1e42fea545323b05d3ae43ac3fa04844be0fdc63"
+        },
+        {
+          "path": "externals\/revolution\/rs-plugin\/assets\/arrow_large_right.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2674,
+          "sha1": "e087b2a1e3b0310ca12afbb44a28f7faafed9e4b"
+        },
+        {
+          "path": "externals\/revolution\/rs-plugin\/assets\/navigdots.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 743,
+          "sha1": "1e42fea545323b05d3ae43ac3fa04844be0fdc63"
+        },
+        {
+          "path": "externals\/revolution\/rs-plugin\/assets\/navigdots_bgtile.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 149,
+          "sha1": "2d59671152b28684969f68874e94a35e814a8ca3"
+        },
+        {
+          "path": "externals\/revolution\/rs-plugin\/assets\/shadow1.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4289,
+          "sha1": "d133713f29be2c20f0701b4b36cabf098cd92ee0"
+        },
+        {
+          "path": "externals\/revolution\/rs-plugin\/js",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/revolution\/rs-plugin\/js\/jquery.themepunch.revolution.min.js",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 79391,
+          "sha1": "c786c79d26cb899b2e2749e5a32ee44e773d3c33"
+        },
+        {
+          "path": "externals\/revolution\/rs-plugin\/js\/jquery.themepunch.plugins.min.js",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 14049,
+          "sha1": "a3088a5d55d321a904ba6963b39fe13f40301d33"
+        },
+        {
+          "path": "externals\/revolution\/rs-plugin\/js\/jquery-ui-1.8.21.custom.min.js",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 29043,
+          "sha1": "d80b4873195e4b43413da9cd85eca319e3c8d586"
+        },
+        {
+          "path": "externals\/revolution\/rs-plugin\/css",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/revolution\/rs-plugin\/css\/settings.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 13374,
+          "sha1": "2e6f93081b1b2ac6410098c3e9bba835854d7261"
+        },
+        {
+          "path": "externals\/revolution\/rs-plugin\/images",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/revolution\/rs-plugin\/images\/gradient",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/revolution\/rs-plugin\/images\/gradient\/g40.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 42464,
+          "sha1": "93189fc045c0f1aac4ab8a39817b8987b7cf487c"
+        },
+        {
+          "path": "externals\/revolution\/rs-plugin\/images\/gradient\/g30.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 42935,
+          "sha1": "62fd7700cbc80fe459e7d7d2484c73537fecc442"
+        },
+        {
+          "path": "externals\/revolution\/css",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/revolution\/css\/style.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 10334,
+          "sha1": "fd34383fc81f8817429461903c5d78fc6c16161f"
+        },
+        {
+          "path": "externals\/.htaccess",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 147,
+          "sha1": "9f1638a8edbe1c5d28789e017fb35b2f2465f01e"
+        },
+        {
+          "path": "externals\/images",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/images\/nophoto_event_thumb_main.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 8848,
+          "sha1": "8143fef1ad2e7438770e8f2f065caebe9b32f337"
+        },
+        {
+          "path": "externals\/images\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "externals\/images\/nophoto_event_thumb_normal.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 9485,
+          "sha1": "ee48ec1b9816be5595721d99f1d057a03bd1bbb1"
+        },
+        {
+          "path": "externals\/images\/calendar.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 655,
+          "sha1": "68c287ab6a3982a6c3f90933b174aca16a892609"
+        },
+        {
+          "path": "settings",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "settings\/content.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 5288,
+          "sha1": "a788676db2107c4ff6bfed98ae278223edb812ba"
+        },
+        {
+          "path": "settings\/manifest.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1687,
+          "sha1": "d2e450645b8801a4ac413eb1a1a86762e1ed66b9"
+        },
+        {
+          "path": "settings\/install.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3696,
+          "sha1": "5fe9435bd5f8da33246cf4a2298888357e92d56c"
+        },
+        {
+          "path": "settings\/my.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3894,
+          "sha1": "4963f2df48b5a2f9aebd7fea4fa17317aabe1d04"
+        },
+        {
+          "path": "Bootstrap.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2418,
+          "sha1": "bad55129f7741e154bee4f039fb7b6f941061c1d"
+        },
+        {
+          "path": "Api",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Api\/Core.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 9884,
+          "sha1": "f8e33dd285dc079155de88f5aea3538722309056"
+        },
+        {
+          "path": "views",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-manage-events",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-manage-events\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 8083,
+          "sha1": "9fe9c605d30e0d65622f5be19de45d6b79434a22"
+        },
+        {
+          "path": "views\/scripts\/admin-manage-events\/delete.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 822,
+          "sha1": "ea2214fae8d387c645be62e407a27f8b82f3b7e1"
+        },
+        {
+          "path": "views\/scripts\/admin-manage-events\/create.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 5714,
+          "sha1": "537118cc61be6f102f334949c16cb566ef476ee7"
+        },
+        {
+          "path": "views\/scripts\/admin-manage-events\/edit.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1214,
+          "sha1": "edef01b6a6d12f35bf2ed92994026b3dedb596c6"
+        },
+        {
+          "path": "views\/scripts\/admin-manage-sponsors",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-manage-sponsors\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4701,
+          "sha1": "a93f64dc551e7aa5837102a170c2fc961644de38"
+        },
+        {
+          "path": "views\/scripts\/admin-manage-sponsors\/delete.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 817,
+          "sha1": "4aef66aad0f526ef2b070e44ebdaea849b36df40"
+        },
+        {
+          "path": "views\/scripts\/admin-manage-sponsors\/create.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4980,
+          "sha1": "d0c0d5b79a4c9ef9cf976c598bf8cc1f3f51975a"
+        },
+        {
+          "path": "views\/scripts\/admin-manage-sponsors\/edit.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1214,
+          "sha1": "edef01b6a6d12f35bf2ed92994026b3dedb596c6"
+        },
+        {
+          "path": "views\/scripts\/index",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/index\/attending.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4047,
+          "sha1": "9615488f9795a9d621816002785136b025274711"
+        }
+      ]
+    },
+    "application\/languages\/en\/ynresponsiveevent.csv": {
+      "type": "file",
+      "path": "application\/languages\/en\/ynresponsiveevent.csv",
+      "structure": {
+        "path": "ynresponsiveevent.csv",
+        "dir": false,
+        "file": true,
+        "perms": "0644",
+        "size": 0,
+        "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+      }
+    }
+  }
+}

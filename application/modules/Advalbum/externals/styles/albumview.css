@@ -1,0 +1,42 @@
+.slideshow_button {
+	height: 20px;
+	line-height: 20px;
+	float: right;
+	background: url(../images/slideshow.png) no-repeat;
+	padding-left: 24px;
+	font-size: 14px;
+	margin-right: 0px;
+}
+
+.album_summary, .album_others {
+	padding: 0px 5px 5px 0px;
+	font-size: 10pt;
+}
+.album_summary_info {
+	font-size: 9pt;
+}
+.album_others {
+	padding: 0px 5px 5px 5px;
+}
+
+.album_cover, .album_cover2 {
+	padding: 4px;
+	background-color: #FFFFFF;
+	border: solid 1px #CCCCCC;
+	width: 140px;
+	height: 105px;
+	overflow: hidden;
+}
+.album_cover2 {
+	width: 112px;
+	height: 84px;
+}
+
+.album_others_list {
+	width: 168px;
+	overflow: hidden;	
+	font-size: 9pt;
+}
+.album_others_data {
+	display: none;
+}

@@ -1,0 +1,613 @@
+"_EMAIL_USER_EMAIL_TO_FRIEND_SUBJECT";"Message from [sender_title] at Tarfee"
+"_EMAIL_USER_EMAIL_TO_FRIEND_BODY";"[header]<br> <br> [message]<br> <br> <strong>[footer]</strong>"
+"_EMAIL_NOTIFY_YNVIDEO_PROCESSED_SUBJECT";"Your video ""[object_title]"" is ready"
+"_EMAIL_NOTIFY_YNVIDEO_PROCESSED_BODY";"[header]<br> <br> Your video ""<strong>[object_title]</strong>"" was uploaded successfully and ready to be viewed. You can use or click the following link to share or watch it:<br> <br> http://[host][object_link]<br> <br> [footer]"
+"_CORE_TERMS_OF_SERVICE";"TARFEE INC. (“TARFEE”) OWNS AND OPERATES THE WEBSITE LOCATED AT www.TARFEE.com (“Website”). THESE TERMS OF USE APPLY TO ALL USERS OF THE WEBSITE, INCLUDING USERS WHO UPLOAD ANY MATERIALS TO THE WEBSITE, USERS WHO USE SERVICES PROVIDED THROUGH THIS WEBSITE, AND USERS WHO SIMPLY VIEW THE CONTENT ON OR AVAILABLE THROUGH THIS WEBSITE.   
+
+BY USING THIS WEBSITE YOU INDICATE YOUR ACCEPTANCE OF THESE TERMS OF USE. IF YOU DO NOT ACCEPT THESE TERMS OF USE, THEN DO NOT USE THIS WEBSITE OR ANY OF ITS CONTENT OR SERVICES.  THESE TERMS OF USE MAY BE AMENDED OR UPDATED BY TARFEE FROM TIME TO TIME WITHOUT NOTICE AND THE TERMS OF USE MAY HAVE CHANGED SINCE YOUR LAST VISIT TO THIS WEBSITE.  IT IS YOUR RESPONSIBILITY TO REVIEW THESE TERMS OF USE FOR ANY CHANGES.  YOUR USE AFTER ANY AMENDMENTS OR UPDATES OF THESE TERMS OF USE SHALL SIGNIFY YOUR ASSENT TO AND ACCEPTANCE OF SUCH REVISED TERMS.  ANY NEW FEATURES THAT MAY BE ADDED TO THIS WEBSITE FROM TIME TO TIME WILL BE SUBJECT TO THESE TERMS OF USE, UNLESS STATED OTHERWISE.  YOU SHOULD VISIT THIS PAGE PERIODICALLY TO REVIEW THESE TERMS OF USE.
+
+IF YOU ARE ACCEPTING THESE TERMS OF USE ON BEHALF OF A CORPORATION OR OTHER ENTITY, YOU REPRESENT AND WARRANT THAT YOU HAVE THE NECESSARY RIGHT AND AUTHORITY TO ENTER INTO THESE TERMS OF USE ON BEHALF SUCH CORPORATION OR ENTITY AND TO BIND SUCH CORPORATION OR ENTITY TO THESE TERMS OF USE.
+
+1.	The Service.  Tarfee is a social network that connects athletics and players with scouts, agents, clubs and academic institutes worldwide (the “Service”). In order to use the Service, you must register for an account and pay any applicable fees.
+	
+2.	Content.  All information, data, text, software, music, sound, photographs, graphics, video, messages or other materials, whether publicly posted or privately transmitted to the Website by viewers or users whether in forums or otherwise (“User Content”), is the sole responsibility of such viewers or users. This means that the viewer or user, and not TARFEE, are entirely responsible for all such material uploaded, posted, emailed, transmitted or otherwise made available by using the Service. TARFEE does not control or actively monitor User Content and, as such, does not guarantee the accuracy, integrity or quality of such content. Users acknowledge that by using the Service, they may be exposed to materials that are offensive, indecent or objectionable.  Under no circumstances will TARFEE be liable in any way for any materials, including, but not limited to, for any errors or omissions in any materials or any defects or errors in any printing or manufacturing, or for any loss or damage of any kind incurred as a result of the viewing or use of any materials posted, emailed, transmitted or otherwise made available via the Service.
+
+3.	Restrictions on User Content and Use of the Service. TARFEE reserves the right at all times (but will have no obligation) to remove or refuse to distribute any User Content and to terminate users or reclaim usernames. We also reserve the right to access, read, preserve, and disclose any information as we reasonably believe is necessary to (i) satisfy any applicable law, regulation, legal process or governmental request, (ii) enforce these Terms of Use, including investigation of potential violations hereof, (iii) detect, prevent, or otherwise address fraud, security or technical issues, (iv) respond to user support requests, or (v) protect the rights, property or safety of our users and the public.   
+
+
+In using the Website and/or Service You shall not:
+
+a.	copy any content unless expressly permitted to do so herein; 
+
+b.	upload, post, email, transmit or otherwise make available any material that:
+
+i.	is unlawful, harmful, threatening, abusive, harassing, tortuous, defamatory, vulgar, obscene, pornographic, libelous, invasive of another's privacy, hateful, or racially or ethnically objectionable, encourages criminal behavior, gives rise to civil liability, violates any law, or is otherwise objectionable;
+ii.	You do not have a right to make available under any law or under a contractual relationship; 
+iii.	infringes any patent, trademark, trade secret, copyright or other proprietary rights of any party (including privacy rights);  
+iv.	is or contains unsolicited or unauthorized advertising, solicitations for business, promotional materials, ""junk mail,"" ""spam,"" ""chain letters,"" ""pyramid schemes,"" or any other form of solicitation;  
+v.	contains software viruses or any other computer code, files or programs designed to interrupt, destroy or limit the functionality of any computer software or hardware or telecommunications equipment or data or the Website or that of any users or viewers of the Website or that compromises a user’s privacy;  or
+vi.	contains any falsehoods or misrepresentations or create an impression that You know is incorrect, misleading, or deceptive, or any material that could damage or harm minors in any way; 
+
+c.	impersonate any person or entity or misrepresent their affiliation with a person or entity; 
+
+d.	forge headers or otherwise manipulate identifiers in order to disguise the origin of any material transmitted to or through the Website or impersonate another person or organization; 
+
+e.	interfere with or disrupt the Website or servers or networks connected to the Website, or disobey any requirements, procedures, policies or regulations of networks connected to the Website or probe, scan, or test the vulnerability of any system or network or breach or circumvent any security or authentication measures;  
+
+f.	intentionally or unintentionally violate any applicable local, state, national or international law or regulation; 
+
+g.	collect or store personal data about other users or viewers; 
+
+h.	license, sell, rent, lease, transfer, assign, distribute, host, or otherwise commercially exploit the Website; or
+
+i.	modify, translate, make derivative works of, disassemble, decompile, reverse compile or reverse engineer any part of the Website, except to the extent the foregoing restrictions are expressly prohibited by applicable law.
+
+You also agree not to access the Website in a manner that utilizes the resources of the Website more heavily than would be the case for an individual person using a conventional web browser.  Notwithstanding the foregoing, operators of public search engines may use spiders or other bots for the purpose of creating publicly available searchable indices of the materials on this Website.
+
+4.	License of Content.  By submitting, posting or displaying User Content on or through the Service, you grant us (and our agents) a non-exclusive, royalty-free license (with the right to sub-license) to use, copy, modify, transmit, display and distribute such User Content.  TARFEE will not be responsible or liable for any use of User Content in accordance with these Terms. You represent and warrant that you have all the rights, power and authority necessary to grant the rights granted herein to any User Content that you submit.
+
+5.	End User License.  Except for User Content, this Website, and the information and materials that it contains, are the property of TARFEE and its licencors, and are protected from unauthorized copying and dissemination by copyright law, trademark law, and other intellectual property laws.  Subject to the terms of this Agreement, TARFEE grants you a non-transferable, non-exclusive, license to use the Website for your use (the “License”).  Nothing in the Terms gives you a right to use the TARFEE names, trademarks, logos, domain names, and other distinctive brand features without our prior written consent.  You shall not attempt to override or circumvent any of the usage rules or restrictions on the Website.  Any future release, update, or other addition to functionality of the Website shall be subject to the terms of these Terms.
+
+6.	Feedback.  If You provide TARFEE with any suggestions, comments or other feedback relating to any aspect of the Website and/or Service (""Feedback""), TARFEE may use such Feedback in the Website or in any other TARFEE products or services (collectively, ""TARFEE Offerings""). Accordingly, You agree that: (a) TARFEE is not subject to any confidentiality obligations in respect to the Feedback, (b) the Feedback is not confidential or proprietary information of You or any third party and You have all of the necessary rights to disclose the Feedback to TARFEE, (c) TARFEE (including all of its successors and assigns and any successors and assigns of any of the TARFEE Offerings) may freely use, reproduce, publicize, license, distribute, and otherwise commercialize Feedback in any TARFEE Offerings, and (d) You are not entitled to receive any compensation or re-reimbursement of any kind from TARFEE or any of the other users of the Website in respect of the Feedback.
+
+7.	Advertising. You acknowledge and agree that the Website may contain advertisements.  If You elect to have any business dealings with anyone whose products or services may be advertised on the Website, You acknowledge and agree that such dealings are solely between You and such advertiser and You further acknowledge and agree that TARFEE shall not have any responsibility or liability for any losses or damages that You may incur as a result of any such dealings.  You shall be responsible for obtaining access to the Website and acknowledge that such access may involve third-party fees (such as Internet service provider access or data fees).  You shall be solely responsible for any such fees and also for obtaining any equipment that is required to access the Website.  It is your responsibility to ascertain whether any information or materials downloaded from the Website are free of viruses, worms, Trojan Horses, or other items of a potentially destructive nature.
+
+8.	Links & Third-Party Websites.  This Website (including User Content) may contain links to other websites that are not owned or controlled by TARFEE.  In no event shall any reference to any third party, third party product or service be construed as an approval or endorsement by TARFEE of that third party, third party product or service.  TARFEE is also not responsible for the content of any linked websites.  Any third-party websites or services accessed from the Website are subject to the terms and conditions of those websites and or services and You are responsible for determining those terms and conditions and complying with them.  The presence on the Website of a link to any other website(s) does not imply that TARFEE endorses or accepts any responsibility for the content or use of such websites, and You hereby release TARFEE from all liability and/damages that may arise from Your use of such websites or receipt of services from any such websites.
+
+While TARFEE does not prohibit linking to third party websites and content, it does not wish to be linked to or from any third-party web site which contains, posts or transmits any of the prohibited content in Section 3 of these Terms of Use.  TARFEE reserves the right to prohibit or remove (or require You to remove) any link to the Website, including, without limitation, any link which contains or makes available any content or information of the foregoing nature, at any time.
+
+9.	DISCLAIMER OF REPRESENTATIONS, WARRANTIES AND CONDITIONS.  THE WEBSITE, SERVICE AND ALL MATERIALS PROVIDED THEREIN ARE PROVIDED ""AS IS.""  TARFEE SPECIFICALLY DISCLAIMS ALL REPRESENTATIONS, WARRANTIES AND CONDITIONS, EITHER EXPRESS, IMPLIED, STATUTORY, BY USAGE OF TRADE, COURSE OF DEALING OR OTHERWISE INCLUDING BUT NOT LIMITED TO ANY IMPLIED WARRANTIES OF MERCHANTABILITY, NON-INFRINGEMENT, TITLE, SATISFACTORY QUALITY OR FITNESS FOR A PARTICULAR PURPOSE.  ANY INFORMATION OR MATERIAL DOWNLOADED OR OTHERWISE OBTAINED THROUGH THE USE OF THE SERVICE IS AT YOUR OWN DISCRETION AND RISK AND YOU WILL BE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR COMPUTER SYSTEM, LOSS OF DATA, OR ANY OTHER LOSS THAT RESULTS FROM DOWNLOADING OR USING ANY SUCH MATERIAL.  TARFEE DOES NOT WARRANT, ENDORSE, GUARANTEE, PROVIDE ANY CONDITIONS OR REPRESENTATIONS, OR ASSUME ANY RESPONSIBILITY FOR ANY PRODUCT OR SERVICE ADVERTISED OR OFFERED BY ANY THIRD PARTY THROUGH THE WEBSITE OR IN RESPECT TO ANY WEBSITE THAT CAN BE REACHED FROM A LINK ON THE WEBSITE OR FEATURED IN ANY BANNER OR OTHER ADVERTISING ON THE WEBSITE, AND TARFEE SHALL NOT BE A PARTY TO ANY TRANSACTION THAT YOU MAY ENTER INTO WITH ANY SUCH THIRD PARTY.  TARFEE WILL NOT BE LIABLE FOR ANY TYPE OF CONTENT EXCHANGED BY MEANS OF THE SERVICE OR FOR ANY INTERACTIONS OR TRANSACTIONS BETWEEN USERS.
+
+10.	LIMITATION OF LIABILITY.  UNDER NO CIRCUMSTANCES SHALL TARFEE BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY OR OTHER DAMAGES WHATSOEVER, INCLUDING, WITHOUT LIMITATION, ANY DAMAGES THAT RESULT FROM (I) YOUR USE OF OR YOUR INABILITY TO USE THIS WEBSITE OR THE SERVICE, (II) THE COST OF PROCUREMENT OF SUBSTITUTE GOODS, DATA, INFORMATION OR SERVICES, (III) ERRORS, MISTAKES, OR INACCURACIES IN THE MATERIALS ON THE WEBSITE, (IV) PERSONAL INJURY OR PROPERTY DAMAGE OF ANY KIND WHATSOEVER ARISING FROM OR RELATING TO YOUR USE OF THE SERVICE, ANY BUGS, VIRUSES, TROJAN HORSES, OR ANY OTHER FILES OR DATA THAT MAY BE HARMFUL TO COMPUTER OR COMMUNICATION EQUIPMENT OR DATA THAT MAY HAVE BEEN TRANSMITTED TO OR THROUGH THE WEBSITE, OR (V) ANY ERRORS OR OMISSIONS IN ANY MATERIAL ON THE WEBSITE OR ANY OTHER LOSS OR DAMAGE OF ANY KIND ARISING FROM OR RELATING TO YOUR USE OF THE WEBSITE.  THESE LIMITATIONS SHALL APPLY EVEN IF TARFEE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.  NOTWITHSTANDING ANYTHING TO THE CONTRARY CONTAINED HEREIN, TARFEE’S LIABILITY TO YOU FOR ANY DAMAGES ARISING FROM OR RELATED TO THIS AGREEMENT (FOR ANY CAUSE WHATSOEVER AND REGARDLESS OF THE FORM OF THE ACTION), WILL AT ALL TIMES BE LIMITED TO THE GREATER OF (A) FIFTY U.S. DOLLARS ($50) OR (B) AMOUNTS YOU’VE PAID TARFEE IN THE PRIOR 12 MONTHS (IF ANY)THE FOREGOING LIMITATIONS SHALL APPLY TO THE FULLEST EXTENSION PERMITTED BY LAW IN THE APPLICABLE JURISDICTION.
+
+11.	INDEMNIFICATION.  YOU SHALL INDEMNIFY AND HOLD TARFEE AND ITS SUBSIDIARIES, AFFILIATES, OFFICERS, AGENTS, AND EMPLOYEES, HARMLESS FROM ALL CLAIMS, ACTIONS, PROCEEDINGS, DEMANDS, DAMAGES, LOSSES, COSTS, AND EXPENSES (INCLUDING REASONABLE ATTORNEYS' FEES), INCURRED IN CONNECTION WITH: (I) ANY MATERIALS SUBMITTED, POSTED, TRANSMITTED OR MADE AVAILABLE BY YOU THROUGH THE SERVICE; (II) ANY INTERACTIONS OR TRANSACTIONS BETWEEN YOU AND ANY OTHER USER; AND/OR (III)ANY VIOLATION BY YOU OF THESE TERMS OF USE, THE RIGHTS OF ANY THIRD-PARTY OR ANY APPLICABLE LAW OR REGULATION.
+
+12.	Termination.  TARFEE may, under certain circumstances and without prior notice, immediately terminate your ability to access the website or portions thereof. Cause for such termination shall include, but not be limited to, (a) breaches or violations of these Terms of Use or any other agreement that You may have with TARFEE (including, without limitation, non-payment of any fees owed in connection with the website or otherwise owed by You to TARFEE), (b) requests by law enforcement or other government agencies, (c) a request by You, (d) discontinuance or material modification to the website (or any part thereof), (e) unexpected technical, security or legal issues or problems, and/or (f) participation by You, directly or indirectly, in fraudulent or illegal activities.  Termination of Your access to the Website may also include removal of some or all of the materials uploaded by You to the Website.  You acknowledge and agree that all terminations may be made by TARFEE in its sole discretion and that TARFEE shall not be liable to You or any third-party for any termination of Your access to this Website or for the removal of any of the materials uploaded by You to the Website.  Any termination of these terms of use by TARFEE shall be in addition to any and all other rights and remedies that TARFEE may have.
+
+13.	Availability & Updates.  TARFEE may alter, suspend, or discontinue this website at any time and for any reason or no reason, without notice. The Website may be unavailable from time to time due to maintenance or malfunction of computer or network equipment or other reasons.  TARFEE may periodically add or update the information and materials on this website without notice.
+
+14.	Security.  Information sent or received over the Internet is generally unsecure and TARFEE cannot and does not make any representation or warranty concerning security of any communication to or from the Website or any representation or warranty regarding the interception by third parties of personal or other information.   You are responsible for safeguarding the password that you use to access the Service and you are responsible for any activities or actions under your password. You agree to keep your password secure.  TARFEE will not be liable for any loss or damage arising from your failure to comply with these requirements.
+
+15.	General.  These Terms of Use, together with any privacy policy that may be published on the Website, constitutes the entire agreement between the parties relating to the Website and Service and all related activities.  These terms of use shall not be modified except in writing signed by both parties or by a new posting of these terms of use issued by TARFEE.  If any part of these Terms of Use is held to be unlawful, void, or unenforceable, that part shall be deemed severed and shall not affect the validity and enforceability of the remaining provisions.  The failure of TARFEE to exercise or enforce any right or provision under these Terms of Use shall not constitute a waiver of such right or provision.  Any waiver of any right or provision by TARFEE must be in writing and shall only apply to the specific instance identified in such writing.  You may not assign the terms of use, or any rights or licenses granted here under, whether voluntarily, by operation of law, or otherwise without TARFEE’s prior written consent.  We may assign these Terms of Use without restriction.  These Terms of Use are governed by the laws of the Province of Ontario without regard to its choice of laws provisions.  You hereby irrevocably attorn to the exclusive jurisdiction of the courts of the Province of Ontario.
+
+If you have any questions about these Terms or if you wish to make any complaint or claim with respect to the Website or Service, please contact us at: care@TARFEE.com.
+
+
+Effective Date: July 21, 2015"
+"USER_FORM_ADMIN_SIGNUP_TERMS_DESCRIPTION";"Require members to agree to your terms of service?  You can modifying your terms of service by editing the _CORE_TERMS_OF_SERVICE language variable in the application/languages/en/core.csv file."
+"ACTIVITY_FORM_ADMIN_SETTINGS_GENERAL_USERDELETE_DESCRIPTION";"Do you want to give members the option of deleting feed items published about themselves? This is generally an important freedom to give members since it helps them maintain their privacy."
+"The post was not added to the feed. Please check your %1$sprivacy settings%2$s.";"The post was not added to the feed. Please check your %1$sprivacy settings%2$s."
+"Privacy";"Privacy"
+"Comment Privacy";"Comment Privacy"
+"Album Privacy";"Album Privacy"
+"View Privacy";"View Privacy"
+"Blog Entry Privacy";"Blog Entry Privacy"
+"Privacy Statement";"Privacy Statement"
+"_CORE_PRIVACY_STATEMENT";"Tarfee Inc. (“Tarfee”/“we”/”us”/“our”) is committed to protecting your privacy.  We make the website, www.arfee.com (the “Website”) available together with our services as further described in our Terms of Use (the “Services”).  This Privacy Policy describes how we collect, store, use and distribute information about our users through the Website and Services.  
+
+Consent: By using the Website or our Services you consent to the use of your Personal Information as described in this Privacy Policy.  Except as set forth in this Privacy Policy, your Personal Information will not be used for any other purpose without your consent. We will not actively collect Personal Information for the purpose of sale or marketing in a way that specifically identifies the individual.  In other words, we don’t sell customer lists.  You may withdraw your consent to our processing of your Personal Information at any time.  However, withdrawing consent may result in your inability to continue using the Website and/or the Services. 
+
+Collection of Information: We aim to collect, use and disclose only such information as is required to enable us to manage your account, to provide the Services, to maintain our customer/visitor lists, to respond to your inquiries or provide feedback, for identification and authentication purposes and for service improvement.  We will maintain the confidentiality of any contact information you provide to us on signing up for our Services or contacting us with questions or for further information and we will use it only for the purposes for which we have collected it (subject to the exclusions and disclosures we have listed below), unless you agree that we may disclose it to other third parties.
+
+Two types of information may be collected through the Website and our Services: Personal Information and Non-Personal Information.  This Privacy Policy does not extend to the collection, use or disclosure of the following information which is currently not limited by applicable privacy laws: (a) information that is publicly available, such as names, addresses, telephone numbers and electronic address when listed in a directory or made available through directory assistance; or (b) Non-Personal Information (as defined further below).
+
+""Personal Information"" is personally identifiable information, such as your name, address, e-mail address, credit card information, birth date and gender.  At the time of collection, we will clearly identify the information being collected and the purposes for which it will be used.  It is always your choice whether or not to provide Personal Information but if you choose not to provide certain requested Personal Information, in some instances you may not be able to register to use the Website or Services or be able to access and use the Website or Services at all.  In other instances, your choice not to provide certain other Personal Information may mean that you will not be able to use certain features of the Website or Services.  We may collect Personal Information in respect of the Website or Services through registration processes; communications with you; information downloads; service use; purchases; user support; and surveys.
+
+""Non-Personal Information"" is information of an anonymous nature, such as an Internet Protocol Address (IP Address), the domain used to access the Website or Services, and the type and version of browser or operating system being used by visitors to access the Website or Services.  Aggregate information, such as demographic statistics of our users (e.g. average age or geographical location of our users), number of visitors, what pages users access or visit, and average time spent on the Website or Services is not considered Personal Information.  Similarly, business contact information such as the name, title, business address, e-mail address, or telephone number of a business or professional person or an employee of an organization is not considered Personal Information.
+
+Although the use of certain Non-Personal Information collected, used or disclosed through the Internet as described herein is not restricted (and to the extent that such is the case, the obligations under this Privacy Policy do not apply to such information), we provide information in this Privacy Policy about the collection of such information for the sake of transparency with respect to the operation of the Website and Services.  Such Non-Personal Information is collected or derived by us in the course of operating this Website and our Services.  For example, our servers may automatically collect Non-Personal Information that is provided through your browser or stored in a cookie.
+
+Use of Information: We collect information for the following purposes: 
+
+•	Registration:  In order to register for our Services you must provide certain Personal Information to us such as your email address, username, full name, and password. You also have the option to register for an account using your credentials with any third-party provider we support such as Facebook, Twitter, LinkedIn and Google.  If you register using your credentials with any third-party provider, we will also collect and use the Personal Information associated with your third-party account pursuant to this Privacy Policy.  The information we will have access to in respect of your third-party account will depend on the third-party provider’s privacy policy as well as any applicable privacy preferences you may have selected in respect of your Facebook account.
+
+•	Account Integration:  If you integrate your account with any third-party platform that we support from time to time such as Vimeo or YouTube, the information we will have access to in respect of your third-party account will depend on the third-party provider’s privacy policy as well as any applicable privacy preferences you may have selected in respect of your third-party account.
+
+•	Posting Public Talks, Content and Following: If you choose to post content such as a ‘Talk’ or a photo, video or comment on the Website, your username, profile photo and the content of your post or comment will be made publicly available on the Website.  The list of users you follow as well as the list of users who follow you are also publicly available information on the Website.
+
+•	Sharing Features: If you use any third-party platforms that we support such as Facebook or Twitter to share content, such content will be publicly available and searchable on the Internet. 
+
+•	Direct Messages: Users have the ability to send messages to each other through the Services.  If you send a message to another user, they will be able to see your username, profile photo and the content of your message.   If you receive a message from another user, we will send you an email to let you know that you have received a new message.
+
+•	Metadata: We collect and use various metadata derived from your use of the Service.  For example, if you post a comment on Facebook, we also collect the time that such comment was posted.  In cases where content is made publicly available such as public comments, the associated metadata may also be made publicly available. 
+
+•	Location Information: If you enable location services on your computer or mobile device, we will collect and use information about your location by tracking Bluetooth and WiFi signals to deliver certain features of the Services to you for example displaying related content & services.
+
+•	Referrals:  If you want to invite a friend to join our Service, you may do so by providing us with their name and email address.  We will use this information to send your friend one email inviting them to join our Service.  If they do not set up an account to use our Service, we will delete their contact information.
+
+•	Transactional Notifications: We provide notifications for certain activities relating to your use of our Services despite your indicated e-mail preferences, for example we may send you notices of any updates to our Terms of Service or Privacy Policy.
+
+•	Marketing Communications:  If you opt-in to receive marketing communications from us, we will keep you up to date on our products and services.  You may withdraw your consent to receiving marketing communications from us at any time by following the opt-out instructions in each communication.
+
+•	Statistics: We also collect statistics about use of the Services which we use for analytics including predictive analytics.  Aggregate statistics that do not personally identify an individual will be kept by us and such aggregate statistics may be made available to other members or third parties.  
+
+•	System Logs & Cookies: Cookies are used by us to track content usage and traffic on the Website and Services.  A cookie is a feature of your web browser that consists of a text file that is placed on your hard disk by a web server.  The Website uses cookies to help it compile aggregate statistics about usage of this Website, such as how many users visit the Website, how long users spend viewing the Website, and what pages are viewed most often.  This information is used to improve the content of the Website.  You can set your browser to notify you when you are sent a cookie.  This gives you the chance to decide whether or not to accept it.  If you disable cookies, you may not be able to take advantage of all the features of the Website or Services.  
+
+Your IP address is reported by your web browser whenever you visit a page on the Website.  This information is recorded together with your registration information on our databases.  
+
+•	Advertisements:  Advertisements appearing on the Website may be delivered by us or one or more third-party web advertisers. These third party web advertisers may set cookies. These cookies allow the advertisement server operated by that third party to recognize your computer each time they send you an online advertisement. Accordingly, advertisement servers may compile information about where or whether you viewed their advertisements and which advertisements you clicked on. This information allows web advertisers to deliver targeted advertisements that they believe will be of most interest to you.  The Privacy Policy applies to cookies placed on your computer by us, but does not cover the use of cookies by any third-party web advertisers.  For the privacy practices of such third-party web advertisers, you should consult the applicable privacy policy for the relevant third-party web advertiser(s).
+
+•	Third-Party Links: The Website may contain links to other third-party websites that are not owned or controlled by us.  Such third-party websites are governed by the terms and conditions and privacy policies of such third-party providers and we are not involved in any interaction or transaction between you and such third-parties.
+
+If we plan to use your Personal Information in future for any other purposes not identified above, we will only do so after informing you by updating this Privacy Policy.  See further the section of this Privacy Policy entitled ‘Amendment of this Policy’.
+
+Disclosures & Transfers:  We have put in place contractual and other organizational safeguards with our agents (see further below) to ensure a proper level of protection of your Personal Information (see further Security below).  In addition to those measures, we will not disclose or transfer your Personal Information to third parties without your permission, except as specified in this Privacy Policy (see further Important Exceptions below).
+
+As at the date of this Privacy Policy, we share Personal Information about you in respect of the Website or Services only with our service providers and partners. Our service providers are located in Canada and the United States and accordingly your Personal Information may be available to Canadian and United States governments under a lawful order, irrespective of the safeguards we have put in place for the protection of your Personal Information. 
+
+From time to time we may employ third parties to help us improve the Website and/or the Services. These third parties may have limited access to databases of user information solely for the purpose of helping us to improve the Website and/or the Services and they will be subject to contractual restrictions prohibiting them from using the information about our members for any other purpose.
+
+Important Exceptions: We may disclose your Personal Information to third parties without your consent if we have reason to believe that disclosing this information is necessary to identify, contact or bring legal action against someone who may be causing injury to or interference with (either intentionally or unintentionally) our rights or property, other Website members, other users of the Services, or anyone else (including the rights or property of anyone else) that could be harmed by such activities.  We may disclose Personal Information when we believe in good faith that such disclosure is required by and in accordance with the law. 
+
+We may also disclose your Personal Information in connection with a corporate re-organization, a merger or amalgamation with another entity, a sale of all or a substantial portion of our assets or stock, including any due diligence exercise carried out in relation to the same, provided that the information disclosed continues to be used for the purposes permitted by this Privacy Policy by the entity acquiring the information.
+
+Security: The security of your Personal Information is important to us.  We use commercially reasonable efforts to store and maintain your Personal Information in a secure environment.  We take technical, contractual, administrative, and physical security steps designed to protect Personal Information that you provide to us.  We have implemented procedures designed to limit the dissemination of your Personal Information to only such designated staff as are reasonably necessary to carry out the stated purposes we have communicated to you. 
+
+In certain areas, such as when you provide credit card or other payment information to us, the Website works to help protect the security of your credit card and other payment information during transmission by using industry standard Secure Sockets Layer (SSL) encryption technology. 
+
+You are also responsible for helping to protect the security of your Personal Information.  For instance, never give out your email account information or your password for the Services to third parties. 
+
+Retention: We will keep your Personal Information for as long as it remains necessary for the identified purpose or as required by law, which may extend beyond the termination of our relationship with you.  We may retain certain data as necessary to prevent fraud or future abuse, or for legitimate business purposes, such as analysis of aggregated, non-personally-identifiable data, account recovery, or if required by law. All retained personal information will remain subject to the terms of this Privacy Policy.  If you request that your name be removed from our databases, it may not be possible to completely delete all your Personal Information due to technological and legal constraints.
+
+Amendment of this Policy: We reserve the right to change this Privacy Policy at any time.  If we decide to change this Privacy Policy in the future, we will post an appropriate notice on the home page.   Any non-material change (such as clarifications) to this Privacy Policy will become effective on the date the change is posted and any material changes will become effective 30 days from their posting on the Website.  Unless stated otherwise, our current Privacy Policy applies to all Personal Information that we have about you.  The date on which the latest update was made is indicated at the bottom of this document.  We recommend that you print a copy of this Privacy Policy for your reference and revisit this policy from time to time to ensure you are aware of any changes.  Your continued use of the Website and Services signifies your acceptance of any changes.
+
+Access and Accuracy: You have the right to access the Personal Information we hold about you in order to verify the Personal Information we have collected in respect to you and to have a general account of our uses of that information.  Upon receipt of your written request, we will provide you with a copy of your Personal Information although in certain limited circumstances, we may not be able to make all relevant information available to you such as where that information also pertains to another user.  In such circumstances we will provide reasons for the denial to you upon request.  We will endeavor to deal with all requests for access and modifications in a timely manner.
+
+We will make every reasonable effort to keep your Personal Information accurate and up-to-date, and we will provide you with mechanisms to update, correct, delete or add to your Personal Information as appropriate.  As appropriate, this amended Personal Information will be transmitted to those parties to which we are permitted to disclose your information.  Having accurate Personal Information about you enables us to give you the best possible service.
+
+Contact Us: You can help by keeping us informed of any changes such as a change of address or telephone number.  If you would like to access your information, if you have any questions, comments or suggestions of if you find any errors in our information about you, please contact us at: privacy@tarfee.com.
+
+
+
+Last Updated: July 21, 2015
+"
+"Rebuild Privacy";"Rebuild Privacy"
+"Event Privacy";"Event Privacy"
+"Group Privacy";"Group Privacy"
+"Privacy Settings";"Privacy Settings"
+"Profile Privacy";"Profile Privacy"
+"Profile Posting Privacy";"Profile Posting Privacy"
+"Recent Activity Privacy";"Recent Activity Privacy"
+"USER_FORM_ADMIN_SETTINGS_LISTS_DESCRIPTION";"Using friend lists, your members can organize their friends under various labels that they create. They can then use these lists to send messages to multiple friends and customize their privacy settings."
+"Specify what privacy options will be available to members in this level.";"Specify what privacy options will be available to members in this level."
+"Search Privacy Options";"Search Privacy Options"
+"YNMEMBER_GET_NOTIFICATION";"Your members can choose from any of the options checked below when they decide who can get notification for their actions. These options appears on your members ""Privacy"" page. If you do not check any options, everyone will be allowed to get notification"
+"Video Privacy";"Video Privacy"
+"Video Playlist Privacy";"Video Playlist Privacy"
+"Feedback Privacy";"Feedback Privacy"
+"Please select privacy!";"Please select privacy!"
+"Player Card Privacy";"Player Card Privacy"
+"Write New Entry";"Add new Talk"
+"Tags (Keywords)";"Tags"
+"Compose your new blog entry below, then click ""Post Entry"" to publish the entry to your blog.";"If you have a question, topic or blog that you want to share and get answers, this is the right place. ""NOT WORKING"""
+"Post Entry";"Post Talk"
+"Edit your entry below, then click ""Post Entry"" to publish the entry on your blog.";"Edit your entry below, then click ""Post Entry"" to publish the entry on your blog."
+"Compose your new talk entry below, then click Post Entry"" to publish the entry to your talk.""";"If you have a question, topic or blog that you want to share and get answers, this is the right place. ""NOT WORKING"""
+"Save Changes";"Save"
+"CORE_VIEWS_SCRIPTS_ADMINLANGUAGE_EDIT_DESCRIPTION";"The language phrases in this pack are show below. If you're looking for a specific phrase, use the search box below to find it. Be sure to click ""Save Changes"" before moving to the next page of phrases if you want to keep your changes. Benealth each phrase, you'll see the original phrase for your reference. This is useful if you've lost or accidentally deleted a phrase. Some phrases are in plural form - you'll see examples of numbers used for these phrases in italics."
+"CORE_FORM_ADMIN_SETTINGS_EMAIL_DESCRIPTION";"Various notification emails are sent to your members as they interact with the community. Use this form to customize the content of these emails. Any changes you make here will only be saved after you click the ""Save Changes"" button at the bottom of the form."
+"Save changes";"Save changes"
+"Click ""Add Video"" to select a video from your computer. After you have selected video, click on Post Video at the bottom to begin uploading the file. Please wait while your video is being uploaded. When your upload is finished, your video will be processed - you will be notified when it is ready to be viewed.";"Click ""Add Video"" to select a video from your computer. After you have selected video, click on Post Video at the bottom to begin uploading the file. Please wait while your video is being uploaded. When your upload is finished, your video will be processed - you will be notified when it is ready to be viewed."
+"Post Video";"Post Video"
+"Create Event";"Create Event"
+"ADMIN_ACTIVITY_TYPE_YNEVENT_CREATE";"When a user (subject) creates a new event (object)."
+"ADMIN_ACTIVITY_TYPE_YNEVENT_TOPIC_CREATE";"When a user (subject) creates a new event topic (object)."
+"_ACTIVITY_ACTIONTYPE_YNEVENT_CREATE";"New events"
+"_ACTIVITY_ACTIONTYPE_YNEVENT_VIDEO_CREATE";"When a video was created for the event."
+"_ACTIVITY_ACTIONTYPE_YNEVENT_TOPIC_CREATE";"Creating an event discussion topic"
+"ACTIVITY_TYPE_YNEVENT_CREATE";"When a new event is created"
+"ACTIVITY_TYPE_YNEVENT_DISCUSSION_RESPONSE";"When people reply to discussion topics that I create."
+"ACTIVITY_TYPE_YNEVENT_TOPIC_CREATE";"When someone creates a new event topic."
+"EVENT_FORM_ADMIN_LEVEL_AUTHVIDEO_DESCRIPTION";"Your users can choose from any of the options checked below when they decide who can create videos in their events. If you do not check any options, all members will be allowed to create videos."
+"EVENT_FORM_ADMIN_LEVEL_CREATE_DESCRIPTION";"Do you want to let users create events? If set to no, some other settings on this page may not apply. This is useful if you want users to be able to view events and manage their subscriptions, but only want certain levels to be able to create events."
+"No, do not allow events to be created.";"No, do not allow events to be created."
+"Recently Created";"Recently Created"
+"YNEVENT_VIEWS_SCRIPTS_ADMINSETTINGS_CATEGORIES_DESCRIPTION";"If you want to allow your users to categorize their events, create the categories below. This feature is useful if you want to list all your users' event that If you have no categories, your users will not be given the option of assigning a event category."
+"{item:$subject} has {item:$object:posted} on a {itemParent:$object::event topic} you created.";"{item:$subject} has {item:$object:posted} on a {itemParent:$object::event topic} you created."
+"{item:$subject} created a new event:";"{item:$subject} created a new event:"
+"_EMAIL_NOTIFY_YNEVENT_DISCUSSION_REPLY_DESCRIPTION";"This email is sent to the member when people reply to discussion topics that the member created."
+"Why don't you %1$screate one%2$s?";"Why don't you %1$screate one%2$s?"
+"Date Created";"Date Created"
+"Who may create videos for this event?";"Who may create videos for this event?"
+"Create New Video";"Create New Video"
+"Create Sponsor";"Create Sponsor"
+"FIELDS_VIEWS_SCRIPTS_ADMINFIELDS_DESCRIPTION";"Your members will be asked to provide some information about themselves when joining the community or editing their profile. Create some profile questions that allow them to describe themselves in a way that relates to the theme of your community. To reorder the profile questions, click on their names and drag them up or down. If you want to show different sets of questions to different types of members, you can create multiple ""profile types"". This is useful, for example, if you want your community to have ""fans"" and ""musicians"", each with a different set of profile questions."
+"Create New Profile Type";"Create New Profile Type"
+"group_activity_advgroup_event_create";"Event creation in group."
+"Create New Group";"Create New Group"
+"Tip: %1$sClick here%2$s to create the first group!";"Tip: %1$sClick here%2$s to create the first group!"
+"Tip: %1$sClick here%2$s to create a group or %3$sbrowse%2$s for groups to join!";"Tip: %1$sClick here%2$s to create a group or %3$sbrowse%2$s for groups to join!"
+"Who may create events for this group?";"Who may create events for this group?"
+"ADMIN_ACTIVITY_TYPE_ADVGROUP_CREATE";"When a user (subject) creates a new club (object)."
+"ADMIN_ACTIVITY_TYPE_ADVGROUP_TOPIC_CREATE";"When a user (subject) creates a new topic in a club (object)."
+"ADMIN_ACTIVITY_TYPE_ADVGROUP_POLL_NEW";"When a user (subject) creates a new poll in a club (object)."
+"_ACTIVITY_ACTIONTYPE_ADVGROUP_CREATE";"New clubs"
+"_ACTIVITY_ACTIONTYPE_ADVGROUP_TOPIC_CREATE";"Creating a club discussion topic"
+"_ACTIVITY_ACTIONTYPE_ADVGROUP_WIKI_CREATE";"Creating a new wiki page in club"
+"_ACTIVITY_ACTIONTYPE_ADVGROUP_LISTING_CREATE";"Creating a new listing in club"
+"ACTIVITY_TYPE_ADVGROUP_APPROVE";"When someone requests to join a club I created."
+"ACTIVITY_TYPE_ADVGROUP_CREATE";"When a new club is created."
+"ACTIVITY_TYPE_ADVGROUP_DISCUSSION_RESPONSE";"When people reply to discussion topics that I create."
+"ACTIVITY_TYPE_ADVGROUP_TOPIC_CREATE";"When a new club topic is created."
+"Allow Create Wiki Pages on Groups?";"Allow Create Wiki Pages on Groups?"
+"Do you want to let members of this level create wiki pages on groups?";"Do you want to let members of this level create wiki pages on groups?"
+"Yes, allow members to create wiki pages on groups.";"Yes, allow members to create wiki pages on groups."
+"No, do not allow members to create wiki pages on groups.";"No, do not allow members to create wiki pages on groups."
+"GROUP_FORM_ADMIN_LEVEL_CREATE_DESCRIPTION";"Do you want to let users create groups? If set to no, some other settings on this page may not apply. This is useful if you want users to be able to view groups and manage their subscriptions, but only want certain levels to be able to create groups."
+"No, do not allow groups to be created.";"No, do not allow groups to be created."
+"Allow Create Sub Groups on Groups?";"Allow Create Sub Groups on Groups?"
+"Do you want to let members of this level create sub groups on groups?";"Do you want to let members of this level create sub groups on groups?"
+"Yes, allow members to create sub groups on groups.";"Yes, allow members to create sub groups on groups."
+"Post Player Card";"Post Player Card"
+"";""
+"Post Event/Tryout";"Post Event/Tryout"
+"Find/Invite Friend";"Find or Invite a Friend"
+"Create organization";"Create Corporate Page"
+"Organization page";"My Corporate Page"
+"Request Event Membership";"Request Event Membership"
+"Would you like to request membership in this Event?";"Would you like to request membership in this Event?"
+"Group membership request sent";"Your group membership request has been sent."
+"Group membership request cancelled.";"Your group membership request has been cancelled."
+"Approve Group Membership Request";"Approve Group Membership Request"
+"Would you like to approve the request for membership in this group?";"Would you like to approve the request for membership in this group?"
+"Cancel Group Membership Request";"Cancel Group Membership Request"
+"Would you like to cancel your request for membership in this group?";"Would you like to cancel your request for membership in this group?"
+"Request Group Membership";"Request Group Membership"
+"Would you like to request membership in this group?";"Would you like to request membership in this group?"
+"Request Membership";"Request Membership"
+"Cancel Membership Request";"Cancel Membership Request"
+"Yes, hide membership for this network.";"Yes, hide membership for this network."
+"_EMAIL_PAYMENT_SUBSCRIPTION_PENDING_BODY";"[header]
+
+Thank you for subscribing to our social network! Your subscription is
+pending, awaiting completion of the transaction. Your membership will be
+activated soon; we will notify you by email when it is ready.
+Thank you for your patience.
+
+[subscription_title]
+[subscription_description]
+[subscription_terms]
+
+[footer]"
+"Compare Membership Packages";"Compare Membership Plans"
+"ADMIN_SIGNUP_STEP_SLADVSUBSCRIPTION_PLUGIN_SIGNUP_SUBSCRIPTION";"Choose Advanced Membership"
+"%1$s: Choose Adv Membership";"%1$s: Choose Adv Membership"
+"Accept Membership Request";"Accept Membership Request"
+"Ignore Membership Request";"Ignore Membership Request"
+"Membership Plan";"Membership Plan"
+"Please select a membership plan from the list below.";"Please select a membership plan from the list below."
+"Membership are not required for administrators and moderators.";"Membership is not required for administrators and moderators."
+"Membership";"Manage membership"
+"Post Campaign ";"Post Campaign "
+"Post Event/Tryous";"Post Event/Tryous"
+"NEW_CAMPAIGN_DESCRIPTION";"Create a campaign to hire player with specific criteria. All players that matches your set criteria can submit their videos and profiles."
+"Remove Follower";"Unfollow"
+"Recommend for %s";"Write a Recommendation"
+"Not writeable";"Not writeable"
+"CORE_VIEWS_SCRIPTS_ADMINTHEMES_INDEX_STYLESHEETSPERMISSION";"The stylesheets for your current theme are not writeable. Please set full permissions recursively (CHMOD -R 0777) on ""application/themes/%s"" and try again."
+"Path is not writeable. Please CHMOD 0777 the public/admin directory.";"Path is not writeable. Please CHMOD 0777 the public/admin directory."
+"CORE_VIEWS_SCRIPTS_ADMINTHEMES_THEMES_TIP";"The stylesheets for your current theme are not writeable. Please set full permissions recursively (CHMOD -R 0777) on ""%s"" and try again."
+"CORE_FORM_ADMIN_SETTINGS_PERFORMANCE_TYPE_DESCRIPTION";"If you have enabled
+caching above, please select the type of caching that you want to use. Memcache
+caching (if available) will use memory (RAM) which is not as abundant as disk
+space, however it will be faster than file-based caching when performing
+read/write operations"
+"Write a comment...";"Write a comment..."
+"Write a reply...";"Write a reply..."
+"Write Review";"Write Review"
+"USER_ADMIN_SETTINGS_TWITTER_DESCRIPTION";"You can now integrate SocialEngine
+to Twitter. To do so, create an Application through the
+<a href=""%1$s"" target=""_blank"">Twitter Developers</a> page. You will need to
+select ""Read & Write"" in order to allow posting to Twitter. Please use the
+following Callback URL: %2$s"
+"Be the first to %1$swrite%2$s one!";"Be the first to %1$swrite%2$s one!"
+"CORE_VIEWS_SCRIPTS_YNADMINTHEMES_INDEX_STYLESHEETSPERMISSION";"Theme directory is not writeable, It can make your change has no affect. Please set full permissions recursively (CHMOD -R 0777) on ""application/themes/%s"" and try again."
+"Write Recommendation";"Write a Recommendation"
+"You can not write recommendation for this user.";"You can not write recommendation for this user."
+"Write recommendation successfully.";"Write recommendation successfully."
+"Are you sure you want to remove this member as a follower?";"Are you sure want to unfollow this user?"
+"My Preferred Sports";"Sports I follow:"
+"My Preferred Sport Clubs";"Clubs I follow:"
+"CORE_FORM_ADMIN_ADS_CREATE_LIMITCTR_DESCRIPTION";"If you specify a minimum CTR (click-through ratio, which is the ratio of clicks to views) and the campaign's CTR goes below your limit, the campaign will end. If you decide to specify a minimum CTR limit, you should enter it as a percentage of clicks to views (e.g. 0.05%). To create a campaign with no definite end, don't specify limits and your campaign will continue until you choose to end it."
+"End time cannot be before start time";"End Date/Time cannot be earlier than (before) Start Date/Time."
+"Start Time";"Start Date (*)"
+"Start time of the event must be less than the end repeat time";"Start Time of the event must be earlier than (before) End Repeat Time."
+"Start time";"Start time"
+"Start Time(*)";"Start Date (*)"
+"End Time must be greater than Start Time.";"End Date/Time must be later than (after) Start Date/Time."
+"End Time(*)";"End Date (*)"
+"End Time";"End Date (*)"
+"End time";"End time"
+"all sport types";"all sports"
+"Please compose your new announcement below.";"Please compose your new announcement below."
+"Compose your new talk entry below, then click ""Post Entry"" to publish the entry to your talk.";"If you have a question, topic or blog that you want to share and get answers, this is the right place."
+"Take me to my profile settings.";"Go to Profile Settings"
+"Take me to Main Page, I will update my profile later.";"Go to Main Page"
+"_EMAIL_NOTIFY_TFCAMPAIGN_ALERT_PLAYER_SUBJECT";"([sender_title]) is matching a Campaign"
+"_EMAIL_NOTIFY_TFCAMPAIGN_ALERT_PLAYER_BODY";"[header]<br> <br> Your player <strong>[sender_title]</strong> is matching a new campaign ([object_title]).<br> <br> Click on the following link for more details: http://[host][object_link].<br> <br> [footer]"
+"_EMAIL_CORE_WELCOME_PASSWORD_BODY";"[header]
+
+Thank you for joining our social network. Click the following link and enter your information below to login:
+
+http://[host][object_link]
+
+Email: [email]
+Password: [password]
+
+[footer]"
+"Add Talks";"Add Talk"
+"clubs & organizations";"corporates & clubs directory"
+"professionals";"professionals directory"
+"Professionals Only";"Professionals Only"
+"Followers & Professionals";"Followers & Professionals"
+"Organizations";"corporates & clubs"
+"Enter your password again for confirmation.";"Enter your password again."
+"Password Again";"Re-type Password"
+"Please make sure the ""password"" and ""password again"" fields match.";"Please make sure the ""password"" and ""password again"" fields match."
+"Password";"Type Password"
+"Insert your Addthis account password";"Insert your Addthis account password"
+"Login failed. Please check the email and password you have provided and try again later !";"Login failed. Please check the email and password you have provided and try again later !"
+"Login failed. Please check the email and password you have provided and try again!";"Login failed. Please check the email and password you have provided and try again!"
+"Email Address Verification With Password";"Email Address Verification With Password"
+"Welcome With Password";"Welcome With Password"
+"Admin Password";"Admin Password"
+"Require admins to re-enter their password when they try to access the admin panel.";"Require admins to re-enter their password when they try to access the admin panel."
+"Require admins to enter a global password when they try to access the admin panel.";"Require admins to enter a global password when they try to access the admin panel."
+"The password for ""Require admins to enter a global password when they try to access the admin panel."" above (otherwise ignore).";"The password for ""Require admins to enter a global password when they try to access the admin panel."" above (otherwise ignore)."
+"Confirm password";"Confirm password"
+"_EMAIL_CORE_VERIFICATION_DESCRIPTION";"This is the email that gets sent to members to verify their email addresses if random passwords are disabled."
+"_EMAIL_CORE_VERIFICATION_PASSWORD_TITLE";"Email Address Verification With Password"
+"_EMAIL_CORE_VERIFICATION_PASSWORD_DESCRIPTION";"This is the email that gets sent to members to verify their email addresses if you have enabled random passwords."
+"_EMAIL_CORE_VERIFICATION_PASSWORD_SUBJECT";"Social Network - Email Verification"
+"_EMAIL_CORE_VERIFICATION_PASSWORD_BODY";"[header]
+
+Thank you for joining our social network. To verify your email address and continue, please click the following link:
+http://[host][object_link]
+
+Email: [email]
+Password: [password]
+
+[footer]"
+"_EMAIL_CORE_WELCOME_DESCRIPTION";"This is the email that gets sent when a member signs up if random passwords are disabled."
+"_EMAIL_CORE_WELCOME_PASSWORD_TITLE";"Welcome With Password"
+"_EMAIL_CORE_WELCOME_PASSWORD_DESCRIPTION";"This is the email that gets sent when a member signs up if random passwords are enabled. Please note that if you have email verification enabled, the password variable is not available. This is due to the fact that passwords are securely encrypted upon signup and cannot be unencrypted when a member verifies their email address and the welcome email is sent."
+"_EMAIL_CORE_LOSTPASSWORD_TITLE";"Lost Password"
+"_EMAIL_CORE_LOSTPASSWORD_DESCRIPTION";"This is the email that gets sent if a member forgets their password and requests to create a new one."
+"_EMAIL_CORE_LOSTPASSWORD_SUBJECT";"Social Network - Lost Password"
+"_EMAIL_CORE_LOSTPASSWORD_BODY";"[header]
+
+You have requested to reset your password because you have forgotten your password. If you did not request this, please ignore it. It will expire in 24 hours. To reset your password, please click the following link:
+
+http://[host][object_link]
+
+[footer]"
+"CORE_FORM_ADMIN_SETTINGS_MAINTENANCE_MODE_CODE";"If empty, a password will be randomly generated."
+"API Password";"API Password"
+"PAYMENT_FORM_ADMIN_GATEWAY_2CHECKOUT_DESCRIPTION";"2Checkout Account Configuration:<br />
+1) If you haven't already, you will need to establish a <a href=""%6$s"" target=""_blank"">2Checkout account</a>.<br />
+2) <a target=""_blank"" href=""%1$s"">Create a new username</a>, checking both the API Access and API Updating checkboxes.  Insert the newly created username and password into this form below.<br />
+<em>Note: If you change the secret word in your 2Checkout account, you will need to visit this page again and re-save the settings.</em><br />
+3) <a target=""_blank"" href=""%2$s"">Enable Instant Notification Settings</a> (INS). Paste the following URL into the Global Settings > Global URL box, then click Apply and Enable All Notifications, then Save Settings:<br />%3$s<br />
+4) <a target=""_blank"" href=""%4$s"">Update the Site Management</a> page, selecting the ""Header Redirect"" option, and pasting the following into the ""Approved URL"" field:<br />%5$s"
+"PAYMENT_FORM_ADMIN_GATEWAY_PAYPAL_DESCRIPTION";"Paypal Account Configuration: <br />
+1) If you haven't already, you will need to establish a <a target=""_blank"" href=""%1$s"">Paypal account</a>.<br />
+2) Enable <a target=""_blank"" href=""%1$s"">API access</a> on your Paypal account via: <em>My Account &gt; Profile &gt; API Access &gt; Request API credentials &gt; Request API Signature</em>.<br />
+3) Insert the Paypal API <a target=""_blank"" href=""%1$s"">username, password, and signature</a> values into this form.<br />
+4) Enable <a target=""_blank"" href=""%2$s"">Instant Payment Notifications</a> via: <em>My Account &gt; Profile &gt; Instant Payment Notification Preferences &gt; Choose IPN Settings</em>.  The <em>IPN messages</em> should be <strong>enabled</strong>, and the <em>Notification URL</em> should be set to:<br /><strong>%3$s</strong>"
+"<span><a href='%s'>Forgot Password?</a></span>";"<span><a href='%s'>Forgot Password?</a></span>"
+"_EMAIL_SOCIALCONNECT_AUTOPASSWORD_TITLE";"Social Connect Auto Password Generated!"
+"_EMAIL_SOCIALCONNECT_AUTOPASSWORD_DESCRIPTION";"This is the email that gets sent when a member signs up via Social Connect if random password is created."
+"_EMAIL_SOCIALCONNECT_AUTOPASSWORD_SUBJECT";"An random password is generated!"
+"_EMAIL_SOCIALCONNECT_AUTOPASSWORD_BODY";"[header]
+
+Hello [recipient_title], 
+
+A random password [random_password] is generated and associate with your account. 
+You can changed your password here [object_link]
+
+[footer]"
+"We'll import your address book to suggest connections and help you manage your contacts. And we won't store your password or email anyone without your permission.";"We'll import your address book to suggest connections and help you manage your contacts. And we won't store your password or email anyone without your permission."
+"Change Password";"Change Password"
+"Old Password";"Old Password"
+"New Password";"New Password"
+"Passwords must be at least 6 characters in length.";"Passwords must be at least 6 characters in length."
+"New Password (again)";"New Password (again)"
+"Please enter a valid password.";"Please enter a valid password."
+"Password did not match";"Password did not match"
+"Invalid credentials supplied";"The credentials you have supplied are invalid. Please check your email and password, and try again."
+"Passwords did not match";"Passwords did not match"
+"SignUp - Required Info";"Choose your password"
+"You have chosen the trial plan. Please check your email for confirmation.";"You have chosen the trial plan. Please check your email for confirmation."
+"Carleton graduate student Osama Abushaban stood before a panel of four judges, all of them experienced entrepreneurs. Dressed in smart casual, he didn’t realize how nervous he was and that he had been holding his breath for quite a while.";"Carleton graduate student Osama Abushaban stood before a panel of four judges, all of them experienced entrepreneurs. Dressed in smart casual, he didn’t realize how nervous he was and that he had been holding his breath for quite a while."
+"Carleton grad student Osama Abushaban stood before a panel of four judges, all of them experienced entrepreneurs. Dressed in smart casual, he didn’t realize how nervous he was and that he had been holding his breath for quite a while.";"Carleton grad student Osama Abushaban stood before a panel of four judges, all of them experienced entrepreneurs. Dressed in smart casual, he didn’t realize how nervous he was and that he had been holding his breath for quite a while."
+"How it works?";"How it works ?"
+"<p>
+					Tarfee is a social network that connects football talents with football clubs, universities and scouts worldwide. We believe that every football talent deserves a chance to be noticed and recognized.
+					</p>
+					<p>
+					Therefore, we help football talents, as well as football schools and non-profit organizations to promote their students and their organizations.
+					</p>
+					<p>
+					For many young talents around the world, football is not just a sport, it is an opportunity to improve their lives through scholarships or contracts with football clubs. Our goal is to make this happen, by offering football talents, clubs, universities and scouts a platform that will connect them worldwide.
+					</p>";"<p>
+					Tarfee is a social network that connects football talents with football clubs, universities and scouts worldwide. We believe that every football talent deserves a chance to be noticed and recognized.
+					</p>
+					<p>
+					Therefore, we help football talents, as well as football schools and non-profit organizations to promote their students and their organizations.
+					</p>
+					<p>
+					For many young talents around the world, football is not just a sport, it is an opportunity to improve their lives through scholarships or contracts with football clubs. Our goal is to make this happen, by offering football talents, clubs, universities and scouts a platform that will connect them worldwide.
+					</p>"
+"The email is exists.";"We have received your request to join already."
+"Learn more";"Learn more"
+"Home";"Home"
+"How it Works?";"How it Works?"
+"Team";"Team"
+"Football";"Football"
+"Talents";"Talents"
+"<li>- Upload your best videos to be noticed easily by football scouts, clubs, and universities all over the world</li>
+												<li>- Get the best contract or scholarship</li>
+												<li>- Apply for tryouts and events organized by football scouts, clubs, and universities</li>
+												<li>- Avoid fraud and false offers by checking the ratings and reviews of scouts</li>
+												<li>- Connect with other players and professionals to share your experience, learn, and to get advice</li>";"<li>- Upload your best videos to be noticed easily by football scouts, clubs, and universities all over the world</li>
+												<li>- Get the best contract or scholarship</li>
+												<li>- Apply for tryouts and events organized by football scouts, clubs, and universities</li>
+												<li>- Avoid fraud and false offers by checking the ratings and reviews of scouts</li>
+												<li>- Connect with other players and professionals to share your experience, learn, and to get advice</li>"
+"Schools, NGOs";"Schools, NGOs"
+"<li>- Promote your organization and students, and show the world what you stand for!</li>
+												<li>- Create player profile for each student and upload his/her videos and information</li>
+												<li>- Be engaged with your community, kids, and their parents</li>
+												<li>- Create events and tryouts and invite people to join</li>
+												<li>- Directly send message your followers</li>
+												<li>- Avoid fraud by checking the ratings and reviews of scouts</li>";"<li>- Promote your organization and students, and show the world what you stand for!</li>
+												<li>- Create player profile for each student and upload his/her videos and information</li>
+												<li>- Be engaged with your community, kids, and their parents</li>
+												<li>- Create events and tryouts and invite people to join</li>
+												<li>- Directly send message your followers</li>
+												<li>- Avoid fraud by checking the ratings and reviews of scouts</li>"
+"<li>- Access the best football talents all over the world!</li>
+												<li>- Find exactly what you are looking for quickly and easily: You can customize your search by filtering by age, country, position, rating, etc.</li>
+												<li>- Keep eye on the players you like to follow their improvements</li>
+												<li>- Create events & tryouts and invite players to join and submit their profiles</li>
+												<li>- Be connected and engage with other professionals around the world</li>";"<li>- Access the best football talents all over the world!</li>
+												<li>- Find exactly what you are looking for quickly and easily: You can customize your search by filtering by age, country, position, rating, etc.</li>
+												<li>- Keep eye on the players you like to follow their improvements</li>
+												<li>- Create events & tryouts and invite players to join and submit their profiles</li>
+												<li>- Be connected and engage with other professionals around the world</li>"
+"Clubs, Universities";"Clubs, Universities"
+"<li>- Promote your club, university, or agency in a football dedicated environment, where all football lovers gather</li>
+												<li>- Directly access and message your fans and followers</li>
+												<li>- Access the best football talents all over the world</li>
+												<li>- Create events & tryouts and invite players to join and submit their profiles</li>
+												<li>- Conduct business with football professionals world wide</li>";"<li>- Promote your club, university, or agency in a football dedicated environment, where all football lovers gather</li>
+												<li>- Directly access and message your fans and followers</li>
+												<li>- Access the best football talents all over the world</li>
+												<li>- Create events & tryouts and invite players to join and submit their profiles</li>
+												<li>- Conduct business with football professionals world wide</li>"
+"Our team";"Our team"
+"Entrepreneurship Carleton-Style: TIM Program Leads the Way";"Entrepreneurship Carleton-Style: TIM Program Leads the Way"
+"Read more...";"Read more..."
+"“Go Global, Hire Local” Matches Technology Venture Teams with Talented Professionals";"“Go Global, Hire Local” Matches Technology Venture Teams with Talented Professionals"
+"Go Global, Hire Local matches young technology entrepreneurs who wish to define and exploit global opportunities with international professionals who possess appropriate skills.";"Go Global, Hire Local matches young technology entrepreneurs who wish to define and exploit global opportunities with international professionals who possess appropriate skills."
+"Carleton Students Present their Startups to Mr. Wes Nicol";"Carleton Students Present their Startups to Mr. Wes Nicol"
+"For student entrepreneurs at Carleton University, there are few people who serve as a greater inspiration than successful businessman and generous philanthropist Wes Nicol.";"For student entrepreneurs at Carleton University, there are few people who serve as a greater inspiration than successful businessman and generous philanthropist Wes Nicol."
+"Carleton Technology Entrepreneurs Show Off Their Startups for Senior Policy Advisers";"Carleton Technology Entrepreneurs Show Off Their Startups for Senior Policy Advisers"
+"Student entrepreneurs in Carleton’s Technology Innovation Management program had a chance to show off their startups during an event attended by senior policy advisers with the Ministry of Research and Innovation.";"Student entrepreneurs in Carleton’s Technology Innovation Management program had a chance to show off their startups during an event attended by senior policy advisers with the Ministry of Research and Innovation."
+"Contact us";"Contact us"
+"Address :";"Address :"
+"102 St. Patricks Building, 1125 Colonel By Dr, Ottawa, ON K1S 5B6";"102 St. Patricks Building, 1125 Colonel By Dr, Ottawa, ON K1S 5B6"
+"Phone :";"Phone :"
+"<span>Football </span>Talents";"<span>Football </span>Talents"
+"<span>Football </span>Schools, NGOs";"<span>Football </span>Schools, NGOs"
+"<span>Football </span>Scouts, Agents";"<span>Football </span>Scouts, Agents"
+"<span>Football </span>Clubs, Universities";"<span>Football </span>Clubs, Universities"
+"_EMAIL_CORE_WELCOME_BODY";"[header]<br> <br>Welcome!<br>Thank you for joining <strong>[host]</strong>. Here is your login ID:<br> <br>Email: <strong>[email]</strong><br> <br>To login, go here:<br>http://[host][object_link]<br><br>[footer]"
+"_EMAIL_INVITE_SUBJECT";"[sender_title] is inviting you to join [host]!"
+"_EMAIL_INVITE_BODY";"[header]<br><br>You have been invited by&nbsp;<strong>[sender_title]</strong>&nbsp;to join&nbsp;<strong>[host]</strong>. To join, please follow the link below:<br>http://[host][object_link]<br><br>Click on (Register) and use this invitation code&nbsp;<strong>[code]</strong>.<br><br><strong>Note</strong><strong>:</strong><br>[message]<br><br><br>[footer]"
+"_EMAIL_INVITE_CODE_SUBJECT";"Welcome! You have been approved to join [host]"
+"_EMAIL_INVITE_CODE_BODY";"[header]<br><br><br>You have been approved&nbsp;to join&nbsp;<strong>[host]</strong>. To register, please follow the link below:<br>http://[host][object_link]<br><br>Click on (Register) and use this invitation code&nbsp;<strong>[code]</strong>.<br><br><strong>Note</strong><strong>:</strong><br>[message]<br><br><br>[footer]"
+"<p>
+					Tarfee is a social network that connects football talents with football clubs, universities and scouts worldwide. We believe that every football talent deserves a chance to be noticed and recognized.
+					</p>
+					<p>
+					Therefore, we help football talents, as well as football schools and non-profit organizations to promote their students and their organizations.
+					</p>
+					<p>
+					For many young talents around the world, football is not just a sport, it is an opportunity to improve their lives through scholarships or contracts with football clubs. Our goal is to make this happen, by offering football talents, clubs, universities and scouts a platform that will connect them worldwide.
+					</p>";"<p>
+					Tarfee is a social network that connects football talents with football clubs, universities and scouts worldwide. We believe that every football talent deserves a chance to be noticed and recognized.
+					</p>
+					<p>
+					Therefore, we help football talents, as well as football schools and non-profit organizations to promote their students and their organizations.
+					</p>
+					<p>
+					For many young talents around the world, football is not just a sport, it is an opportunity to improve their lives through scholarships or contracts with football clubs. Our goal is to make this happen, by offering football talents, clubs, universities and scouts a platform that will connect them worldwide.
+					</p>"
+"<li>- Promote your organization and students, and show the world what you stand for!</li>
+												<li>- Create player profile for each student and upload his/her videos and information</li>
+												<li>- Be engaged with your community, kids, and their parents</li>
+												<li>- Create events and tryouts and invite people to join</li>
+												<li>- Directly send message your followers</li>
+												<li>- Avoid fraud by checking the ratings and reviews of scouts</li>";"<li>- Promote your corporate and students, and show the world what you stand for!</li>
+												<li>- Create player profile for each student and upload his/her videos and information</li>
+												<li>- Be engaged with your community, kids, and their parents</li>
+												<li>- Create events and tryouts and invite people to join</li>
+												<li>- Directly send message your followers</li>
+												<li>- Avoid fraud by checking the ratings and reviews of scouts</li>"
+"Organization";"Corporate"
+"Club Name";"Corporate Name"
+"Clubs";"Corporates"
+"<li>- Upload your best videos to be noticed easily by football scouts, clubs, and universities all over the world</li>
+												<li>- Get the best contract or scholarship</li>
+												<li>- Apply for tryouts and events organized by football scouts, clubs, and universities</li>
+												<li>- Avoid fraud and false offers by checking the ratings and reviews of scouts</li>
+												<li>- Connect with other players and professionals to share your experience, learn, and to get advice</li>";"<li>- Upload your best videos to be noticed easily by football scouts, clubs, and universities all over the world</li>
+												<li>- Get the best contract or scholarship</li>
+												<li>- Apply for tryouts and events organized by football scouts, clubs, and universities</li>
+												<li>- Avoid fraud and false offers by checking the ratings and reviews of scouts</li>
+												<li>- Connect with other players and professionals to share your experience, learn, and to get advice</li>"
+"ACTIVITY_TYPE_COMMENT_ADVGROUP";"When someone comments on one of my clubs."
+"ACTIVITY_TYPE_LIKE_ADVGROUP";"When someone likes one of my clubs."
+"_EMAIL_NOTIFY_ADVGROUP_FOLLOW_EDIT_DESCRIPTION";"This email is sent to the followers of clubs."
+"Clubs...";"Clubs..."
+"Leave Club";"Unfollow"
+"Are you sure you want to leave this club?";"Are you sure you want to unfollow this page?"
+"You have successfully unfollowed this page.";"You have successfully left this group."
+"You have successfully left this club.";"You are no more following this page."
+"Follow Club";"Follow"
+"Would you like to follow this club?";"Would you like to follow this page?"
+"You are now a fan of this club.";"You are now following this page."
+"Edit Club";"Edit Corproate Page"
+"_EMAIL_NOTIFY_YNEVENT_NOTIFY_END_SUBJECT";"Notificación: Tu evento [object_title] está por finalizar"
+"_EMAIL_NOTIFY_YNEVENT_NOTIFY_END_BODYHTML";"[header]<br> <br>El evento ""[object_title]""&nbsp;est&aacute; por finalizar. Hacer click en el siguiente link para ver el detalle:<br><br> http://[host][object_link]<br> <br> [footer]"
+"_EMAIL_NOTIFY_YNEVENT_NOTIFY_START_SUBJECT";"Notificación: El evento [object_title] ha comenzado"
+"_EMAIL_NOTIFY_YNEVENT_NOTIFY_START_BODYHTML";"[header]<br><br>El evento ""[object_title]""ha comenzado. Hacer click en el siguiente link para ver el detalle:<br> <br><br> http://[host][object_link]<br> <br> [footer]"
+"_EMAIL_NOTIFY_YNEVENT_REMIND_SUBJECT";"Recordatorio: El evento [object_title] esta por comenzar"
+"_EMAIL_NOTIFY_YNEVENT_REMIND_BODYHTML";"[header]<br> <br>Hola ""[recipient_title]"",<br><br>
+<p>No te pierdas el evento de mana&ntilde;a. Has click en el siguiente link para ver detalles:</p>
+Event: ""[object_title]""&nbsp;<br> <br>http://[host][object_link]<br> <br> [footer]"
+"_EMAIL_NOTIFY_YNEVENT_CHANGE_DETAILS_SUBJECT";"Los detalles del evento [object_title] han cambiado"
+"_EMAIL_NOTIFY_YNEVENT_CHANGE_DETAILS_BODYHTML";"[header]<br><br>Los detalles del evento ""[object_title]""&nbsp;&nbsp;que estas siguiendo han sido modificado. Para conocer mas detalles hacer click en el siguiente link:<br><br> http://[host][object_link]<br> [footer]"
+"_EMAIL_NOTIFY_YNEVENT_INVITE_SUBJECT";"Has sido invitado para unirte evento [object_title]"
+"_EMAIL_NOTIFY_YNEVENT_INVITE_BODYHTML";"[header]<br><br> Has sido invitado para unirte al evento &nbsp;""[object_title]"". Hacer click en el siguiente link para conocer mas detalles:<br> <br> http://[host][object_link]<br> <br> [footer]"
+"_EMAIL_NOTIFY_YNEVENT_INVITE_MESSAGE_SUBJECT";"Has sido invitado a unirte al evento [object_title]"
+"_EMAIL_NOTIFY_YNEVENT_INVITE_MESSAGE_BODYHTML";"[header]<br> <br>Has sido invitado para unirte al evento &nbsp;""[object_title]"". Hacer click en el siguiente link para conocer mas detalles:<br> <br> http://[host][object_link]<br> <br> ----------------------------------------<br> [message]<br> ----------------------------------------<br> <br> [footer]"
+"_EMAIL_NOTIFY_YNEVENT_DISCUSSION_REPLY_SUBJECT";"Un mienbro ha comentado en ""[object_title]"" del evento ""[object_parent_title]"""
+"_EMAIL_NOTIFY_YNEVENT_DISCUSSION_REPLY_BODYHTML";"[header]<br> <br> [sender_title] has comentado en tu publicacion ""[object_title]"" en el evento ""[object_title]"":<br> <br> ""[message]""<br> <br>Has click en el siguiente link para ver el comentario:<br> <br> http://[host][object_link]<br> <br> [footer]"
+"If you would like to change your subscription, please select an option below.";"(((this phrase is not used))) 0001"
+"If you would like to change your sembership, please select an option below.";"If you would like to change your membership level, please check the membership types, features offered under each and proceed with your preference."
+"_EMAIL_NOTIFY_ADMIN_USER_UPGRADE_SUBJECT";"[sender_title] has requested to upgrade membership."
+"_EMAIL_NOTIFY_ADMIN_USER_UPGRADE_BODYHTML";"[header]<br> <br> [sender_title] has requested to upgrade membership. Please click the following link to view it:<br> <br> http://[host]/admin/user/upgrade-requests?email=[sender_email]<br> <br> [footer]"
+"_EMAIL_USER_ACCOUNT_APPROVED_SUBJECT";"Your account has been approved."
+"_EMAIL_USER_ACCOUNT_APPROVED_BODYHTML";"[header]<br> <br> Your account has been approved by [host]. Please click the following link to sign in:<br> <br> http://[host][object_link]<br> <br> [footer]"
+"_EMAIL_CORE_WELCOME_PASSWORD_SUBJECT";"Welcome to [host]"
+"_EMAIL_CORE_WELCOME_PASSWORD_BODYHTML";"[header]<br> <br> Thank you for joining <strong>[host]</strong>. Click the following link and enter your login information:<br> <br> http://[host][object_link]<br> <br> Email: [email]<br> Password: [password]<br> <br> [footer]"
+"_EMAIL_NOTIFY_ADMIN_USER_SIGNUP_SUBJECT";"[object_title] has joined [host]"
+"_EMAIL_NOTIFY_ADMIN_USER_SIGNUP_BODYHTML";"<br> <br> Congratulations, someone has joined your social network. Welcome the new member to your site:<br> <br> [object_title] : http://[host][object_link]<br> Signup Date: [date]<br>"
+"_EMAIL_CORE_WELCOME_SUBJECT";"Welcome to [host]"
+"_EMAIL_CORE_WELCOME_BODYHTML";"[header]<br> <br>Welcome!<br>Thank you for joining <strong>[host]</strong>. Here is your login ID:<br> <br>Email: <strong>[email]</strong><br> <br>To login, go here:<br>http://[host][object_link]<br><br>[footer]"
+"_EMAIL_CORE_VERIFICATION_SUBJECT";"Tarfee - Email Verification"
+"_EMAIL_CORE_VERIFICATION_BODYHTML";"[header]<br> <br> Thank you for joining <strong>[host]</strong>. To verify your email address and continue, please click the following link:<br> <br>http://[host][object_link]<br>Email: [email]<br><br>If you recieved this email by mistake, please ignore it!<br> <br> [footer]"
+"Trophies & Archievements";"Trophies & Achievements"
+"You don't have any trophies/archievements!";"You don't have any trophies/achievements!"
+"Maximum trophies and archievements the user can add";"Maximum trophies and achievements the user can add"
+"Maximum character of trophy/archievement Short description the user can add";"Maximum character of trophy/achievement Short description the user can add"
+"_EMAIL_NOTIFY_FRIEND_FOLLOW_SUBJECT";"[sender_title] has started following you."
+"_EMAIL_NOTIFY_FRIEND_FOLLOW_BODYHTML";"[header]<br> <br> [sender_title] has started following you. Please click the following link to view the member:<br> <br> http://[host][object_link]<br> <br> [footer]"
+"_EMAIL_HEADER_SUBJECT";""
+"_EMAIL_HEADER_BODYHTML";"Hello,"
+"_EMAIL_FOOTER_SUBJECT";""
+"_EMAIL_FOOTER_BODYHTML";"Best Regards,<br> Tarfee team<br>www.tarfee.com"
+"_EMAIL_HEADER_MEMBER_SUBJECT";""
+"_EMAIL_HEADER_MEMBER_BODYHTML";"Hello [recipient_title],"
+"_EMAIL_FOOTER_MEMBER_SUBJECT";""
+"_EMAIL_FOOTER_MEMBER_BODYHTML";"Best Regards,<br>Tarfee team<br>www.tarfee.com"
+"_EMAIL_NOTIFY_FRIEND_FOLLOW_REQUEST_SUBJECT";"[sender_title] has requested to follow you."
+"_EMAIL_NOTIFY_FRIEND_FOLLOW_REQUEST_BODYHTML";"[header]<br> <br> [sender_title] has requested to follow you. Please click the following link to sign in and confirm this request:<br> <br> http://[host][object_link]<br> <br> [footer]"
+"Add Talks";"Start a Talk"
+"Add Talk";"Start a Talk"
+"Write New Entry";"Start a new Talk"
+"Add New Talk";"Add New Talk"
+"Add New Talk";"Start a New Talk"
+"Write New Entry";"Start a New Talk"

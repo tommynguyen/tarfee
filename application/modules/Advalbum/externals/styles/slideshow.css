@@ -1,0 +1,77 @@
+/*** fix slideshow in album view ***/
+
+.ss_slideshow {
+	margin-left:0px;
+	margin-top:0px;
+	width:682px;
+	height:552px;
+	padding: 0px 15px 0px 3px;
+	background: #FFFFFF;
+	overflow:hidden;
+}
+
+.ss_album_title {
+	height: 20px;
+	line-height: 20px;
+	overflow: hidden;
+	font-family: Arial;
+	font-size: 9pt;
+	color: #888888;
+}
+
+.ss_album_title a, .ss_album_title a:visited {
+	font-weight: bold;
+	text-decoration: none;
+	color: #666666;
+}
+
+.ss_album_title a:hover {
+	color: #333333;
+	text-decoration: none;
+}
+
+.ss_closethis {
+	margin-top: 8px;
+	height: 12px;
+	line-height: 12px;
+	font-family: Arial;
+	float: right;
+	color: #FF0000;
+}
+a.ss_closethis  {
+	color: #FF0000;
+}
+
+.ss_photo {
+	width:680px;
+	height:510px;
+	position:relative;
+	overflow:hidden;
+	border: solid 1px #dde7ed;
+}
+.ss_more_info {
+	height: 16px;
+	line-height: 16px;
+	overflow: hidden;
+	font-family: Arial;
+	font-size: 9pt;
+	color: #AAAAAA;
+	text-align: center;
+}
+.ss_preload {
+	padding-top: 1px;
+	height: 1px;
+	overflow: hidden;
+	display: none;
+}
+
+/* re-define the slideshow css */
+.slideshow-captions{font-size:10px;text-indent:4px;text-align:center;}
+.slideshow-captions-visible{
+	height:18px;
+	line-height:18px;
+	opacity: 0.5;
+	filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+.slideshow-images{width:680px;height:510px;}
+.slideshow{width:680px;height:510px;;margin:0 auto;}

@@ -1,0 +1,570 @@
+{
+  "type": "module",
+  "name": "ynnotification",
+  "version": "4.01p2",
+  "revision": null,
+  "path": "application\/modules\/Ynnotification",
+  "repository": null,
+  "date": "Wed, 07 Aug 2013 15:34:40 +0000",
+  "title": "Advanced Notification",
+  "description": "Advanced Notification",
+  "thumb": null,
+  "developer": null,
+  "authors": [
+    "YouNet Company"
+  ],
+  "changeLog": null,
+  "meta": {
+    "date": "Wed, 07 Aug 2013 15:34:40 +0000",
+    "title": "Advanced Notification",
+    "description": "Advanced Notification",
+    "developer": null,
+    "authors": [
+      "YouNet Company"
+    ],
+    "changeLog": null
+  },
+  "actions": [
+    "install",
+    "upgrade",
+    "refresh",
+    "enable",
+    "disable"
+  ],
+  "callback": {
+    "path": "application\/modules\/Ynnotification\/settings\/install.php",
+    "class": "Ynnotification_Installer",
+    "priority": 100
+  },
+  "dependencies": null,
+  "tests": [
+    
+  ],
+  "permissions": [
+    
+  ],
+  "structure": {
+    "application\/modules\/Ynnotification": {
+      "type": "directory",
+      "path": "application\/modules\/Ynnotification",
+      "structure": [
+        {
+          "path": "settings",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "settings\/my-upgrade-4.01p1-4.01p2.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 123,
+          "sha1": "ce5efa17b54e2d6cb0a14cc1d1ef72475daed090"
+        },
+        {
+          "path": "settings\/install.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 1057,
+          "sha1": "15d2ea2e414d88d82e30cccbf5e644d02353ff56"
+        },
+        {
+          "path": "settings\/manifest.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 1139,
+          "sha1": "435ee12666ce3a52e2f4889ae0c9b1d52f03eaf2"
+        },
+        {
+          "path": "settings\/my.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 1861,
+          "sha1": "70c85cb2119f52073ea30487a17d35a99530296c"
+        },
+        {
+          "path": "settings\/content.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 498,
+          "sha1": "3d5a1940f5e2b8c7b300db993dfd66c073b4d72c"
+        },
+        {
+          "path": "settings\/my-upgrade-4.01-4.01p1.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 402,
+          "sha1": "1fe82ddcb52326911901757d4f66c1a05a4bcecc"
+        },
+        {
+          "path": "Model",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Model\/DbTable",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Model\/DbTable\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "controllers",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "controllers\/IndexController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 4909,
+          "sha1": "3cdef0004e54ca3dd7c2b4356784a63db33b53cd"
+        },
+        {
+          "path": "controllers\/AdminStylesController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 1961,
+          "sha1": "649238709b38622b4d542c44c5f16bfedcba731d"
+        },
+        {
+          "path": "controllers\/AdminSettingsController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 1166,
+          "sha1": "63ee5abb3445f0f2b0ed53c9e7047a2c41de89c5"
+        },
+        {
+          "path": "controllers\/AdminSoundsController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 1734,
+          "sha1": "3ba539f02a220a74a13fd724f69c6340b5aaf10a"
+        },
+        {
+          "path": "externals",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles\/main.css",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 1916,
+          "sha1": "35b32ddb04555c181f4bbe57ac2d77125f16f9d9"
+        },
+        {
+          "path": "externals\/styles\/admin",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles\/admin\/main.css",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 457,
+          "sha1": "941d6c6217548d783787b18471fc5dc5a91d28ad"
+        },
+        {
+          "path": "externals\/images",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/images\/warning.png",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 483,
+          "sha1": "eec0f42e817e235c12588a85f9145af0437b9b17"
+        },
+        {
+          "path": "externals\/images\/closehover.gif",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 65,
+          "sha1": "579c99d83061d091887eaee33da9529c7bb50816"
+        },
+        {
+          "path": "externals\/images\/hs.png",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 2684,
+          "sha1": "8a937187ca475f678753774b244deecbb06fbd82"
+        },
+        {
+          "path": "externals\/images\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "externals\/images\/cross.gif",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 83,
+          "sha1": "563b3d5d8cb15f4b5f99e05206c5a6d238111210"
+        },
+        {
+          "path": "externals\/images\/close.gif",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 65,
+          "sha1": "6435c79d0f0f2fe7ad14eab56c7a9ebdaa79cfc4"
+        },
+        {
+          "path": "externals\/images\/arrow.gif",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 66,
+          "sha1": "425fee7ea7bc578c8e3f6298ebd6c3619738f2eb"
+        },
+        {
+          "path": "externals\/.htaccess",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 147,
+          "sha1": "9f1638a8edbe1c5d28789e017fb35b2f2465f01e"
+        },
+        {
+          "path": "externals\/scripts",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/scripts\/jscolor.js",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 26945,
+          "sha1": "a22862fd8f608633fe57deef4fb858447b248ba4"
+        },
+        {
+          "path": "externals\/scripts\/core.js",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "externals\/scripts\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "widgets",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/displays-notification",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/displays-notification\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 484,
+          "sha1": "248fca6b311690a48b89d43db90ae19f4c32bed0"
+        },
+        {
+          "path": "widgets\/displays-notification\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 10165,
+          "sha1": "aae5146015d39d318b861915c61bf7b2674cfae0"
+        },
+        {
+          "path": "View",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "View\/Helper",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "View\/Helper\/FormYnnotificationbrowser.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 775,
+          "sha1": "748e63be412766482bed3908e41fcf91c0e437f8"
+        },
+        {
+          "path": "Bootstrap.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 3878,
+          "sha1": "f0a094d7de850087e8d552032a8216f2363fd68b"
+        },
+        {
+          "path": "Form",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Element",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Element\/Ynnotificationbrowser.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 585,
+          "sha1": "e257550540ceaf4e2cea2242e372e867afaadb76"
+        },
+        {
+          "path": "Form\/Admin",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Admin\/Global.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 2578,
+          "sha1": "1da44cdc5360ddd970bddf4516e05c442847dfcb"
+        },
+        {
+          "path": "Form\/Admin\/Sound.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 2383,
+          "sha1": "8dea240c2c9767bb6dbf75005843117e9107ce68"
+        },
+        {
+          "path": "Form\/Admin\/Style.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 1278,
+          "sha1": "f00151b6ab4d4726b520ff86e66c6a37ecc69f2e"
+        },
+        {
+          "path": "Form\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "Form\/Sound.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 864,
+          "sha1": "4a71f7f3e8fedf53ee84dc90b4cd6a166aab61ec"
+        },
+        {
+          "path": "views",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/index",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/index\/sound-settings.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 609,
+          "sha1": "141cf56e106cb6af0ea8302b6dd0c4f9e16422a5"
+        },
+        {
+          "path": "views\/scripts\/index\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "views\/scripts\/admin-sounds",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-sounds\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 569,
+          "sha1": "56808201debe4b299ba2a841a4fb328f860d44bf"
+        },
+        {
+          "path": "views\/scripts\/admin-settings",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-settings\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 883,
+          "sha1": "53caf1bfd9669a85f82ea15203aebb18093c0045"
+        },
+        {
+          "path": "views\/scripts\/admin-styles",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-styles\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 852,
+          "sha1": "0ac65e55424b077e12bb22cbe830d5c0861c1f56"
+        },
+        {
+          "path": "Plugin",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Plugin\/Menus.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 277,
+          "sha1": "0c8a4fad5ddf4f49f12f7ed11d6467ff18260b6c"
+        }
+      ]
+    },
+    "application\/languages\/en\/ynnotification.csv": {
+      "type": "file",
+      "path": "application\/languages\/en\/ynnotification.csv",
+      "structure": {
+        "path": "ynnotification.csv",
+        "dir": false,
+        "file": true,
+        "perms": "0644",
+        "size": 1804,
+        "sha1": "3e38178423bbea9282c19238a9b796ab0cc289c4"
+      }
+    }
+  }
+}

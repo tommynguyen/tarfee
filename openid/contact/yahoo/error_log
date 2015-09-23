@@ -1,0 +1,36 @@
+[22-Apr-2014 07:36:38 UTC] PHP Warning:  First parameter must either be an object or the name of an existing class in /home/deveyfun/public_html/openid/contact/yahoo/lib/Yahoo.inc.php on line 1374
+[22-Apr-2014 07:36:38 UTC] ERROR - Failed to fetch access token: parameter_absent
+[22-Apr-2014 07:36:38 UTC] INFO - Failed to fetch access token, retrying
+[22-Apr-2014 07:36:39 UTC] PHP Warning:  First parameter must either be an object or the name of an existing class in /home/deveyfun/public_html/openid/contact/yahoo/lib/Yahoo.inc.php on line 1374
+[22-Apr-2014 07:36:39 UTC] ERROR - Failed to fetch access token: parameter_absent
+[22-Apr-2014 07:36:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/deveyfun/public_html/openid/contact/yahoo/lib/Yahoo.inc.php:1374) in /home/deveyfun/public_html/openid/contact/yahoo/lib/Yahoo.inc.php on line 345
+[22-Apr-2014 07:43:19 UTC] PHP Warning:  First parameter must either be an object or the name of an existing class in /home/deveyfun/public_html/openid/contact/yahoo/lib/Yahoo.inc.php on line 1374
+[22-Apr-2014 07:43:20 UTC] ERROR - Failed to fetch access token: parameter_absent
+[22-Apr-2014 07:43:20 UTC] INFO - Failed to fetch access token, retrying
+[22-Apr-2014 07:43:20 UTC] PHP Warning:  First parameter must either be an object or the name of an existing class in /home/deveyfun/public_html/openid/contact/yahoo/lib/Yahoo.inc.php on line 1374
+[22-Apr-2014 07:43:20 UTC] ERROR - Failed to fetch access token: parameter_absent
+[22-Apr-2014 07:43:20 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/deveyfun/public_html/openid/contact/yahoo/lib/Yahoo.inc.php:1374) in /home/deveyfun/public_html/openid/contact/yahoo/lib/Yahoo.inc.php on line 345
+[22-Apr-2014 07:46:58 UTC] PHP Warning:  First parameter must either be an object or the name of an existing class in /home/deveyfun/public_html/openid/contact/yahoo/lib/Yahoo.inc.php on line 1377
+[22-Apr-2014 07:46:58 UTC] ERROR - Failed to fetch access token: parameter_absent
+[22-Apr-2014 07:46:58 UTC] INFO - Failed to fetch access token, retrying
+[22-Apr-2014 07:46:59 UTC] PHP Warning:  First parameter must either be an object or the name of an existing class in /home/deveyfun/public_html/openid/contact/yahoo/lib/Yahoo.inc.php on line 1377
+[22-Apr-2014 07:46:59 UTC] ERROR - Failed to fetch access token: parameter_absent
+[22-Apr-2014 07:46:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/deveyfun/public_html/openid/contact/yahoo/lib/Yahoo.inc.php:1377) in /home/deveyfun/public_html/openid/contact/yahoo/lib/Yahoo.inc.php on line 345
+[22-Apr-2014 07:47:01 UTC] PHP Warning:  First parameter must either be an object or the name of an existing class in /home/deveyfun/public_html/openid/contact/yahoo/lib/Yahoo.inc.php on line 1377
+[22-Apr-2014 07:47:01 UTC] ERROR - Failed to fetch access token: parameter_absent
+[22-Apr-2014 07:47:01 UTC] INFO - Failed to fetch access token, retrying
+[22-Apr-2014 07:47:01 UTC] PHP Warning:  First parameter must either be an object or the name of an existing class in /home/deveyfun/public_html/openid/contact/yahoo/lib/Yahoo.inc.php on line 1377
+[22-Apr-2014 07:47:01 UTC] ERROR - Failed to fetch access token: parameter_absent
+[22-Apr-2014 07:47:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/deveyfun/public_html/openid/contact/yahoo/lib/Yahoo.inc.php:1377) in /home/deveyfun/public_html/openid/contact/yahoo/lib/Yahoo.inc.php on line 345
+[22-Apr-2014 07:49:08 UTC] PHP Warning:  First parameter must either be an object or the name of an existing class in /home/deveyfun/public_html/openid/contact/yahoo/lib/Yahoo.inc.php on line 1377
+[22-Apr-2014 07:49:08 UTC] ERROR - Failed to fetch access token: parameter_absent
+[22-Apr-2014 07:49:08 UTC] INFO - Failed to fetch access token, retrying
+[22-Apr-2014 07:49:08 UTC] PHP Warning:  First parameter must either be an object or the name of an existing class in /home/deveyfun/public_html/openid/contact/yahoo/lib/Yahoo.inc.php on line 1377
+[22-Apr-2014 07:49:08 UTC] ERROR - Failed to fetch access token: parameter_absent
+[22-Apr-2014 07:49:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/deveyfun/public_html/openid/contact/yahoo/lib/Yahoo.inc.php:1377) in /home/deveyfun/public_html/openid/contact/yahoo/lib/Yahoo.inc.php on line 345
+[22-Apr-2014 07:58:18 UTC] PHP Warning:  First parameter must either be an object or the name of an existing class in /home/deveyfun/public_html/openid/contact/yahoo/lib/Yahoo.inc.php on line 1375
+[22-Apr-2014 07:58:18 UTC] ERROR - Failed to fetch access token: parameter_absent
+[22-Apr-2014 07:58:18 UTC] INFO - Failed to fetch access token, retrying
+[22-Apr-2014 07:58:19 UTC] PHP Warning:  First parameter must either be an object or the name of an existing class in /home/deveyfun/public_html/openid/contact/yahoo/lib/Yahoo.inc.php on line 1375
+[22-Apr-2014 07:58:19 UTC] ERROR - Failed to fetch access token: parameter_absent
+[22-Apr-2014 07:58:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/deveyfun/public_html/openid/contact/yahoo/lib/Yahoo.inc.php:1375) in /home/deveyfun/public_html/openid/contact/yahoo/lib/Yahoo.inc.php on line 345

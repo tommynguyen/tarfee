@@ -1,0 +1,189 @@
+.verify_a
+{
+	background-image: url("~/application/modules/Slprofileverify/externals/images/verify.png");
+        width: 75px;
+        height: 23px;
+        line-height: 23px;
+}
+
+.deny_a
+{
+	background-image: url("~/application/modules/Slprofileverify/externals/images/delete.png");
+        width: 75px;
+        height: 23px;
+        line-height: 23px;
+}
+
+#verify_deny-button{
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05)
+}
+
+.send_verification
+{
+	background-image: url("~/application/modules/Slprofileverify/externals/images/send_receive.png");
+        width: 200px;
+        height: 23px;
+        line-height: 23px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05)
+}
+
+.badge_img
+{
+	overflow: hidden;
+}
+.badge_img > img
+{
+	float: right;
+	padding-right: 20px;
+       
+}
+
+#document-wrapper img
+{
+    margin: 5px 5px 5px 0;
+    float: left;
+    height: 140px;
+}
+#document-element{
+    max-width: none !important;
+}
+
+
+#document-wrapper .description p{
+    max-width: 760px
+}
+#document-wrapper .file_id_img{
+    display: block;
+    height: 140px;
+    max-width: none !important;
+}
+
+
+#upload-wrapper{
+    margin-top: 5px
+}
+
+#global_content .layout_slprofileverify_verify_status{
+    margin-bottom: -30px;
+    padding-top: 10px
+}
+
+#verified-document ul li span{
+    width: 175px;
+    display: block;
+    float: left;
+    overflow: hidden;
+    padding: 3px 0 3px 0;
+}
+
+#verified-document ul li span + span{
+    width: 175px;
+    float: none;
+}
+
+#verified-document .verified-img img.normal{
+    padding: 3px 0;
+    height: 145px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+
+#copy_document-wrapper .notice{
+    margin: 20px 0 -5px 0;
+    color: red;
+}
+
+
+
+#first_name-wrapper{
+    position: relative;
+    overflow: visible;
+}
+
+#picture_temp-element{
+    min-width: 100px;
+}
+
+#profile-picture{ 
+    height: 175px;
+    text-align: center;
+    border: 1px solid gray;
+}
+
+#profile-picture p.img{
+    padding: 3px 3px 1px 3px;
+    border-bottom: 1px solid gray;
+}
+
+#profile-picture p.img img{
+    height: 120px
+}
+
+#profile-picture p + p{
+    padding: 4px;
+}
+
+#profile_picture{
+    display: none
+}
+#TB_ajaxContent #upload_cuccess{
+    padding: 0 5px
+}
+
+#exp-step p{
+    max-width: 930px;
+}
+
+#document-element .description p{
+    font-size: 11px
+}
+#document-element .description{
+}
+
+#other_reason {
+    margin-bottom: 5px 
+}
+
+#button_submit{
+    margin-top: 15px
+}
+/*
+#why-get-verify, #why-verify-safe{
+    padding: 15px 0 0 10px;
+}
+
+#why-get-verify h3, #why-verify-safe h3{
+    font-weight: bold;
+}*/
+
+#copy_document-element{
+    max-width: none;
+}
+
+#exp-document-identity p, #copy_document-element p{
+    max-width: 760px;
+}
+
+#document-element .file_id_img img{
+    max-width: 190px;
+}
+
+#verify-document .form-description{
+    max-width: 930px
+}
+
+
+/* Icon notification */
+#notifications_menu .notification_type_slprofileverify_verify{
+    background-image: url("~/application/modules/Slprofileverify/externals/images/verify.png");
+}
+
+#notifications_menu .notification_type_slprofileverify_deny, #notifications_menu .notification_type_slprofileverify_unverify{
+    background-image: url("~/application/modules/Slprofileverify/externals/images/delete.png");
+}
+
+.input-file-block{
+    display: block;
+    margin-top: 5px;
+}
